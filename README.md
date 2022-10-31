@@ -28,21 +28,84 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 # 后端
 
+## 应用程序
+
 # 测试
 
 # 网络
 
 # 安全
 
+# 大数据和云计算
+## 大数据
+### 数据仓库
+#### Hive
+#### ETL
+### Hadoop（HDFS）
+### HBase
+
+## 云计算
+### Hadoop（MapReduce）
+### Spark
+
+# 流式计算
+### Storm
+
+# 人工智能
+## 推荐系统
+
+### 机器学习
+### 深度学习
+
 # DevOps
 
+## 自动化运维
+## 监控
+
 # 架构
+## 单体
+## 微服务
+## 高可用
+## 高性能
+
+# 规范
+## 开发规范
+### 代码规范
+### 版本规范
 
 # 项目管理
+
+## PMP认证
 
 # 产品经理
 
 # 杂项
+
+## 认证
+
+### 网络
+
+CCNA
+
+### 软考
+
+软件设计师
+
+### Java
+
+OCJP（Oracle Certified Java Programmer）
+
+# 面试
+
+## 题库
+
+LeetCode
+
+## 英语
+
+### CET4
+
+### CET6
 
 # 参考文献
 
