@@ -24,7 +24,6 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 	* [图书]
 	* [视频]
 	* [源码]
-	* [网站]
 	* [工具]
 
 ### 心得体会
@@ -85,7 +84,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### C++语言
 
-1. [网站][经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。
+1. [经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。
 1. [文章]高质量C++/C编程指南 林锐博士。
 1. [图书]GCC: The Complete Reference
 1. [源码][https://github.com/antirez/redis](https://github.com/antirez/redis)
@@ -102,10 +101,10 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 1. [图书][大话数据结构](http://product.dangdang.com/21088369.html)
 1. [图书][经典][Java数据结构和算法](http://product.dangdang.com/9323527.html) 英文《Data Structures & Algorithms in Java》Robert Lafore著，特别推荐。
 1. [视频][数据结构和算法](http://study.163.com/course/introduction/468002.htm)
-1. [网站][数据学习的可视化网站](http://zh.visualgo.net)
+1. [数据学习的可视化网站](http://zh.visualgo.net)
 1. [图书][写给大家看的算法书](http://product.dangdang.com/23973878.html) 特别适合初学者学习，老手也有收获。
-1. [网站][经典][leetcode](https://leetcode.com) 算法题库。
-1. [网站][lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
+1. [经典][leetcode](https://leetcode.com) 算法题库。
+1. [lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
 1. [ACM-ICPC](https://icpc.baylor.edu)
 1. 大神的书[Donald E. Knuth:图灵奖得主]
     * [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html)
@@ -121,8 +120,8 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 1. [图书][经典][鸟哥的Linux私房菜](http://product.dangdang.com/20866026.html)
 1. [图书][经典][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
-1. [网站][MINIX](http://www.minix3.org)
-1. [网站][GeekOS](http://geekos.sourceforge.net) The goal of GeekOS is to be a tool for learning about operating system kernels.  As of version 0.2.0, it comes with a set of projects suitable for use in an undergraduate operating systems course, or for self-directed learning.  GeekOS has been used in courses at a number of colleges and universities.
+1. [MINIX](http://www.minix3.org)
+1. [GeekOS](http://geekos.sourceforge.net) The goal of GeekOS is to be a tool for learning about operating system kernels.  As of version 0.2.0, it comes with a set of projects suitable for use in an undergraduate operating systems course, or for self-directed learning.  GeekOS has been used in courses at a number of colleges and universities.
 1. [文章][操作系统学习笔记](https://blog.csdn.net/longronglin/article/category/536556)
 1. [图书][深入理解计算机系统](http://product.dangdang.com/24106647.html)
 1. [图书][30天自制操作系统](http://product.dangdang.com/22826468.html)
@@ -195,7 +194,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 1. [视频][计算机网络技术与应用](http://study.163.com/course/courseMain.htm?courseId=1255007)
 1. [文章][从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen)
 1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
-1. [网站][鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
+1. [鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
 1. [工具][GNU](https://www.gnu.org/home.en.html) 网络模拟器。
 
 ## 软件工程
