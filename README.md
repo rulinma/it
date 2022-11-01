@@ -4,13 +4,67 @@
 
 Github开源项目地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。
 
-# 导航
 
 # 导论
 
-## 综合网站
+## 愿景
 
-## 通用方法
+* **提升程序员学习效率和工作效率**
+* **提升企业软件项目管理标准化和流程化的水平，保证项目成功**
+* **其他配套内容（项目经验、面试经验、职业发展、创业、招聘、培训、团建等）**
+
+## 概述
+
+### 使用说明
+
+* **[经典]是强烈推荐，必读必看。**
+
+### 心得体会
+
+* 网站计算机图书销量排序结合豆瓣评分基本可以判断一本书的质量。
+* 视频看播放量和弹幕等基本也可以判断其质量，国外的讲得好的会更原汁原味些，一般来说相对更好些。
+
+#### 经典名言
+
+* Talk is cheap, show me code.(知易行难) -- Linus Torvalds(Linux创始人)
+* 源码面前了无秘密。-- 侯捷 《STL源码剖析》作者
+* 不要重复发明轮子。-- Rod Johnson(Spring Framework创始人)
+* 过早的优化是万恶之源。-- Donald Knuth(1974年图灵奖)
+* 用户为中心。
+* 没有银弹。-- Fred Brooks(1999年图灵奖)
+* 从重构到模式。-- Joshua Kerievsky(本书荣获2005年《软件开发》杂志图书通用类的效率大奖)
+* 当一头牛拉不动车时，很少有人去找一头更大更强壮的牛，而是找来更多的牛一起拉。 -- 《Hadoop权威指南》
+* 一个字：拆。
+* 256K is OK.(256K应该足够了。) -- Bill Gates（比尔 盖茨）
+
+## 综合推荐
+
+### 综合技术
+
+1. [Stack Overflow.com](https://stackoverflow.com) 问答网。
+1. [CSDN](http://www.csdn.net) 中国最大的程序员网站。
+1. [InfoQ](http://www.infoq.com) 架构师网站。
+1. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
+1. [博客园](https://www.cnblogs.com) 博客园是一个面向开发者的知识分享社区。
+1. [Slideshare](https://www.slideshare.net) 技术ppt下载。
+1. [B站](https://www.bilibili.com)
+1. [YouTube](http://youtube.com)
+1. [极客学院](http://www.jikexueyuan.com)
+1. [网易云课堂](http://study.163.com)
+1. [网易公开课的可汗学院](https://open.163.com/khan) Khan讲的太好，牛人，膜拜。
+1. [传智播客](http://www.itcast.cn)
+
+### 技术博客
+
+1. [阿里中间件团队博客](http://jm.taobao.org)
+2. [美团技术团队](https://tech.meituan.com)
+3. [网易乐得技术团队](http://tech.lede.com)
+
+#### 推荐翻译
+
+1. [Google翻译](https://translate.google.cn)
+2. [有道](http://youdao.com)
+
 
 # 计算机基础
 
@@ -27,8 +81,8 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### C++语言
 
-1. [网站][经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial
-1. [文章]高质量C++/C编程指南 林锐 博士
+1. [网站][经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。
+1. [文章]高质量C++/C编程指南 林锐博士。
 1. [图书]GCC: The Complete Reference
 1. [源码][https://github.com/antirez/redis](https://github.com/antirez/redis)
 1. [源码][https://github.com/nginx/nginx](https://github.com/nginx/nginx)
@@ -89,7 +143,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 ### 关系数据库
 
 1. [图书][经典]Transact-SQL权威指南   
-1. [图书][(Architecture of a Database System(数据库系统架构)](<http://product.dangdang.com/1058752208.html>)
+1. [图书][Architecture of a Database System(数据库系统架构)](http://product.dangdang.com/1058752208.html)
 1. [图书][Head First SQL](http://product.dangdang.com/21040398.html)
 1. [图书][经典][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
 1. [图书][SQL必知必会(第3版)](http://product.dangdang.com/23246707.html)
@@ -114,7 +168,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 #### 影子表
 
-影子表指的是一张真实表“背后”创建的表。当完成建表操作后，可以通过一个原子的重命名操作切换影子表和原表
+影子表指的是一张真实表“背后”创建的表。当完成建表操作后，可以通过一个原子的重命名操作切换影子表和原表。
 
 	drop table if exists user_new, user_old;
 	create table user_new like user;
