@@ -20,6 +20,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 ### 使用说明
 
 * **[经典]是强烈推荐，必读必看。**
+* **[官方]是官方权威标记，必读必看。**
 
 * 资源标签
 	* [文章]
@@ -128,6 +129,37 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 1. [图书][深入理解计算机系统](http://product.dangdang.com/24106647.html)
 1. [图书][30天自制操作系统](http://product.dangdang.com/22826468.html)
 1. [图书][Orange‘s一个操作系统的实现](http://product.dangdang.com/20597043.html)
+1. [图书][Linux命令行大全](http://product.dangdang.com/23204024.html) 从命令行学起，也是学习Linux的一个不错路径。
+1. [图书][UNIX/Linux 系统管理技术手册](http://product.dangdang.com/22750915.html)
+1. [网站][http://linuxcommand.org](http://linuxcommand.org)
+
+#### Shell
+
+1. [图书][Linux命令行与shell脚本编程大全](http://product.dangdang.com/24013685.html)
+1. [图书][Shell脚本学习指南](http://product.dangdang.com/20574166.html)
+1. [视频][Linux 入门基础（苏勇）](http://study.163.com/course/introduction/232007.htm)
+1. [视频][李明老师讲Linux（李明）](http://study.163.com/course/courseMain.htm)
+1. [视频][Linux视频教程（传智播客的韩顺平）](http://study.163.com/course/introduction/215011.htm)
+1. [视频][计算机专业导论](http://study.163.com/curricula/cs.htm)
+1. [认证][LPI Linux认证权威指南](http://product.dangdang.com/23217995.html)
+
+#### Vim
+
+1. $输入$vimtutor en可以进入自带教程，好好学习，天天向上。
+1. [http://www.linfo.org/vi/index.html](http://www.linfo.org/vi/index.html)
+1. Emacs和VIM：神的编辑器和编辑器之神。
+
+#### Linux编程
+
+1. [图书]莱昂氏UNIX源代码分析
+1. [图书][Linux内核完全注释](http://product.dangdang.com/8914120.html)
+1. [图书][Unix编程艺术](http://product.dangdang.com/22863178.html) 被极客程序员奉如圭臬的神人神作。
+1. [图书][UNIX环境高级编程](http://product.dangdang.com/23481078.html)
+1. [图书][Linux内核设计与实现](http://product.dangdang.com/21065276.html)
+1. [图书][深入理解LINUX内核](http://product.dangdang.com/20046247.html)
+1. [图书][Unix网络编程](http://product.dangdang.com/23734637.html)
+1. [文章][Unix Network Programming](http://www.masterraghu.com/subjects/np/introduction/unix_network_programming_v1.3/toc.html)
+
 
 ### Windows
 
@@ -263,15 +295,113 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### Html
 
+1. [官方][HTML](https://www.w3.org/TR/html)
+1. [官方][http://www.w3.org/TR/2014/REC-html5-20141028](http://www.w3.org/TR/2014/REC-html5-20141028) HTML官方文档，仔细研究就可以算入门。
+   * [图书][HTTP权威指南](http://product.dangdang.com/22840157.html)
+1. [视频][翁恺 HTML5入门](http://study.163.com/course/introduction/171001.htm#/courseDetail)
+1. [图书][HTML5权威指南](http://product.dangdang.com/23386583.html)
+1. [视频][8小时学会HTML网页开发](http://study.163.com/course/courseMain.htm?courseId=432008)
+1. [视频][妙味 HTML5前端开发实战1](http://study.163.com/course/courseMain.htm?courseId=717031#/courseDetail)
+1. [视频][妙味 HTML5前端开发实战2](http://study.163.com/course/introduction/717017.htm#/courseDetail)
+
 ### Css
 
+1. [官方][CSS](https://www.w3.org/TR/CSS/)
+1. [官方][CSS: Cascading Style Sheets](https://www.w3.org/TR/2011/REC-CSS2-20110607) CSS官方文档，仔细研究就可以算入门。
+1. [官方][文章][https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
+1. [图书][HTML & CSS 设计与构建网站](http://product.dangdang.com/23780195.html)
+1. [视频][麦子学院 HTML5+CSS3快速入门](http://study.163.com/course/courseMain.htm?courseId=999036)
+1. [图书][CSS权威指南](http://product.dangdang.com/20050535.html) 必读
+1. [图书][CSS揭秘](http://product.dangdang.com/23953090.html) 书的序是《CSS权威指南》的作者写的。
+1. [图书][CSS禅意花园](http://product.dangdang.com/22806937.html) 是通过一个html，不同的css显示不同效果的实例，非常值得学习。
+1. [文章]CSS的核心之一：盒子模型
+1. [文章][CSS的核心之一：position](http://www.barelyfitz.com/screencast/html-training/css/positioning)
+1. [源码][CSS ZEN GARDEN](http://www.csszengarden.com)
+1. [GitHub][Material Design icons by Google(Google的Material Design图标)](https://github.com/google/material-design-icons)
+
 ### JavaScript
+
+1. JavaScript是web开发必须学习的，ECMAScript是其规则来源。
+   * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.(由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。)
+1. [图书][JavaScript权威指南](http://product.dangdang.com/22722790.html)
+1. [图书][JavaScript高级程序设计](http://product.dangdang.com/22628333.html)
+1. [图书][JavaScript DOM编程艺术](http://product.dangdang.com/21049601.html)
+1. [图书][JavaScript语言精粹](http://product.dangdang.com/22872884.html)
+1. [图书][编写可维护的JavaScript](http://product.dangdang.com/23200995.html)
+1. [图书][高性能JavaScript](http://product.dangdang.com/23762095.html)
+1. [图书][深入理解JavaScript](http://product.dangdang.com/23838213.html)
+1. [图书][JavaScript函数式编程](http://product.dangdang.com/23742619.html)
+1. [图书][JavaScript设计模式](http://product.dangdang.com/23753847.html)
+1. [图书][JavaScript模式](http://product.dangdang.com/22819430.html)
+1. [图书][JavaScript经典实例](http://product.dangdang.com/23823045.html)
+1. [图书][数据结构与算法JavaScript描述](http://product.dangdang.com/23543139.html)
+1. [图书][编写可测试的JavaScript代码](http://product.dangdang.com/23648815.html)
+1. [图书][JavaScript & jQuery交互式Web前端开发](http://product.dangdang.com/23731286.html)
+1. [视频][李炎恢JavaScript教程 第一季](http://study.163.com/course/introduction/252008.htm)
+1. [视频][JavaScript（翁恺）](http://study.163.com/course/introduction/195001.htm)
+1. [视频][JavaScript面试题系列](http://study.163.com/course/introduction/742021.htm)
+
+#### NodeJS
+
+1. [Node.js](https://github.com/nodejs/node) Node.js JavaScript runtime.(Node.js JavaScript运行环境)
+
+#### 框架和库
+
+##### JQuery
+
+1. [jQuery](https://jquery.com/) jQuery is a fast, small, and feature-rich JavaScript library.
+    * [图书][jQuery基础教程](http://product.dangdang.com/23352323.html)
+    * [图书][精通jQuery](http://product.dangdang.com/23553774.html)
+
+##### React
+
+##### Vue
+
+##### Angular
+
+1. [AngularJS](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架。)
+    * [图书][AngularJS学习手册](http://product.dangdang.com/23815176.html)
+
+1. [RDash](https://github.com/rdash/rdash-angular) AngularJS implementation of the RDash admin dashboard theme.(AngularJS实现的RDash管理仪表板主题。)
+
+##### Bootstrap
+
+1. [框架][Bootstrap](https://getbootstrap.com/) Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.(Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包)
+
+##### EasyUI
+
+1. [框架][EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.(EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。 这些使您的应用程序适合当今的Web)
+
+### XML
+
+  Extensible Markup Language(可扩展标记语言)
+
+1. [http://www.w3school.com.cn/xml](http://www.w3school.com.cn/xml)
+1. [图书][XML入门经典](http://product.dangdang.com/23388817.html)
+1. [图书]无废话XML
+
+### HTTP
+
+1. [官方][Hypertext Transfer Protocol -- HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+
+### WebSocket
+
+### 图片库
+
+1. http://www.fontawesome.com.cn/
 
 ## App
 
 ### Android
 
+1. [图书][疯狂Android讲义](http://product.dangdang.com/23699102.html)
+1. [图书][Android编程权威指南](http://product.dangdang.com/25102877.html)
+
+
 ### iOS
+
+1. [图书][精通iOS开发](http://product.dangdang.com/25113926.html)
+
 
 # 后端
 
