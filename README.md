@@ -19,8 +19,8 @@
 
 ### 使用说明
 
-* **[经典]是强烈推荐，必读必看。**
-* **[官方]是官方权威标记，必读必看。**
+* [经典]是强烈推荐，必读必看。
+* [官方]是官方权威标记，必读必看。
 
 * 资源标签
 	* [文章]
@@ -116,6 +116,14 @@
 1. [经典][算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
 
 ### 设计模式
+
+1. [图书][设计模式 可复用面向对象软件的基础](http://product.dangdang.com/71052.html)
+1. [图书]Java与模式
+1. [图书][Head First设计模式](http://product.dangdang.com/20021171.html)
+1. [图书]面向对象程序分析和设计
+1. [视频]设计模式有个微软的李建中视频，讲的非常到位，可以搜索看看。就是代码是C#的，但是思想是一样的，模式和语言无关。
+1. [GitHub][Design patterns implemented in Java(Java实现的设计模式)](https://github.com/iluwatar/java-design-patterns)
+1. [StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
 
 ## 操作系统
 
@@ -517,8 +525,13 @@
 #### Nutch
 
 ### 网络工具集
+
 #### 流量复制
+
 #### WireShark
+
+1. [Wireshark](https://www.wireshark.org) 网络封包分析软件。
+
 #### TcpDump
 
 # 安全
@@ -790,9 +803,9 @@
 
 ## 题库
 
-# 工具
+# 特色工具
 
-### Mac推荐工具
+### Mac工具
 
 1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
 1. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
@@ -803,11 +816,8 @@
 1. [EverNote](https://evernote.com/intl/zh-cn) 随时随地获取、整理、分享笔记，让灵感时刻与你同行。
 1. [XMind](https://www.xmind.net) 思维导图工具。
 1. [FileZilla](https://filezilla-project.org) The free FTP solution.
-1. [Jet Brains](http://www.jetbrains.com) JetBrains, creator of the leading Java IDE - IntelliJ IDEA - is a cutting-edge software vendor specializing in the creation of intelligent development tools.
-1. [Wireshark](https://www.wireshark.org) 网络封包分析软件。
 1. [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
 1. [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
-1. [StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
 1. [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
 1. [Sequel Pro](http://www.sequelpro.com) Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
 1. [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client) Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
