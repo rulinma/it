@@ -66,6 +66,20 @@
 1. [阿里中间件团队博客](http://jm.taobao.org)
 1. [美团技术团队](https://tech.meituan.com)
 1. [网易乐得技术团队](http://tech.lede.com)
+1. [Apache](http://apache.org) 很多著名的开源项目在里面，比如Tomcat Hadoop Maven等。
+1. [SourceForge](http://www.sourceforge.net) 很多开源库也放在这里，特别是没有github之前。
+1. [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)  A curated list of awesome frameworks, libraries and software for the Java programming language.
+1. [https://github.com/jobbole/awesome-java-cn](https://github.com/jobbole/awesome-java-cn)  Java资源大全中文版。
+1. [https://github.com/Vedenin/useful-java-links](https://github.com/Vedenin/useful-java-links)  A list of useful Java frameworks, libraries, software and hello worlds examples.
+1. [https://github.com/Blankj/awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)  LeetCode of algorithms with java solution(updating).
+1. [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)  All Algorithms implemented in Java.
+1. [https://github.com/DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java)  27天成为Java大神。
+1. [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  Design patterns implemented in Java [http://java-design-patterns.com](http://java-design-patterns.com).
+1. [spring-boot](https://github.com/spring-projects/spring-boot)
+1. [dubbo](https://github.com/apache/incubator-dubbo)  Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework.
+1. [interviews](https://github.com/kdn251/interviews)  Everything you need to know to get the job.
+1. [成为一名专业程序员](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架。
+1. [JavaGuide](https://github.com/Snailclimb/JavaGuide)
 
 #### 翻译工具
 
@@ -475,6 +489,8 @@
 #### Java打包
 
 ##### Maven
+1. [Maven仓库](https://mvnrepository.com) 方便查找库应用。
+
 ##### Gradle
 ##### Ant
 
@@ -547,6 +563,7 @@ JSP是规范，而不是产品。
 
 1. [Spring](https://spring.io)
 1. [图书]精通Spring
+1. 推荐阅读一个[tiny-spring](https://github.com/code4craft/tiny-spring)
 
 #### MyBatis
 1. [MyBatis](http://www.mybatis.org/mybatis-3)
@@ -681,22 +698,25 @@ JSP是规范，而不是产品。
 
 ### RabbitMQ
 
-1. [RabbitMQ](http://www.rabbitmq.com) RabbitMQ is the most widely deployed open source message broker.(RabbitMQ是部署最广泛的开源消息代理)
-   * [图书][RabbitMQ实战：高效部署分布式消息队列](http://product.dangdang.com/23799313.html)
-   * [GitHub][Tutorials for using RabbitMQ in various ways](https://github.com/rabbitmq/rabbitmq-tutorials) 以各种方式使用RabbitMQ的教程<http://www.rabbitmq.com/getstarted.html>
+[RabbitMQ](http://www.rabbitmq.com) RabbitMQ is the most widely deployed open source message broker.(RabbitMQ是部署最广泛的开源消息代理)
+
+1. [图书][RabbitMQ实战：高效部署分布式消息队列](http://product.dangdang.com/23799313.html)
+1. [GitHub][Tutorials for using RabbitMQ in various ways](https://github.com/rabbitmq/rabbitmq-tutorials) 以各种方式使用RabbitMQ的教程<http://www.rabbitmq.com/getstarted.html>
  
 ### RocketMQ
 
 ### Kafka
 
-1. [Kafka](http://kafka.apache.org) A distributed streaming platform.
-    * [GitHub][Kafka Manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka.
-    * [图书][Kafka权威指南](http://product.dangdang.com/25211884.html)
-    * [文章][kafka入门：简介、使用场景、设计原理、主要配置及集群搭建（转）](https://www.cnblogs.com/likehua/p/3999538.html)
+[Kafka](http://kafka.apache.org) A distributed streaming platform.
+
+1. [GitHub][Kafka Manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka.
+1. [图书][Kafka权威指南](http://product.dangdang.com/25211884.html)
+1. [文章][kafka入门：简介、使用场景、设计原理、主要配置及集群搭建（转）](https://www.cnblogs.com/likehua/p/3999538.html)
 
 #### Kafka 工具
-* [Kafka Eagle](https://github.com/smartloli/EFAK)
-* [Kafka Tool](https://www.kafkatool.com/)
+
+1. [Kafka Eagle](https://github.com/smartloli/EFAK)
+1. [Kafka Tool](https://www.kafkatool.com/)
 
 ### ActiveMQ
 
@@ -784,11 +804,14 @@ JSP是规范，而不是产品。
 
 ## TCPIP
 ### Socket
+Socket是为了方便使用TCP或UDP而抽象出来的一层，位于应用层和传输控制层之间的一组接口，提供一套调用TCP/IP协议的API。
 
 ### SSL
 
 ### 爬虫
-#### Nutch
+1. [Nutch](http://nutch.apache.org/)  分布式爬虫。(Highly extensible, highly scalable Web crawler.)
+2. [Heritrix](https://github.com/internetarchive/heritrix3)  一款网络爬虫。(Heritrix is the Internet Archive's open-source, extensible, web-scale, archival-quality web crawler project.)
+3. [Jsoup](https://jsoup.org/) Jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.(Jsoup是一个用于处理真实HTML的Java库。 它提供了一个非常方便的API，用于提取和操作数据，使用最好的DOM，CSS和类似jquery的方法)
 
 ### 网络工具集
 
@@ -890,6 +913,9 @@ JSP是规范，而不是产品。
 
 ## 运维
 
+1. [图书][海量运维、运营规划之道](http://product.dangdang.com/23380755.html)
+1. [图书][网站运维技术与实践]
+
 ### CICD
 
 #### Jenkins
@@ -903,7 +929,10 @@ JSP是规范，而不是产品。
 1. [SonarCube](https://www.sonarqube.org) The leading product for continuous code quality.(连续代码质量的领导产品。)
 
 ### 负载均衡
+
 #### Nginx
+1. [Nginx](http://nginx.org) Nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.(Nginx [engine x]是一个HTTP和反向代理服务器，一个邮件代理服务器和一个通用的TCP / UDP代理服务器，最初由Igor Sysoev编写)
+
 ##### Lua
 
 #### LVS（Linux Virtual Server）
@@ -930,10 +959,14 @@ JSP是规范，而不是产品。
 ## 监控
 
 ### Prometheus
+
 ### Grafana
+
 ### Zabbix
+1. [图书][Zabbix监控系统]
 
 ## 运维工具
+1. [JumpServer](http://www.jumpserver.org/) 是全球首款完全开源的堡垒机,使用GNU GPL v2.0开源协议,是符合 4A 的专业运维安全审计系统。
 
 ### CMDB
 ### IP查询
@@ -943,7 +976,54 @@ JSP是规范，而不是产品。
 ### 单体
 ### 微服务
 
+#### SpringBoot
+1. [SpringBoot](http://spring.io/projects/spring-boot) Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".(Spring Boot可以轻松创建独立的，生产级的基于Spring的应用程序，您可以“即刻运行”)
+
+#### SpringCloud
+1. [SpringCloud](http://projects.spring.io/spring-cloud)
+
+#### 网关
+1. [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
+	* This project provides a library for building an API Gateway on top of Spring WebFlux. Spring Cloud Gateway aims to provide a simple, yet effective way to route to APIs and provide cross cutting concerns to them such as: security, monitoring/metrics, and resiliency.
+
+1. [Zuul](https://github.com/Netflix/zuul) Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.(Zuul是一种网关服务，提供动态路由，监控，弹性，安全性等)
+
+#### 配置中心
+
+1. [Nacos](https://nacos.io/zh-cn/index.html) 一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。
+   1. 作为配置中心使用
+   2. 服务的注册和发现
+
+1. [Apollo](https://github.com/xianglesong/learning-javas/blob/master/platform/Apollo.md)  这款配置中心的功能不错，推荐一下。
+     (Apollo阿波罗是携程框架部门研发的分布式配置中心，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景)
+     
+#### 注册中心
+
+1. [Eureka](https://github.com/Netflix/eureka) AWS Service registry for resilient mid-tier load balancing and failover.(AWS服务注册，用于弹性中间层负载平衡和故障转移)
+
+#### 链路追踪
+1. [Zipkin](https://github.com/openzipkin/zipkin) Zipkin is a distributed tracing system.(Zipkin是一种分布式跟踪系统。)
+1. [PinPoint](https://github.com/naver/pinpoint) Pinpoint is an open source APM (Application Performance Management) tool for large-scale distributed systems written in Java.(Pinpoint是一个开源的APM（应用程序性能管理）工具，适用于用Java编写的大型分布式系统。)
+1. [CAT](https://github.com/dianping/cat) Central Application Tracking.
+1. [SkyWalking](https://skywalking.apache.org/)
+	* Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Kubernetes) architectures.
+1. [BTrace](https://github.com/btraceio/btrace) BTrace - a safe, dynamic tracing tool for the Java platform.(BTrace - Java平台的安全动态跟踪工具。)
+   * [文章][BTrace][Java在线问题排查利器之Btrace&Greys](http://tech.lede.com/2017/10/11/rd/server/javaToolsBTrace/)
+1. ARMS
+
+#### 熔断降级
+1. [Hystrix](https://github.com/Netflix/Hystrix) Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.(Hystrix是一个延迟和容错库，旨在隔离对远程系统，服务和第三方库的访问点，停止级联故障，并在复杂的分布式系统中实现弹性，在这些系统中，故障是不可避免的。)
+	* 提供Feign的降级处理功能
+
+#### 流量控制
+1. [Sentinal](https://github.com/alibaba/Sentinel)
+	* As distributed systems become increasingly popular, the reliability between services is becoming more important than ever before. Sentinel takes "flow" as breakthrough point, and works on multiple fields including flow control, traffic shaping, circuit breaking and system adaptive protection, to guarantee reliability and resilience for microservices.
+	* [Spring Cloud Alibaba Sentinel](https://github.com/alibaba/spring-cloud-alibaba/wiki/Sentinel)
+	* [在生产环境中使用-Sentinel](https://github.com/alibaba/Sentinel/wiki/%E5%9C%A8%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BD%BF%E7%94%A8-Sentinel)
+	* [动态规则扩展](https://github.com/alibaba/Sentinel/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%99%E6%89%A9%E5%B1%95)
+
 ## 设计
+### 幂等
 
 ## 三高
 ### 高并发
@@ -1089,6 +1169,61 @@ An open platform to connect, manage, and secure microservices.
 
 1. [Axure](https://www.axure.com) 原型设计。
 
+
+
+# 面试
+
+## 面试资料
+
+1. [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
+
+## 题库
+
+# 辅助
+
+### Mac工具
+
+1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
+1. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
+1. Zsh
+1. [Chrome](https://www.google.cn/chrome) 浏览器。
+1. [搜狗输入法](https://pinyin.sogou.com/mac) 输入法。
+1. [Foxmail](https://www.foxmail.com) 邮箱管理。
+1. [EverNote](https://evernote.com/intl/zh-cn) 随时随地获取、整理、分享笔记，让灵感时刻与你同行。
+1. [XMind](https://www.xmind.net) 思维导图工具。
+1. [FileZilla](https://filezilla-project.org) The free FTP solution.
+1. [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
+1. [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
+1. [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
+1. [Sequel Pro](http://www.sequelpro.com) Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
+1. [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client) Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
+1. [Dash](https://kapeli.com/dash)  快速访问API。(Dash gives your Mac instant offline access to 200+ API documentation sets.)
+1. [MacDown](http://macdown.uranusjr.com) MarkDown编写工具。
+1. [Sublime Text](http://www.sublimetext.com)  免费的文本编辑工具。(A sophisticated text editor for code, markup and prose.)
+1. [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh) TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项。
+1. [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac) 确是 Office，专为 Mac 打造。
+1. [LaTeX](https://www.latex-project.org) LaTeX is a high-quality typesetting system.
+1. [VirtualBox](https://www.virtualbox.org)
+1. [VMware](https://www.vmware.com)
+1. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
+
+#### Python
+
+1. [图书][Python基础教程](http://product.dangdang.com/25218035.html)
+
+#### PHP
+
+1. [图书][PHP和MySQL Web开发](http://product.dangdang.com/20546846.html)
+1. [图书][深入PHP：面向对象、模式与实践](http://product.dangdang.com/22459608.html)
+
+#### 开源博客或CMS
+
+1. [WordPress](https://cn.wordpress.org) WordPress是使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
+
+#### .net
+
+#### Delphi
+
 ## 认证
 
 ### 网络
@@ -1116,44 +1251,6 @@ An open platform to connect, manage, and secure microservices.
 ### Oracle
 
 ### DB2
-
-# 面试
-
-## 面试资料
-
-1. [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
-
-
-## 题库
-
-# 特色工具
-
-### Mac工具
-
-1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
-1. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
-1. Zsh
-1. [Chrome](https://www.google.cn/chrome) 浏览器。
-1. [搜狗输入法](https://pinyin.sogou.com/mac) 输入法。
-1. [Foxmail](https://www.foxmail.com) 邮箱管理。
-1. [EverNote](https://evernote.com/intl/zh-cn) 随时随地获取、整理、分享笔记，让灵感时刻与你同行。
-1. [XMind](https://www.xmind.net) 思维导图工具。
-1. [FileZilla](https://filezilla-project.org) The free FTP solution.
-1. [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
-1. [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
-1. [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
-1. [Sequel Pro](http://www.sequelpro.com) Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
-1. [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client) Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
-1. [Dash](https://kapeli.com/dash)  快速访问API。(Dash gives your Mac instant offline access to 200+ API documentation sets.)
-1. [MacDown](http://macdown.uranusjr.com) MarkDown编写工具。
-1. [Sublime Text](http://www.sublimetext.com)  免费的文本编辑工具。(A sophisticated text editor for code, markup and prose.)
-1. [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh) TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项。
-1. [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac) 确是 Office，专为 Mac 打造。
-1. [LaTeX](https://www.latex-project.org) LaTeX is a high-quality typesetting system.
-
-### 红杏
-
-1. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
 
 ## 英语
 
