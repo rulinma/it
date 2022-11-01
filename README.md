@@ -19,6 +19,14 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 * **[经典]是强烈推荐，必读必看。**
 
+* 资源标签
+	* [文章]
+	* [图书]
+	* [视频]
+	* [源码]
+	* [网站]
+	* [工具]
+
 ### 心得体会
 
 * 网站计算机图书销量排序结合豆瓣评分基本可以判断一本书的质量。
@@ -37,30 +45,26 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 * 一个字：拆。
 * 256K is OK.(256K应该足够了。) -- Bill Gates（比尔 盖茨）
 
-## 综合推荐
+#### 技术学习
 
-### 综合技术
-
-1. [Stack Overflow.com](https://stackoverflow.com) 问答网。
-1. [CSDN](http://www.csdn.net) 中国最大的程序员网站。
-1. [InfoQ](http://www.infoq.com) 架构师网站。
+1. [经典][Stack Overflow.com](https://stackoverflow.com) 问答网。
+1. [经典][CSDN](http://www.csdn.net) 中国最大的程序员网站。
+1. [经典][InfoQ](http://www.infoq.com) 架构师网站。
 1. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
 1. [博客园](https://www.cnblogs.com) 博客园是一个面向开发者的知识分享社区。
 1. [Slideshare](https://www.slideshare.net) 技术ppt下载。
-1. [B站](https://www.bilibili.com)
-1. [YouTube](http://youtube.com)
+1. [视频][经典][B站](https://www.bilibili.com)
+1. [视频][经典][YouTube](http://youtube.com)
 1. [极客学院](http://www.jikexueyuan.com)
 1. [网易云课堂](http://study.163.com)
-1. [网易公开课的可汗学院](https://open.163.com/khan) Khan讲的太好，牛人，膜拜。
+1. [视频][经典][网易公开课的可汗学院](https://open.163.com/khan) Khan讲的太好，牛人，膜拜。
 1. [传智播客](http://www.itcast.cn)
-
-### 技术博客
-
+1. [稀土掘金](https://juejin.cn)
 1. [阿里中间件团队博客](http://jm.taobao.org)
-2. [美团技术团队](https://tech.meituan.com)
-3. [网易乐得技术团队](http://tech.lede.com)
+1. [美团技术团队](https://tech.meituan.com)
+1. [网易乐得技术团队](http://tech.lede.com)
 
-#### 推荐翻译
+#### 翻译工具
 
 1. [Google翻译](https://translate.google.cn)
 2. [有道](http://youdao.com)
