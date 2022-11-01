@@ -35,11 +35,13 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ## 数据结构和算法
 
+### 算法
+
 1. [图书][数据结构与算法分析：Java语言描述](http://product.dangdang.com/23918741.html)
 1. [图书][大话数据结构](http://product.dangdang.com/21088369.html)
 1. [图书][Java数据结构和算法](http://product.dangdang.com/9323527.html) 英文《Data Structures & Algorithms in Java》Robert Lafore著，特别推荐。
 1. [视频][数据结构和算法](http://study.163.com/course/introduction/468002.htm)
-1. [网站][数据学习的可视化网站http://zh.visualgo.net](http://zh.visualgo.net)
+1. [网站][数据学习的可视化网站](http://zh.visualgo.net)
 1. [图书][算法导论](http://product.dangdang.com/22927209.html) 算法的最好的图书之一。
    * [视频][麻省理工学院公开课：算法导论](http://open.163.com/special/opencourse/algorithms.html) 老头讲的非常好，年轻的一般。
 1. [图书][算法](http://product.dangdang.com/22880871.html) Knuth的学生写的，使用Java语言描述，值得一看。
@@ -52,6 +54,8 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
     * [图书][计算机程序设计艺术 卷2 半数值算法](http://product.dangdang.com/24007299.html)
     * [图书][计算机程序设计艺术 卷3 排序与查找](http://product.dangdang.com/24195308.html)
 1. [GitHub算法学习笔记][算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
+
+### 设计模式
 
 ## 操作系统
 
