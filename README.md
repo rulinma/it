@@ -447,9 +447,107 @@
 
 ### Java常用库及框架
 
+1. [Java官网](http://java.oracle.com) Java官方地址，Java开发工具、文档、bug等信息权威发布。
+1. [Java规范](https://docs.oracle.com/javase/specs) Java Language and Virtual Machine Specifications.(Java语言和虚拟机规范)
+1. [Javaee-spec](https://javaee.github.io/javaee-spec) Java EE Platform Specification.(Java EE平台规范。)
+1. [OpenJDK](http://openjdk.java.net) 开源JDK，JDK的编译是Java程序员需要了解的技能。
+1. [Linux](https://www.linux.org/) Java虽然是跨平台的，但是和Linux是完美搭配，做服务器端体会更深。
+1. [经典][图书][Java核心技术 卷I：基础知识](http://product.dangdang.com/24035306.html)
+1. [经典][图书][Java核心技术卷II：高级特性](http://product.dangdang.com/25171892.html)
+1. [经典][图书][Java编程思想](http://product.dangdang.com/9317290.html) 此书和《C++编程思想》是同一作者，现有C++版，后有Java，写的非常适合入门学习。
+1. [经典][图书][Effective Java中文版](http://product.dangdang.com/20459091.html)
+1. [经典][图书][Java编程规范](http://product.dangdang.com/9187067.html) 此书个人强热推荐，Java之父编写。
+1. [经典][图书][Java并发编程实战](http://product.dangdang.com/22606835.html)
+1. [经典][图书][Java性能优化权威指南](http://product.dangdang.com/23421069.html)
+1. [经典][图书][深入理解Java虚拟机：JVM高级特性与最佳实践](http://product.dangdang.com/23259731.html)
+1. [图书][Java并发](https://github.com/xianglesong/learning-javas/blob/master/basic/Java并发.md) Java并发包的使用是中高级程序员必须掌握的技能之一。
+1. [图书][Java网络编程](http://product.dangdang.com/23560594.html)
+1. [GitHub][Modern Java - A Guide to Java 8(现代Java - Java指南8)](https://github.com/winterbe/java8-tutorial)
+1. [图书]Java与模式
+1. [图书][Head First设计模式](http://product.dangdang.com/20021171.html)
+1. [GitHub][Design patterns implemented in Java(Java实现的设计模式)](https://github.com/iluwatar/java-design-patterns)
+
+### JavaEE
+
+#### Servlet
+
+A servlet is a Java technology based web component, managed by a container, that generates dynamic content. Like other Java-based components, servlets are platform independent Java classes that are compiled to platform neutral bytecode that can be loaded dynamically into and run by a Java enabled web server. Containers, some- times called servlet engines, are web server extensions that provide servlet function- ality. Servlets interact with web clients via a request/response paradigm implemented by the servlet container.
+
+Servlet是一种基于Java技术的Web组件，由容器管理，生成动态内容。 与其他基于Java的组件一样，Servlet是独立于平台的Java类，它们被编译为平台中性字节码，可以动态加载到支持Java的Web服务器并由其运行。 容器（有时称为Servlet引擎）是提供Servlet功能的Web服务器扩展。 Servlet通过Servlet容器实现的请求/响应范例与Web客户端进行交互。
+
+The servlet container is a part of a web server or application server that provides the network services over which requests and responses are sent, decodes MIME based requests, and formats MIME based responses. A servlet container also contains and manages servlets through their lifecycle.
+
+Servlet容器是Web服务器或应用程序服务器的一部分，它提供发送请求和响应的网络服务，解码基于MIME的请求，并格式化基于MIME的响应。 Servlet容器还包含并管理Servlet的生命周期。
+
+1. [图书][Head First Servlets & Jsp](http://product.dangdang.com/20926088.html)
+1. [图书]Java Servlet & JSP Cookbook
+1. [文章][Servlet 工作原理解析](http://www.ibm.com/developerworks/cn/java/j-lo-servlet)
+1. [视频][Servlet Java  Web 编程（郭宏志）](http://study.163.com/course/introduction/648001.htms)
+
+#### JSP
+
+JSP: JavaServer Pages is a technology for developing web pages that include dynamic content. Unlike a plain HTML page, which contains static content that always remains the same, a JSP page can change its content based on any number of variable items, including the identity of the user, the user's browser type, information provided by the user, and selections made by the user.
+
+JSP：JavaServer Pages是一种用于开发包含动态内容的网页的技术。 与包含始终保持相同的静态内容的纯HTML页面不同，JSP页面可以根据任意数量的变量项更改其内容，包括用户的身份，用户的浏览器类型，用户提供的信息以及 用户做出的选择。
+JSP is a specification, not a product.
+JSP是规范，而不是产品。
+
+1. [视频][尚学堂Jsp快速入门（高淇）](http://study.163.com/course/courseMain.htm?courseId=1067001)
+
+#### 容器
+
+##### Tomcat
+
+1. [Tomcat](https://tomcat.apache.org/) The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies.(ApacheTomcat®软件是Java Servlet，JavaServer Pages，Java Expression Language和Java WebSocket技术的开源实现。)
+
+	* [图书][Tomcat权威指南](http://product.dangdang.com/20702017.html)
+	* [经典][图书][深入剖析Tomcat](http://product.dangdang.com/22585226.html) How Tomcat Works.
+
+##### Jetty
+
+1. [Jetty](https://www.eclipse.org/jetty/) Eclipse Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. These components are open source and available for commercial use and distribution.(Eclipse Jetty提供了一个Web服务器和javax.servlet容器，以及对HTTP / 2，WebSocket，OSGi，JMX，JNDI，JAAS和许多其他集成的支持。 这些组件是开源的，可用于商业用途和分发。)
+
+#### JavaEE资料
+
+1. [图书][疯狂软件教育标准教材·轻量级Java EE企业应用实战(第4版):Struts 2+Spring 4+Hibernate整合开发(附光盘)](http://product.dangdang.com/23572565.html)
+1. [视频][JavaEE视频教程（郭宏志）](http://study.163.com/course/courseMain.htm?courseId=320027)
+1. [视频][30天轻松掌握JavaWeb视频（方立勋）](http://study.163.com/course/courseMain.htm?courseId=214022)
+1. [图书]J2EE Development without EJB
+1. [图书]J2EE设计开发编程指南
+1. [图书]IBM WebSphere Studio J2EE应用开发可以看看。
+
 ### JVM
 
+### JVM工具
+
+1. Arthas
+1. JVisualVM
+1. JProfile
+1. Eclicpse Memory Analyzer
+1. [Leakcanary](https://github.com/square/leakcanary) A memory leak detection library for Android and Java.(适用于Android和Java的内存泄漏检测库)
+1. https://gceasy.io
+
 ### Java工具
+
+#### Java打包
+
+##### Maven
+##### Gradle
+##### Ant
+
+#### Java开发工具
+
+##### IntelliJ IDEA
+
+[IntelliJ](https://www.jetbrains.com/idea) 一款IDE工具，个人感觉比Eclipse要好，推荐使用。
+
+1. [Findbugs](http://findbugs.sourceforge.net) 一般用在IDE插件，帮助发现bug。(This is the web page for FindBugs, a program which uses static analysis to look for bugs in Java code. )
+1. [Checkstyle](https://checkstyle.org) Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.(Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。 默认情况下，它支持Google Java样式指南和Sun代码约定，但具有高度可配置性。 它可以使用ANT任务和命令行程序调用)
+   * [Checkstyle](https://github.com/checkstyle/checkstyle)
+ 
+##### Eclipse
+
+[Eclipse](https://www.eclipse.org) The Platform for Open Innovation and Collaboration. 我们主要使用其Java的开发工具。
 
 ### Scala
 
@@ -468,38 +566,104 @@
 ## 缓存
 
 ### Redis
+
+1. [Redis](https://redis.io) Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.(Redis是一个开源（BSD许可），内存数据结构存储，用作数据库，缓存和消息代理)
+   * [Redis Desktop Manager](https://redisdesktop.com/)  访问Redis的工具。(Redis Desktop Manager (aka RDM) — is a fast open source Redis database management application for Windows, Linux and MacOS.)
+   * [Redis实战](http://product.dangdang.com/23800641.html)
+
 ### MemCache
+
+1. [MemCache](http://memcached.org) A distributed memory object caching system.(分布式内存对象缓存系统)
 
 ## 消息队列
 
 ### RabbitMQ
+
+1. [RabbitMQ](http://www.rabbitmq.com) RabbitMQ is the most widely deployed open source message broker.(RabbitMQ是部署最广泛的开源消息代理)
+   * [图书][RabbitMQ实战：高效部署分布式消息队列](http://product.dangdang.com/23799313.html)
+   * [GitHub][Tutorials for using RabbitMQ in various ways](https://github.com/rabbitmq/rabbitmq-tutorials) 以各种方式使用RabbitMQ的教程<http://www.rabbitmq.com/getstarted.html>
+ 
 ### RocketMQ
+
 ### Kafka
+
+1. [Kafka](http://kafka.apache.org) A distributed streaming platform.
+    * [GitHub][Kafka Manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka.
+    * [图书][Kafka权威指南](http://product.dangdang.com/25211884.html)
+    * [文章][kafka入门：简介、使用场景、设计原理、主要配置及集群搭建（转）](https://www.cnblogs.com/likehua/p/3999538.html)
+
+#### Kafka 工具
+* [Kafka Eagle](https://github.com/smartloli/EFAK)
+* [Kafka Tool](https://www.kafkatool.com/)
+
 ### ActiveMQ
+
 ### ZeroMQ
+
+1. [ZeroMQ](http://zeromq.org) Distributed Messaging.
+
+#### MQTT
+
+1. [Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.(Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备)
 
 ## 搜索
 
 ### ElasticSearch
 
+[Elasticsearch](https://www.elastic.co) is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
+
+1. [图书][深入理解Elasticsearch](http://product.dangdang.com/25084053.html)
+1. [图书][Elasticsearch服务器开发](http://product.dangdang.com/23659310.html)
+1. [图书][Elasticsearch](http://product.dangdang.com/1900490173.html)
+1. [GitHub][elasticsearch-head](https://github.com/mobz/elasticsearch-head) A web front end for an elastic search cluster.
+1. [GitHub][The Definitive Guide to Elasticsearch](https://github.com/elastic/elasticsearch-definitive-guide)
+1. [elasticsearch-analysis-ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary.
+
 ### Solr
+
+[Solr](http://lucene.apache.org/solr) 企业级搜索平台基于Lucene的封装。(Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™.)
+
+1. [图书][Solr实战](http://product.dangdang.com/25082460.html)
+1. [图书][Solr Cookbook](http://product.dangdang.com/1900482179.html)
+1. [图书][Solr 1.4 Enterprise Search Server](http://product.dangdang.com/1900489897.html)
+1. [图书][Apache Solr 3 Enterprise Search Server](http://product.dangdang.com/1900489427.html)
+1. [论坛][Solr](http://lucene.472066.n3.nabble.com)
 
 ### Lucene
 
-1. [Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
+[Lucene](http://lucene.apache.org/) 建立索引和查询库。(The goal of Apache Lucene and Solr is to provide world class search capabilities.)
+
+1. [图书][Lucene实战](http://product.dangdang.com/21094976.html)
+1. [图书][Lucene分析与应用](http://product.dangdang.com/20362257.html)
+1. [论坛][Lucene](http://lucene.472066.n3.nabble.com)
+1. [GitHub][Luke](https://github.com/DmitryKey/luke) This is mavenised Luke: Lucene Toolbox Project.
+1. [工具][Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
+
+### 分词
+
+1. [JPinyin](https://github.com/stuxuhai/jpinyin) JPinyin是一个汉字转拼音的Java开源类库。不过好像被删除了，需要自己找了。
+1. [pinyin4j](https://github.com/belerweb/pinyin4j) A copy of <http://sourceforge.net/projects/pinyin4j>, then deploy it to maven central repository.
+1. [HanLP](http://hanlp.hankcs.com) 自然语言处理，中文分词，词性标注，命名实体识别，依存句法分析，关键词提取，新词发现，短语提取，自动摘要，文本分类等。
+1. [Word2VEC Java版本的一个实现](https://github.com/NLPchina/Word2VEC_java)
 
 ## 分布式定时调度
+
+1. [Quartz](http://www.quartz-scheduler.org/)  Java任务调度库。(open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.)
+
+1. [Elastic-Job](https://github.com/xianglesong/learning-javas/blob/master/platform/Elastic-job.md) 当当网出品的这款产品也不错，可以进行分布式分片调度。开箱即用，很方便。(A distributed scheduled job framework, based on Quartz and Zookeeper.)
+
+1. [XXL-Job](https://www.xuxueli.com/xxl-job/)
 
 # 测试
 
 ## 单元测试
 
-1. [JUnit](https://junit.org/junit4) A programmer-oriented testing framework for Java.(面向程序员的Java测试框架。)
-1. [EasyMock](http://easymock.org) EasyMock, makes mocking easier since 2001.(自2001年以来，EasyMock使得模拟变得更容易。)
+1. [JUnit](https://junit.org/junit4) A programmer-oriented testing framework for Java.(面向程序员的Java测试框架)
+1. [EasyMock](http://easymock.org) EasyMock, makes mocking easier since 2001.(自2001年以来，EasyMock使得模拟变得更容易)
 
 ## 集成测试
 
-1. [JMeter](http://jmeter.apache.org) The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.(pache JMeter™应用程序是开源软件，是一种100％纯Java应用程序，旨在加载测试功能行为和测量性能。 它最初是为测试Web应用程序而设计的，但后来扩展到其他测试功能。)
+1. [JMeter](http://jmeter.apache.org) The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.(pache JMeter™应用程序是开源软件，是一种100％纯Java应用程序，旨在加载测试功能行为和测量性能。 它最初是为测试Web应用程序而设计的，但后来扩展到其他测试功能)
    * [图书][全栈性能测试修炼宝典 JMeter实战](http://product.dangdang.com/24048538.html)
    * GUI
    * CMD: bin/jmeter -n -t test.jmx -l test.jtl
@@ -536,7 +700,13 @@
 
 # 安全
 
+## 网络安全
+
+1. [图书][白帽子讲Web安全](http://product.dangdang.com/23506094.html)
+
 ## 密码学
+
+1. [经典][图书][图解密码技术](http://product.dangdang.com/23995420.html)
 
 # 分布式系统
 
@@ -619,7 +789,16 @@
 ## 运维
 
 ### CICD
+
 #### Jenkins
+1. [Jenkins](https://jenkins.io/) The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.(领先的开源自动化服务器，Jenkins提供数百个插件来支持构建，部署和自动化任何项目。)
+   * [图书][Jenkins权威指南](http://product.dangdang.com/24048566.html)
+
+#### Nexus
+1. [Nexus](https://www.sonatype.com/nexus-repository-sonatype) Maven私服。
+
+#### 代码检查
+1. [SonarCube](https://www.sonarqube.org) The leading product for continuous code quality.(连续代码质量的领导产品。)
 
 ### 负载均衡
 #### Nginx
@@ -630,6 +809,8 @@
 #### F5（硬件）
 
 #### HAProxy
+
+1. [HAProxy](http://www.haproxy.org)
 
 #### KeepAlived
 
@@ -667,7 +848,44 @@
 ### 高性能
 ### 高可用
 
-## 网站管理
+## Service Mesh
+### Istio
+An open platform to connect, manage, and secure microservices.
+
+* 连接（Connect）：智能控制服务之间的调用流量，能够实现灰度升级、AB 测试和红黑部署等功能
+* 安全加固（Secure）：自动为服务之间的调用提供认证、授权和加密。
+* 控制（Control）：应用用户定义的 policy，保证资源在消费者中公平分配。
+* 观察（Observe）：查看服务运行期间的各种数据，比如日志、监控和 tracing，了解服务的运行情况。
+
+### SideCar
+
+
+
+# 图像
+### 图像处理
+
+1. [ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.(使用ImageMagick®创建，编辑，撰写或转换位图图像。)
+
+# 音视频
+
+### FFmpeg
+1. [FFmpeg](https://ffmpeg.org)
+ 
+# 云原生
+
+## Docker
+1. [Docker](https://www.docker.com) Build, Manage and Secure Your Apps Anywhere. Your Way.(随处构建，管理和保护您的应用程序。 你的方式。)
+
+## Minicube
+
+## Kubernetes
+
+1. [Kubernetes](https://kubernetes.io)
+   Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.(Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理)
+
+# 网站管理
+
+## 站长工具
 
 ### Website Analystics
 
@@ -675,9 +893,12 @@
 1. Baidu
 1. Google
 
-# 音视频
-
-### FFMPEG
+### IP查询
+1. 淘宝IP地址库: http://ip.taobao.com
+1. https://www.ipip.net/ip.html
+1. IP138: https://www.ip138.com
+1. GeoIP: https://geoip.com
+1. 纯真IP库: http://www.cz88.net
 
 # 规范
 
@@ -831,7 +1052,6 @@
 ### 红杏
 
 1. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
-
 
 ## 英语
 
