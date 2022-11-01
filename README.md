@@ -69,7 +69,7 @@
 #### 翻译工具
 
 1. [Google翻译](https://translate.google.cn)
-2. [有道](http://youdao.com)
+1. [有道](http://youdao.com)
 
 
 # 计算机基础
@@ -227,9 +227,6 @@
 1. [图书][经典][图解HTTP](http://product.dangdang.com/23462067.html)
 1. [视频][计算机网络技术与应用](http://study.163.com/course/courseMain.htm?courseId=1255007)
 1. [文章][从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen)
-1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
-1. [鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
-1. [工具][GNU](https://www.gnu.org/home.en.html) 网络模拟器。
 
 ## 软件工程
 
@@ -419,6 +416,11 @@
 
 1. http://www.fontawesome.com.cn/
 
+### 开发工具
+
+#### VS Code
+
+
 ## App
 
 ### Android
@@ -426,11 +428,9 @@
 1. [图书][疯狂Android讲义](http://product.dangdang.com/23699102.html)
 1. [图书][Android编程权威指南](http://product.dangdang.com/25102877.html)
 
-
 ### iOS
 
 1. [图书][精通iOS开发](http://product.dangdang.com/25113926.html)
-
 
 # 后端
 
@@ -440,21 +440,68 @@
 
 # 测试
 
+## 单元测试
+
+## 集成测试
+
+1. [JMeter](http://jmeter.apache.org) The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.(pache JMeter™应用程序是开源软件，是一种100％纯Java应用程序，旨在加载测试功能行为和测量性能。 它最初是为测试Web应用程序而设计的，但后来扩展到其他测试功能。)
+   * [图书][全栈性能测试修炼宝典 JMeter实战](http://product.dangdang.com/24048538.html)
+   * GUI
+   * CMD: bin/jmeter -n -t test.jmx -l test.jtl
+
+### ABTest
+
+1. [Sixpack](https://github.com/sixpack/sixpack-java) A Java client for the Sixpack A/B testing framework.
+
+### 自动化测试
+
+1. [图书][SRE：Google运维解密](http://product.dangdang.com/24032293.html)
+1. [Selium](https://www.seleniumhq.org)  A browser automation framework and ecosystem.
+    1. [图书][Selenium 2自动化测试实战——基于Python语言](http://product.dangdang.com/23851258.html)
+
 # 网络
 
 # 安全
 
 # 大数据和云计算
+
 ## 大数据
+
 ### 数据仓库
+
+### Hadoop
+
+1. [Hadoop](https://github.com/xianglesong/learning-javas/blob/master/platform/Hadoop.md) 分布式文件存储和技术框架，云计算的利器。(The
+   Apache™ Hadoop® project develops open-source software for reliable, scalable, distributed computing.)
+
 #### Hive
+
+1. [Hive](http://hive.apache.org) The Apache Hive ™ data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL.(Apache Hive™数据仓库软件有助于使用SQL读取，编写和管理驻留在分布式存储中的大型数据集。)
+
 #### ETL
-### Hadoop（HDFS）
+
 ### HBase
 
-## 云计算
-### Hadoop（MapReduce）
+1. [HBase](http://hbase.apache.org) 建立在Hadoop上的分布式数据库。(Apache HBase™ is the Hadoop database, a distributed, scalable, big data store.)
+   * [图书][HBase权威指南](http://product.dangdang.com/23336430.html)
+
+### Cassandra
+
+1. [Cassandra](http://cassandra.apache.org/) 分布式数据库(The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.)
+   * [图书][Cassandra权威指南](http://product.dangdang.com/25204594.html)
+
 ### Spark
+
+### 调度工具
+
+1. [Azkaban](https://azkaban.github.io/) Open-source Workflow Manager.
+1. [Oozie](http://oozie.apache.org) Hadoop工作流调度工具。(Apache Oozie Workflow Scheduler for Hadoop.)
+
+### Kudu
+
+### Ceph
+
+1. [Ceph](https://ceph.com/)
 
 # 流式计算
 ### Storm
@@ -482,6 +529,14 @@
 ### 高性能
 ### 高可用
 
+## 网站管理
+
+### Website Analystics
+
+1. [Piwik](https://piwik.org)
+1. Baidu
+1. Google
+
 # 音视频
 
 ### FFMPEG
@@ -496,6 +551,14 @@
 1. [Alibaba Java 编码规范](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
 
 ### 版本规范
+
+### API规范
+
+1. [Google API Design Guide](https://cloud.google.com/apis/design)
+1. [GitHub][HTTP API Design Guide](https://github.com/interagent/http-api-design)
+1. [GitHub][HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)
+1. [RESTful API 论文](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+1. [Postman](https://www.getpostman.com/) API访问工具。Postman is the only complete API development environment, for API developers)
 
 # 项目管理
 
@@ -512,8 +575,25 @@
 
 ### Git
 
+1. [Git](https://git-scm.com) Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.(Git是一个免费的开源分布式版本控制系统，旨在快速，高效地处理从小型到大型项目的所有事务。)
+   * [图书][Git权威指南](http://product.dangdang.com/21108669.html)
+   * [图书][Git版本控制管理](http://product.dangdang.com/23657840.html)
+   * [图书][精通Git](http://product.dangdang.com/25166975.html) GitHub联合创始人倾心之作，没有版本控制概念的读者也可轻松入门，涵盖Git常见工作场景，有效帮助程序员提升软技能。
+1. [GitHub][A collection of .gitignore templates](https://github.com/github/gitignore)
+1. [Mercurial](https://www.mercurial-scm.org) 源码控制管理工具。(Mercurial is a free, distributed source control management tool.)
+1. [SourceTree](https://www.sourcetreeapp.com/) 版本控制管理工具。(The friendly GUI for Mercurial and Git on your Mac.
+
+### GitLab
+
+1. [Gitlab](https://about.gitlab.com/) GitLab is the leading integrated product for modern software development. Connecting issue management, version control, code review, CI, CD, and monitoring.(GitLab是现代软件开发的领先集成产品。 连接问题管理，版本控制，代码审查，CI，CD和监控)
+
+### Bitbucket
+
+1. [Bitbucket](https://bitbucket.org/product) 类似github的功能，不过是可以闭源。(Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test and deploy)
+
 ### SVN
 
+1. [SnailSVN](https://langui.net/snailsvn) 访问svn工具。
 
 ## 文档管理
 
@@ -523,27 +603,65 @@
 
 ## 敏捷
 
+1. [图书][Scrum实战——敏捷软件项目管理与开发](http://product.dangdang.com/25294242.html)
+
 ## Scrum
 
-## PMP认证
+## PMP
+
+1. [PMP](https://www.pmi.org/) 美国项目管理工程师协会认证，全球认可，做项目管理的一定要学习。和国内软考的信息系统项目管理师考试雷同，考个国内的也可以，国外贵，单易考。
+     * [图书][项目管理知识体系指南（PMBOK指南：第5版）](http://product.dangdang.com/23256884.html)
+     * [图书][西游记PMP备考奇书](http://product.dangdang.com/23639808.html)
+     * [图书][汪博士解读PMP考试](http://product.dangdang.com/25229379.html)
+
+## ISO
+
+1. [ISO](https://www.iso.org)
 
 # 产品经理
+
+## 学习资源
+
+1. [人人都是产品经理](http://www.woshipm.com)
+
+## 产品工具
+
+1. [Axure](https://www.axure.com) 原型设计。
 
 ## 认证
 
 ### 网络
 
-CCNA
+1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
+1. [鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
+1. [工具][GNU](https://www.gnu.org/home.en.html) 网络模拟器。
 
 ### 软考
 
-软件设计师
+1. [软考](http://www.ruankao.org.cn/)
+    * 考试介绍 [http://www.ruankao.org.cn/platform](http://www.ruankao.org.cn/platform)
+    * 软件设计师  个人觉得大三学生可以开始考这个，工作的就更容易了。
+    * 信息系统项目管理师  这个偏管理的，主要是论文会卡人，容易的考个中级的系统集成项目管理工程师就可以，这个不考论文。
 
 ### Java
 
-OCJP（Oracle Certified Java Programmer）
+1. OCJP（Oracle Certified Java Programmer），Oracle公司的Java工程师认证。通过该考试表明较好的掌握Java基础知识。
+
+### Linux
+
+1. [认证][LPI Linux认证权威指南](http://product.dangdang.com/23217995.html)
+2. 红帽认证
+
+### Oracle
+
+### DB2
 
 # 面试
+
+## 面试资料
+
+1. [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
+
 
 ## 题库
 
@@ -579,7 +697,6 @@ OCJP（Oracle Certified Java Programmer）
 ### 红杏
 
 1. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
-
 
 
 ## 英语
