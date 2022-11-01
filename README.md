@@ -171,9 +171,8 @@
 1. [图书][自制编程语言](http://product.dangdang.com/23363722.html)
 1. [图书][编译原理及实现](http://product.dangdang.com/23781751.html) 这本书个人时强热推荐的，我读研期间重新做编译器，主要参考此书，非常好。
 1. [文章][编译原理学习基本步骤](http://blog.csdn.net/longronglin/article/details/5920957)
-1. [文章][编译原理解析](http://blog.csdn.net/longronglin/article/details/1109436) 如果把我上面的内容学好，可以说编译原理掌握的不错了。特别是我的内容是参考上面的清华大学孙悦红老师的课本做的，还得到了其支持。
+1. [文章][编译原理解析](http://blog.csdn.net/longronglin/article/details/1109436) 如果把我上面的内容学好，可以说编译原理掌握的不错了。特别是我的内容是参考上面的清华大学孙悦红老师的课本做的，还得到了其支持，感恩感谢。
 1. [图书][经典][计算机程序的构造和解释](http://product.dangdang.com/8793968.html)
-
 
 ## 数据库
 
@@ -438,9 +437,57 @@
 
 ## Java
 
+### Java常用库及框架
+
+### JVM
+
+### Java工具
+
+### Scala
+
+### Akka
+
+
+# 中间件
+
+## 数据库
+
+### MySQL
+### MSSQL
+### Oracle
+### DB2
+
+## 缓存
+
+### Redis
+### MemCache
+
+## 消息队列
+
+### RabbitMQ
+### RocketMQ
+### Kafka
+### ActiveMQ
+### ZeroMQ
+
+## 搜索
+
+### ElasticSearch
+
+### Solr
+
+### Lucene
+
+1. [Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
+
+## 分布式定时调度
+
 # 测试
 
 ## 单元测试
+
+1. [JUnit](https://junit.org/junit4) A programmer-oriented testing framework for Java.(面向程序员的Java测试框架。)
+1. [EasyMock](http://easymock.org) EasyMock, makes mocking easier since 2001.(自2001年以来，EasyMock使得模拟变得更容易。)
 
 ## 集成测试
 
@@ -461,24 +508,43 @@
 
 # 网络
 
+## TCPIP
+### Socket
+
+### SSL
+
+### 爬虫
+#### Nutch
+
+### 网络工具集
+#### 流量复制
+#### WireShark
+#### TcpDump
+
 # 安全
+
+## 密码学
+
+# 分布式系统
+
+## 分布式锁
+
+1. [Zookeeper](https://github.com/xianglesong/learning-javas/blob/master/platform/Zookeeper.md) Zookeeper提供分布式同步功能，在今天的分布式系统中有广泛使用。(A high-performance coordination service for distributed applications.)
+    1. [Curator](http://curator.apache.org) Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.(Apache Curator是Apache ZooKeeper的Java / JVM客户端库，Apache ZooKeeper是一种分布式协调服务。 它包括一个高级API框架和实用程序，使Apache ZooKeeper更容易，更可靠。 它还包括常见用例和扩展（如服务发现和Java 8异步DSL）的配方)
 
 # 大数据和云计算
 
-## 大数据
-
-### 数据仓库
 
 ### Hadoop
 
 1. [Hadoop](https://github.com/xianglesong/learning-javas/blob/master/platform/Hadoop.md) 分布式文件存储和技术框架，云计算的利器。(The
    Apache™ Hadoop® project develops open-source software for reliable, scalable, distributed computing.)
 
-#### Hive
+### Hive
 
 1. [Hive](http://hive.apache.org) The Apache Hive ™ data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL.(Apache Hive™数据仓库软件有助于使用SQL读取，编写和管理驻留在分布式存储中的大型数据集。)
 
-#### ETL
+### ETL
 
 ### HBase
 
@@ -492,10 +558,8 @@
 
 ### Spark
 
-### 调度工具
-
-1. [Azkaban](https://azkaban.github.io/) Open-source Workflow Manager.
-1. [Oozie](http://oozie.apache.org) Hadoop工作流调度工具。(Apache Oozie Workflow Scheduler for Hadoop.)
+1. [Spark](https://spark.apache.org/) A unified analytics engine for large-scale data processing.(用于大规模数据处理的统一分析引擎。)
+   * [图书][Spark快速大数据分析](http://product.dangdang.com/23790700.html)
 
 ### Kudu
 
@@ -503,8 +567,33 @@
 
 1. [Ceph](https://ceph.com/)
 
+
+### Presto
+
+1. [Presto](https://prestodb.io) 大数据查询引擎（Presto is a distributed SQL query engine for big data）
+
+### Kylin
+
+1. [Kylin](http://kylin.apache.org/cn) Apache Kylin™ is an open source Distributed Analytics Engine designed to provide SQL interface and multi-dimensional analysis (OLAP) on Hadoop/Spark supporting extremely large datasets, original contributed from eBay Inc.(Apache Kylin™是一个开源的分布式分析引擎，旨在为支持极大型数据集的Hadoop / Spark提供SQL接口和多维分析（OLAP），原创由eBay Inc.提供)
+
+### Mahout
+
+1. [Mahout](http://mahout.apache.org/) For Creating Scalable Performant Machine Learning Applications.(用于创建可扩展高性能的机器学习应用程序)
+   * [图书][Mahout in Action]
+
+### 调度工具
+
+1. [Azkaban](https://azkaban.github.io/) Open-source Workflow Manager.
+1. [Oozie](http://oozie.apache.org) Hadoop工作流调度工具。(Apache Oozie Workflow Scheduler for Hadoop.)
+1. [Mesos](http://mesos.apache.org) Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.(Apache Mesos将CPU，内存，存储和其他计算资源从机器（物理或虚拟）中抽象出来，使容错和弹性分布式系统能够轻松构建并有效运行)
+
+
 # 流式计算
+
 ### Storm
+
+1. [Storm](http://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system.(Apache Storm是一个免费的开源分布式实时计算系统。)
+    * [图书][Storm分布式实时计算模式](http://product.dangdang.com/23616223.html) Apache Storm 项目核心贡献者亲笔撰写，涵盖多种分布式计算相关主题。
 
 # 人工智能
 ## 推荐系统
@@ -514,8 +603,44 @@
 
 # DevOps
 
-## 自动化运维
+## 运维
+
+### CICD
+#### Jenkins
+
+### 负载均衡
+#### Nginx
+##### Lua
+
+#### LVS（Linux Virtual Server）
+
+#### F5（硬件）
+
+#### HAProxy
+
+#### KeepAlived
+
+### 缓存
+
+#### Squid
+#### Varnish
+
+### VIP
+
+### 防火墙
+
+### CDN
+
 ## 监控
+
+### Prometheus
+### Grafana
+### Zabbix
+
+## 运维工具
+
+### CMDB
+### IP查询
 
 # 架构设计
 ## 架构
@@ -670,29 +795,28 @@
 ### Mac推荐工具
 
 1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
-2. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
-3. Zsh
-4. [Chrome](https://www.google.cn/chrome) 浏览器。
-5. [搜狗输入法](https://pinyin.sogou.com/mac) 输入法。
-6. [Foxmail](https://www.foxmail.com) 邮箱管理。
-7. [EverNote](https://evernote.com/intl/zh-cn) 随时随地获取、整理、分享笔记，让灵感时刻与你同行。
-8. [XMind](https://www.xmind.net) 思维导图工具。
-9. [FileZilla](https://filezilla-project.org) The free FTP solution.
-10. [Jet Brains](http://www.jetbrains.com) JetBrains, creator of the leading Java IDE - IntelliJ IDEA - is a cutting-edge software vendor specializing in the creation of intelligent development tools.
-11. [Wireshark](https://www.wireshark.org) 网络封包分析软件。
-12. [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
-13. [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
-14. [StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
-15. [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
-16. [Sequel Pro](http://www.sequelpro.com) Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
-17. [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client) Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
-18. [Dash](https://kapeli.com/dash)  快速访问API。(Dash gives your Mac instant offline access to 200+ API documentation sets.)
-19. [MacDown](http://macdown.uranusjr.com) MarkDown编写工具。
-20. [Sublime Text](http://www.sublimetext.com)  免费的文本编辑工具。(A sophisticated text editor for code, markup and prose.)
-21. [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh) TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项。
-22. [Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
-23. [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac) 确是 Office，专为 Mac 打造。
-24. [LaTeX](https://www.latex-project.org) LaTeX is a high-quality typesetting system.
+1. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
+1. Zsh
+1. [Chrome](https://www.google.cn/chrome) 浏览器。
+1. [搜狗输入法](https://pinyin.sogou.com/mac) 输入法。
+1. [Foxmail](https://www.foxmail.com) 邮箱管理。
+1. [EverNote](https://evernote.com/intl/zh-cn) 随时随地获取、整理、分享笔记，让灵感时刻与你同行。
+1. [XMind](https://www.xmind.net) 思维导图工具。
+1. [FileZilla](https://filezilla-project.org) The free FTP solution.
+1. [Jet Brains](http://www.jetbrains.com) JetBrains, creator of the leading Java IDE - IntelliJ IDEA - is a cutting-edge software vendor specializing in the creation of intelligent development tools.
+1. [Wireshark](https://www.wireshark.org) 网络封包分析软件。
+1. [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
+1. [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
+1. [StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
+1. [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
+1. [Sequel Pro](http://www.sequelpro.com) Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
+1. [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client) Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
+1. [Dash](https://kapeli.com/dash)  快速访问API。(Dash gives your Mac instant offline access to 200+ API documentation sets.)
+1. [MacDown](http://macdown.uranusjr.com) MarkDown编写工具。
+1. [Sublime Text](http://www.sublimetext.com)  免费的文本编辑工具。(A sophisticated text editor for code, markup and prose.)
+1. [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh) TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项。
+1. [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac) 确是 Office，专为 Mac 打造。
+1. [LaTeX](https://www.latex-project.org) LaTeX is a high-quality typesetting system.
 
 ### 红杏
 
