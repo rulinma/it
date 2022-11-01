@@ -123,7 +123,7 @@
 1. [图书]面向对象程序分析和设计
 1. [视频]设计模式有个微软的李建中视频，讲的非常到位，可以搜索看看。就是代码是C#的，但是思想是一样的，模式和语言无关。
 1. [GitHub][Design patterns implemented in Java(Java实现的设计模式)](https://github.com/iluwatar/java-design-patterns)
-1. [StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
+1. [工具][StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
 
 ## 操作系统
 
@@ -281,7 +281,7 @@
 
 #### 数据挖掘工具
 
-1. [经典][Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具。)
+1. [经典][Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具)
    * [文章][用 WEKA 进行数据挖掘:简介和回归](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
    * [文章][用 WEKA 进行数据挖掘:分类和群集](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
    * [文章][用 WEKA 进行数据挖掘:最近邻和服务器端库](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
@@ -423,7 +423,7 @@
 
 1. http://www.fontawesome.com.cn/
 
-### 开发工具
+### Web开发工具
 
 #### VS Code
 
@@ -445,7 +445,9 @@
 
 ## Java
 
-### Java常用库及框架
+### Java基础
+
+#### 核心Java
 
 1. [Java官网](http://java.oracle.com) Java官方地址，Java开发工具、文档、bug等信息权威发布。
 1. [Java规范](https://docs.oracle.com/javase/specs) Java Language and Virtual Machine Specifications.(Java语言和虚拟机规范)
@@ -466,6 +468,27 @@
 1. [图书]Java与模式
 1. [图书][Head First设计模式](http://product.dangdang.com/20021171.html)
 1. [GitHub][Design patterns implemented in Java(Java实现的设计模式)](https://github.com/iluwatar/java-design-patterns)
+
+
+#### Java打包
+
+##### Maven
+##### Gradle
+##### Ant
+
+#### Java开发工具
+
+##### IntelliJ IDEA
+
+[IntelliJ](https://www.jetbrains.com/idea) 一款IDE工具，个人感觉比Eclipse要好，推荐使用。
+
+1. [Findbugs](http://findbugs.sourceforge.net) 一般用在IDE插件，帮助发现bug。(This is the web page for FindBugs, a program which uses static analysis to look for bugs in Java code. )
+1. [Checkstyle](https://checkstyle.org) Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.(Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。 默认情况下，它支持Google Java样式指南和Sun代码约定，但具有高度可配置性。 它可以使用ANT任务和命令行程序调用)
+   * [Checkstyle](https://github.com/checkstyle/checkstyle)
+ 
+##### Eclipse
+
+[Eclipse](https://www.eclipse.org) The Platform for Open Innovation and Collaboration. 我们主要使用其Java的开发工具。
 
 ### JavaEE
 
@@ -516,6 +539,103 @@ JSP是规范，而不是产品。
 1. [图书]J2EE设计开发编程指南
 1. [图书]IBM WebSphere Studio J2EE应用开发可以看看。
 
+### Java常用库及框架
+
+#### Spring
+
+1. [Spring](https://spring.io)
+1. [图书]精通Spring
+
+#### MyBatis
+1. [MyBatis](http://www.mybatis.org/mybatis-3)
+   * MyBatis Plus
+   * [聊聊MyBatis缓存机制](https://tech.meituan.com/2018/01/19/mybatis-cache.html)
+     - 一级缓存
+       - MyBatis一级缓存的生命周期和SqlSession一致。
+       - MyBatis一级缓存内部设计简单，只是一个没有容量限定的HashMap，在缓存的功能性上有所欠缺。
+       - MyBatis的一级缓存最大范围是SqlSession内部，有多个SqlSession或者分布式的环境下，数据库写操作会引起脏数据，建议设定缓存级别为Statement。
+     - 二级缓存
+       - MyBatis的二级缓存相对于一级缓存来说，实现了SqlSession之间缓存数据的共享，同时粒度更加的细，能够到namespace级别，通过Cache接口实现类不同的组合，对Cache的可控性也更强。
+       - MyBatis在多表查询时，极大可能会出现脏数据，有设计上的缺陷，安全使用二级缓存的条件比较苛刻。
+       - 在分布式环境下，由于默认的MyBatis Cache实现都是基于本地的，分布式环境下必然会出现读取到脏数据，需要使用集中式缓存将MyBatis的Cache接口实现，有一定的开发成本，直接使用Redis、Memcached等分布式缓存可能成本更低，安全性也更高。
+     - 本文对介绍了MyBatis一二级缓存的基本概念，并从应用及源码的角度对MyBatis的缓存机制进行了分析。最后对MyBatis缓存机制做了一定的总结，个人建议MyBatis缓存特性在生产环境中进行关闭，单纯作为一个ORM框架使用可能更为合适。
+
+#### Hibernate
+1. [Hibernate](http://hibernate.org)
+
+#### Struts
+1. [Struts](https://struts.apache.org)
+
+#### IOC
+
+1. [Guice](https://github.com/google/guice) Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above, brought to you by Google.(Guice（发音为'juice'）是Google为您带来的Java 6及更高版本的轻量级依赖注入框架。)
+
+#### AOP
+
+1. [AspectJ](http://www.eclipse.org/aspectj) A seamless aspect-oriented extension to the Java programming language.(面向Java编程语言的面向方面的无缝扩展。)
+
+#### 数据库连接池
+
+1. [Druid](https://github.com/alibaba/druid)  为监控而生的数据库连接池！
+1. [DBCP](https://commons.apache.org/proper/commons-dbcp/)
+
+#### 日志
+
+1. [Log4j](https://logging.apache.org/log4j/2.x/)
+1. [SLF4j](https://www.slf4j.org)
+1. [Logback](https://logback.qos.ch)
+1. [Common-Logging](http://commons.apache.org/proper/commons-logging)
+
+#### Http工具
+
+1. [HttpClient](https://hc.apache.org/httpcomponents-client-ga/)
+1. [OkHttp](http://square.github.io/okhttp/) An HTTP+HTTP/2 client for Android and Java applications.
+
+#### 时间工具
+
+1. [Joda](http://www.joda.org/joda-time/)  Joda-Time provides a quality replacement for the Java date and time classes.(Joda-Time为Java日期和时间类提供了高质量的替代品。)
+
+#### 二维码
+
+1. [ZXing](https://github.com/zxing/zxing) ZXing ("Zebra Crossing") barcode scanning library for Java, Android.(ZXing（“Zebra Crossing”）用于Java，Android的条形码扫描库。)
+
+1. [Tesseract](https://github.com/tesseract-ocr/tesseract) Tesseract Open Source OCR Engine.
+
+#### IO高性能库
+
+1. [Netty](https://github.com/xianglesong/learning-javas/blob/master/lib/Netty.md)   Netty算是Java的高级库了，掌握他，IO高级没问题。
+   (Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.)
+
+#### 内存数据库
+
+1. [MapDB](http://www.mapdb.org/)  MapDB provides Java Maps, Sets, Lists, Queues and other collections backed by off-heap or on-disk storage. It is a hybrid between java collection framework and embedded database engine.(MapDB提供由堆外或磁盘存储支持的Java映射，集，列表，队列和其他集合。 它是java集合框架和嵌入式数据库引擎之间的混合体。)
+
+#### 模版引擎
+
+1. [Velocity](http://velocity.apache.org) Velocity is a Java-based template engine.(Velocity是一个基于Java的模板引擎。)
+1. [FreeMarker](https://freemarker.apache.org) FreeMarker is a template engine.(FreeMarker是一个模板引擎。)
+
+#### 分片数据库访问
+
+1. [Sharding-jdbc](https://github.com/xianglesong/learning-javas/blob/master/lib/Sharding-jdbc.md)  分库分表的轻量级解决方法之一。(Distributed database middleware.)
+
+#### RPC
+
+1. [Dubbo](https://github.com/xianglesong/learning-javas/blob/master/framework/Dubbo.md)
+  Dubbo作为一个分布式RPC框架，对于Java程序员来说，还是有必要学习一下的。(Apache Dubbo™ (incubating) is a high-performance, java based open source RPC framework.)
+1. [Thrift](https://github.com/xianglesong/learning-javas/blob/master/lib/Thrift.md)  RPC实现有多种方式，Thrift算是其中不错的框架之一。
+   (The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.)
+
+#### 序列化、反序列化
+
+1. [Protobuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format <https://developers.google.com/protocol-buffers>.
+1. [Avro](https://avro.apache.org) Apache Avro™ is a data serialization system.
+
+#### API文档
+
+1. [Swagger](https://swagger.io) Swagger aides in development across the entire API lifecycle, from design and documentation, to test and deployment.(Swagger在整个API生命周期的开发过程中提供帮助，从设计和文档到测试和部署)
+1. [GitHub][swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
+
 ### JVM
 
 ### JVM工具
@@ -527,27 +647,7 @@ JSP是规范，而不是产品。
 1. [Leakcanary](https://github.com/square/leakcanary) A memory leak detection library for Android and Java.(适用于Android和Java的内存泄漏检测库)
 1. https://gceasy.io
 
-### Java工具
 
-#### Java打包
-
-##### Maven
-##### Gradle
-##### Ant
-
-#### Java开发工具
-
-##### IntelliJ IDEA
-
-[IntelliJ](https://www.jetbrains.com/idea) 一款IDE工具，个人感觉比Eclipse要好，推荐使用。
-
-1. [Findbugs](http://findbugs.sourceforge.net) 一般用在IDE插件，帮助发现bug。(This is the web page for FindBugs, a program which uses static analysis to look for bugs in Java code. )
-1. [Checkstyle](https://checkstyle.org) Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.(Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。 默认情况下，它支持Google Java样式指南和Sun代码约定，但具有高度可配置性。 它可以使用ANT任务和命令行程序调用)
-   * [Checkstyle](https://github.com/checkstyle/checkstyle)
- 
-##### Eclipse
-
-[Eclipse](https://www.eclipse.org) The Platform for Open Innovation and Collaboration. 我们主要使用其Java的开发工具。
 
 ### Scala
 
@@ -708,13 +808,6 @@ JSP是规范，而不是产品。
 
 1. [经典][图书][图解密码技术](http://product.dangdang.com/23995420.html)
 
-# 分布式系统
-
-## 分布式锁
-
-1. [Zookeeper](https://github.com/xianglesong/learning-javas/blob/master/platform/Zookeeper.md) Zookeeper提供分布式同步功能，在今天的分布式系统中有广泛使用。(A high-performance coordination service for distributed applications.)
-    1. [Curator](http://curator.apache.org) Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.(Apache Curator是Apache ZooKeeper的Java / JVM客户端库，Apache ZooKeeper是一种分布式协调服务。 它包括一个高级API框架和实用程序，使Apache ZooKeeper更容易，更可靠。 它还包括常见用例和扩展（如服务发现和Java 8异步DSL）的配方)
-
 # 大数据和云计算
 
 
@@ -769,6 +862,13 @@ JSP是规范，而不是产品。
 1. [Azkaban](https://azkaban.github.io/) Open-source Workflow Manager.
 1. [Oozie](http://oozie.apache.org) Hadoop工作流调度工具。(Apache Oozie Workflow Scheduler for Hadoop.)
 1. [Mesos](http://mesos.apache.org) Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.(Apache Mesos将CPU，内存，存储和其他计算资源从机器（物理或虚拟）中抽象出来，使容错和弹性分布式系统能够轻松构建并有效运行)
+
+### 分布式锁
+
+#### Zookeeper
+[Zookeeper](https://github.com/xianglesong/learning-javas/blob/master/platform/Zookeeper.md) Zookeeper提供分布式同步功能，在今天的分布式系统中有广泛使用。(A high-performance coordination service for distributed applications.)
+
+1. [Curator](http://curator.apache.org) Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination service. It includes a highlevel API framework and utilities to make using Apache ZooKeeper much easier and more reliable. It also includes recipes for common use cases and extensions such as service discovery and a Java 8 asynchronous DSL.(Apache Curator是Apache ZooKeeper的Java / JVM客户端库，Apache ZooKeeper是一种分布式协调服务。 它包括一个高级API框架和实用程序，使Apache ZooKeeper更容易，更可靠。 它还包括常见用例和扩展（如服务发现和Java 8异步DSL）的配方)
 
 
 # 流式计算
