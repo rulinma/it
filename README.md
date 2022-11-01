@@ -20,14 +20,14 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### C语言
 
-1. [图书][C程序设计语言](http://product.dangdang.com/8766529.html)
-1. [图书][C程序设计语言(英文版)](http://product.dangdang.com/9196242.html)
-1. [图书][C和指针](http://product.dangdang.com/20165942.html)
+1. [图书][经典][C程序设计语言](http://product.dangdang.com/8766529.html)
+1. [图书][经典][C程序设计语言(英文版)](http://product.dangdang.com/9196242.html)
+1. [图书][经典][C和指针](http://product.dangdang.com/20165942.html)
 1. [视频][C语言程序设计](http://study.163.com/curricula/cs.htm)
 
 ### C++语言
 
-1. [网站][http://www.cprogramming.com](https://www.cprogramming.com/)里有个c-tutorial
+1. [网站][经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial
 1. [文章]高质量C++/C编程指南 林锐 博士
 1. [图书]GCC: The Complete Reference
 1. [源码][https://github.com/antirez/redis](https://github.com/antirez/redis)
@@ -37,23 +37,23 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### 算法
 
+1. [图书][经典][算法导论](http://product.dangdang.com/22927209.html) 算法的最好的图书之一。
+   * [视频][经典][麻省理工学院公开课：算法导论](http://open.163.com/special/opencourse/algorithms.html) 老头讲的非常好，年轻的一般。
+1. [图书][经典][算法](http://product.dangdang.com/22880871.html) Knuth的学生写的，使用Java语言描述，值得一看。
 1. [图书][数据结构与算法分析：Java语言描述](http://product.dangdang.com/23918741.html)
 1. [图书][大话数据结构](http://product.dangdang.com/21088369.html)
-1. [图书][Java数据结构和算法](http://product.dangdang.com/9323527.html) 英文《Data Structures & Algorithms in Java》Robert Lafore著，特别推荐。
+1. [图书][经典][Java数据结构和算法](http://product.dangdang.com/9323527.html) 英文《Data Structures & Algorithms in Java》Robert Lafore著，特别推荐。
 1. [视频][数据结构和算法](http://study.163.com/course/introduction/468002.htm)
 1. [网站][数据学习的可视化网站](http://zh.visualgo.net)
-1. [图书][算法导论](http://product.dangdang.com/22927209.html) 算法的最好的图书之一。
-   * [视频][麻省理工学院公开课：算法导论](http://open.163.com/special/opencourse/algorithms.html) 老头讲的非常好，年轻的一般。
-1. [图书][算法](http://product.dangdang.com/22880871.html) Knuth的学生写的，使用Java语言描述，值得一看。
 1. [图书][写给大家看的算法书](http://product.dangdang.com/23973878.html) 特别适合初学者学习，老手也有收获。
-1. [网站][leetcode](https://leetcode.com) 算法题库。
+1. [网站][经典][leetcode](https://leetcode.com) 算法题库。
 1. [网站][lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
 1. [ACM-ICPC](https://icpc.baylor.edu)
 1. 大神的书[Donald E. Knuth:图灵奖得主]
     * [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html)
     * [图书][计算机程序设计艺术 卷2 半数值算法](http://product.dangdang.com/24007299.html)
     * [图书][计算机程序设计艺术 卷3 排序与查找](http://product.dangdang.com/24195308.html)
-1. [GitHub算法学习笔记][算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
+1. [经典][算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
 
 ### 设计模式
 
@@ -61,14 +61,14 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### Unix/Linux
 
-1. [图书][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
+1. [图书][经典][鸟哥的Linux私房菜](http://product.dangdang.com/20866026.html)
+1. [图书][经典][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
 1. [网站][MINIX](http://www.minix3.org)
 1. [网站][GeekOS](http://geekos.sourceforge.net) The goal of GeekOS is to be a tool for learning about operating system kernels.  As of version 0.2.0, it comes with a set of projects suitable for use in an undergraduate operating systems course, or for self-directed learning.  GeekOS has been used in courses at a number of colleges and universities.
 1. [文章][操作系统学习笔记](https://blog.csdn.net/longronglin/article/category/536556)
 1. [图书][深入理解计算机系统](http://product.dangdang.com/24106647.html)
 1. [图书][30天自制操作系统](http://product.dangdang.com/22826468.html)
 1. [图书][Orange‘s一个操作系统的实现](http://product.dangdang.com/20597043.html)
-1. [图书][鸟哥的Linux私房菜](http://product.dangdang.com/20866026.html)
 
 ### Windows
 
@@ -76,22 +76,22 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ## 编译原理
 
-1. [图书][编译原理](http://product.dangdang.com/20427584.html) 编译原理的水平与程序员水平正相关，光会写程序，不能理解编译原理，是很难写出高水平程序的。龙书非常出名，谁学谁知道。工作后您可能会使用各种各样的语言，他们是如何工作和执行的，编译原理是不可或缺的重要一环。
+1. [图书][经典][编译原理](http://product.dangdang.com/20427584.html) 传说中的龙书。编译原理的水平与程序员水平正相关，光会写程序，不能理解编译原理，是很难写出高水平程序的。龙书非常出名，谁学谁知道。工作后您可能会使用各种各样的语言，他们是如何工作和执行的，编译原理是不可或缺的重要一环。
 1. [图书][自制编程语言](http://product.dangdang.com/23363722.html)
 1. [图书][编译原理及实现](http://product.dangdang.com/23781751.html) 这本书个人时强热推荐的，我读研期间重新做编译器，主要参考此书，非常好。
 1. [文章][编译原理学习基本步骤](http://blog.csdn.net/longronglin/article/details/5920957)
 1. [文章][编译原理解析](http://blog.csdn.net/longronglin/article/details/1109436) 如果把我上面的内容学好，可以说编译原理掌握的不错了。特别是我的内容是参考上面的清华大学孙悦红老师的课本做的，还得到了其支持。
-1. [图书][计算机程序的构造和解释](http://product.dangdang.com/8793968.html)
+1. [图书][经典][计算机程序的构造和解释](http://product.dangdang.com/8793968.html)
 
 
 ## 数据库
 
 ### 关系数据库
 
-1. [图书]Transact-SQL权威指南 经典，没有图书卖了。
+1. [图书][经典]Transact-SQL权威指南   
 1. [图书][(Architecture of a Database System(数据库系统架构)](<http://product.dangdang.com/1058752208.html>)
 1. [图书][Head First SQL](http://product.dangdang.com/21040398.html)
-1. [图书][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
+1. [图书][经典][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
 1. [图书][SQL必知必会(第3版)](http://product.dangdang.com/23246707.html)
 1. [图书][SQL教程（杨中科）](http://study.163.com/course/introduction/215012.htm#/courseDetail) 使用微软SQL Server讲解的。
 1. [MySQL](https://www.mysql.com)
@@ -130,10 +130,10 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ## 计算机网络
 
-1. [图书][计算机网络自顶向下方法](http://product.dangdang.com/25299722.html)
-1. [图书][TCP/IP详解卷1:协议](http://product.dangdang.com/23989588.html)
-1. [图书][图解TCP/IP](http://product.dangdang.com/23265967.html)
-1. [图书][图解HTTP](http://product.dangdang.com/23462067.html)
+1. [图书][经典][计算机网络自顶向下方法](http://product.dangdang.com/25299722.html)
+1. [图书][经典][TCP/IP详解卷1:协议](http://product.dangdang.com/23989588.html)
+1. [图书][经典][图解TCP/IP](http://product.dangdang.com/23265967.html)
+1. [图书][经典][图解HTTP](http://product.dangdang.com/23462067.html)
 1. [视频][计算机网络技术与应用](http://study.163.com/course/courseMain.htm?courseId=1255007)
 1. [文章][从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen)
 1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
@@ -143,10 +143,10 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 ## 软件工程
 
 1. [图书][软件工程](http://product.dangdang.com/25231549.html)
-1. [图书][代码大全](http://product.dangdang.com/22543344.html)
-1. [图书][人月神话](http://product.dangdang.com/23677487.html)
-1. [图书][敏捷软件开发(原则模式与实践)](http://product.dangdang.com/8771440.html)
-1. [图书][重构](http://product.dangdang.com/23734636.html)
+1. [图书][经典][代码大全](http://product.dangdang.com/22543344.html)
+1. [图书][经典][人月神话](http://product.dangdang.com/23677487.html)
+1. [图书][经典][敏捷软件开发(原则模式与实践)](http://product.dangdang.com/8771440.html)
+1. [图书][经典][重构](http://product.dangdang.com/23734636.html)
 1. [图书][软件测试](http://product.dangdang.com/9159972.html)
 
 
@@ -158,7 +158,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### 汇编语言
 
-1. [图书][汇编语言](http://product.dangdang.com/25178843.html) 王爽的这版，我觉得入门是最好的。写的浅显易懂，更深入的需要看别的图书。
+1. [图书][经典][汇编语言](http://product.dangdang.com/25178843.html) 王爽的这版，我觉得入门是最好的。写的浅显易懂，更深入的需要看别的图书。
 1. [资料]Intel Architecture Software Developer's Manual Volume1: Basic Architecture
 1. [资料]Intel Architecture Software Developer's Manual Volume2:Instructions Set Reference
 1. [资料]Intel Architecture Software Developer's Manual Volume3:System Programming Guide
@@ -186,7 +186,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 #### 数据挖掘工具
 
-1. [Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具。)
+1. [经典][Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具。)
    * [文章][用 WEKA 进行数据挖掘:简介和回归](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
    * [文章][用 WEKA 进行数据挖掘:分类和群集](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
    * [文章][用 WEKA 进行数据挖掘:最近邻和服务器端库](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
@@ -297,7 +297,6 @@ OCJP（Oracle Certified Java Programmer）
 
 ## 题库
 
-LeetCode
 
 ## 英语
 
