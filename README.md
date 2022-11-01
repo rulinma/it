@@ -85,7 +85,7 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 ### 关系数据库
 
 1. [图书]Transact-SQL权威指南 经典，没有图书卖了。
-1. [图书](Architecture of a Database System(数据库系统架构)](<http://product.dangdang.com/1058752208.html>)
+1. [图书][(Architecture of a Database System(数据库系统架构)](<http://product.dangdang.com/1058752208.html>)
 1. [图书][Head First SQL](http://product.dangdang.com/21040398.html)
 1. [图书][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
 1. [图书][SQL必知必会(第3版)](http://product.dangdang.com/23246707.html)
