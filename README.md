@@ -1,5 +1,3 @@
-# IT（Information Technology）
-
 # 程序员知识图谱和实战指南
 
 官方地址：[https://it.rulinma.com/](https://it.rulinma.com/)
