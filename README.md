@@ -287,7 +287,36 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 
 ### 机器学习
 
+1. [图书][推荐系统实践](http://product.dangdang.com/22775361.html)
+1. [GitHub][List of Recommender Systems](https://github.com/grahamjenson/list_of_recommender_systems)
+
 ### 深度学习
+
+1. [图书][深度学习](http://product.dangdang.com/25111382.html)
+1. [DeepLearning](https://github.com/yusugomori/DeepLearning) Deep Learning (Python, C, C++, Java, Scala, Go) <http://yusugomori.com>
+1. [Deep Learning 中文翻译](https://github.com/exacity/deeplearningbook-chinese) Deep Learning Book Chinese Translation.
+
+## 学术
+
+### 图灵奖
+
+1. 图灵：计算机之父。艾伦·麦席森·图灵（Alan Mathison Turing，1912年6月23日－1954年6月7日），英国数学家、逻辑学家，被称为计算机之父，人工智能之父。
+1. [历届图灵奖得主及贡献](https://amturing.acm.org)
+
+### 期刊杂志
+
+1. [电脑报](http://www.icpcw.com)
+1. [ACM](https://www.acm.org)
+1. [IEEE](https://www.ieee.org)
+
+### 论文
+
+1. [万方数据](http://www.wanfangdata.com.cn/index.html) 整合数亿条全球优质学术资源，集成期刊、学位、会议、科技报告、专利、视频等十余种资源类型，覆盖各研究层次，感知用户学术背景，智慧你的搜索。万方智搜致力于帮助用户精准发现、获取与沉淀学术精华。万方数据愿与合作伙伴共同打造知识服务的基石、共建学术生态。
+1. [中国知网](http://cnki.net) 中国知网知识发现网络平台—面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等。
+1. [维普](http://cqvip.com)
+
+### 会议
+
 
 # 前端
 
@@ -458,17 +487,43 @@ Github开源项目地址：[https://github.com/rulinma/it](https://github.com/ru
 ### FFMPEG
 
 # 规范
+
 ## 开发规范
+
 ### 代码规范
+
+1. [Google Java 格式化](https://github.com/google/google-java-format) 推荐使用，插件比较多，各IDE支持好，程序员喜欢。Reformats Java source code to comply with Google Java Style.
+1. [Alibaba Java 编码规范](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
+
 ### 版本规范
 
 # 项目管理
 
+## 需求管理
+
+1. [Redmine](http://www.redmine.org/) Redmine is a flexible project management web application.(Redmine是一个灵活的项目管理Web应用程序)
+
+## Bug管理
+
+1. [Bugzilla](https://www.bugzilla.org/) Bugzilla is server software designed to help you manage software development.(Bugzilla是旨在帮助您管理软件开发的服务器软件)
+1. [Jira](https://www.atlassian.com/software/jira)
+
+## 版本管理
+
+### Git
+
+### SVN
+
+
+## 文档管理
+
+## 敏捷
+
+## Scrum
+
 ## PMP认证
 
 # 产品经理
-
-# 杂项
 
 ## 认证
 
