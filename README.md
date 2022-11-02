@@ -4,17 +4,13 @@
 
 **Github开源项目地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。**
 
-# 目录
 - [程序员知识图谱和实战指南](#程序员知识图谱和实战指南)
-- [目录](#目录)
 - [导论](#导论)
   - [愿景](#愿景)
   - [概述](#概述)
     - [使用说明](#使用说明)
     - [心得体会](#心得体会)
       - [经典名言](#经典名言)
-      - [技术学习](#技术学习)
-      - [翻译工具](#翻译工具)
 - [计算机基础](#计算机基础)
   - [编程语言](#编程语言)
     - [C语言](#c语言)
@@ -49,6 +45,10 @@
     - [期刊杂志](#期刊杂志)
     - [论文](#论文)
     - [会议](#会议)
+  - [资源](#资源)
+    - [技术网站](#技术网站)
+    - [Github特色](#github特色)
+      - [翻译工具](#翻译工具)
 - [前端](#前端)
   - [Web](#web)
     - [Html](#html)
@@ -280,8 +280,10 @@
     - [Oracle](#oracle-1)
     - [DB2](#db2-1)
   - [英语](#英语)
+    - [翻译工具](#翻译工具-1)
 - [参考文献](#参考文献)
 - [感谢](#感谢)
+
 # 导论
 
 ## 愿景
@@ -324,44 +326,6 @@
 * 当一头牛拉不动车时，很少有人去找一头更大更强壮的牛，而是找来更多的牛一起拉。 -- 《Hadoop权威指南》
 * 一个字：拆。
 * 256K is OK.(256K应该足够了。) -- Bill Gates（比尔 盖茨）
-
-#### 技术学习
-
-1. [经典][Stack Overflow.com](https://stackoverflow.com) 问答网。
-1. [经典][CSDN](http://www.csdn.net) 中国最大的程序员网站。
-1. [经典][InfoQ](http://www.infoq.com) 架构师网站。
-1. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
-1. [博客园](https://www.cnblogs.com) 博客园是一个面向开发者的知识分享社区。
-1. [Slideshare](https://www.slideshare.net) 技术ppt下载。
-1. [视频][经典][B站](https://www.bilibili.com)
-1. [视频][经典][YouTube](http://youtube.com)
-1. [极客学院](http://www.jikexueyuan.com)
-1. [网易云课堂](http://study.163.com)
-1. [视频][经典][网易公开课的可汗学院](https://open.163.com/khan) Khan讲的太好，牛人，膜拜。
-1. [传智播客](http://www.itcast.cn)
-1. [稀土掘金](https://juejin.cn)
-1. [阿里中间件团队博客](http://jm.taobao.org)
-1. [美团技术团队](https://tech.meituan.com)
-1. [网易乐得技术团队](http://tech.lede.com)
-1. [Apache](http://apache.org) 很多著名的开源项目在里面，比如Tomcat Hadoop Maven等。
-1. [SourceForge](http://www.sourceforge.net) 很多开源库也放在这里，特别是没有github之前。
-1. [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)  A curated list of awesome frameworks, libraries and software for the Java programming language.
-1. [https://github.com/jobbole/awesome-java-cn](https://github.com/jobbole/awesome-java-cn)  Java资源大全中文版。
-1. [https://github.com/Vedenin/useful-java-links](https://github.com/Vedenin/useful-java-links)  A list of useful Java frameworks, libraries, software and hello worlds examples.
-1. [https://github.com/Blankj/awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)  LeetCode of algorithms with java solution(updating).
-1. [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)  All Algorithms implemented in Java.
-1. [https://github.com/DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java)  27天成为Java大神。
-1. [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  Design patterns implemented in Java [http://java-design-patterns.com](http://java-design-patterns.com).
-1. [spring-boot](https://github.com/spring-projects/spring-boot)
-1. [dubbo](https://github.com/apache/incubator-dubbo)  Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework.
-1. [interviews](https://github.com/kdn251/interviews)  Everything you need to know to get the job.
-1. [成为一名专业程序员](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架。
-1. [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
-#### 翻译工具
-
-1. [Google翻译](https://translate.google.cn)
-1. [有道](http://youdao.com)
 
 # 计算机基础
 
@@ -612,6 +576,47 @@
 1. [维普](http://cqvip.com)
 
 ### 会议
+
+## 资源
+
+### 技术网站
+
+1. [经典][Stack Overflow.com](https://stackoverflow.com) 问答网。
+1. [经典][GitHub](https://github.com) 程序员交友网。
+1. [经典][CSDN](http://www.csdn.net) 中国最大的程序员网站。
+1. [经典][InfoQ](http://www.infoq.com) 架构师网站。
+1. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
+1. [视频][经典][B站](https://www.bilibili.com)
+1. [视频][经典][YouTube](http://youtube.com)
+1. [阿里中间件团队博客](http://jm.taobao.org)
+1. [美团技术团队](https://tech.meituan.com)
+1. [网易乐得技术团队](http://tech.lede.com)
+1. [博客园](https://www.cnblogs.com) 博客园是一个面向开发者的知识分享社区。
+1. [网易云课堂](http://study.163.com)
+1. [传智播客](http://www.itcast.cn)
+1. [稀土掘金](https://juejin.cn)
+1. [Slideshare](https://www.slideshare.net) 技术ppt下载。
+1. [极客学院](http://www.jikexueyuan.com)
+
+### Github特色
+
+1. [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)  A curated list of awesome frameworks, libraries and software for the Java programming language.
+1. [https://github.com/jobbole/awesome-java-cn](https://github.com/jobbole/awesome-java-cn)  Java资源大全中文版。
+1. [https://github.com/Vedenin/useful-java-links](https://github.com/Vedenin/useful-java-links)  A list of useful Java frameworks, libraries, software and hello worlds examples.
+1. [https://github.com/Blankj/awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)  LeetCode of algorithms with java solution(updating).
+1. [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)  All Algorithms implemented in Java.
+1. [https://github.com/DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java)  27天成为Java大神。
+1. [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  Design patterns implemented in Java [http://java-design-patterns.com](http://java-design-patterns.com).
+1. [spring-boot](https://github.com/spring-projects/spring-boot)
+1. [dubbo](https://github.com/apache/incubator-dubbo)  Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework.
+1. [interviews](https://github.com/kdn251/interviews)  Everything you need to know to get the job.
+1. [成为一名专业程序员](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架。
+1. [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+
+#### 翻译工具
+
+1. [Google翻译](https://translate.google.cn)
+1. [有道](http://youdao.com)
 
 
 # 前端
@@ -1562,7 +1567,12 @@ An open platform to connect, manage, and secure microservices.
 
 ### DB2
 
-## 英语
+## [英语](杂项/英语/README.md)
+
+### 翻译工具
+
+1. [Google翻译](https://translate.google.cn)
+1. [有道](http://youdao.com)
 
 # 参考文献
 
