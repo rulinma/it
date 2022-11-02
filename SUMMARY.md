@@ -4,8 +4,8 @@
 
 * [导论](README.md)
 
-* [计算机基础](README.md#计算机基础)
-    * [编程语言](README.md#编程语言)
+* [计算机基础](README.md)
+    * [编程语言](杂项/英语/README.md)
 
 * [杂项](杂项/README.md)
     * [英语](杂项/英语/README.md)
