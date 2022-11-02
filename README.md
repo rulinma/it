@@ -51,7 +51,6 @@
   - [资源](#资源)
     - [技术网站](#技术网站)
     - [Github特色](#github特色)
-      - [翻译工具](#翻译工具)
 - [前端](#前端)
   - [Web](#web)
     - [Html](#html)
@@ -283,7 +282,7 @@
     - [Oracle](#oracle-1)
     - [DB2](#db2-1)
   - [英语](#英语)
-    - [翻译工具](#翻译工具-1)
+    - [翻译工具](#翻译工具)
 - [参考文献](#参考文献)
 - [感谢](#感谢)
 
@@ -616,12 +615,6 @@
 1. [interviews](https://github.com/kdn251/interviews)  Everything you need to know to get the job.
 1. [成为一名专业程序员](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架。
 1. [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
-#### 翻译工具
-
-1. [Google翻译](https://translate.google.cn)
-1. [有道](http://youdao.com)
-
 
 # 前端
 
