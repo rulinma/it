@@ -106,9 +106,9 @@
       - [数据库连接池](#数据库连接池)
       - [日志](#日志)
       - [Http工具](#http工具)
+      - [Netty](#netty)
       - [时间工具](#时间工具)
       - [二维码](#二维码)
-      - [IO高性能库](#io高性能库)
       - [内存数据库](#内存数据库)
       - [模版引擎](#模版引擎)
       - [分片数据库访问](#分片数据库访问)
@@ -908,6 +908,11 @@ JSP是规范，而不是产品。
 1. [HttpClient](https://hc.apache.org/httpcomponents-client-ga/)
 2. [OkHttp](http://square.github.io/okhttp/) An HTTP+HTTP/2 client for Android and Java applications.
 
+#### Netty
+
+1. [Netty](https://github.com/xianglesong/learning-javas/blob/master/lib/Netty.md)   Netty算是Java的高级库了，掌握他，IO高级没问题。
+   (Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.)
+
 #### 时间工具
 
 1. [Joda](http://www.joda.org/joda-time/)  Joda-Time provides a quality replacement for the Java date and time classes.(Joda-Time为Java日期和时间类提供了高质量的替代品。)
@@ -918,10 +923,6 @@ JSP是规范，而不是产品。
 
 2. [Tesseract](https://github.com/tesseract-ocr/tesseract) Tesseract Open Source OCR Engine.
 
-#### IO高性能库
-
-1. [Netty](https://github.com/xianglesong/learning-javas/blob/master/lib/Netty.md)   Netty算是Java的高级库了，掌握他，IO高级没问题。
-   (Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.)
 
 #### 内存数据库
 
