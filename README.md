@@ -115,7 +115,6 @@
       - [RPC](#rpc)
       - [序列化、反序列化](#序列化反序列化)
       - [API文档](#api文档)
-      - [Netty](#netty)
     - [JVM](#jvm)
     - [Scala](#scala)
     - [Akka](#akka)
@@ -953,8 +952,6 @@ JSP是规范，而不是产品。
 
 1. [Swagger](https://swagger.io) Swagger aides in development across the entire API lifecycle, from design and documentation, to test and deployment.(Swagger在整个API生命周期的开发过程中提供帮助，从设计和文档到测试和部署)
 2. [Swagger-UI][swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
-
-#### Netty
 
 ### JVM
 
