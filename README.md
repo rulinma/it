@@ -599,7 +599,7 @@
 ### 技术网站
 
 1. [经典][Stack Overflow.com](https://stackoverflow.com) 问答网。
-2. . [经典][GitHub](https://github.com) 程序员交友网。
+2. [经典][GitHub](https://github.com) 程序员交友网。
 3. [经典][CSDN](http://www.csdn.net) 中国最大的程序员网站。
 4. [经典][InfoQ](http://www.infoq.com) 架构师网站。
 5. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
