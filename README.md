@@ -295,6 +295,7 @@
     - [翻译工具](#翻译工具)
 - [参考文献](#参考文献)
 - [感谢](#感谢)
+- [赞赏](#赞赏)
 
 # 导论
 
@@ -1669,3 +1670,7 @@ An open platform to connect, manage, and secure microservices.
 # 参考文献
 
 # 感谢
+
+# 赞赏
+
+<img src="images/wx_bonus.jpeg" width="49%" alt="请喝一杯"/>
