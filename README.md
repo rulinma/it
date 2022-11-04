@@ -524,19 +524,9 @@ Extensible Markup Language.
 
 ### [Android](前端/App/Android/README.md)
 
-1. [图书][疯狂Android讲义](http://product.dangdang.com/23699102.html)
-2. [图书][Android编程权威指南](http://product.dangdang.com/25102877.html)
-3. [图书]Android应用开发揭秘
-
 ### [iOS](前端/App/iOS/README.md)
 
-1. [图书][精通iOS开发](http://product.dangdang.com/25113926.html)
-2. iOS高级编程
-3. IOS开发指南 从零基础到APP STORE 上架
-4. Beginning iOS 7 Development： Exploring the iOS SDK
-
 # [后端](后端/README.md)
-
 
 ## [Java应用](后端/Java应用/README.md)
 
