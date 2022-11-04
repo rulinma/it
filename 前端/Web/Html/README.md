@@ -1,6 +1,6 @@
 # Html
 
-[官方][HTML](https://www.w3.org/TR/html)
+网页标记语言标准（[HTML](https://www.w3.org/TR/html) is the standard markup language for Web page）
 
 ## 学习指南
 

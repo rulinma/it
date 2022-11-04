@@ -1,6 +1,6 @@
 # Css
 
-[官方][CSS](https://www.w3.org/TR/CSS)
+HTML文档的样式语言（[CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen）
 
 ## 学习指南
 

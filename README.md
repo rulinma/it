@@ -59,8 +59,8 @@
     - [资料](#资料)
 - [前端](#前端)
   - [Web](#web)
-    - [Html](#html)
-    - [Css](#css)
+    - [HTML](#html)
+    - [CSS](#css)
     - [JavaScript](#javascript)
       - [NodeJS](#nodejs)
       - [框架和库](#框架和库)
@@ -674,13 +674,13 @@
 
 ## Web
 
-### [Html](前端/Web/Html/README.md)
+### [HTML](前端/Web/HTML/README.md)
 
-[官方][HTML](https://www.w3.org/TR/html)
+网页标记语言标准（[HTML](https://www.w3.org/TR/html) is the standard markup language for Web page）
 
-### [Css](前端/Web/Css/README.md)
+### [CSS](前端/Web/CSS/README.md)
 
-[官方][CSS](https://www.w3.org/TR/CSS/)
+HTML文档的样式语言（[CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen）
 
 ### JavaScript
 
