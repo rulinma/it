@@ -680,7 +680,6 @@
 | CSS        | 形容词 |
 | JavaScript | 动词   |
 
-
 ### [HTML](前端/Web/HTML/README.md)
 
 网页标记语言标准。
