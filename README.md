@@ -736,13 +736,15 @@ EasyUI 为Web开发人员提供了易于使用的组件，它基于流行的jQue
 
 ### [XML](前端/Web/XML/README.md)
 
-Extensible Markup Language(可扩展标记语言)
+可扩展标记语言。
+
+Extensible Markup Language.
 
 ### [HTTP](前端/Web/HTTP/README.md)
 
 超文本传输协议。
 
-[HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Hypertext Transfer Protocol.](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
 
 ### [WebSocket](前端/WebSocket/README.md)
 
