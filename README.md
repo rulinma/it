@@ -693,7 +693,9 @@ HTML文档的样式语言。
 ### JavaScript
 
 JavaScript是web开发必须学习的，ECMAScript是其规则来源。
-   * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.(由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。)
+   * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.
+   * 由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。
+
 1. [图书][JavaScript权威指南](http://product.dangdang.com/22722790.html)
 2. [图书][JavaScript高级程序设计](http://product.dangdang.com/22628333.html)
 3. [图书][JavaScript DOM编程艺术](http://product.dangdang.com/21049601.html)
@@ -714,7 +716,9 @@ JavaScript是web开发必须学习的，ECMAScript是其规则来源。
 
 #### NodeJS
 
-[Node.js](https://github.com/nodejs/node) Node.js JavaScript runtime.(Node.js JavaScript运行环境)
+JavaScript运行环境。
+
+[Node.js](https://github.com/nodejs/node) JavaScript runtime.
 
 #### 框架和库
 
