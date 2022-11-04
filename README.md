@@ -129,7 +129,6 @@
   - [缓存](#缓存)
     - [Redis](#redis)
     - [MemCache](#memcache)
-    - [缓存常见问题及解决](#缓存常见问题及解决)
   - [消息队列](#消息队列)
     - [RabbitMQ](#rabbitmq)
     - [RocketMQ](#rocketmq)
@@ -142,6 +141,9 @@
     - [Lucene](#lucene)
     - [分词](#分词)
   - [分布式定时调度](#分布式定时调度)
+    - [Quartz](#quartz)
+    - [Elastic-Job](#elastic-job)
+    - [XXL-Job](#xxl-job)
 - [测试](#测试)
   - [单元测试](#单元测试)
     - [Junit](#junit)
@@ -642,25 +644,9 @@ Extensible Markup Language.
 
 [Redis](https://redis.io) Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.(Redis是一个开源（BSD许可），内存数据结构存储，用作数据库，缓存和消息代理)
 
-1. [工具][Redis Desktop Manager](https://redisdesktop.com/)  访问Redis的工具。(Redis Desktop Manager (aka RDM) — is a fast open source Redis database management application for Windows, Linux and MacOS.)
-2. [图书][Redis实战](http://product.dangdang.com/23800641.html)
-
 ### [MemCache](中间件/缓存/MemCache/README.md)
 
 [MemCache](http://memcached.org) A distributed memory object caching system.(分布式内存对象缓存系统)
-
-### 缓存常见问题及解决
-
-* 穿透：缓存查询不到，在DB中进行查找。恶意进行大数据量查询是，会宕数据库。
-	* 查询不到时存储一个有短时间过期的空值。
-	* 使用bitmap设置好可能值，不是可能值则返回。
-* 雪崩：大数据量缓存数据同时失效，导致请求全部转发DB，进而导致DB崩溃。
-	* 不要统一时间大数据量同时失效，可以加个随机值。
-	* 热点数据，可以设置永不过期（key最好有规则，方便找出，否则可能有后患）。
-* 击穿：热点key，失效时被大量访问，此时没有处理的话，会同时打到DB，造成压力。
-   * 使用互斥锁，持有锁的从DB更新数据到缓存，没有拿到锁的，返回null。
-   * 开个线程检查过期时间，快过期时（比如1分钟）进行更新。
-   * 使用hystrix等进行降级策略处理。
 
 ## [消息队列](中间件/消息队列/README.md)
 
@@ -668,20 +654,11 @@ Extensible Markup Language.
 
 [RabbitMQ](http://www.rabbitmq.com) RabbitMQ is the most widely deployed open source message broker.(RabbitMQ是部署最广泛的开源消息代理)
 
-1. [图书][RabbitMQ实战：高效部署分布式消息队列](http://product.dangdang.com/23799313.html)
-1. [网站][Tutorials for using RabbitMQ in various ways](https://github.com/rabbitmq/rabbitmq-tutorials) 以各种方式使用RabbitMQ的教程<http://www.rabbitmq.com/getstarted.html>
-
 ### [RocketMQ](中间件/消息队列/RocketMQ/README.md)
 
 ### [Kafka](中间件/消息队列/Kafka/README.md)
 
 [Kafka](http://kafka.apache.org) A distributed streaming platform.
-
-1. [工具][Kafka Manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka.
-2. [图书][Kafka权威指南](http://product.dangdang.com/25211884.html)
-3. [文章][kafka入门：简介、使用场景、设计原理、主要配置及集群搭建（转）](https://www.cnblogs.com/likehua/p/3999538.html)
-4. [工具][Kafka Eagle](https://github.com/smartloli/EFAK)
-5. [工具][Kafka Tool](https://www.kafkatool.com/)
 
 ### [ActiveMQ](中间件/消息队列/ActiveMQ/README.md)
 
@@ -695,47 +672,29 @@ Extensible Markup Language.
 
 [Elasticsearch](https://www.elastic.co) is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
 
-1. [图书][深入理解Elasticsearch](http://product.dangdang.com/25084053.html)
-2. [图书][Elasticsearch服务器开发](http://product.dangdang.com/23659310.html)
-3. [图书][Elasticsearch](http://product.dangdang.com/1900490173.html)
-4. [GitHub][elasticsearch-head](https://github.com/mobz/elasticsearch-head) A web front end for an elastic search cluster.
-5. [GitHub][The Definitive Guide to Elasticsearch](https://github.com/elastic/elasticsearch-definitive-guide)
-6. [elasticsearch-analysis-ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary.
-
 ### [Solr](中间件/搜索/Solr/README.md)
 
 [Solr](http://lucene.apache.org/solr) 企业级搜索平台基于Lucene的封装。(Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™.)
-
-1. [图书][Solr实战](http://product.dangdang.com/25082460.html)
-2. [图书][Solr Cookbook](http://product.dangdang.com/1900482179.html)
-3. [图书][Solr 1.4 Enterprise Search Server](http://product.dangdang.com/1900489897.html)
-4. [图书][Apache Solr 3 Enterprise Search Server](http://product.dangdang.com/1900489427.html)
-5. [论坛][Solr](http://lucene.472066.n3.nabble.com)
 
 ### [Lucene](中间件/搜索/Lucene/README.md)
 
 [Lucene](http://lucene.apache.org/) 建立索引和查询库。(The goal of Apache Lucene and Solr is to provide world class search capabilities.)
 
-1. [图书][Lucene实战](http://product.dangdang.com/21094976.html)
-2. [图书][Lucene分析与应用](http://product.dangdang.com/20362257.html)
-3. [论坛][Lucene](http://lucene.472066.n3.nabble.com)
-4. [GitHub][Luke](https://github.com/DmitryKey/luke) This is mavenised Luke: Lucene Toolbox Project.
-5. [工具][Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
-
 ### [分词](中间件/搜索/分词/README.md)
-
-1. [JPinyin](https://github.com/stuxuhai/jpinyin) JPinyin是一个汉字转拼音的Java开源类库。不过好像被删除了，需要自己找了。
-2. [pinyin4j](https://github.com/belerweb/pinyin4j) A copy of <http://sourceforge.net/projects/pinyin4j>, then deploy it to maven central repository.
-3. [HanLP](http://hanlp.hankcs.com) 自然语言处理，中文分词，词性标注，命名实体识别，依存句法分析，关键词提取，新词发现，短语提取，自动摘要，文本分类等。
-4. [Word2VEC Java版本的一个实现](https://github.com/NLPchina/Word2VEC_java)
 
 ## [分布式定时调度](中间件/分布式定时调度/README.md)
 
-1. [Quartz](http://www.quartz-scheduler.org/)  Java任务调度库。(open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.)
+### [Quartz](中间件/分布式定时调度/Quartz/README.md)
 
-2. [Elastic-Job](https://github.com/xianglesong/learning-javas/blob/master/platform/Elastic-job.md) 当当网出品的这款产品也不错，可以进行分布式分片调度。开箱即用，很方便。(A distributed scheduled job framework, based on Quartz and Zookeeper.)
+[Quartz](http://www.quartz-scheduler.org/)  Java任务调度库。(open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.)
 
-3. [XXL-Job](https://www.xuxueli.com/xxl-job/)
+### [Elastic-Job](中间件/分布式定时调度/Elastic-Job/README.md)
+
+[Elastic-Job](https://github.com/xianglesong/learning-javas/blob/master/platform/Elastic-job.md) 当当网出品的这款产品也不错，可以进行分布式分片调度。开箱即用，很方便。(A distributed scheduled job framework, based on Quartz and Zookeeper.)
+
+### [XXL-Job](中间件/分布式定时调度/XXL-Job/README.md)
+
+[XXL-Job](https://www.xuxueli.com/xxl-job/)
 
 # [测试](测试/README.md)
 
