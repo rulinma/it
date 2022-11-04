@@ -31,7 +31,6 @@
   - [编译原理](#编译原理)
   - [数据库](#数据库)
     - [关系数据库](#关系数据库)
-      - [影子表](#影子表)
     - [非关系数据库](#非关系数据库)
       - [MongoDB](#mongodb)
       - [Neo4j](#neo4j)
@@ -44,13 +43,12 @@
     - [数据仓库](#数据仓库)
     - [ETL](#etl)
     - [数据挖掘](#数据挖掘)
-        - [数据挖掘工具](#数据挖掘工具)
   - [人工智能](#人工智能)
     - [机器学习](#机器学习)
     - [深度学习](#深度学习)
   - [学术](#学术)
     - [图灵奖](#图灵奖)
-    - [期刊杂志](#期刊杂志)
+    - [期刊杂志论文](#期刊杂志论文)
     - [论文](#论文)
     - [会议](#会议)
   - [资源](#资源)
@@ -350,7 +348,7 @@
 
 # [计算机基础](计算机基础/README.md)
 
-这里的内容主要是大学所需要学习的内容，入门级的放在这里，实际工作中需要的高级内容放在技术实战中。
+内容主要是大学所需要学习的内容，入门级的放在这里，实际工作中需要的高级内容放在技术实战中。
 
 ## [编程语言](计算机基础/编程语言/README.md)
 
@@ -372,21 +370,9 @@
 
 #### [Vim](计算机基础/操作系统/Unix和Linux/Vim/README.md)
 
-1. $输入$vimtutor en可以进入自带教程，好好学习，天天向上。
-2. [http://www.linfo.org/vi/index.html](http://www.linfo.org/vi/index.html)
-3. Emacs和VIM：神的编辑器和编辑器之神。
+Emacs和VIM：神的编辑器和编辑器之神。
 
 #### [Linux编程](计算机基础/操作系统/Unix和Linux/Linux编程/README.md)
-
-1. [图书]莱昂氏UNIX源代码分析
-2. [图书][Linux内核完全注释](http://product.dangdang.com/8914120.html)
-3. [图书][Unix编程艺术](http://product.dangdang.com/22863178.html) 被极客程序员奉如圭臬的神人神作。
-4. [图书][UNIX环境高级编程](http://product.dangdang.com/23481078.html)
-5. [图书][Linux内核设计与实现](http://product.dangdang.com/21065276.html)
-6. [图书][深入理解LINUX内核](http://product.dangdang.com/20046247.html)
-7. [图书][Unix网络编程](http://product.dangdang.com/23734637.html)
-8. [文章][Unix Network Programming](http://www.masterraghu.com/subjects/np/introduction/unix_network_programming_v1.3/toc.html)
-
 
 ### [Windows](计算机基础/操作系统/Windows/README.md)
 
@@ -394,143 +380,39 @@
 
 ## [编译原理](计算机基础/编译原理/README.md)
 
-1. [图书][经典][编译原理](http://product.dangdang.com/20427584.html) 传说中的龙书。编译原理的水平与程序员水平正相关，光会写程序，不能理解编译原理，是很难写出高水平程序的。龙书非常出名，谁学谁知道。工作后您可能会使用各种各样的语言，他们是如何工作和执行的，编译原理是不可或缺的重要一环。
-2. [图书][自制编程语言](http://product.dangdang.com/23363722.html)
-3. [图书][编译原理及实现](http://product.dangdang.com/23781751.html) 这本书个人时强热推荐的，我读研期间重新做编译器，主要参考此书，非常好。
-4. [文章][编译原理学习基本步骤](http://blog.csdn.net/longronglin/article/details/5920957)
-5. [文章][编译原理解析](http://blog.csdn.net/longronglin/article/details/1109436) 如果把我上面的内容学好，可以说编译原理掌握的不错了。特别是我的内容是参考上面的清华大学孙悦红老师的课本做的，还得到了其支持，感恩感谢。
-6. [图书][经典][计算机程序的构造和解释](http://product.dangdang.com/8793968.html)
-7. [图书][经典]两周自制脚本语言
-
 ## [数据库](计算机基础/数据库/README.md)
 
 ### [关系数据库](计算机基础/数据库/关系数据库/README.md)
-
-1. [图书][经典]Transact-SQL权威指南   
-2. [图书][Architecture of a Database System(数据库系统架构)](http://product.dangdang.com/1058752208.html)
-1. [图书][Head First SQL](http://product.dangdang.com/21040398.html)
-2. [图书][经典][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
-3. [图书][SQL必知必会(第3版)](http://product.dangdang.com/23246707.html)
-4. [图书][SQL教程（杨中科）](http://study.163.com/course/introduction/215012.htm#/courseDetail) 使用微软SQL Server讲解的。
-5. [MySQL](https://www.mysql.com)
-    * [图书][MySQL DBA修炼之道](http://product.dangdang.com/24194120.html) 数据库技术专家撰写，多年数据库领域的经验结晶。实战性强，从架构、调优、运维、开发、测试等多个角度对MySQL管理和维护进行了全方位的归纳和总结，包含大量来自实际生产环境的经典案例。
-    * [图书][MySQL数据库（高洛峰）](http://study.163.com/course/introduction/247003.htm#/courseDetail)
-6. [视频][尚学堂马士兵Oracle视频教程](http://study.163.com/course/introduction/344012.htm#/courseDetail)
-
-   * Codd 12 Rules
-   * 默认repeatable-read可重复读
-       * read-uncommitted(读取未提交)： 最低的隔离级别，允许读取尚未提交的数据变更，可能会导致脏读、幻读或不可重复读。
-		* read-committed(读取已提交)： 允许读取并发事务已经提交的数据，可以阻止脏读，但是幻读或不可重复读仍有可能发生。
-		* repeatable-read(可重复读)： 对同一字段的多次读取结果都是一致的，除非数据是被本身事务自己所修改，可以阻止脏读和不可重复读，但幻读仍有可能发生。
-		* serializable(可串行化)： 最高的隔离级别，完全服从ACID的隔离级别。所有的事务依次逐个执行，这样事务之间就完全不可能产生干扰，也就是说，该级别可以防止脏读、不可重复读以及幻读。 
-		
-   * CAP理论: 又称CAP定理，指的是在一个分布式系统中， Consistency（一致性）、 Availability（可用性）、Partition tolerance（分区容错性），三者不可得兼。
-    理论首先把分布式系统中的三个特性进行了如下归纳：
-      * 一致性（C）：在分布式系统中的所有数据备份，在同一时刻是否同样的值。（等同于所有节点访问同一份最新的数据副本）
-      * 可用性（A）：在集群中一部分节点故障后，集群整体是否还能响应客户端的读写请求。（对数据更新具备高可用性）
-      * 分区容错性（P）：以实际效果而言，分区相当于对通信的时限要求。系统如果不能在时限内达成数据一致性，就意味着发生了分区的情况，必须就当前操作在C和A之间做出选择。
-
-#### 影子表
-
-影子表指的是一张真实表“背后”创建的表。当完成建表操作后，可以通过一个原子的重命名操作切换影子表和原表。
-
-	drop table if exists user_new, user_old;
-	create table user_new like user;
-	rename table user to user_old, user_new to user;
 
 ### [非关系数据库](计算机基础/数据库/非关系数据库/README.md)
 
 #### [MongoDB](计算机基础/数据库/非关系数据库/MongoDB/README.md)
 
-1. [图书][MongoDB权威指南](http://product.dangdang.com/23399173.html)
-2. [工具][Robo 3T](https://robomongo.org/)  访问MongoDB的工具。(Robo 3T (formerly Robomongo) is the free lightweight GUI for MongoDB enthusiasts.)
-3. [工具][MongoHub](https://github.com/jeromelebel/MongoHub-Mac)  访问MongoDB的工具。(Mac Native Mongodb Client.)
 #### [Neo4j](计算机基础/数据库/非关系数据库/Neo4j/README.md)
-
-1. [Neo4j](https://neo4j.com/) The graph database platform.(图数据库平台)
 
 ## [计算机网络](计算机基础/计算机网络/README.md)
 
-1. [图书][经典][计算机网络自顶向下方法](http://product.dangdang.com/25299722.html)
-2. [图书][经典][TCP/IP详解卷1:协议](http://product.dangdang.com/23989588.html)
-3. [图书][经典][图解TCP/IP](http://product.dangdang.com/23265967.html)
-4. [视频][计算机网络技术与应用](http://study.163.com/course/courseMain.htm?courseId=1255007)
-5. [文章][从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen)
-6. [图书]网络是怎样连接的
-
 ## [软件工程](计算机基础/软件工程/README.md)
-
-1. [图书][软件工程](http://product.dangdang.com/25231549.html)
-2. [图书][经典][代码大全](http://product.dangdang.com/22543344.html)
-3. [图书][经典][人月神话](http://product.dangdang.com/23677487.html)
-4. [图书][经典][敏捷软件开发(原则模式与实践)](http://product.dangdang.com/8771440.html)
-5. [图书][经典][重构](http://product.dangdang.com/23734636.html)
-6. [图书][软件测试](http://product.dangdang.com/9159972.html)
-7. [图书]统一建模语言参考手册
-8. [图书]Clean Code
-9. [图书]Head First Object-Oriented Design and Analysis
-10. [图书]Domain-Driven Design - Tackling Complexity in the Heart of Software
 
 ## [计算机体系结构](计算机基础/计算机体系结构/README.md)
 
 ### [CPU](计算机基础/计算机体系结构/CPU/README.md)
 
-1. [文章][CISC模型微处理器设计（VHDL实现）](https://blog.csdn.net/longronglin/article/details/1055388)
-
 ### [汇编语言](计算机基础/计算机体系结构/汇编语言/README.md)
-
-1. [图书][经典][汇编语言](http://product.dangdang.com/25178843.html) 王爽的这版，我觉得入门是最好的。写的浅显易懂，更深入的需要看别的图书。
-2. [图书]Intel Architecture Software Developer's Manual Volume1: Basic Architecture
-3. [图书]Intel Architecture Software Developer's Manual Volume2:Instructions Set Reference
-4. [图书]Intel Architecture Software Developer's Manual Volume3:System Programming Guide
 
 ## [数据仓库和数据挖掘](计算机基础/数据仓库和数据挖掘/README.md)
 
 ### [数据仓库](计算机基础/数据仓库和数据挖掘/数据仓库/README.md)
 
-1. [图书][数据仓库](http://product.dangdang.com/9200409.html)
-2. [Teradata](https://www.teradata.com.cn)
 ### [ETL](计算机基础/数据仓库和数据挖掘/ETL/README.md)
 
-1. [工具][Talend](https://www.talend.com/resources/what-is-etl/)
-2. [工具][DataStage](https://www.ibm.com/us-en/marketplace/datastage) Delivers advanced enterprise ETL.
-
 ### [数据挖掘](计算机基础/数据仓库和数据挖掘/数据挖掘/README.md)
-
-1. [图书][数据挖掘：概念与技术](http://product.dangdang.com/22846300.html)
-2. [图书][数据挖掘：实用机器学习工具与技术](http://product.dangdang.com/23469858.html)
-3. 数据挖掘领域的十大经典算法
-    * C4.5
-    * The k-means algorithm
-    * Support vector machines
-    * The Apriori algorithm
-    * 最大期望(EM)算法
-    * PageRank
-    * AdaBoost
-    * kNN: k-nearest neighbor classification
-    * Naive Bayes
-    * CART: 分类与回归树
-
-##### 数据挖掘工具
-
-1. [经典][Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具)
-   * [文章][用 WEKA 进行数据挖掘:简介和回归](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
-   * [文章][用 WEKA 进行数据挖掘:分类和群集](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
-   * [文章][用 WEKA 进行数据挖掘:最近邻和服务器端库](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
-
 
 ## [人工智能](计算机基础/人工智能/README.md)
 
 ### [机器学习](计算机基础/人工智能/机器学习/README.md)
 
-1. [图书][推荐系统实践](http://product.dangdang.com/22775361.html)
-2. [GitHub][List of Recommender Systems](https://github.com/grahamjenson/list_of_recommender_systems)
-
 ### [深度学习](计算机基础/人工智能/深度学习/README.md)
-
-1. [图书][深度学习](http://product.dangdang.com/25111382.html)
-2. [DeepLearning](https://github.com/yusugomori/DeepLearning) Deep Learning (Python, C, C++, Java, Scala, Go) <http://yusugomori.com>
-3. [Deep Learning 中文翻译](https://github.com/exacity/deeplearningbook-chinese) Deep Learning Book Chinese Translation.
 
 ## [学术](计算机基础/学术/README.md)
 
@@ -538,19 +420,9 @@
 
 图灵：计算机之父。艾伦·麦席森·图灵（Alan Mathison Turing，1912年6月23日－1954年6月7日），英国数学家、逻辑学家，被称为计算机之父，人工智能之父。
 
-1. [历届图灵奖得主及贡献](https://amturing.acm.org)
-
-### [期刊杂志](计算机基础/学术/期刊杂志/README.md)
-
-1. [电脑报](http://www.icpcw.com)
-2. [ACM](https://www.acm.org)
-3. [IEEE](https://www.ieee.org)
+### [期刊杂志论文](计算机基础/学术/期刊杂志/README.md)
 
 ### [论文](计算机基础/学术/论文/README.md)
-
-1. [万方数据](http://www.wanfangdata.com.cn/index.html) 整合数亿条全球优质学术资源，集成期刊、学位、会议、科技报告、专利、视频等十余种资源类型，覆盖各研究层次，感知用户学术背景，智慧你的搜索。万方智搜致力于帮助用户精准发现、获取与沉淀学术精华。万方数据愿与合作伙伴共同打造知识服务的基石、共建学术生态。
-2. [中国知网](http://cnki.net) 中国知网知识发现网络平台—面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等。
-3. [维普](http://cqvip.com)
 
 ### [会议](计算机基础/学术/会议/README.md)
 
@@ -558,53 +430,9 @@
 
 ### [技术网站](计算机基础/资源/技术网站/README.md)
 
-1. [经典][Stack Overflow.com](https://stackoverflow.com) 问答网。
-2. [经典][GitHub](https://github.com) 程序员交友网。
-3. [经典][CSDN](http://www.csdn.net) 中国最大的程序员网站。
-4. [经典][InfoQ](http://www.infoq.com) 架构师网站。
-5. [ChinaUnix](http://www.chinaunix.net) 中国最大的Linux/Unix技术社区网站。
-6. [视频][经典][B站](https://www.bilibili.com)
-7. [视频][经典][YouTube](http://youtube.com)
-8. [阿里中间件团队博客](http://jm.taobao.org)
-9. [美团技术团队](https://tech.meituan.com)
-10. [网易乐得技术团队](http://tech.lede.com)
-11. [博客园](https://www.cnblogs.com) 博客园是一个面向开发者的知识分享社区。
-12. [网易云课堂](http://study.163.com)
-13. [传智播客](http://www.itcast.cn)
-14. [稀土掘金](https://juejin.cn)
-15. [Slideshare](https://www.slideshare.net) 技术ppt下载。
-16. [极客学院](http://www.jikexueyuan.com)
-
 ### [Github特色](计算机基础/资源/Github特色/README.md)
 
-1. [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)  A curated list of awesome frameworks, libraries and software for the Java programming language
-2. [https://github.com/jobbole/awesome-java-cn](https://github.com/jobbole/awesome-java-cn)  Java资源大全中文版。
-3. [https://github.com/Vedenin/useful-java-links](https://github.com/Vedenin/useful-java-links)  A list of useful Java frameworks, libraries, software and hello worlds examples.
-4. [https://github.com/Blankj/awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)  LeetCode of algorithms with java solution(updating).
-5. [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)  All Algorithms implemented in Java.
-6. [https://github.com/DuGuQiuBai/Java](https://github.com/DuGuQiuBai/Java)  27天成为Java大神。
-7. [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  Design patterns implemented in Java [http://java-design-patterns.com](http://java-design-patterns.com).
-8. [spring-boot](https://github.com/spring-projects/spring-boot)
-9. [dubbo](https://github.com/apache/incubator-dubbo)  Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework.
-10. [interviews](https://github.com/kdn251/interviews)  Everything you need to know to get the job.
-11. [成为一名专业程序员](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架。
-12. [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
 ### [资料](计算机基础/资源/资料/README.md)
-
-1. [经典][图书]编码的奥秘
-2. [经典][图书][黑客与画家](http://product.dangdang.com/21049598.html)
-3. [经典][图书][数学之美](http://product.dangdang.com/23594870.html)
-4. [图书][SEO实战密码——60天网站流量提高20倍](http://product.dangdang.com/23738363.html)
-5. [图书][点石成金](http://product.dangdang.com/23611791.html)
-6. [图书][用户体验要素：以用户为中心的产品设计](http://product.dangdang.com/21110580.html)
-7. [图书][设计之下——搜狐新闻客户端的用户体验设计（全彩）](http://product.dangdang.com/23409934.html)
-8. [图书][松本行弘的程序世界](http://product.dangdang.com/22471151.html)
-9. [图书][编程珠玑](http://product.dangdang.com/23640352.html)
-10. [图书]程序是怎样跑起来的
-11. [图书]计算机是怎样跑起来的
-12. [图书]编程之美
-13. [图书]程序员修炼之道
 
 # [前端](前端/README.md)
 

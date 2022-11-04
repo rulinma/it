@@ -9,6 +9,7 @@
 3. [图书][经典][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
 4. [图书][经典]The Art of Unix Programming
 5. [MINIX](http://www.minix3.org)
+
 ### 普通资料
 
 1. [GeekOS](http://geekos.sourceforge.net) The goal of GeekOS is to be a tool for learning about operating system kernels.  As of version 0.2.0, it comes with a set of projects suitable for use in an undergraduate operating systems course, or for self-directed learning.  GeekOS has been used in courses at a number of colleges and universities.

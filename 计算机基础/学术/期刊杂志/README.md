@@ -4,6 +4,10 @@
 
 ### 核心资料
 
+1. [电脑报](http://www.icpcw.com)
+2. [ACM](https://www.acm.org)
+3. [IEEE](https://www.ieee.org)
+
 ### 普通资料
 
 ### 学习步骤

@@ -4,8 +4,12 @@
 
 ### 核心资料
 
+
 ### 普通资料
 
+1. [图书][推荐系统实践](http://product.dangdang.com/22775361.html)
+2. [GitHub][List of Recommender Systems](https://github.com/grahamjenson/list_of_recommender_systems)
+ 
 ### 学习步骤
 
 ## 知识点
