@@ -148,9 +148,8 @@
   - [单元测试](#单元测试)
     - [Junit](#junit)
   - [集成测试](#集成测试)
-  - [集成测试](#集成测试-1)
+    - [JMeter](#jmeter)
   - [自动化测试](#自动化测试)
-    - [Selium](#selium)
   - [测试工具](#测试工具)
     - [挡板](#挡板)
 - [网络](#网络)
@@ -704,38 +703,16 @@ Extensible Markup Language.
 
 [JUnit](https://junit.org/junit4) A programmer-oriented testing framework for Java.(面向程序员的Java测试框架)
 
-1. [图书][经典]测试驱动开发
-2. [图书]JUnit in Action
-3. [图书]JUnit Recipes
-4. [EasyMock](http://easymock.org) EasyMock, makes mocking easier since 2001.(自2001年以来，EasyMock使得模拟变得更容易)
-
 ## [集成测试](测试/集成测试/README.md)
+### [JMeter](测试/集成测试/JMeter/README.md)
 
-1. [JMeter](http://jmeter.apache.org) The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.(pache JMeter™应用程序是开源软件，是一种100％纯Java应用程序，旨在加载测试功能行为和测量性能。 它最初是为测试Web应用程序而设计的，但后来扩展到其他测试功能)
-   * [图书][全栈性能测试修炼宝典 JMeter实战](http://product.dangdang.com/24048538.html)
-   * GUI
-   * CMD: bin/jmeter -n -t test.jmx -l test.jtl
-
-## [集成测试](测试/集成测试/README.md)
-
-1. [Sixpack](https://github.com/sixpack/sixpack-java) A Java client for the Sixpack A/B testing framework.
+[JMeter](http://jmeter.apache.org) The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.(pache JMeter™应用程序是开源软件，是一种100％纯Java应用程序，旨在加载测试功能行为和测量性能。 它最初是为测试Web应用程序而设计的，但后来扩展到其他测试功能)
 
 ## [自动化测试](测试/自动化测试/README.md)
-
-1. [图书][SRE：Google运维解密](http://product.dangdang.com/24032293.html)
-
-### [Selium](测试/自动化测试/Selium/README.md)
-
-[Selium](https://www.seleniumhq.org)  A browser automation framework and ecosystem.
-
-1. [图书][Selenium 2自动化测试实战——基于Python语言](http://product.dangdang.com/23851258.html)
-
 ## [测试工具](测试/测试工具/README.md)
-
 ### [挡板](测试/测试工具/挡板/README.md)
 
 # [网络](网络/README.md)
-
 ## [TCPIP](网络/TCPIP/README.md)
 ### [Socket](网络/Socket/README.md)
 
