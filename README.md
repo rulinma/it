@@ -22,7 +22,7 @@
     - [算法](#算法)
     - [设计模式](#设计模式)
   - [操作系统](#操作系统)
-    - [Unix/Linux](#unixlinux)
+    - [Unix和Linux](#unix和linux)
       - [Shell](#shell)
       - [Vim](#vim)
       - [Linux编程](#linux编程)
@@ -229,7 +229,7 @@
     - [高并发](#高并发)
     - [高性能](#高性能)
     - [高可用](#高可用)
-  - [Service Mesh](#service-mesh)
+  - [服务网格](#服务网格)
   - [复杂方案](#复杂方案)
     - [数据库](#数据库-2)
     - [缓存](#缓存-2)
@@ -252,7 +252,7 @@
   - [Kubernetes](#kubernetes)
 - [网站管理](#网站管理)
   - [站长工具](#站长工具)
-    - [Website Analystics](#website-analystics)
+    - [站点统计](#站点统计)
     - [IP查询](#ip查询-1)
 - [规范](#规范)
   - [开发规范](#开发规范)
@@ -348,65 +348,25 @@
 * 一个字：拆。
 * 256K is OK.(256K应该足够了。) -- Bill Gates（比尔 盖茨）
 
-# 计算机基础
+# [计算机基础](计算机基础/README.md)
 
 这里的内容主要是大学所需要学习的内容，入门级的放在这里，实际工作中需要的高级内容放在技术实战中。
 
-## 编程语言
+## [编程语言](计算机基础/编程语言/README.md)
 
-### C语言
+### [C语言](计算机基础/编程语言/C语言/README.md)
 
-1. [图书][经典][C程序设计语言](http://product.dangdang.com/8766529.html)
-2. [图书][经典][C程序设计语言(英文版)](http://product.dangdang.com/9196242.html)
-3. [图书][经典][C和指针](http://product.dangdang.com/20165942.html)
-4. [图书][经典]C Traps and Pitfalls
-5. [图书][经典]C和指针
-6. [视频][C语言程序设计](http://study.163.com/curricula/cs.htm)
+### [C++语言](计算机基础/编程语言/C++语言/README.md)
 
-### C++语言
+## [数据结构和算法](计算机基础/数据结构和算法/README.md)
 
-1. [经典]The C++ Programming Language
-2. [经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。
-3. [图书]GCC: The Complete Reference
-4. [文章]高质量C++/C编程指南 林锐博士。
-5. [源码][https://github.com/antirez/redis](https://github.com/antirez/redis)
-6. [源码][https://github.com/nginx/nginx](https://github.com/nginx/nginx)
-7. [图书]STL源码剖析
+### [算法](计算机基础/数据结构和算法/算法/README.md)
 
-## 数据结构和算法
+### [设计模式](计算机基础/数据结构和算法/设计模式/README.md)
 
-### 算法
+## [操作系统](计算机基础/操作系统/README.md)
 
-1. [图书][经典][算法导论](http://product.dangdang.com/22927209.html) 算法的最好的图书之一。
-2. [视频][经典][麻省理工学院公开课：算法导论](http://open.163.com/special/opencourse/algorithms.html) 老头讲的非常好，年轻的一般。
-3. [图书][经典][算法](http://product.dangdang.com/22880871.html) Knuth的学生写的，使用Java语言描述，值得一看。
-4. [图书][数据结构与算法分析：Java语言描述](http://product.dangdang.com/23918741.html)
-5. [图书][大话数据结构](http://product.dangdang.com/21088369.html)
-6. [图书][经典][Java数据结构和算法](http://product.dangdang.com/9323527.html) 英文《Data Structures & Algorithms in Java》Robert Lafore著，特别推荐。
-7. [视频][数据结构和算法](http://study.163.com/course/introduction/468002.htm)
-8. [数据学习的可视化网站](http://zh.visualgo.net)
-9. [图书][写给大家看的算法书](http://product.dangdang.com/23973878.html) 特别适合初学者学习，老手也有收获。
-10. [经典][leetcode](https://leetcode.com) 算法题库。
-11. [lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
-12. [ACM-ICPC](https://icpc.baylor.edu)
-13. [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html) 大神的书[Donald E. Knuth:图灵奖得主]
-14. [图书][计算机程序设计艺术 卷2 半数值算法](http://product.dangdang.com/24007299.html)
-15. [图书][计算机程序设计艺术 卷3 排序与查找](http://product.dangdang.com/24195308.html)
-16. [经典][算法学习笔记](https://github.com/nonstriater/Learn-Algorithms)
-
-### 设计模式
-
-1. [经典][图书][设计模式 可复用面向对象软件的基础](http://product.dangdang.com/71052.html)
-2. [图书]Java与模式
-3. [图书][Head First设计模式](http://product.dangdang.com/20021171.html)
-4. [图书]面向对象程序分析和设计
-5. [视频]设计模式有个微软的李建中视频，讲的非常到位，可以搜索看看。就是代码是C#的，但是思想是一样的，模式和语言无关。
-6. [GitHub][Design patterns implemented in Java(Java实现的设计模式)](https://github.com/iluwatar/java-design-patterns)
-7. [工具][StarUML](http://staruml.io) A sophisticated software modeler for agile and concise modeling.
-
-## 操作系统
-
-### Unix/Linux
+### [Unix和Linux](计算机基础/操作系统/Unix和Linux/README.md)
 
 1. [图书][经典][鸟哥的Linux私房菜](http://product.dangdang.com/20866026.html)
 2. [图书][经典][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
@@ -1443,7 +1403,7 @@ CICD：持续集成（CI），持续交付（CD）是指持续集成交付部署
 ### 高性能
 ### 高可用
 
-## Service Mesh
+## 服务网格
 
 ## 复杂方案
 
@@ -1517,7 +1477,7 @@ An open platform to connect, manage, and secure microservices.
 
 ## 站长工具
 
-### Website Analystics
+### 站点统计
 
 1. [Piwik](https://piwik.org)
 2. Baidu
