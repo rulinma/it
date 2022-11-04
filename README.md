@@ -287,16 +287,15 @@
   - [Mac工具](#mac工具)
   - [Python](#python)
   - [PHP](#php)
-  - [开源博客或CMS](#开源博客或cms)
-  - [dotNet](#dotnet)
+  - [CMS](#cms)
+  - [DotNet](#dotnet)
   - [Delphi](#delphi)
   - [认证](#认证)
-    - [网络](#网络-1)
+    - [网络认证](#网络认证)
     - [软考](#软考)
     - [Java认证](#java认证)
     - [Linux认证](#linux认证)
-    - [Oracle](#oracle-1)
-    - [DB2](#db2-1)
+    - [数据库认证](#数据库认证)
   - [英语](#英语)
     - [翻译工具](#翻译工具)
 - [感谢](#感谢)
@@ -328,6 +327,8 @@
 	* [工具]
 	* [网站]
 
+* TODO: 是未完待续的意思。
+  
 ### 心得体会
 
 * 一切都是逻辑。
@@ -1639,17 +1640,17 @@ An open platform to connect, manage, and secure microservices.
 1. [图书][PHP和MySQL Web开发](http://product.dangdang.com/20546846.html)
 2. [图书][深入PHP：面向对象、模式与实践](http://product.dangdang.com/22459608.html)
 
-## [开源博客或CMS](杂项/开源博客或CMS/README.md)
+## [CMS](杂项/CMS/README.md)
 
 1. [WordPress](https://cn.wordpress.org) WordPress是使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
 
-## [dotNet](杂项/dotNet/README.md)
+## [DotNet](杂项/DotNet/README.md)
 
 ## [Delphi](杂项/Delphi/README.md)
 
 ## [认证](杂项/认证/README.md)
 
-### [网络](杂项/认证/网络/README.md)
+### [网络认证](杂项/认证/网络认证/README.md)
 
 1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
 2. [鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
@@ -1671,9 +1672,7 @@ An open platform to connect, manage, and secure microservices.
 1. [认证][LPI Linux认证权威指南](http://product.dangdang.com/23217995.html)
 2. 红帽认证
 
-### [Oracle](杂项/认证/Oracle/README.md)
-
-### [DB2](杂项/认证/DB2/README.md)
+### [数据库认证](杂项/认证/数据库认证/README.md)
 
 ## [英语](杂项/英语/README.md)
 
