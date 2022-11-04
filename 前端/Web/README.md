@@ -1,8 +1,6 @@
 # Web
 
-## 工具
-
-### 开发工具
+## Web开发工具
 
 1. [工具][Visual Studio Code](https://code.visualstudio.com)
    1. 插件安装列表

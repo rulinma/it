@@ -70,7 +70,7 @@
         - [Angular](#angular)
         - [Bootstrap](#bootstrap)
         - [EasyUI](#easyui)
-    - [Xml](#xml)
+    - [XML](#xml)
     - [HTTP](#http)
     - [WebSocket](#websocket)
     - [图片库](#图片库)
@@ -735,20 +735,20 @@ JavaScript是web开发必须学习的，ECMAScript是其规则来源。
 
 ##### Angular
 
-[AngularJS](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架。)
+[AngularJS](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架)
 
 1. [图书][AngularJS学习手册](http://product.dangdang.com/23815176.html)
-2. [RDash](https://github.com/rdash/rdash-angular) AngularJS implementation of the RDash admin dashboard theme.(AngularJS实现的RDash管理仪表板主题。)
+2. [RDash](https://github.com/rdash/rdash-angular) AngularJS implementation of the RDash admin dashboard theme.(AngularJS实现的RDash管理仪表板主题)
 
 ##### Bootstrap
 
-[Bootstrap](https://getbootstrap.com/) Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.(Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包)
+[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.(Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包)
 
 ##### EasyUI
 
-[EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.(EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。 这些使您的应用程序适合当今的Web)
+[过时][EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.(EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web)
 
-### Xml
+### XML
 
 Extensible Markup Language(可扩展标记语言)
 
