@@ -696,24 +696,6 @@ JavaScript是web开发必须学习的，ECMAScript是其规则来源。
    * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.
    * 由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。
 
-1. [图书][JavaScript权威指南](http://product.dangdang.com/22722790.html)
-2. [图书][JavaScript高级程序设计](http://product.dangdang.com/22628333.html)
-3. [图书][JavaScript DOM编程艺术](http://product.dangdang.com/21049601.html)
-4. [图书][JavaScript语言精粹](http://product.dangdang.com/22872884.html)
-5. [图书][编写可维护的JavaScript](http://product.dangdang.com/23200995.html)
-6. [图书][高性能JavaScript](http://product.dangdang.com/23762095.html)
-7. [图书][深入理解JavaScript](http://product.dangdang.com/23838213.html)
-8. [图书][JavaScript函数式编程](http://product.dangdang.com/23742619.html)
-9. [图书][JavaScript设计模式](http://product.dangdang.com/23753847.html)
-10. [图书][JavaScript模式](http://product.dangdang.com/22819430.html)
-11. [图书][JavaScript经典实例](http://product.dangdang.com/23823045.html)
-12. [图书][数据结构与算法JavaScript描述](http://product.dangdang.com/23543139.html)
-13. [图书][编写可测试的JavaScript代码](http://product.dangdang.com/23648815.html)
-14. [图书][JavaScript & jQuery交互式Web前端开发](http://product.dangdang.com/23731286.html)
-15. [视频][李炎恢JavaScript教程 第一季](http://study.163.com/course/introduction/252008.htm)
-16. [视频][JavaScript（翁恺）](http://study.163.com/course/introduction/195001.htm)
-17. [视频][JavaScript面试题系列](http://study.163.com/course/introduction/742021.htm)
-
 #### NodeJS
 
 JavaScript运行环境。
