@@ -73,9 +73,9 @@
     - [XML](#xml)
     - [HTTP](#http)
     - [WebSocket](#websocket)
-    - [图片库](#图片库)
     - [Web开发工具](#web开发工具)
       - [VS Code](#vs-code)
+      - [图片库](#图片库)
   - [App](#app)
     - [Android](#android)
     - [iOS](#ios)
@@ -764,14 +764,13 @@ Extensible Markup Language(可扩展标记语言)
 
 ### WebSocket
 
-### 图片库
-
-1. http://www.fontawesome.com.cn/
-
 ### Web开发工具
 
 #### VS Code
 
+#### 图片库
+
+1. http://www.fontawesome.com.cn/
 
 ## App
 
