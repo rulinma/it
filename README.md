@@ -249,9 +249,10 @@
     - [缓存](#缓存-2)
     - [异地多活](#异地多活)
 - [图像](#图像)
-    - [图像处理](#图像处理)
+  - [图像处理](#图像处理)
+    - [ImageMagick](#imagemagick)
 - [音视频](#音视频)
-    - [FFmpeg](#ffmpeg)
+  - [FFmpeg](#ffmpeg)
 - [第三方](#第三方)
   - [推送](#推送)
     - [极光](#极光)
@@ -273,13 +274,18 @@
     - [API规范](#api规范)
 - [项目管理](#项目管理)
   - [需求管理](#需求管理)
+    - [Redmine](#redmine)
   - [Bug管理](#bug管理)
+    - [Bugzilla](#bugzilla)
+    - [Jira](#jira)
   - [版本管理](#版本管理)
     - [Git](#git)
     - [GitLab](#gitlab)
     - [Bitbucket](#bitbucket)
     - [SVN](#svn)
   - [文档管理](#文档管理)
+    - [DokuWiki](#dokuwiki)
+    - [Confluence](#confluence)
   - [管理方式](#管理方式)
     - [敏捷](#敏捷)
     - [Scrum](#scrum)
@@ -990,24 +996,20 @@ An open platform to connect, manage, and secure microservices.
 
 ### [数据库](架构设计/复杂方案/数据库/README.md)
 
-1. [文章][数据库秒级平滑扩容架构方案](https://cloud.tencent.com/developer/article/1048650)
-
 ### [缓存](架构设计/复杂方案/缓存/README.md)
 
-1. [文章][缓存那些事](https://tech.meituan.com/cache_about.html)
 ### [异地多活](架构设计/复杂方案/异地多活/README.md)
 
-1. [文章][搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s/T6mMDdtTfBuIiEowCpqu6Q)
-2. [文章][四步构建异地多活](https://mp.weixin.qq.com/s/hMD-IS__4JE5_nQhYPYSTg)
-
 # [图像](图像/README.md)
-### [图像处理](图像/图像处理/README.md)
+## [图像处理](图像/图像处理/README.md)
 
-1. [ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.(使用ImageMagick®创建，编辑，撰写或转换位图图像。)
+### [ImageMagick](图像/图像处理/ImageMagick/README.md)
+
+[ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.(使用ImageMagick®创建，编辑，撰写或转换位图图像。)
 
 # [音视频](音视频/README.md)
 
-### [FFmpeg](音视频/FFmpeg/README.md)
+## [FFmpeg](音视频/FFmpeg/README.md)
 
 [FFmpeg](https://ffmpeg.org)
 
@@ -1019,7 +1021,7 @@ An open platform to connect, manage, and secure microservices.
 
 ### [MQTT](第三方/推送/MQTT/README.md)
 
-1. [Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.(Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备)
+[Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.(Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备)
 
 ## [埋点](第三方/埋点/README.md)
 
@@ -1041,7 +1043,9 @@ An open platform to connect, manage, and secure microservices.
 
 ## [Kubernetes](云原生/Kubernetes/README.md)
 
-[Kubernetes](https://kubernetes.io) is an open-source system for automating deployment, scaling, and management of containerized applications.(Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理)
+[Kubernetes](https://kubernetes.io) is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理。
 
 # [网站管理](网站管理/README.md)
 
@@ -1054,12 +1058,6 @@ An open platform to connect, manage, and secure microservices.
 3. Google
 
 ### [IP查询](网站管理/站长工具/IP查询/README.md)
-
-1. 淘宝IP地址库: http://ip.taobao.com
-2. https://www.ipip.net/ip.html
-3. IP138: https://www.ip138.com
-4. GeoIP: https://geoip.com
-5. 纯真IP库: http://www.cz88.net
 
 # [规范](规范/README.md)
 
@@ -1084,12 +1082,18 @@ An open platform to connect, manage, and secure microservices.
 
 ## [需求管理](项目管理/需求管理/README.md)
 
-1. [Redmine](http://www.redmine.org/) Redmine is a flexible project management web application.(Redmine是一个灵活的项目管理Web应用程序)
+### [Redmine](项目管理/需求管理/Redmine/README.md)
 
+[Redmine](http://www.redmine.org/) Redmine is a flexible project management web application.(Redmine是一个灵活的项目管理Web应用程序)
 ## [Bug管理](项目管理/Bug管理/README.md)
 
-1. [Bugzilla](https://www.bugzilla.org/) Bugzilla is server software designed to help you manage software development.(Bugzilla是旨在帮助您管理软件开发的服务器软件)
-2. [Jira](https://www.atlassian.com/software/jira)
+### [Bugzilla](项目管理/Bug管理/Bugzilla/README.md)
+
+[Bugzilla](https://www.bugzilla.org/) Bugzilla is server software designed to help you manage software development.(Bugzilla是旨在帮助您管理软件开发的服务器软件)
+
+### [Jira](项目管理/Bug管理/Jira/README.md)
+
+[Jira](https://www.atlassian.com/software/jira)
 
 ## [版本管理](项目管理/版本管理/README.md)
 
@@ -1102,7 +1106,6 @@ An open platform to connect, manage, and secure microservices.
 4. [网站][gitignore][A collection of .gitignore templates](https://github.com/github/gitignore)
 5. [Mercurial](https://www.mercurial-scm.org) 源码控制管理工具。(Mercurial is a free, distributed source control management tool.)
 6. [SourceTree](https://www.sourcetreeapp.com/) 版本控制管理工具。(The friendly GUI for Mercurial and Git on your Mac.
-
 ### [GitLab](项目管理/版本管理/GitLab/README.md)
 
 [Gitlab](https://about.gitlab.com/) GitLab is the leading integrated product for modern software development. Connecting issue management, version control, code review, CI, CD, and monitoring.(GitLab是现代软件开发的领先集成产品。 连接问题管理，版本控制，代码审查，CI，CD和监控)
@@ -1117,9 +1120,13 @@ An open platform to connect, manage, and secure microservices.
 
 ## [文档管理](项目管理/文档管理/README.md)
 
-1. [DokuWiki](https://www.dokuwiki.org) DokuWiki是一个基于PHP开发的开源wiki引擎。它具有小巧、功能强大、灵活的特点，适合于中小团队和个人网站搭建知识库系统。
-2. [Confluence](https://www.atlassian.com/software/confluence) Confluence is content collaboration software that changes how modern teams work.(Confluence是内容协作软件，可以改变现代团队的工作方式)
+### [DokuWiki](项目管理/文档管理/DokuWiki/README.md)
 
+[DokuWiki](https://www.dokuwiki.org) DokuWiki是一个基于PHP开发的开源wiki引擎。它具有小巧、功能强大、灵活的特点，适合于中小团队和个人网站搭建知识库系统。
+
+### [Confluence](项目管理/文档管理/Confluence/README.md)
+
+[Confluence](https://www.atlassian.com/software/confluence) Confluence is content collaboration software that changes how modern teams work.(Confluence是内容协作软件，可以改变现代团队的工作方式)
 
 ## [管理方式](项目管理/管理方式/README.md)
 ### [敏捷](项目管理/管理方式/敏捷/README.md)
@@ -1166,7 +1173,6 @@ An open platform to connect, manage, and secure microservices.
 
 1. [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
 2. [图书]程序员面试宝典
-
 ## [题库](面试/题库/README.md)
 
 # [杂项](杂项/README.md)
@@ -1197,7 +1203,6 @@ An open platform to connect, manage, and secure microservices.
 22. [VMware](https://www.vmware.com)
 23. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
 24. [github文档]https://docs.github.com/cn
-
 ## [Python](杂项/Python/README.md)
 
 1. [图书][Python基础教程](http://product.dangdang.com/25218035.html)
