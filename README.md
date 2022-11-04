@@ -669,10 +669,14 @@
 12. [图书]编程之美
 13. [图书]程序员修炼之道
 
-
 # 前端
 
 ## Web
+
+给个形象的比喻：
+* HTML是名词
+* CSS是形容词
+* JavaScript是动词
 
 ### [HTML](前端/Web/HTML/README.md)
 
