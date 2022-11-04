@@ -673,7 +673,7 @@
 
 ## [Web](前端/Web/README.md)
 
-一个形象的比喻：
+网站由网页（WebPage）组成，而网页的实现一般由HTML、CSS和JavaScript实现，三者直接的关系有一个形象的比喻：
 * HTML是名词
 * CSS是形容词
 * JavaScript是动词
