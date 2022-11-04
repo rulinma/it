@@ -61,7 +61,7 @@
   - [Web](#web)
     - [HTML](#html)
     - [CSS](#css)
-    - [JavaScript](#javascript)
+    - [JavaScript(前端/Web/JavaScript/JavaScript.md)](#javascript前端webjavascriptjavascriptmd)
       - [NodeJS](#nodejs)
       - [框架和库](#框架和库)
         - [JQuery](#jquery)
@@ -690,11 +690,9 @@ HTML文档的样式语言。
 
 [CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen.
 
-### JavaScript
+### JavaScript(前端/Web/JavaScript/JavaScript.md)
 
-JavaScript是web开发必须学习的，ECMAScript是其规则来源。
-   * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.
-   * 由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。
+JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言（JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions）。
 
 #### NodeJS
 

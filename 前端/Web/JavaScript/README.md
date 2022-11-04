@@ -1,5 +1,10 @@
 # JavaScript
 
+JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言（JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions）。
+   * ECMAScript是其规则来源。
+   * Developed by Brendan Eich of Netscape, under the name of Mocha, then LiveScript, and finally JavaScript.
+   * 由Netscape的Brendan Eich开发，名为Mocha，然后是LiveScript，最后是JavaScript。
+
 ## 学习指南
 
 ### 核心资料
