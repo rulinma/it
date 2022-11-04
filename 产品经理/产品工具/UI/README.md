@@ -1,8 +1,11 @@
-# 开发规范
+# UI
 
 ## 学习指南
 
 ### 核心资料
+
+1. [图书]移动应用UI设计模式
+2. [网站]https://github.com/google/material-design-icons
 
 ### 普通资料
 
