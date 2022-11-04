@@ -106,7 +106,7 @@
       - [日志](#日志)
       - [Http工具](#http工具)
       - [Netty](#netty)
-      - [Netty](#netty-1)
+      - [时间工具](#时间工具)
       - [二维码](#二维码)
       - [内存数据库](#内存数据库)
       - [模版引擎](#模版引擎)
@@ -571,25 +571,9 @@ Extensible Markup Language.
 
 [Spring](https://spring.io)
 
-1. [图书]精通Spring
-2. [图书]Spring in Action
-3. [图书]Spring Recipes
-4. 推荐阅读一个[tiny-spring](https://github.com/code4craft/tiny-spring)
-
 #### [MyBatis](后端/Java应用/Java常用库及框架/MyBatis/README.md)
 
 [MyBatis](http://www.mybatis.org/mybatis-3)
-   * MyBatis Plus
-   * [聊聊MyBatis缓存机制](https://tech.meituan.com/2018/01/19/mybatis-cache.html)
-     - 一级缓存
-       - MyBatis一级缓存的生命周期和SqlSession一致。
-       - MyBatis一级缓存内部设计简单，只是一个没有容量限定的HashMap，在缓存的功能性上有所欠缺。
-       - MyBatis的一级缓存最大范围是SqlSession内部，有多个SqlSession或者分布式的环境下，数据库写操作会引起脏数据，建议设定缓存级别为Statement。
-     - 二级缓存
-       - MyBatis的二级缓存相对于一级缓存来说，实现了SqlSession之间缓存数据的共享，同时粒度更加的细，能够到namespace级别，通过Cache接口实现类不同的组合，对Cache的可控性也更强。
-       - MyBatis在多表查询时，极大可能会出现脏数据，有设计上的缺陷，安全使用二级缓存的条件比较苛刻。
-       - 在分布式环境下，由于默认的MyBatis Cache实现都是基于本地的，分布式环境下必然会出现读取到脏数据，需要使用集中式缓存将MyBatis的Cache接口实现，有一定的开发成本，直接使用Redis、Memcached等分布式缓存可能成本更低，安全性也更高。
-     - 本文对介绍了MyBatis一二级缓存的基本概念，并从应用及源码的角度对MyBatis的缓存机制进行了分析。最后对MyBatis缓存机制做了一定的总结，个人建议MyBatis缓存特性在生产环境中进行关闭，单纯作为一个ORM框架使用可能更为合适。
 
 #### [Hibernate](后端/Java应用/Java常用库及框架/Hibernate/README.md)
 
@@ -601,86 +585,35 @@ Extensible Markup Language.
 
 #### [IOC](后端/Java应用/Java常用库及框架/IOC/README.md)
 
-1. [Guice](https://github.com/google/guice) Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above, brought to you by Google.(Guice（发音为'juice'）是Google为您带来的Java 6及更高版本的轻量级依赖注入框架。)
-
 #### [AOP](后端/Java应用/Java常用库及框架/AOP/README.md)
-
-1. [AspectJ](http://www.eclipse.org/aspectj) A seamless aspect-oriented extension to the Java programming language.(面向Java编程语言的面向方面的无缝扩展。)
 
 #### [数据库连接池](后端/Java应用/Java常用库及框架/数据库连接池/README.md)
 
-1. [Druid](https://github.com/alibaba/druid)  为监控而生的数据库连接池！
-2. [DBCP](https://commons.apache.org/proper/commons-dbcp/)
-
 #### [日志](后端/Java应用/Java常用库及框架/日志/README.md)
-
-1. [Log4j](https://logging.apache.org/log4j/2.x/)
-2. [SLF4j](https://www.slf4j.org)
-3. [Logback](https://logback.qos.ch)
-4. [Common-Logging](http://commons.apache.org/proper/commons-logging)
 
 #### [Http工具](后端/Java应用/Java常用库及框架/Http工具/README.md)
 
-1. [HttpClient](https://hc.apache.org/httpcomponents-client-ga/)
-2. [OkHttp](http://square.github.io/okhttp/) An HTTP+HTTP/2 client for Android and Java applications.
-
 #### [Netty](后端/Java应用/Java常用库及框架/Netty/README.md)
 
-[Netty](https://github.com/xianglesong/learning-javas/blob/master/lib/Netty.md)   Netty算是Java的高级库了，掌握他，IO高级没问题。
-   (Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.)
-
-1. [图书]Netty in Action
-
-#### [Netty](后端/Java应用/Java常用库及框架/时间工具/README.md)
-
-1. [Joda](http://www.joda.org/joda-time/)  Joda-Time provides a quality replacement for the Java date and time classes.(Joda-Time为Java日期和时间类提供了高质量的替代品。)
+#### [时间工具](后端/Java应用/Java常用库及框架/时间工具/README.md)
 
 #### [二维码](后端/Java应用/Java常用库及框架/二维码/README.md)
 
-1. [ZXing](https://github.com/zxing/zxing) ZXing ("Zebra Crossing") barcode scanning library for Java, Android.(ZXing（“Zebra Crossing”）用于Java，Android的条形码扫描库。)
-
-2. [Tesseract](https://github.com/tesseract-ocr/tesseract) Tesseract Open Source OCR Engine.
-
 #### [内存数据库](后端/Java应用/Java常用库及框架/内存数据库/README.md)
-
-1. [MapDB](http://www.mapdb.org/)  MapDB provides Java Maps, Sets, Lists, Queues and other collections backed by off-heap or on-disk storage. It is a hybrid between java collection framework and embedded database engine.(MapDB提供由堆外或磁盘存储支持的Java映射，集，列表，队列和其他集合。 它是java集合框架和嵌入式数据库引擎之间的混合体。)
 
 #### [模版引擎](后端/Java应用/Java常用库及框架/模版引擎/README.md)
 
-1. [Velocity](http://velocity.apache.org) Velocity is a Java-based template engine.(Velocity是一个基于Java的模板引擎。)
-2. [FreeMarker](https://freemarker.apache.org) FreeMarker is a template engine.(FreeMarker是一个模板引擎。)
-
 #### [分片数据库访问](后端/Java应用/Java常用库及框架/分片数据库访问/README.md)
-
-1. [Sharding-jdbc](https://github.com/xianglesong/learning-javas/blob/master/lib/Sharding-jdbc.md)  分库分表的轻量级解决方法之一。(Distributed database middleware.)
 
 #### [RPC](后端/Java应用/Java常用库及框架/RPC/README.md)
 
-1. [Dubbo](https://github.com/xianglesong/learning-javas/blob/master/framework/Dubbo.md)
-  Dubbo作为一个分布式RPC框架，对于Java程序员来说，还是有必要学习一下的。(Apache Dubbo™ (incubating) is a high-performance, java based open source RPC framework.)
-2. [Thrift](https://github.com/xianglesong/learning-javas/blob/master/lib/Thrift.md)  RPC实现有多种方式，Thrift算是其中不错的框架之一。
-   (The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.)
+典型应用Dubbo。
 
 #### [序列化](后端/Java应用/Java常用库及框架/序列化/README.md)
 
-1. [Protobuf](https://github.com/google/protobuf) Protocol Buffers - Google's data interchange format <https://developers.google.com/protocol-buffers>.
-2. [Avro](https://avro.apache.org) Apache Avro™ is a data serialization system.
-
 #### [API文档](后端/Java应用/Java常用库及框架/API文档/README.md)
 
-1. [Swagger](https://swagger.io) Swagger aides in development across the entire API lifecycle, from design and documentation, to test and deployment.(Swagger在整个API生命周期的开发过程中提供帮助，从设计和文档到测试和部署)
-2. [Swagger-UI][swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
-
 ### [JVM](后端/Java应用/JVM/README.md)
-
-1. Arthas
-2. JVisualVM
-3. JProfile
-4. Eclicpse Memory Analyzer
-5. [Leakcanary](https://github.com/square/leakcanary) A memory leak detection library for Android and Java.(适用于Android和Java的内存泄漏检测库)
-6. https://gceasy.io
-7. [图书][经典]Java虚拟机规范
-8. [图书]自己动手写Java虚拟机
 
 ### [Scala](后端/Java应用/Scala/README.md)
 
@@ -688,15 +621,11 @@ Extensible Markup Language.
 
 ### [响应式编程](后端/Java应用/响应式编程/README.md)
 
-1. [RxJava](https://github.com/ReactiveX/RxJava) RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.(RxJava - JVM的Reactive Extensions - 一个使用Java VM的可观察序列组成异步和基于事件的程序的库)
-
 ## [流式计算](后端/流式计算/README.md)
 
 ### [Storm](后端/流式计算/Storm/README.md)
 
 [Storm](http://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system.(Apache Storm是一个免费的开源分布式实时计算系统。)
-
-1. [图书][Storm分布式实时计算模式](http://product.dangdang.com/23616223.html) Apache Storm 项目核心贡献者亲笔撰写，涵盖多种分布式计算相关主题。
 
 # [中间件](中间件/README.md)
 
