@@ -1,10 +1,11 @@
-# 网络安全
+# Hadoop
 
 ## 学习指南
 
 ### 核心资料
 
-1. [图书][白帽子讲Web安全](http://product.dangdang.com/23506094.html)
+1. [图书][经典]Hadoop权威指南
+2. [图书]Pro Hadoop
 
 ### 普通资料
 

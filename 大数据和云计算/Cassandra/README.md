@@ -1,8 +1,10 @@
-# C语言
+# Cassandra
 
 ## 学习指南
 
 ### 核心资料
+
+1. [图书][Cassandra权威指南](http://product.dangdang.com/25204594.html)
 
 ### 普通资料
 

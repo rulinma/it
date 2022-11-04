@@ -1,10 +1,10 @@
-# 网络安全
+# HBase
 
 ## 学习指南
 
 ### 核心资料
 
-1. [图书][白帽子讲Web安全](http://product.dangdang.com/23506094.html)
+1. [图书][HBase权威指南](http://product.dangdang.com/23336430.html)
 
 ### 普通资料
 

@@ -1,8 +1,10 @@
-# C语言
+# Mahout
 
 ## 学习指南
 
 ### 核心资料
+
+1. [图书]Mahout in Action
 
 ### 普通资料
 
