@@ -57,7 +57,7 @@
     - [技术网站](#技术网站)
     - [Github特色](#github特色)
     - [资料](#资料)
-- [前端](#前端)
+- [前端(前端/README.md)](#前端前端readmemd)
   - [Web](#web)
     - [HTML](#html)
     - [CSS](#css)
@@ -669,7 +669,7 @@
 12. [图书]编程之美
 13. [图书]程序员修炼之道
 
-# 前端
+# 前端(前端/README.md)
 
 ## [Web](前端/Web/README.md)
 
@@ -706,47 +706,39 @@ JavaScript运行环境。
 
 ##### JQuery
 
-[jQuery](https://jquery.com/)  is a fast, small, and feature-rich JavaScript library.
-
-1. [过时][图书][jQuery基础教程](http://product.dangdang.com/23352323.html)
-2. [过时][图书][精通jQuery](http://product.dangdang.com/23553774.html)
-3. [过时][图书]锋利的jQuery
-4. [过时][图书]JQuery实战
-5. [过时][图书]jQuery Pocket Reference
-6. [过时][图书]jQuery Reference Guide
+[jQuery](https://jquery.com)  is a fast, small, and feature-rich JavaScript library.
 
 ##### React
 
+[React](https://reactjs.org) is a JavaScript library for building user interfaces.
+
 ##### Vue
+
+[Vue](https://vuejs.org) The progressive JavaScript framework.
 
 ##### Angular
 
 [AngularJS](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架)
 
-1. [图书][AngularJS学习手册](http://product.dangdang.com/23815176.html)
-2. [RDash](https://github.com/rdash/rdash-angular) AngularJS implementation of the RDash admin dashboard theme.(AngularJS实现的RDash管理仪表板主题)
-
 ##### Bootstrap
 
-[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.(Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包)
+[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
+
+Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包。
 
 ##### EasyUI
 
-[过时][EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.(EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web)
+[过时][EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.
+
+EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web。
 
 ### XML
 
 Extensible Markup Language(可扩展标记语言)
 
-1. [http://www.w3school.com.cn/xml](http://www.w3school.com.cn/xml)
-2. [图书][XML入门经典](http://product.dangdang.com/23388817.html)
-3. [图书]无废话XML
-
 ### HTTP
 
 [Hypertext Transfer Protocol -- HTTP/1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
-
-1. [图书]HTTP权威指南
 
 ### WebSocket
 
@@ -755,8 +747,6 @@ Extensible Markup Language(可扩展标记语言)
 #### VS Code
 
 #### 图片库
-
-1. http://www.fontawesome.com.cn/
 
 ## App
 
