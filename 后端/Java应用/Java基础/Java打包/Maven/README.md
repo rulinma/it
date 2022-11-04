@@ -1,8 +1,10 @@
-# C语言
+# Maven
 
 ## 学习指南
 
 ### 核心资料
+
+1. [Maven仓库](https://mvnrepository.com) 方便查找库应用。
 
 ### 普通资料
 

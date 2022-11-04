@@ -538,8 +538,6 @@ Extensible Markup Language.
 
 ##### [Maven](后端/Java应用/Java基础/Java打包/Maven/README.md)
 
-1. [Maven仓库](https://mvnrepository.com) 方便查找库应用。
-
 ##### [Gradle](后端/Java应用/Java基础/Java打包/Gradle/README.md)
 ##### [Ant](后端/Java应用/Java基础/Java打包/Ant/README.md)
 
@@ -549,10 +547,6 @@ Extensible Markup Language.
 
 [IntelliJ](https://www.jetbrains.com/idea) 一款IDE工具，个人感觉比Eclipse要好，推荐使用。
 
-1. [Findbugs](http://findbugs.sourceforge.net) 一般用在IDE插件，帮助发现bug。(This is the web page for FindBugs, a program which uses static analysis to look for bugs in Java code. )
-1. [Checkstyle](https://checkstyle.org) Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.(Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。 默认情况下，它支持Google Java样式指南和Sun代码约定，但具有高度可配置性。 它可以使用ANT任务和命令行程序调用)
-   * [Checkstyle](https://github.com/checkstyle/checkstyle)
-
 ##### [Eclipse](后端/Java应用/Java基础/Java开发工具/Eclipse/README.md)
 
 [Eclipse](https://www.eclipse.org) The Platform for Open Innovation and Collaboration. 我们主要使用其Java的开发工具。
@@ -561,57 +555,15 @@ Extensible Markup Language.
 
 #### [Servlet](后端/Java应用/JavaEE/Servlet/README.md)
 
-A servlet is a Java technology based web component, managed by a container, that generates dynamic content. Like other Java-based components, servlets are platform independent Java classes that are compiled to platform neutral bytecode that can be loaded dynamically into and run by a Java enabled web server. Containers, some- times called servlet engines, are web server extensions that provide servlet function- ality. Servlets interact with web clients via a request/response paradigm implemented by the servlet container.
-
-Servlet是一种基于Java技术的Web组件，由容器管理，生成动态内容。 与其他基于Java的组件一样，Servlet是独立于平台的Java类，它们被编译为平台中性字节码，可以动态加载到支持Java的Web服务器并由其运行。 容器（有时称为Servlet引擎）是提供Servlet功能的Web服务器扩展。 Servlet通过Servlet容器实现的请求/响应范例与Web客户端进行交互。
-
-The servlet container is a part of a web server or application server that provides the network services over which requests and responses are sent, decodes MIME based requests, and formats MIME based responses. A servlet container also contains and manages servlets through their lifecycle.
-
-Servlet容器是Web服务器或应用程序服务器的一部分，它提供发送请求和响应的网络服务，解码基于MIME的请求，并格式化基于MIME的响应。 Servlet容器还包含并管理Servlet的生命周期。
-
-1. [图书][官方]Java™ Servlet Specification
-2. [图书][Head First Servlets & Jsp](http://product.dangdang.com/20926088.html)
-3. [图书]Java Servlet & JSP Cookbook
-4. [图书]Core Servlets and JavaServer Pages
-4. [文章][Servlet 工作原理解析](http://www.ibm.com/developerworks/cn/java/j-lo-servlet)
-5. [视频][Servlet Java  Web 编程（郭宏志）](http://study.163.com/course/introduction/648001.htms)
-
 #### [JSP](后端/Java应用/JavaEE/JSP/README.md)
-
-[过时]JSP: JavaServer Pages is a technology for developing web pages that include dynamic content. Unlike a plain HTML page, which contains static content that always remains the same, a JSP page can change its content based on any number of variable items, including the identity of the user, the user's browser type, information provided by the user, and selections made by the user.
-
-JSP：JavaServer Pages是一种用于开发包含动态内容的网页的技术。 与包含始终保持相同的静态内容的纯HTML页面不同，JSP页面可以根据任意数量的变量项更改其内容，包括用户的身份，用户的浏览器类型，用户提供的信息以及 用户做出的选择。
-JSP is a specification, not a product.
-JSP是规范，而不是产品。
-
-1. [过时][图书]JavaServer Pages Specification V2.1
-2. [过时][图书]JSP数据库编程指南
-3. [过时][图书]JSP设计
-4. [过时][图书]JSP高级编程
-5. [过时][视频][尚学堂Jsp快速入门（高淇）](http://study.163.com/course/courseMain.htm?courseId=1067001)
 
 #### [容器](后端/Java应用/JavaEE/容器/README.md)
 
 ##### [Tomcat](后端/Java应用/JavaEE/容器/Tomcat/README.md)
 
-[Tomcat](https://tomcat.apache.org/) The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies.(ApacheTomcat®软件是Java Servlet，JavaServer Pages，Java Expression Language和Java WebSocket技术的开源实现。)
-
-1. [图书][Tomcat权威指南](http://product.dangdang.com/20702017.html)
-2. [经典][图书][深入剖析Tomcat](http://product.dangdang.com/22585226.html) How Tomcat Works.
-
 ##### [Jetty](后端/Java应用/JavaEE/容器/Jetty/README.md)
 
-[Jetty](https://www.eclipse.org/jetty/) Eclipse Jetty provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. These components are open source and available for commercial use and distribution.(Eclipse Jetty提供了一个Web服务器和javax.servlet容器，以及对HTTP / 2，WebSocket，OSGi，JMX，JNDI，JAAS和许多其他集成的支持。 这些组件是开源的，可用于商业用途和分发。)
-
 #### [JavaEE资料](后端/Java应用/JavaEE/JavaEE资料/README.md)
-
-1. [图书][疯狂软件教育标准教材·轻量级Java EE企业应用实战(第4版):Struts 2+Spring 4+Hibernate整合开发(附光盘)](http://product.dangdang.com/23572565.html)
-2. [视频][JavaEE视频教程（郭宏志）](http://study.163.com/course/courseMain.htm?courseId=320027)
-3. [视频][30天轻松掌握JavaWeb视频（方立勋）](http://study.163.com/course/courseMain.htm?courseId=214022)
-4. [图书]J2EE Development without EJB
-5. [图书]J2EE设计开发编程指南
-6. [图书]IBM WebSphere Studio J2EE应用开发可以看看。
-7. [图书]JAVA消息服务
 
 ### [Java常用库及框架](后端/Java应用/Java常用库及框架/README.md)
 
