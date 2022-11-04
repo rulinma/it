@@ -690,11 +690,13 @@ HTML文档的样式语言。
 
 [CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen.
 
-### [JavaScript](前端/Web/JavaScript/JavaScript.md)
+### [JavaScript](前端/Web/JavaScript/README.md)
 
-JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言（JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions）。
+JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言。
 
-#### NodeJS
+JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+
+#### [NodeJS](前端/Web/JavaScript/NodeJS/README.md)
 
 JavaScript运行环境。
 
