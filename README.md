@@ -680,11 +680,15 @@
 
 ### [HTML](前端/Web/HTML/README.md)
 
-网页标记语言标准（[HTML](https://www.w3.org/TR/html) is the standard markup language for Web page）
+网页标记语言标准。
+
+[HTML](https://www.w3.org/TR/html) is the standard markup language for Web page.
 
 ### [CSS](前端/Web/CSS/README.md)
 
-HTML文档的样式语言（[CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen）
+HTML文档的样式语言。
+
+[CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen.
 
 ### JavaScript
 
