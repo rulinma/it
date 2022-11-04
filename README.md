@@ -724,15 +724,15 @@ JavaScript运行环境。
 
 ##### [Bootstrap](前端/Web/JavaScript/Bootstrap/README.md)
 
-[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
-
 Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包。
+
+[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
 
 ##### [EasyUI](前端/Web/JavaScript/EasyUI/README.md)
 
-[过时][EasyUI](https://www.jeasyui.com/) EasyUI for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.
+EasyUI 为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web。
 
-EasyUI for jQuery为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web。
+[过时][EasyUI](https://www.jeasyui.com/) for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.
 
 ### [XML](前端/Web/XML/README.md)
 
