@@ -61,7 +61,7 @@
   - [Web](#web)
     - [HTML](#html)
     - [CSS](#css)
-    - [JavaScript(前端/Web/JavaScript/JavaScript.md)](#javascript前端webjavascriptjavascriptmd)
+    - [JavaScript](#javascript)
       - [NodeJS](#nodejs)
       - [框架和库](#框架和库)
         - [JQuery](#jquery)
@@ -690,7 +690,7 @@ HTML文档的样式语言。
 
 [CSS](https://www.w3.org/TR/CSS) is the language we use to style an HTML documen.
 
-### JavaScript(前端/Web/JavaScript/JavaScript.md)
+### [JavaScript](前端/Web/JavaScript/JavaScript.md)
 
 JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言（JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions）。
 
@@ -698,7 +698,7 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 
 JavaScript运行环境。
 
-[Node.js](https://github.com/nodejs/node) JavaScript runtime.
+[Node.js](https://nodejs.org) JavaScript runtime.
 
 #### 框架和库
 
