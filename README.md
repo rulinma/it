@@ -485,9 +485,9 @@
 		* read-committed(读取已提交)： 允许读取并发事务已经提交的数据，可以阻止脏读，但是幻读或不可重复读仍有可能发生。
 		* repeatable-read(可重复读)： 对同一字段的多次读取结果都是一致的，除非数据是被本身事务自己所修改，可以阻止脏读和不可重复读，但幻读仍有可能发生。
 		* serializable(可串行化)： 最高的隔离级别，完全服从ACID的隔离级别。所有的事务依次逐个执行，这样事务之间就完全不可能产生干扰，也就是说，该级别可以防止脏读、不可重复读以及幻读。 
-		 
+		
    * CAP理论: 又称CAP定理，指的是在一个分布式系统中， Consistency（一致性）、 Availability（可用性）、Partition tolerance（分区容错性），三者不可得兼。
-  理论首先把分布式系统中的三个特性进行了如下归纳：
+    理论首先把分布式系统中的三个特性进行了如下归纳：
       * 一致性（C）：在分布式系统中的所有数据备份，在同一时刻是否同样的值。（等同于所有节点访问同一份最新的数据副本）
       * 可用性（A）：在集群中一部分节点故障后，集群整体是否还能响应客户端的读写请求。（对数据更新具备高可用性）
       * 分区容错性（P）：以实际效果而言，分区相当于对通信的时限要求。系统如果不能在时限内达成数据一致性，就意味着发生了分区的情况，必须就当前操作在C和A之间做出选择。
@@ -673,9 +673,13 @@
 ## [Web](前端/Web/README.md)
 
 互联网（Web）由网站组成（WebSite），网站又由网页（WebPage）组成，而网页的实现一般由HTML、CSS和JavaScript实现，三者的关系有一个形象的比喻：
-* HTML是名词
-* CSS是形容词
-* JavaScript是动词
+
+|            |        |
+| ---------- | ------ |
+| HTML       | 名词   |
+| CSS        | 形容词 |
+| JavaScript | 动词   |
+
 
 ### [HTML](前端/Web/HTML/README.md)
 
@@ -824,7 +828,7 @@ Extensible Markup Language(可扩展标记语言)
 1. [Findbugs](http://findbugs.sourceforge.net) 一般用在IDE插件，帮助发现bug。(This is the web page for FindBugs, a program which uses static analysis to look for bugs in Java code. )
 1. [Checkstyle](https://checkstyle.org) Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.(Checkstyle是一种开发工具，可帮助程序员编写符合编码标准的Java代码。 默认情况下，它支持Google Java样式指南和Sun代码约定，但具有高度可配置性。 它可以使用ANT任务和命令行程序调用)
    * [Checkstyle](https://github.com/checkstyle/checkstyle)
- 
+
 ##### Eclipse
 
 [Eclipse](https://www.eclipse.org) The Platform for Open Innovation and Collaboration. 我们主要使用其Java的开发工具。
@@ -1061,7 +1065,7 @@ JSP是规范，而不是产品。
 
 1. [图书][RabbitMQ实战：高效部署分布式消息队列](http://product.dangdang.com/23799313.html)
 1. [网站][Tutorials for using RabbitMQ in various ways](https://github.com/rabbitmq/rabbitmq-tutorials) 以各种方式使用RabbitMQ的教程<http://www.rabbitmq.com/getstarted.html>
- 
+
 ### RocketMQ
 
 ### Kafka
