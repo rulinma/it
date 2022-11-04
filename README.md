@@ -284,12 +284,12 @@
   - [面试资料](#面试资料)
   - [题库](#题库)
 - [杂项](#杂项)
-    - [Mac工具](#mac工具)
-      - [Python](#python)
-      - [PHP](#php)
-      - [开源博客或CMS](#开源博客或cms)
-      - [.net](#net)
-      - [Delphi](#delphi)
+  - [Mac工具](#mac工具)
+  - [Python](#python)
+  - [PHP](#php)
+  - [开源博客或CMS](#开源博客或cms)
+  - [dotNet](#dotnet)
+  - [Delphi](#delphi)
   - [认证](#认证)
     - [网络](#网络-1)
     - [软考](#软考)
@@ -299,7 +299,6 @@
     - [DB2](#db2-1)
   - [英语](#英语)
     - [翻译工具](#翻译工具)
-- [参考文献](#参考文献)
 - [感谢](#感谢)
 - [赞赏](#赞赏)
 
@@ -1432,32 +1431,32 @@ An open platform to connect, manage, and secure microservices.
 1. [文章][搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s/T6mMDdtTfBuIiEowCpqu6Q)
 2. [文章][四步构建异地多活](https://mp.weixin.qq.com/s/hMD-IS__4JE5_nQhYPYSTg)
 
-# 图像
-### 图像处理
+# [图像](图像/README.md)
+### [图像处理](图像/图像处理/README.md)
 
 1. [ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.(使用ImageMagick®创建，编辑，撰写或转换位图图像。)
 
-# 音视频
+# [音视频](音视频/README.md)
 
-### FFmpeg
+### [FFmpeg](音视频/FFmpeg/README.md)
 
 [FFmpeg](https://ffmpeg.org)
 
-# 第三方
+# [第三方](第三方/README.md)
 
-## 推送
+## [推送](第三方/推送/README.md)
 
-### 极光
+### [极光](第三方/推送/极光/README.md)
 
-### MQTT
+### [MQTT](第三方/推送/MQTT/README.md)
 
 1. [Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.(Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备)
 
-## 埋点
+## [埋点](第三方/埋点/README.md)
 
-### 神策
+### [神策](第三方/埋点/神策/README.md)
 
-# 云原生
+# [云原生](云原生/README.md)
 
 * 四要素
 	* 微服务
@@ -1465,27 +1464,27 @@ An open platform to connect, manage, and secure microservices.
 	* DevOps
 	* 持续交付
 
-## Docker
+## [Docker](云原生/Docker/README.md)
 
 [Docker](https://www.docker.com) Build, Manage and Secure Your Apps Anywhere. (随处构建，管理和保护您的应用程序)
 
-## Minicube
+## [Minicube](云原生/Minicube/README.md)
 
-## Kubernetes
+## [Kubernetes](云原生/Kubernetes/README.md)
 
 [Kubernetes](https://kubernetes.io) is an open-source system for automating deployment, scaling, and management of containerized applications.(Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理)
 
-# 网站管理
+# [网站管理](网站管理/README.md)
 
-## 站长工具
+## [站长工具](网站管理/站长工具/README.md)
 
-### 站点统计
+### [站点统计](网站管理/站长工具/站点统计/README.md)
 
 1. [Piwik](https://piwik.org)
 2. Baidu
 3. Google
 
-### IP查询
+### [IP查询](网站管理/站长工具/IP查询/README.md)
 
 1. 淘宝IP地址库: http://ip.taobao.com
 2. https://www.ipip.net/ip.html
@@ -1493,18 +1492,18 @@ An open platform to connect, manage, and secure microservices.
 4. GeoIP: https://geoip.com
 5. 纯真IP库: http://www.cz88.net
 
-# 规范
+# [规范](规范/README.md)
 
-## 开发规范
+## [开发规范](规范/开发规范/README.md)
 
-### 代码规范
+### [代码规范](规范/开发规范/代码规范/README.md)
 
 1. [Google Java 格式化](https://github.com/google/google-java-format) 推荐使用，插件比较多，各IDE支持好，程序员喜欢。Reformats Java source code to comply with Google Java Style.
 2. [Alibaba Java 编码规范](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
 
-### 版本规范
+### [版本规范](规范/开发规范/版本规范/README.md)
 
-### API规范
+### [API规范](规范/开发规范/API规范/README.md)
 
 1. [Google API Design Guide](https://cloud.google.com/apis/design)
 2. [GitHub][HTTP API Design Guide](https://github.com/interagent/http-api-design)
@@ -1512,20 +1511,20 @@ An open platform to connect, manage, and secure microservices.
 4. [RESTful API 论文](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 5. [Postman](https://www.getpostman.com/) API访问工具。Postman is the only complete API development environment, for API developers)
 
-# 项目管理
+# [项目管理](项目管理/README.md)
 
-## 需求管理
+## [需求管理](项目管理/需求管理/README.md)
 
 1. [Redmine](http://www.redmine.org/) Redmine is a flexible project management web application.(Redmine是一个灵活的项目管理Web应用程序)
 
-## Bug管理
+## [Bug管理](项目管理/Bug管理/README.md)
 
 1. [Bugzilla](https://www.bugzilla.org/) Bugzilla is server software designed to help you manage software development.(Bugzilla是旨在帮助您管理软件开发的服务器软件)
 2. [Jira](https://www.atlassian.com/software/jira)
 
-## 版本管理
+## [版本管理](项目管理/版本管理/README.md)
 
-### Git
+### [Git](项目管理/版本管理/Git/README.md)
 
 [Git](https://git-scm.com) Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.(Git是一个免费的开源分布式版本控制系统，旨在快速，高效地处理从小型到大型项目的所有事务。)
 1. [图书][Git权威指南](http://product.dangdang.com/21108669.html)
@@ -1535,32 +1534,32 @@ An open platform to connect, manage, and secure microservices.
 5. [Mercurial](https://www.mercurial-scm.org) 源码控制管理工具。(Mercurial is a free, distributed source control management tool.)
 6. [SourceTree](https://www.sourcetreeapp.com/) 版本控制管理工具。(The friendly GUI for Mercurial and Git on your Mac.
 
-### GitLab
+### [GitLab](项目管理/版本管理/GitLab/README.md)
 
 [Gitlab](https://about.gitlab.com/) GitLab is the leading integrated product for modern software development. Connecting issue management, version control, code review, CI, CD, and monitoring.(GitLab是现代软件开发的领先集成产品。 连接问题管理，版本控制，代码审查，CI，CD和监控)
 
-### Bitbucket
+### [Bitbucket](项目管理/版本管理/Bitbucket/README.md)
 
 [Bitbucket](https://bitbucket.org/product) 类似github的功能，不过是可以闭源。(Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test and deploy)
 
-### SVN
+### [SVN](项目管理/版本管理/SVN/README.md)
 
 [SnailSVN](https://langui.net/snailsvn) 访问svn工具。
 
-## 文档管理
+## [文档管理](项目管理/文档管理/README.md)
 
 1. [DokuWiki](https://www.dokuwiki.org) DokuWiki是一个基于PHP开发的开源wiki引擎。它具有小巧、功能强大、灵活的特点，适合于中小团队和个人网站搭建知识库系统。
 2. [Confluence](https://www.atlassian.com/software/confluence) Confluence is content collaboration software that changes how modern teams work.(Confluence是内容协作软件，可以改变现代团队的工作方式)
 
 
-## 管理方式
-### 敏捷
+## [管理方式](项目管理/管理方式/README.md)
+### [敏捷](项目管理/管理方式/敏捷/README.md)
 
 1. [图书][Scrum实战——敏捷软件项目管理与开发](http://product.dangdang.com/25294242.html)
 
-### Scrum
+### [Scrum](项目管理/管理方式/Scrum/README.md)
 
-## PMP
+## [PMP](项目管理/PMP/README.md)
 
 [PMP](https://www.pmi.org/) 美国项目管理工程师协会认证，全球认可，做项目管理的一定要学习。和国内软考的信息系统项目管理师考试雷同，考个国内的也可以，国外贵，单易考。
 
@@ -1568,42 +1567,42 @@ An open platform to connect, manage, and secure microservices.
 2. [图书][西游记PMP备考奇书](http://product.dangdang.com/23639808.html)
 3. [图书][汪博士解读PMP考试](http://product.dangdang.com/25229379.html)
 
-## 标准
-### ISO
+## [标准](项目管理/标准/README.md)
+### [ISO](项目管理/标准/ISO/README.md)
 
 [ISO](https://www.iso.org)
 
-### 国标
+### [国标](项目管理/标准/国标/README.md)
 
-# 产品经理
+# [产品经理](产品经理/README.md)
 
-## 学习资源
+## [学习资源](产品经理/学习资源/README.md)
 
 1. [网站][人人都是产品经理](http://www.woshipm.com)
 
-## 产品工具
+## [产品工具](产品经理/产品工具/README.md)
 
-### 原型
+### [原型](产品经理/产品工具/原型/README.md)
 
 1. [网站][Axure](https://www.axure.com) 原型设计。
 
-### UI
+### [UI](产品经理/产品工具/UI/README.md)
 
 1. [图书]移动应用UI设计模式
 2. [网站]https://github.com/google/material-design-icons
 
-# 面试
+# [面试](面试/README.md)
 
-## 面试资料
+## [面试资料](面试/面试资料/README.md)
 
 1. [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
 2. [图书]程序员面试宝典
 
-## 题库
+## [题库](面试/题库/README.md)
 
-# 杂项
+# [杂项](杂项/README.md)
 
-### Mac工具
+## [Mac工具](杂项/Mac工具/README.md)
 
 1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
 2. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
@@ -1630,56 +1629,55 @@ An open platform to connect, manage, and secure microservices.
 23. [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
 24. [github文档]https://docs.github.com/cn
 
-#### Python
+## [Python](杂项/Python/README.md)
 
 1. [图书][Python基础教程](http://product.dangdang.com/25218035.html)
 2. [图书]Python核心编程
 
-#### PHP
+## [PHP](杂项/PHP/README.md)
 
 1. [图书][PHP和MySQL Web开发](http://product.dangdang.com/20546846.html)
 2. [图书][深入PHP：面向对象、模式与实践](http://product.dangdang.com/22459608.html)
 
-#### 开源博客或CMS
+## [开源博客或CMS](杂项/开源博客或CMS/README.md)
 
 1. [WordPress](https://cn.wordpress.org) WordPress是使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。也可以把 WordPress当作一个内容管理系统（CMS）来使用。
 
-#### .net
+## [dotNet](杂项/dotNet/README.md)
 
-#### Delphi
+## [Delphi](杂项/Delphi/README.md)
 
-## 认证
+## [认证](杂项/认证/README.md)
 
-### 网络
+### [网络](杂项/认证/网络/README.md)
 
 1. [考证][CCNA学习指南](http://product.dangdang.com/22630120.html)
 2. [鸿鹄论坛](http://bbs.hh010.com) 鸿鹄论坛，国内专业的思科华为微软网络工程师技术社区。
 3. [工具][GNU](https://www.gnu.org/home.en.html) 网络模拟器。
 
-### 软考
+### [软考](杂项/认证/软考/README.md)
 
 [软考](http://www.ruankao.org.cn/)
    * 考试介绍 [http://www.ruankao.org.cn/platform](http://www.ruankao.org.cn/platform)
    * 软件设计师  个人觉得大三学生可以开始考这个，工作的就更容易了。
    * 信息系统项目管理师  这个偏管理的，主要是论文会卡人，容易的考个中级的系统集成项目管理工程师就可以，这个不考论文。
 
-### Java认证
+### [Java认证](杂项/认证/Java认证/README.md)
 
 1. OCJP（Oracle Certified Java Programmer），Oracle公司的Java工程师认证。通过该考试表明较好的掌握Java基础知识。
 
-### Linux认证
+### [Linux认证](杂项/认证/Linux认证/README.md)
 
 1. [认证][LPI Linux认证权威指南](http://product.dangdang.com/23217995.html)
 2. 红帽认证
 
-### Oracle
+### [Oracle](杂项/认证/Oracle/README.md)
 
-### DB2
+### [DB2](杂项/认证/DB2/README.md)
 
 ## [英语](杂项/英语/README.md)
 
 ### [翻译工具](杂项/英语/翻译工具/README.md)
-# 参考文献
 
 # 感谢
 
