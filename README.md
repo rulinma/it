@@ -671,9 +671,9 @@
 
 # 前端
 
-## Web
+## [Web](前端/Web/README.md)
 
-给个形象的比喻：
+一个形象的比喻：
 * HTML是名词
 * CSS是形容词
 * JavaScript是动词
