@@ -333,6 +333,8 @@
 - [杂项](#杂项)
   - [开发工具](#开发工具)
     - [Postman](#postman)
+    - [Fiddler](#fiddler)
+    - [Charles](#charles)
   - [Mac工具](#mac工具)
   - [Python](#python)
   - [PHP](#php)
@@ -1257,6 +1259,9 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 [Postman](https://www.getpostman.com)
 
 Postman is the only complete API development environment, for API developers.
+
+### [Fiddler](杂项/开发工具/Fiddler/README.md)
+### [Charles](杂项/开发工具/Charles/README.md)
 
 ## [Mac工具](杂项/Mac工具/README.md)
 ## [Python](杂项/Python/README.md)
