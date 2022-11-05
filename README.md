@@ -519,6 +519,10 @@ JavaScript运行环境。
 
 #### [TypeScript](前端/Web/JavaScript/TypeScript/README.md)
 
+[TypeScript](https://www.typescriptlang.org) TypeScript is JavaScript with syntax for types.
+
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
 #### [框架和库](前端/Web/JavaScript/框架和库/README.md)
 
 ##### [JQuery](前端/Web/JavaScript/JQuery/README.md)
