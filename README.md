@@ -1260,6 +1260,8 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 
 Postman is the only complete API development environment, for API developers.
 
+API测试、Mock Servers功能和自动化测试。
+
 ### [Fiddler](杂项/开发工具/Fiddler/README.md)
 ### [Charles](杂项/开发工具/Charles/README.md)
 
