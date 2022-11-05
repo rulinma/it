@@ -14,15 +14,15 @@
 
 ## 项目
 
-* [老马记单词项目管理](it-word-project-manage)
-* [老马记单词产品管理](it-word-product-manage)
-* [老马记单词Web之PC](it-word-web-pc)
-* [老马记单词Web之Mobile](it-word-web-mobile)
+* [老马记单词项目管理](https://github.com/rulinma/it-word-project-manage)
+* [老马记单词产品管理](https://github.com/rulinma/it-word-product-manage)
+* [老马记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
+* [老马记单词Web之Mobile](https://github.com/rulinma/it-word-web-mobile)
 * 老马记单词iOS
 * 老马记单词Android
-* [老马记单词后端](it-word-backend)
-* [老马记单词管理后台](it-word-manage-backend)
-* [老马记单词运维](it-word-devops)
+* [老马记单词后端](https://github.com/rulinma/it-word-backend)
+* [老马记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
+* [老马记单词运维](https://github.com/rulinma/it-word-devops)
 
 # 目录
 
