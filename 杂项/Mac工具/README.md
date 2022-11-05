@@ -4,7 +4,6 @@
 
 ### 核心资料
 
-
 1. [Alfred](https://www.alfredapp.com) Alfred is a productivity application for Mac OS X.
 2. [iTerm2](https://www.iterm2.com) iTerm2 is a replacement for Terminal and the successor to iTerm.
 3. Zsh
