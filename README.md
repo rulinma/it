@@ -178,7 +178,7 @@
   - [测试工具](#测试工具)
     - [挡板](#挡板)
 - [网络](#网络)
-  - [TCPIP](#tcpip)
+  - [TcpIp](#tcpip)
     - [Socket](#socket)
   - [SSL](#ssl)
   - [爬虫](#爬虫)
@@ -769,7 +769,7 @@ Apache JMeter™应用程序是开源软件，是一种100％纯Java应用程序
 ### [挡板](测试/测试工具/挡板/README.md)
 
 # [网络](网络/README.md)
-## [TCPIP](网络/TCPIP/README.md)
+## [TcpIp](网络/TcpIp/README.md)
 ### [Socket](网络/Socket/README.md)
 
 Socket是为了方便使用TCP或UDP而抽象出来的一层，位于应用层和传输控制层之间的一组接口，提供一套调用TCP/IP协议的API。
