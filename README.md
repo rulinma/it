@@ -85,6 +85,7 @@
     - [CSS](#css)
     - [JavaScript](#javascript)
       - [NodeJS](#nodejs)
+      - [TypeScript](#typescript)
       - [框架和库](#框架和库)
         - [JQuery](#jquery)
         - [React](#react)
@@ -511,6 +512,8 @@ JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programm
 JavaScript运行环境。
 
 [Node.js](https://nodejs.org) JavaScript runtime.
+
+#### [TypeScript](前端/Web/JavaScript/TypeScript/README.md)
 
 #### [框架和库](前端/Web/JavaScript/框架和库/README.md)
 
