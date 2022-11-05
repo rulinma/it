@@ -14,6 +14,8 @@
 
 ## 项目
 
+### 老马记单词
+
 * [老马记单词项目管理](https://github.com/rulinma/it-word-project-manage)
 * [老马记单词产品管理](https://github.com/rulinma/it-word-product-manage)
 * [老马记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
@@ -29,6 +31,7 @@
 - [程序员知识图谱和实战指南](#程序员知识图谱和实战指南)
   - [愿景](#愿景)
   - [项目](#项目)
+    - [老马记单词](#老马记单词)
 - [目录](#目录)
 - [导论](#导论)
   - [概述](#概述)
