@@ -90,6 +90,7 @@
       - [NodeJS](#nodejs)
       - [TypeScript](#typescript)
       - [框架和库](#框架和库)
+        - [Jest](#jest)
         - [JQuery](#jquery)
         - [React](#react)
         - [Vue](#vue)
@@ -527,6 +528,12 @@ JavaScript运行环境。
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 #### [框架和库](前端/Web/JavaScript/框架和库/README.md)
+
+##### [Jest](前端/Web/JavaScript/Jest/README.md)
+
+[Jest](https://jestjs.io) is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
 
 ##### [JQuery](前端/Web/JavaScript/JQuery/README.md)
 
