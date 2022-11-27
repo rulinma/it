@@ -15,6 +15,7 @@
 3. [网站][react-developer-roadmap](https://github.com/adam-golab/react-developer-roadmap)
 4. [网站][A DIY guide to build your own React](https://github.com/pomber/didact)
 5. [网站][实现一个 mini 版本的 react](https://blog.ywhoo.cn/docs/framework/react-mini)
+6. [网站][build-your-own-react](https://pomb.us/build-your-own-react)
 ### 普通资料
 
 1. [网站][UmiJS](https://umijs.org)
