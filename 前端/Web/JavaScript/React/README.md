@@ -4,6 +4,8 @@
 
 ## 学习指南
 
+1. [网站][Build your own React](https://pomb.us/build-your-own-react)
+2. [网站][A DIY guide to build your own React](https://github.com/pomber/didact)
 ### React学习路线图
 
 <img src="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" alt="React学习路线图"/>
