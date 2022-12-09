@@ -336,6 +336,7 @@
   - [题库](#题库)
 - [杂项](#杂项)
   - [开发工具](#开发工具)
+    - [ChatGPT](#chatgpt)
     - [Postman](#postman)
     - [Fiddler](#fiddler)
     - [Charles](#charles)
@@ -1267,6 +1268,8 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 # [杂项](杂项/README.md)
 
 ## [开发工具](杂项/开发工具/README.md)
+
+### [ChatGPT](https://openai.com/)
 
 ### [Postman](杂项/开发工具/Postman/README.md)
 
