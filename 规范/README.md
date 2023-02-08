@@ -12,7 +12,7 @@
 * mkdir /app/*
   * 应用程序等存放该目录
     * /app/$project
-      * /app/$project/startup
+      * /app/$project/service
         * 存放该项目的启动程序
       * /app/$project/timer/sh
         * 存放该项目的定时脚本
