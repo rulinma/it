@@ -2,6 +2,10 @@
 
 ## 学习指南
 
+* 使用JMeter工具
+* 使用Postman工具
+  * 项目上线前，上线后使用自动化脚本回归核心API接口，确保正确
+
 ### 核心资料
 
 * [图书][SRE：Google运维解密](http://product.dangdang.com/24032293.html)
