@@ -232,6 +232,12 @@
 - [DevOps](#devops)
   - [运维](#运维)
     - [定时任务](#定时任务)
+  - [版本管理](#版本管理)
+    - [Git](#git)
+      - [ConventionalCommits](#conventionalcommits)
+    - [GitLab](#gitlab)
+    - [Bitbucket](#bitbucket)
+    - [SVN](#svn)
     - [CICD](#cicd)
       - [Jenkins](#jenkins)
       - [Nexus](#nexus)
@@ -334,12 +340,6 @@
   - [Bug管理](#bug管理)
     - [Bugzilla](#bugzilla)
     - [Jira](#jira)
-  - [版本管理](#版本管理)
-    - [Git](#git)
-      - [ConventionalCommits](#conventionalcommits)
-    - [GitLab](#gitlab)
-    - [Bitbucket](#bitbucket)
-    - [SVN](#svn)
   - [文档管理](#文档管理)
     - [DokuWiki](#dokuwiki)
     - [Confluence](#confluence)
@@ -986,6 +986,33 @@ Zookeeper提供分布式同步功能，在今天的分布式系统中有广泛�
 
 ### [定时任务](DevOps/运维/定时任务/README.md)
 
+
+## [版本管理](DevOps/运维/版本管理/README.md)
+
+### [Git](DevOps/运维/版本管理/Git/README.md)
+
+[Git](https://git-scm.com) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git是一个免费的开源分布式版本控制系统，旨在快速，高效地处理从小型到大型项目的所有事务。
+
+#### [ConventionalCommits](DevOps/运维/版本管理/Git/ConventionalCommits/README.md)
+
+[约定式提交](https://www.conventionalcommits.org)
+
+### [GitLab](DevOps/运维/版本管理/GitLab/README.md)
+
+[Gitlab](https://about.gitlab.com/) is the leading integrated product for modern software development. Connecting issue management, version control, code review, CI, CD, and monitoring.
+
+GitLab是现代软件开发的领先集成产品。 连接问题管理，版本控制，代码审查，CI，CD和监控。
+
+### [Bitbucket](DevOps/运维/版本管理/Bitbucket/README.md)
+
+[Bitbucket](https://bitbucket.org/product) is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test and deploy.
+
+### [SVN](DevOps/运维/版本管理/SVN/README.md)
+
+[SnailSVN](https://langui.net/snailsvn)
+
 ### [CICD](DevOps/运维/CICD/README.md)
 
 CICD：持续集成（CI），持续交付（CD）是指持续集成交付部署，是一套流程实现软件的构建测试部署的自动化。
@@ -1310,32 +1337,6 @@ Bugzilla是旨在帮助您管理软件开发的服务器软件。
 ### [Jira](项目管理/Bug管理/Jira/README.md)
 
 [Jira](https://www.atlassian.com/software/jira)
-
-## [版本管理](项目管理/版本管理/README.md)
-
-### [Git](项目管理/版本管理/Git/README.md)
-
-[Git](https://git-scm.com) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-
-Git是一个免费的开源分布式版本控制系统，旨在快速，高效地处理从小型到大型项目的所有事务。
-
-#### [ConventionalCommits](项目管理/版本管理/Git/ConventionalCommits/README.md)
-
-[约定式提交](https://www.conventionalcommits.org)
-
-### [GitLab](项目管理/版本管理/GitLab/README.md)
-
-[Gitlab](https://about.gitlab.com/) is the leading integrated product for modern software development. Connecting issue management, version control, code review, CI, CD, and monitoring.
-
-GitLab是现代软件开发的领先集成产品。 连接问题管理，版本控制，代码审查，CI，CD和监控。
-
-### [Bitbucket](项目管理/版本管理/Bitbucket/README.md)
-
-[Bitbucket](https://bitbucket.org/product) is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test and deploy.
-
-### [SVN](项目管理/版本管理/SVN/README.md)
-
-[SnailSVN](https://langui.net/snailsvn)
 
 ## [文档管理](项目管理/文档管理/README.md)
 
