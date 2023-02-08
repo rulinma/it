@@ -116,6 +116,8 @@
   * 非挂起运行程序
 * systemctl
   * 为系统的启动和管理提供一套完整的解决方案
+  * systemd
+    * [精华][Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
 * firewall
   * 防火墙配置
 * screen
