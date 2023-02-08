@@ -54,5 +54,8 @@
 * GitHub Repositories
 * gitignore
 * Conventional Commits
+* shellcheck
+  * [ShellCheck, a static analysis tool for shell scripts](https://github.com/koalaman/shellcheck)
+  * 写shell超级助手
 
 ### 其他插件
