@@ -202,9 +202,18 @@ Redirecting to /bin/systemctl restart nginx.service
   > service nginx start
 ```
 
+#### Nginx开机自动重启
+
+``` shell
+  # 服务器nginx启动
+  > systemctl enable nginx.service
+    Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
+```
+
 ## 参考文献
 
 1. [Nginx怎么实现https](https://cloud.tencent.com/developer/article/1514933)
 2. [Nginx安装配置ssl模块支持https访问](https://blog.51cto.com/yang/2893940)
 3. [SSL证书不会安装配置？手把手教会你，3步搞定](https://zhuanlan.zhihu.com/p/112317355)
 4. [nginx使用ssl模块配置支持HTTPS访问](https://blog.csdn.net/duyusean/article/details/79348613)
+5. [systemd设置nginx开机自启动](https://cloud.tencent.com/developer/article/1677940)
