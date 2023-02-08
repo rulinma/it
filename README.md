@@ -848,8 +848,6 @@ A distributed scheduled job framework, based on Quartz and Zookeeper.
 
 ### [XXL-Job](中间件/分布式定时调度/XXL-Job/README.md)
 
-[XXL-Job](https://www.xuxueli.com/xxl-job/)
-
 # [测试](测试/README.md)
 
 ## [单元测试](测试/单元测试/README.md)
