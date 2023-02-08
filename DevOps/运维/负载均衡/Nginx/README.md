@@ -221,6 +221,10 @@ Redirecting to /bin/systemctl restart nginx.service
   # 服务器nginx启动
   > systemctl enable nginx.service
     Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
+  > systemctl list-units --type=service
+    nginx.service                      loaded active running The nginx HTTP and reverse proxy server
+  > systemctl disable nginx.service
+    Removed symlink /etc/systemd/system/multi-user.target.wants/nginx.service.
 ```
 
 #### Nginx服务挂掉自动重启
