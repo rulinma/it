@@ -53,6 +53,19 @@ Redirecting to /bin/systemctl status nginx.service
 
 [root@apple ~]# ls /var/log/nginx/
 
+[root@apple ~]# systemctl status nginx
+● nginx.service - The nginx HTTP and reverse proxy server
+   Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
+   Active: active (running) since 二 2023-02-07 20:48:41 CST; 20h ago
+ Main PID: 1240 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─1240 nginx: master process /usr/sbin/nginx
+           └─1241 nginx: worker process
+
+2月 07 20:48:41 apple systemd[1]: Starting The nginx HTTP and reverse proxy server...
+2月 07 20:48:41 apple nginx[1235]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+2月 07 20:48:41 apple nginx[1235]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+2月 07 20:48:41 apple systemd[1]: Started The nginx HTTP and reverse proxy server.
 ```
 
 #### 安装SSL证书
@@ -208,6 +221,13 @@ Redirecting to /bin/systemctl restart nginx.service
   # 服务器nginx启动
   > systemctl enable nginx.service
     Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
+```
+
+#### Nginx服务挂掉自动重启
+
+``` shell
+  # Nginx服务挂掉自动重启
+  
 ```
 
 ## 参考文献
