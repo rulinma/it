@@ -161,7 +161,6 @@
     - [Scala](#scala)
     - [Akka](#akka)
     - [响应式编程](#响应式编程)
-  - [流式计算](#流式计算)
     - [Storm](#storm)
 - [中间件](#中间件)
   - [数据库](#数据库-1)
@@ -224,6 +223,7 @@
   - [Mahout](#mahout)
   - [调度工具](#调度工具)
   - [分布式锁](#分布式锁)
+  - [流式计算](#流式计算)
     - [Zookeeper](#zookeeper)
 - [人工智能](#人工智能-1)
   - [推荐系统](#推荐系统)
@@ -766,8 +766,6 @@ MyBatis-Plus（简称 MP）是一个MyBatis(opens new window)的增强工具，�
 
 ### [响应式编程](后端/Java应用/响应式编程/README.md)
 
-## [流式计算](后端/流式计算/README.md)
-
 ### [Storm](后端/流式计算/Storm/README.md)
 
 [Storm](http://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system.
@@ -963,6 +961,8 @@ Apache Kylin™是一个开源的分布式分析引擎，旨在为支持极大�
 ## [调度工具](大数据和云计算/调度工具/README.md)
 
 ## [分布式锁](大数据和云计算/分布式锁/README.md)
+
+## [流式计算](后端/流式计算/README.md)
 
 ### [Zookeeper](大数据和云计算/分布式锁/Zookeeper/README.md)
 
