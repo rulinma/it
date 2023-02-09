@@ -248,6 +248,7 @@
 * yarn
   * 又一个前端包管理工具
 * expect
+  * 很多时候要输入密码，可以借助于该工具，比如mysql，ssh登录等
   ./expect.sh
 
   ``` shell
