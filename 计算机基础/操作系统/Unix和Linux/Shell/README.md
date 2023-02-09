@@ -60,6 +60,11 @@
   * 网络访问
   * 该命令可以用来测试网络情况访问情况，监控网页的响应时间等
     * curl -o /dev/test -s -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "http://127.0.0.1:8080/health"
+    * curl -o /dev/test -s -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "https://www.baidu.com"
+      * 0.004548::0.017515::0.130251::0.130386::5974.000
+    * curl -o /dev/test -s -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "https://www.xianglesong.com"
+      * 0.005135::0.078192::0.327840::0.327971::10879.000
+
 * ping
   * 测试网络是否可通
 * telnet
