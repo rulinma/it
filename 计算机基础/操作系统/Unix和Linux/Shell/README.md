@@ -247,6 +247,21 @@
   * 前端包管理工具
 * yarn
   * 又一个前端包管理工具
+* expect
+  ./expect.sh
+
+  ``` shell
+      #!/usr/bin/expect
+
+      # 首先安装好expect
+      # yum install -y expect tcl tclx tcl-devel
+
+      spawn mysql -h 127.0.0.1 -uroot -p
+      set timeout 100
+      expect "Enter password:"
+      send "123456\r"
+      interact
+  ``` shell
 
 ### 常见问题
 
