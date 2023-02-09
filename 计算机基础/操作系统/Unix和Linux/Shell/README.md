@@ -263,7 +263,7 @@
       expect "Enter password:"
       send "123456\r"
       interact
-  ``` shell
+  ```
 
 ### 常见问题
 
