@@ -56,3 +56,7 @@ id=3,deleted=1
 
 * [图书][Python基础教程](http://product.dangdang.com/25218035.html)
 * [图书]Python核心编程
+
+## 参考资料
+
+1. [Python3 MySQL 数据库连接 - PyMySQL 驱动](https://www.runoob.com/python3/python3-mysql.html)
