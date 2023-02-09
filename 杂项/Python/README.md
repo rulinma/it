@@ -25,7 +25,7 @@ __author__ = 'rulinma'
 
 import pymysql
 
-db = pymysql.connect(host="127.0.0.1",user="root",password="123456",database="rulin_test")
+db = pymysql.connect(host="127.0.0.1",user="root",password="123456",database="my_test")
 
 cursor = db.cursor()
 
