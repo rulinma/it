@@ -179,6 +179,7 @@
   * killall java
     * 所有java启动进程都会被kill
 * pkill
+  * pkill nginx
 * pstree
   * 查看进程树
 * who

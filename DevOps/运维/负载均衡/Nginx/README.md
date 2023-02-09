@@ -258,8 +258,71 @@ Redirecting to /bin/systemctl restart nginx.service
 #### Nginx服务挂掉自动重启
 
 ``` shell
+  [root@apple sh]# cat /lib/systemd/system/nginx.service
+  [Unit]
+  Description=The nginx HTTP and reverse proxy server
+  After=network-online.target remote-fs.target nss-lookup.target
+  Wants=network-online.target
+
+  [Service]
+  Type=forking
+  PIDFile=/run/nginx.pid
+  # Nginx will fail to start if /run/nginx.pid already exists but has the wrong
+  # SELinux context. This might happen when running `nginx -t` from the cmdline.
+  # https://bugzilla.redhat.com/show_bug.cgi?id=1268621
+  ExecStartPre=/usr/bin/rm -f /run/nginx.pid
+  ExecStartPre=/usr/sbin/nginx -t
+  ExecStart=/usr/sbin/nginx
+  ExecReload=/usr/sbin/nginx -s reload
+  KillSignal=SIGQUIT
+  TimeoutStopSec=5
+  KillMode=process
+  PrivateTmp=true
+  # 添加下面2行挂掉自动重启
+  Restart=always
+  RestartSec=5
+
+  [Install]
+  WantedBy=multi-user.target
+  [root@apple sh]#
+```
+
+``` shell
   # Nginx服务挂掉自动重启
-  
+  > systemctl daemon-reload
+  > systemctl start nginx
+```
+
+#### Nginx服务挂掉通过监控脚本自动重启
+
+##### 监控脚本
+
+mon_nginx.sh
+
+``` shell
+  #!/bin/bash
+
+  datetime=$(date "+%Y-%m-%d %H:%M:%S")
+
+  # ! 直接运行命令
+  if ! pgrep -x nginx &>/dev/null; then
+      echo "At time:$(date) Nginx is stop." >>/var/log/nginx_messages
+      service nginx start
+  fi
+
+  echo "end exec : " "$(basename "$0")" "${datetime}"
+
+```
+
+##### crontab定时
+
+每分钟检测，进程不在则重启。
+
+``` shell
+[root@apple sh]# crontab -l
+
+*/1 * * * * /app/xianglesong/timer/sh/mon_nginx.sh >> /data/backup/xianglesong/db/mon_nginx.log 2>&1
+
 ```
 
 ## 参考文献
