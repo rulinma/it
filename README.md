@@ -262,6 +262,7 @@
   - [日志系统](#日志系统)
     - [ELK](#elk)
   - [运维工具](#运维工具)
+    - [Ansible](#ansible)
     - [CMDB](#cmdb)
     - [IP查询](#ip查询)
 - [架构设计](#架构设计)
@@ -1080,6 +1081,8 @@ Nginx [engine x]是一个HTTP和反向代理服务器，一个邮件代理服务
 ### [ELK](DevOps/日志系统/ELK/README.md)
 
 ## [运维工具](DevOps/运维工具/README.md)
+
+### [Ansible](DevOps/运维工具/Ansible/README.md)
 
 ### [CMDB](DevOps/运维工具/CMDB/README.md)
 
