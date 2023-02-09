@@ -171,7 +171,14 @@
   * 查看进程
 * kill
   * 删除进程
+  * kill = kill -15
+  * kill -2 = CTRL + C
   * kill -9 pid
+* killall
+  * 杀死所有同名进程
+  * killall java
+    * 所有java启动进程都会被kill
+* pkill
 * pstree
   * 查看进程树
 * who
