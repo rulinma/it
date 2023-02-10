@@ -68,7 +68,14 @@
 * docker logs --help
 * docker inspect 6a64d8b3725d
 * docker stop 1d65d13b500b
+* docker stop gitlab
+  * 停止容器
 * docker rm container 1d65d13b500b
+  * 删除容器
+* docker rmi b08de10dc311
+  * 删除镜像
+  * docker ps -a
+    * 检查是否删除
 * docker run --name nginx -p 80:80 -v ~/data/nginx/nginx.conf:/etc/nginx/nginx.conf -v ~/data/nginx/www/:/usr/share/nginx/html/ -v ~/data/nginx/logs/:/var/log/nginx/ -v ~/data/nginx/conf/:/etc/nginx/conf.d --privileged=true -d nginx
 * docker exec -it nginx /bin/bash
 * docker cp 2ccb68715967:/etc/nginx/nginx.conf ~/data/nginx/
