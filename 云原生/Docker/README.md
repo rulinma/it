@@ -12,6 +12,8 @@
 * 学会dockfile文件内容
 * 自己写的程序放入dockr并对外提供服务
 
+* docker资源配置要注意，可以把CPU，内存，交换空间等调大点，否则不够容易引起问题
+
 * 搭建自己的docker harbor环境
 * 从自由docker harbor推送和获取镜像
 
