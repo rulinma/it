@@ -478,7 +478,7 @@
 
 ### Shell编程
 
-* shell脚本也是可以调试的
+* shell脚本调试
   * sh -x ./script.sh
 
   ``` shell
@@ -492,6 +492,65 @@
     + echo 'today is :2023-02-10'
     today is :2023-02-10
 
+  ```
+
+  * 代码内部设置
+  
+  ``` shell
+    > cat test.sh
+    #!/bin/bash
+
+    echo "start"
+    set -x
+    echo "today is :"$(date +'%Y-%m-%d')
+    set +x
+    echo "end"
+    > sh test.sh
+    start
+    ++ date +%Y-%m-%d
+    + echo 'today is :2023-02-10'
+    today is :2023-02-10
+    + set +x
+    end
+
+    ```
+  
+  * 文件开始标注
+
+  ``` shell
+    > cat test.sh
+    #!/bin/sh -x
+
+    echo "start"
+    echo "today is :"$(date +'%Y-%m-%d')
+    echo "end"
+    > ./test.sh
+    + echo start
+    start
+    ++ date +%Y-%m-%d
+    + echo 'today is :2023-02-10'
+    today is :2023-02-10
+    + echo end
+    end
+  ```
+
+* sh -v test.sh
+  * 显示输出打印命令行的原始内容
+  
+  ``` shell
+    > cat test.sh
+    #!/bin/sh
+
+    echo "today is :"$(date +'%Y-%m-%d')
+    echo "end"
+    > sh -v test.sh
+    #!/bin/sh
+
+    echo "today is :"$(date +'%Y-%m-%d')
+    date +'%Y-%m-%d'
+    today is :2023-02-10
+    echo "end"
+    end
   ```
 
 ### 运维常用命令
