@@ -61,10 +61,11 @@
     * 查看本地当前分支
   * git branch dev
     * 创建本地分支dev
-  * git checkout dev
-    * 切换到分支dev
-  * git push origin dev
-    * 推送分支dev到远程
+    * 后续操作：
+      * git checkout dev
+        * 切换到分支dev
+      * git push --set-upstream origin dev
+        * 推送分支dev到远程
   * git branch -d dev
     * 删除分支
   * git branch -r
