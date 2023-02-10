@@ -153,6 +153,7 @@
   * 卸载
 * yum
   * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
+  * yum search java | grep jdk
 * apt
   * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
 * find
@@ -165,12 +166,14 @@
     * 一般删除前端项目使用
   * find . -type d -empty -delete
     * 批量删除空文件夹
-  * find . -name *.log -type f -delete 
+  * find . -name *.log -type f -delete
     * 批量删除文件
 * locate
   * 查找文件
 * grep
-  * 正则查找文件
+  * 正则查找文件（global search regular expression(RE) and print out the line）
+  * grep "text" . -r -n
+    * 在当前目录下搜索text，并递归执行，输出字符串所在文件行数
 * scp
   * 传输文件
     * scp local_file
@@ -297,6 +300,9 @@
       interact
   ```
 
+  * rpm
+    * rpm -qa | grep java
+  
 ### 常见问题
 
 * $? is used to find the return value of the last executed command. 返回上次命令执行的返回值，shell中一般0表示成功。
