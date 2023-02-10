@@ -362,9 +362,10 @@
   0
   ls: test.txt: No such file or directory
   1
+
   ```
 
-* \$\$
+* \$$
   * 指的是脚本运行的当前进行id号。
   
   ``` shell
