@@ -67,7 +67,7 @@
     * 删除分支
   * git branch -r
     * 显示远程分支
-  * git push origin -d feature-init-base
+  * git push origin -d dev
     * 删除远程分支
   * git remote update origin --prune
     * 更新远程分支信息到本地
