@@ -4,7 +4,7 @@ minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 
 ## 常用命令
 
-**我从以前的笔记里拿出来的，待整理。**
+**我从以前实际项目中使用的笔记里拿出来的，还有很多，待整理。**
 
 * minikube start --driver=docker
 * minikube start
