@@ -313,18 +313,18 @@
 * $0
   * 返回执行shell脚本的名称
 
-    ``` shell
-    > cat test.sh 
-    #!/bin/bash
+  ``` shell
+  > cat test.sh 
+  #!/bin/bash
 
-    echo "$0"
+  echo "$0"
 
-    > sh test.sh
-    test.sh
+  > sh test.sh
+  test.sh
 
-    > ./test.sh
-    ./test.sh
-    ```
+  > ./test.sh
+  ./test.sh
+  ```
 
 * $1
   * 返回对应位置参数
@@ -364,7 +364,7 @@
   1
   ```
 
-* $$
+* $\$
   * 指的是脚本运行的当前进行id号。
   
   ``` shell
