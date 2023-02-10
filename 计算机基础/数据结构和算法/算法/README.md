@@ -20,6 +20,7 @@
   * [Leetcode力扣 1-300题视频讲解合集](https://www.bilibili.com/video/BV1xa411A76q)
   * [程序媛分享 | LeetCode小白如何上手刷题？](https://www.bilibili.com/video/BV1nJ411n7dV)
   * [新手必看，如何上手刷题？刷完300题的干货攻略LeetCode](https://www.bilibili.com/video/BV1yi4y1M7b6)
+  * 大神们刷题太快了，我开始是怀疑的，然后就提问了一下，然后就有人给直播刷题视频了，是真的牛，基本30分钟4道没问题。
 * [lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
 * [ACM-ICPC](https://icpc.baylor.edu)
 * [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html) 大神的书[Donald E. Knuth:图灵奖得主]
