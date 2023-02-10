@@ -85,3 +85,4 @@
 5. [goharbor](https://goharbor.io)
 6. [harbor](https://github.com/goharbor/harbor)
 7. [commandline](https://docs.docker.com/engine/reference/commandline/docker)
+8. [gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce)
