@@ -6,7 +6,9 @@
 
 * 推拉流
 * 合成流
-* 合成字幕和视频流
+* 图片转视频
+* 合成音频到视频
+* 合成字幕到视频
 * 视频流添加字幕
 
 ### 常用命令
@@ -33,15 +35,10 @@
 * ffmpeg -i test.mp4 -filter_complex "drawtext=fontcolor=black:fontsize=40:fontfile=msyh.ttf:text='Summer Video':enable='between(t,1,10)':x=0:y=100" -max_muxing_queue_size 9999  -y output.mp4
   * 添加文字
 
-### 核心资料
-
-### 普通资料
-
-### 学习步骤
-
-## 知识点
-
 ## 项目实战
+
+* [AI记单词：10000词汇词频顺序基础版（5小时背诵8861个单词）](https://www.bilibili.com/video/BV12b4y1o77R)
+  * 这个是我综合使用音视频等技术智能生成的效果，可以搜索AI记单词查找类似视频
 
 ## 参考文献
 
