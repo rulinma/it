@@ -17,6 +17,9 @@
 * [数据学习的可视化网站](http://zh.visualgo.net)
 * [图书][写给大家看的算法书](http://product.dangdang.com/23973878.html) 特别适合初学者学习，老手也有收获。
 * [经典][leetcode](https://leetcode.com) 算法题库。
+  * [Leetcode力扣 1-300题视频讲解合集](https://www.bilibili.com/video/BV1xa411A76q)
+  * [程序媛分享 | LeetCode小白如何上手刷题？](https://www.bilibili.com/video/BV1nJ411n7dV)
+  * [新手必看，如何上手刷题？刷完300题的干货攻略LeetCode](https://www.bilibili.com/video/BV1yi4y1M7b6)
 * [lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
 * [ACM-ICPC](https://icpc.baylor.edu)
 * [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html) 大神的书[Donald E. Knuth:图灵奖得主]
