@@ -310,19 +310,29 @@
   
 ### 常见问题
 
-* $? is used to find the return value of the last executed command. 返回上次命令执行的返回值，shell中一般0表示成功。
+* $?
+  * is used to find the return value of the last executed command.
+  * 返回上次命令执行的返回值，shell中一般0表示成功。
 
-* && means “AND”. And in command execution context like this, it means items to the left as well as right of && should be run in sequence in this case. 表示常规的与操作。
+* &&
+  * means “AND”. And in command execution context like this, it means items to the left as well as right of && should be run in sequence in this case.
+  * 表示常规的与操作。
 
-* & means that the preceding commands—to the immediate left of the &—should simply be run in the background. 表示后台执行。
+* &
+  * means that the preceding commands—to the immediate left of the &—should simply be run in the background.
+  * 表示后台执行。
 
-* \>& is the syntax to redirect a stream to another file descriptor. echo test 1>&2 To redirect stdout to stderr. 重定向标准输出到标准错误。
+* \>&
+  * is the syntax to redirect a stream to another file descriptor. echo test 1>&2 To redirect stdout to stderr.
+  * 重定向标准输出到标准错误。
 
   * 0 is stdin, 标准输入
   * 1 is stdout, 标准输出
   * 2 is stderr, 标准错误
 
-* /dev/null is the null file. Anything written to it is discarded. 表示空文件，任何输入会被丢弃。
+* /dev/null
+  * is the null file. Anything written to it is discarded.
+  * 表示空文件，任何输入会被丢弃。
 
 ### 运维常用命令
 
