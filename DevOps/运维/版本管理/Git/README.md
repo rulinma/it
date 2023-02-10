@@ -44,6 +44,8 @@
   * git tag recommend-watch.1.0.0.20170214D1
   * git tag -d recommend-watch.1.0.0.20170214D1
   * git tag –l
+  * git push origin 0.0.1
+    * 推送本地tag到远程仓库
 * git push
   * git push origin recommend-watch.1.0.0.20170214D1
   * git push --force
@@ -52,8 +54,25 @@
   * git diff hello.java
   * git diff 0a70dd 6fc267
 * git branch
+  * git branch
+    * git branch --list
+    * 查看本地当前分支
+  * git branch dev
+    * 创建本地分支dev
+  * git checkout dev
+    * 切换到分支dev
+  * git push origin dev
+    * 推送分支dev到远程
   * git branch -d dev
     * 删除分支
+  * git branch -r
+    * 显示远程分支
+  * git push origin -d feature-init-base
+    * 删除远程分支
+  * git remote update origin --prune
+    * 更新远程分支信息到本地
+  * git branch -a
+    * 显示本地和远程所有分支信息
 * git show-branch
 * git stash
   * git stash list
