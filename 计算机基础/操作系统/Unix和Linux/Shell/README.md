@@ -310,9 +310,151 @@
   
 ### 常见问题
 
+* $0
+  * 返回执行shell脚本的名称
+
+    ``` shell
+    > cat test.sh 
+    #!/bin/bash
+
+    echo "$0"
+
+    > sh test.sh
+    test.sh
+
+    > ./test.sh
+    ./test.sh
+    ```
+
+* $1
+  * 返回对应位置参数
+
+  ``` shell
+  > cat test.sh 
+  #!/bin/bash
+
+  echo "$0"
+  echo "$1"
+  echo "$2"
+
+  > sh test.sh a b c
+  test.sh
+  a
+  b
+  ```
+
 * $?
   * is used to find the return value of the last executed command.
   * 返回上次命令执行的返回值，shell中一般0表示成功。
+
+  ``` shell
+  > cat test.sh 
+  #!/bin/bash
+
+  pwd
+  echo $?
+
+  ls test.txt
+  echo $?
+
+  > sh test.sh
+  /Users/rollin/shell
+  0
+  ls: test.txt: No such file or directory
+  1
+  ```
+
+* $$
+  * 指的是脚本运行的当前进行id号。
+  
+  ``` shell
+  > cat test.sh
+  #!/bin/bash
+
+  echo $$
+  sleep 10
+
+  > sh test.sh
+  85525
+
+  ```
+
+* $*
+  * 所有参数，当有多个参数的时候，所有参数拼成一个长字符串作为一个参数
+* $@
+  * 所有参数，当有多个参数的时候，每个参数占用一个数组元素
+
+  ``` shell
+  > cat test.sh
+  #!/bin/bash
+
+  echo '$* ':"$*"
+  echo '$@ ':"$@"
+
+  echo "* show 1"
+  for i in $*; do
+      echo "$i"
+  done
+
+  echo "* show 2"
+  for i in "$*"; do
+      echo "$i"
+  done
+
+  echo "@ show"
+  for i in "$@"; do
+      echo "$i"
+  done
+
+  > sh test.sh a b c
+  $* :a b c
+  $@ :a b c
+  * show 1
+  a
+  b
+  c
+  * show 2
+  a b c
+  @ show
+  a
+  b
+  c
+  ```
+
+* $#
+  * 参数的个数
+
+  ``` shell
+  > cat test.sh
+  #!/bin/bash
+
+  echo '$# ':"$#"
+
+  > sh test.sh a b c
+  3
+
+  ```
+
+* $!
+  * 显示shell脚本中上一个后台执行命令的进程id号
+
+  ``` shell
+  > cat test.sh
+  #!/bin/bash
+
+  sleep 10 &
+  echo '$!':$!
+  sleep 10
+
+  > sh test.sh &
+  [1] 4470
+  $!:4474    
+
+  > ps -ef|grep sleep
+  502  4474  4470   0  2:30下午 ttys001    0:00.01 sleep 10
+  502  4476  4470   0  2:30下午 ttys001    0:00.01 sleep 10
+  
+  ```
 
 * &&
   * means “AND”. And in command execution context like this, it means items to the left as well as right of && should be run in sequence in this case.
