@@ -1240,7 +1240,7 @@ An open platform to connect, manage, and secure microservices.
 
 ## [图像处理](图像/图像处理/README.md)
 
-### [ImageMagick](图像/图像处理/ImageMagick/README.md)
+### [ImageMagick](图像/图像处理/ImageMagic/README.md)
 
 [ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.
 
