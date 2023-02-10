@@ -173,7 +173,12 @@
 * grep
   * 正则查找文件（global search regular expression(RE) and print out the line）
   * grep "text" . -r -n
-    * 在当前目录下搜索text，并递归执行，输出字符串所在文件行数
+    * 在当前目录下搜索text，并递归查找子目录，输出字符串所在文件行数
+    * grep "redis-server" . -rn
+  * grep "text" test.sh
+    * 在文件test.sh中搜索text
+    * grep "text" test.sh -n
+      * 在文件test.sh中搜索text，输出字符串所在文件行数
 * scp
   * 传输文件
     * scp local_file
