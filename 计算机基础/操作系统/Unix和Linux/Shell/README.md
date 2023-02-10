@@ -157,6 +157,16 @@
   * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
 * find
   * 查找文件
+  * find . -type d -name target -exec rm -fr "{}" \;
+    * 批量强制删除文件夹
+    * 一般删除java项目使用
+  * find . -type d -name node_modules -exec rm -fr "{}" \;
+    * 批量强制删除文件夹
+    * 一般删除前端项目使用
+  * find . -type d -empty -delete
+    * 批量删除空文件夹
+  * find . -name *.log -type f -delete 
+    * 批量删除文件
 * locate
   * 查找文件
 * grep
