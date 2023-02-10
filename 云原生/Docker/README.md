@@ -22,6 +22,48 @@
 * docker
 * docker info
 * docker ps
+  * 查看当前运行容器
+  * docker ps -a
+    * 查看所有容器，包括停止的
+* docker search gitlab
+  * 搜索gitlab相关名称镜像
+* docker pull gitlab/gitlab-ce
+  * 拉取镜像
+* docker images
+  * 查看镜像
+* docker run
+  * gitlab示例
+
+  ``` shell
+  > docker run -d \
+  --hostname gitlab.xxx.com \
+  --name gitlab \
+  --restart always \
+  -p 8082:443 -p 8083:80 -p 8084:22 \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /usr/local/gitlab_data/gitlab/config:/etc/gitlab \
+  -v /usr/local/gitlab_data/gitlab/logs:/var/log/gitlab \
+  -v /usr/local/gitlab_data/gitlab/data:/var/opt/gitlab \
+  gitlab/gitlab-ce
+  ```
+
+  * <http://127.0.0.1:8083>
+    * 启动稍慢，502报错可以等一会再试
+    * root密码说是/etc/gitlab/initial_root_password文件中，我测试登录不正确，然后修改root密码
+      * docker exec -it gitlab bash
+      * su - git
+      * gitlab-rails console -e production
+      * user = User.where(id:1).first
+      * user.password='admin@123456'
+      * user.password_confirmation='admin@123456'
+      * user.save!
+      * exit
+* docker stats gitlab
+  * 查看容器统计信息
+* docker restart gitlab
+  * 重新启动
+* docker ps
+  * 查看启动容器
 * docker container ls -a
 * docker logs --help
 * docker inspect 6a64d8b3725d
