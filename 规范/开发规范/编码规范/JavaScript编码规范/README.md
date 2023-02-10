@@ -14,3 +14,4 @@
 
 * [JavaScript Standard Style](https://standardjs.com/rules-zhcn.html)
 * [Javascript 风格指南](https://google-styleguide.readthedocs.io/zh_CN/latest/google-javascript-styleguide/contents.html)
+* [airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)

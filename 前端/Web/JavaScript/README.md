@@ -25,6 +25,8 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 * [图书][经典][你不知道的JavaScript](http://product.dangdang.com/29330803.html)
 * [视频][经典][Udemy排名第一的JavaScript课程](https://www.bilibili.com/video/BV15S4y1N7Mu)
 * [视频][经典][Udemy付费课程JavaScript: The Advanced Concepts](https://www.bilibili.com/video/BV19i4y1Q7w7)
+* [A book series on JavaScript. You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+* [Clean Code concepts adapted for JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ### 普通资料
 
