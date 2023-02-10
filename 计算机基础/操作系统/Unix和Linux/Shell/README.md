@@ -347,24 +347,6 @@
   * is used to find the return value of the last executed command.
   * 返回上次命令执行的返回值，shell中一般0表示成功。
 
-  ``` shell
-  > cat test.sh 
-  #!/bin/bash
-
-  pwd
-  echo $?
-
-  ls test.txt
-  echo $?
-
-  > sh test.sh
-  /Users/rollin/shell
-  0
-  ls: test.txt: No such file or directory
-  1
-
-  ```
-
 * ```$$```
   * 指的是脚本运行的当前进行id号。
   
