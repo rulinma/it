@@ -69,6 +69,8 @@
     * 显示远程分支
   * git push origin -d dev
     * 删除远程分支
+    * git push origin :dev
+      * 删除远程分支的另一种方法
   * git remote update origin --prune
     * 更新远程分支信息到本地
   * git branch -a
