@@ -476,6 +476,24 @@
   * is the null file. Anything written to it is discarded.
   * 表示空文件，任何输入会被丢弃。
 
+### Shell编程
+
+* shell脚本也是可以调试的
+  * sh -x ./script.sh
+
+  ``` shell
+    > cat test.sh
+    #!/bin/bash
+
+    echo "today is :"$(date +'%Y-%m-%d')
+
+    > sh -x test.sh
+    ++ date +%Y-%m-%d
+    + echo 'today is :2023-02-10'
+    today is :2023-02-10
+
+  ```
+
 ### 运维常用命令
 
 #### 内存管理
