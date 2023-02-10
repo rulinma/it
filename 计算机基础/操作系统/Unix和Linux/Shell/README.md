@@ -2,8 +2,8 @@
 
 ## 学习指南
 
-* [图书][Linux命令行与shell脚本编程大全](http://product.dangdang.com/29417308.html）
-* [图书][bash shell脚本编程经典实例](http://product.dangdang.com/29194781.html）
+* [图书][Linux命令行与shell脚本编程大全](http://product.dangdang.com/29417308.html)
+* [图书][bash shell脚本编程经典实例](http://product.dangdang.com/29194781.html)
 * [图书][Linux命令行与shell编程实战](http://product.dangdang.com/25578477.html)
 * [图书][shell脚本实战](http://product.dangdang.com/26917928.html)
 
