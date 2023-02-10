@@ -27,6 +27,8 @@
   * git commit -m 'message'
   * git commit --amend -m "New commit message"
 * git push
+  * git push --set-upstream origin dev
+    * 推送本地分支到远程
 * git pull
 * git fetch
 * git config
