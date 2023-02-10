@@ -50,3 +50,4 @@ Markdown 是一种轻量级标记语言，用于使用纯文本编辑器创建�
 ## 参考文献
 
 1. [https://www.markdownguide.org](https://www.markdownguide.org)
+2. [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
