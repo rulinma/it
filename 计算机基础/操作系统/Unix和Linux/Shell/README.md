@@ -229,6 +229,7 @@
   * 查看进程树
 * who
   * 查看用户
+  * w
 * whoami
   * 查看当前用户
 * su
@@ -245,7 +246,7 @@
   * 解压缩文件
 * gzip
   * 压缩文件
-* gznzip
+* gunzip
   * 解压缩文件
 * source
   * 读取并执行文件
@@ -307,7 +308,16 @@
 
   * rpm
     * rpm -qa | grep java
-  
+  * sync
+  * free
+    * free -m
+  * echo 1 > /proc/sys/vm/drop_caches
+    * free pagecache
+  * echo 2 > /proc/sys/vm/drop_caches
+    * free dentries and inodes
+  * echo 3 > /proc/sys/vm/drop_caches
+    * free pagecache, dentries and inodes
+
 ### 常见问题
 
 * $0
@@ -607,20 +617,6 @@
     3
     1 2 3 4 5
   ```
-
-### 运维常用命令
-
-#### 内存管理
-
-* free
-  * free -m
-* sync
-* echo 1 > /proc/sys/vm/drop_caches
-  * free pagecache
-* echo 2 > /proc/sys/vm/drop_caches
-  * free dentries and inodes
-* echo 3 > /proc/sys/vm/drop_caches
-  * free pagecache, dentries and inodes
 
 ### 编程规范
 
