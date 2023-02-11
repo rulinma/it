@@ -44,6 +44,7 @@ Linux 命令（Command） 和 Shell 内容。
   * ant命令
 * apt
   * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
+* awk
 
 #### B
 
@@ -209,6 +210,7 @@ Linux 命令（Command） 和 Shell 内容。
     * 批量删除文件
 * firewall
   * 防火墙配置
+* ftp
 * free
   * free -m
   * echo 1 > /proc/sys/vm/drop_caches
