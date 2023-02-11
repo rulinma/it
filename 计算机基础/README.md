@@ -92,3 +92,4 @@
 ### 推荐资料
 
 * [免费的计算机编程类中文书籍，欢迎投稿](https://github.com/justjavac/free-programming-books-zh_CN)
+* [computer-science](https://github.com/ossu/computer-science)

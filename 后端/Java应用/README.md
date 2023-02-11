@@ -4,6 +4,8 @@
 
 ### 核心资料
 
+* [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+
 ### 普通资料
 
 ### 学习步骤
