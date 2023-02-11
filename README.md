@@ -4,7 +4,7 @@
 
 * 开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。
 
-* 见面有礼：[[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)]
+* 见面有礼：[[工具大全](/杂项/工具大全/README.md) | [shell大全](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的历程](/杂项/我的/交流分享/README.md)]
 
 ## 愿景
 
