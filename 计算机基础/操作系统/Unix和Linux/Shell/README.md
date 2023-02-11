@@ -48,6 +48,7 @@ Linux 命令（Command） 和 Shell 内容。
 #### B
 
 * bash
+* bg
 
 #### C
 
@@ -141,6 +142,7 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### E
 
+* egrep
 * emacs
   * 神的编辑器
   * 我不会用
@@ -166,6 +168,7 @@ Linux 命令（Command） 和 Shell 内容。
 
 * ffmepg
   * 视频相关命令
+* fg
 * find
   * 查找文件
   * find . -type d -name target -exec rm -fr "{}" \;
@@ -193,6 +196,8 @@ Linux 命令（Command） 和 Shell 内容。
 
 * git
   * git工具命令
+* gradle
+  * gradle命令
 * grep
   * 正则查找文件（global search regular expression(RE) and print out the line）
   * grep "text" . -r -n
@@ -213,9 +218,6 @@ Linux 命令（Command） 和 Shell 内容。
 * gzip
   * 压缩文件
 
-* gradle
-  * gradle命令
-
 #### H
 
 * history
@@ -227,6 +229,8 @@ Linux 命令（Command） 和 Shell 内容。
   * Read documentation in Info format
   * 阅读信息格式的文档
   * info ls
+* ifconfig
+  * 网络信息
 * iostat
   * 查看IO情况
 
@@ -280,6 +284,9 @@ Linux 命令（Command） 和 Shell 内容。
 #### L
 
 * less
+* ldd
+* ln
+  * 链接
 * locate
   * 查找文件
 * ls
@@ -418,6 +425,7 @@ Linux 命令（Command） 和 Shell 内容。
   * 删除目录
 * rpm
   * rpm -qa | grep java
+* rsync
 
 #### S
 
@@ -430,6 +438,7 @@ Linux 命令（Command） 和 Shell 内容。
     * [Linux scp命令](https://www.runoob.com/linux/linux-comm-scp.html)
 * screen
   * 多重视窗管理程序
+* sed
 * service
   * 系统服务管理
 * shutdown
@@ -438,6 +447,7 @@ Linux 命令（Command） 和 Shell 内容。
   * 休息
 * source
   * 读取并执行文件
+* ss
 * ssh
   * 远程登录工具
     * ssh -i  ~/certification/101_id_rsa root@192.168.1.101
@@ -476,6 +486,7 @@ Linux 命令（Command） 和 Shell 内容。
     done!
   ```
 
+* strace
 * su
   * 切换用户
 * sudo
@@ -483,6 +494,7 @@ Linux 命令（Command） 和 Shell 内容。
 * supervisor
   * 监控工具
 * sync
+  * 同步命令
 * systemctl
   * 为系统的启动和管理提供一套完整的解决方案
   * systemd
@@ -509,14 +521,16 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### U
 
+* uname
+  * uname -a
+* unmount
+  * 卸载
 * useradd
   * 添加用户
 * userdel
   * 删除用户
 * usermod
   * 修改账号
-* unmount
-  * 卸载
 * unzip
   * 解压缩文件
 
