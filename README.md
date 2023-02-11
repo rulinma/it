@@ -354,6 +354,7 @@
       - [版本规范](#版本规范)
       - [API规范](#api规范)
         - [Google](#google)
+    - [Google](#google-1)
   - [内网穿透](#内网穿透)
     - [frp](#frp)
     - [shadowsocks](#shadowsocks)
@@ -1385,6 +1386,8 @@ API测试、Mock Servers功能和自动化测试。
 ##### [Google](杂项/规范/开发规范/API规范/Google/README.md)
 
 [Google API Design Guide](https://cloud.google.com/apis/design)
+
+### [Google](杂项/规范/软件设计文档国家标准/README.md)
 
 ## [内网穿透](杂项/开发工具/内网穿透/README.md)
 
