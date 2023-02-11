@@ -49,6 +49,19 @@ Linux 命令（Command） 和 Shell 内容。
 
 * bash
 * bg
+  * 将一个在后台暂停的命令，变成继续执行
+
+  ``` shell
+    > sleep 10
+    ^Z
+    [1]  + 99094 suspended  sleep 10
+    ✘ ⚙ > jobs
+    [1]  + suspended  sleep 10
+    ⚙ > bg %1
+    [1]  + 99094 continued  sleep 10
+    [1]  + 99094 done       sleep 10
+    > 
+  ```
 
 #### C
 
