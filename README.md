@@ -4,6 +4,10 @@
 
 **开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。**
 
+## 见面有礼
+
+[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)
+
 ## 愿景
 
 * **程序员学习指南**
@@ -30,6 +34,7 @@
 
 - [程序员知识图谱和实战指南](#程序员知识图谱和实战指南)
   - [千里之行始于足下 老骥伏枥志在千里](#千里之行始于足下-老骥伏枥志在千里)
+  - [见面有礼](#见面有礼)
   - [愿景](#愿景)
   - [项目](#项目)
     - [AI记单词](#ai记单词)
@@ -339,13 +344,14 @@
     - [原型](#原型)
     - [UI](#ui)
 - [杂项](#杂项)
-  - [开发工具](#开发工具)
-    - [ChatGPT](#chatgpt)
-    - [Postman](#postman)
-    - [Fiddler](#fiddler)
-    - [Charles](#charles)
-    - [Markdown](#markdown)
-    - [GitHub相关](#github相关)
+  - [工具大全](#工具大全)
+    - [开发工具](#开发工具)
+      - [ChatGPT](#chatgpt)
+      - [Postman](#postman)
+      - [Fiddler](#fiddler)
+      - [Charles](#charles)
+      - [Markdown](#markdown)
+      - [GitHub相关](#github相关)
   - [规范](#规范)
     - [开发规范](#开发规范)
       - [编码规范](#编码规范)
@@ -361,7 +367,7 @@
     - [ngrok](#ngrok)
     - [花生壳](#花生壳)
     - [NATAPP](#natapp)
-  - [Mac工具](#mac工具)
+  - [工具](#工具)
   - [Python](#python)
   - [PHP](#php)
   - [CMS](#cms)
@@ -1349,11 +1355,13 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 
 # [杂项](杂项/README.md)
 
-## [开发工具](杂项/开发工具/README.md)
+## [工具大全](杂项/工具大全/README.md)
 
-### [ChatGPT](https://openai.com/)
+### [开发工具](杂项/工具大全/开发工具/README.md)
 
-### [Postman](杂项/开发工具/Postman/README.md)
+#### [ChatGPT](https://openai.com/)
+
+#### [Postman](杂项/工具大全/开发工具/Postman/README.md)
 
 [Postman](https://www.getpostman.com)
 
@@ -1361,13 +1369,13 @@ Postman is the only complete API development environment, for API developers.
 
 API测试、Mock Servers功能和自动化测试。
 
-### [Fiddler](杂项/开发工具/Fiddler/README.md)
+#### [Fiddler](杂项/工具大全/开发工具/Fiddler/README.md)
 
-### [Charles](杂项/开发工具/Charles/README.md)
+#### [Charles](杂项/工具大全/开发工具/Charles/README.md)
 
-### [Markdown](杂项/开发工具/Markdown/README.md)
+#### [Markdown](杂项/工具大全/开发工具/Markdown/README.md)
 
-### [GitHub相关](杂项/开发工具/GitHub相关/README.md)
+#### [GitHub相关](杂项/工具大全/开发工具/GitHub相关/README.md)
 
 ## [规范](杂项/规范/README.md)
 
@@ -1409,7 +1417,7 @@ API测试、Mock Servers功能和自动化测试。
 
 ### [NATAPP](https://natapp.cn)
 
-## [Mac工具](杂项/Mac工具/README.md)
+## [工具](杂项/工具/README.md)
 
 ## [Python](杂项/Python/README.md)
 
