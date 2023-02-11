@@ -246,6 +246,7 @@ Linux 命令（Command） 和 Shell 内容。
   * 查看java进程
 * jstack
   * 检查java程序问题，类似的命令很多，参考官方说明
+* jobs
 
 #### K
 
