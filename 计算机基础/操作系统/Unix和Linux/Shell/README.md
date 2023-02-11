@@ -462,6 +462,29 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### X
 
+* xargs
+  * build and execute command lines from standard input
+  * eXtended ARGuments
+  * xargs 是一个强有力的命令，它能够捕获一个命令的输出，然后传递给另外一个命令
+    * somecommand |xargs -item  command
+    * 示例
+
+    ``` shell
+      > echo "hello world" | xargs
+      hello world
+      > echo "hello world" | xargs echo
+      hello world
+      > echo "hello world" | xargs mkdir
+      > ls -l
+      drwxr-xr-x  2 rollin  staff    64B  2 11 12:03 hello
+      drwxr-xr-x  2 rollin  staff    64B  2 11 12:03 world
+      # 假如你有一个文件包含了很多你希望下载的 URL，你能够使用 xargs下载所有链接
+      > cat url-list.txt | xargs wget -c
+    ```
+
+    * [Linux xargs 命令](https://www.runoob.com/linux/linux-comm-xargs.html)
+    * [xargs 命令教程](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
+
 #### Y
 
 * yarn
