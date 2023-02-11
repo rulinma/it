@@ -14,17 +14,17 @@
 
 ## 项目
 
-### 老马记单词
+### AI记单词
 
-* [老马记单词项目管理](https://github.com/rulinma/it-word-project-manage)
-* [老马记单词产品管理](https://github.com/rulinma/it-word-product-manage)
-* [老马记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
-* [老马记单词Web之Mobile](https://github.com/rulinma/it-word-web-mobile)
-* 老马记单词iOS
-* 老马记单词Android
-* [老马记单词后端](https://github.com/rulinma/it-word-backend)
-* [老马记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
-* [老马记单词运维](https://github.com/rulinma/it-word-devops)
+* [AI记单词项目管理](https://github.com/rulinma/it-word-project-manage)
+* [AI记单词产品管理](https://github.com/rulinma/it-word-product-manage)
+* [AI记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
+* [AI记单词Web之Mobile](https://github.com/rulinma/it-word-web-mobile)
+* AI记单词iOS
+* AI记单词Android
+* [AI记单词后端](https://github.com/rulinma/it-word-backend)
+* [AI记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
+* [AI记单词运维](https://github.com/rulinma/it-word-devops)
 
 # 目录
 
@@ -32,7 +32,7 @@
   - [千里之行始于足下 老骥伏枥志在千里](#千里之行始于足下-老骥伏枥志在千里)
   - [愿景](#愿景)
   - [项目](#项目)
-    - [老马记单词](#老马记单词)
+    - [AI记单词](#ai记单词)
 - [目录](#目录)
 - [导论](#导论)
   - [概述](#概述)
