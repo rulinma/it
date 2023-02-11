@@ -88,6 +88,50 @@ Linux 命令（Command） 和 Shell 内容。
 * diff
 * dig
   * 域名信息查看
+
+    ``` shell
+    > dig www.baidu.com
+
+    ; <<>> DiG 9.10.6 <<>> www.baidu.com
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50678
+    ;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+    ;; QUESTION SECTION:
+    ;www.baidu.com.			IN	A
+
+    ;; ANSWER SECTION:
+    www.baidu.com.		78	IN	A	36.152.44.95
+    www.baidu.com.		78	IN	A	36.152.44.96
+
+    ;; Query time: 239 msec
+    ;; SERVER: 192.168.1.1#53(192.168.1.1)
+    ;; WHEN: Sat Feb 11 12:27:06 CST 2023
+    ;; MSG SIZE  rcvd: 63
+    ```
+
+    ``` shell
+    > dig www.xianglesong.com
+
+    ; <<>> DiG 9.10.6 <<>> www.xianglesong.com
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39947
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+    ;; QUESTION SECTION:
+    ;www.xianglesong.com.		IN	A
+
+    ;; ANSWER SECTION:
+    www.xianglesong.com.	600	IN	A	47.243.232.189
+
+    ;; Query time: 71 msec
+    ;; SERVER: 192.168.1.1#53(192.168.1.1)
+    ;; WHEN: Sat Feb 11 12:28:22 CST 2023
+    ;; MSG SIZE  rcvd: 53
+    ```
+
 * docker
   * docker命令工具
 * du -sh \.
@@ -319,6 +363,19 @@ Linux 命令（Command） 和 Shell 内容。
   * 前端包管理工具
 * nslookup
   * 查看DNS记录
+
+    ``` shell
+    > nslookup www.baidu.com
+    Server:		192.168.1.1
+    Address:	192.168.1.1#53
+
+    Non-authoritative answer:
+    www.baidu.com	canonical name = www.a.shifen.com.
+    Name:	www.a.shifen.com
+    Address: 36.152.44.95
+    Name:	www.a.shifen.com
+    Address: 36.152.44.96
+    ```
 
 #### O
 
