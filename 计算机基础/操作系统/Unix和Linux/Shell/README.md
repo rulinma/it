@@ -246,8 +246,14 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### H
 
+* hadoop
+  * hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar grep input output 'dfs[a-z.]+’
+* hdfs
+  * hdfs dfs
+    * hdfs dfs -mkdir /user/marulin
 * history
   * 查看历史记录
+* hive
 * htop
   * 增强top工具
 
@@ -259,6 +265,7 @@ Linux 命令（Command） 和 Shell 内容。
   * info ls
 * ifconfig
   * 网络信息
+* impala-shell
 * iostat
   * 查看IO情况
 
