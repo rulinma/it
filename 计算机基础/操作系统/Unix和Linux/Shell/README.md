@@ -2,6 +2,8 @@
 
 ## 学习指南
 
+### 学习资料
+
 * [图书][Linux命令行与shell脚本编程大全](http://product.dangdang.com/29417308.html)
 * [图书][bash shell脚本编程经典实例](http://product.dangdang.com/29194781.html)
 * [图书][Linux命令行与shell编程实战](http://product.dangdang.com/25578477.html)
@@ -9,53 +11,32 @@
 
 ### 常用命令
 
-* pwd
-  * 返回当前目录路径
-* ls
-  * 列出当前目录内容
-  * 常用ls -lrt
+* ant
+  * ant命令
+* apt
+  * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
+
+* bash
+
+* cat
+  * 查看文件内容
 * cd
   * 进入目录
-* cp
-  * 复制命令
-* mv
-  * 移动命令
-* mkdir
-  * 创建目录
-* touch
-  * 创建文件
-* rm
-  * 删除文件
-* rmdir
-  * 删除目录
 * chmod
   * 修改文件权限
 * chown
   * 修改文件所属
-* vi
-  * 编辑文件
-* cat
-  * 查看文件内容
-* date
-  * 查看日期
 * clear
   * 清楚屏幕
-* history
-  * 查看历史记录
-* df -h /
-  * 查看磁盘使用情况
-* du -sh \.
-  * 返回当前目录使用空间
-* top
-  * 查看当前机器情况
-* free
-  * 查看内存使用情况
-* netstat
-  * 查看网络情况
-* iostat
-  * 查看IO情况
-* tcpdump
-  * 抓包解包
+* clock
+  * 调整 RTC 时间
+* convert
+  * GraphicsMagick的工具命令
+    * convert -font Hiragino  -fill grey -pointsize 50 -draw "text 1768,90 'AI记单词'" /Users/rollin/1-the.jpg
+* cp
+  * 复制命令
+* crontab
+  * 定时执行任务
 * curl
   * 网络访问
   * 该命令可以用来测试网络情况访问情况，监控网页的响应时间等
@@ -65,20 +46,210 @@
     * curl -o /dev/test -s -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "https://www.xianglesong.com"
       * 0.005135::0.078192::0.327840::0.327971::10879.000
 
-* ping
-  * 测试网络是否可通
-* telnet
-  * 远程登录工具
+* date
+  * 查看日期
+* df -h /
+  * 查看磁盘使用情况
 * dig
   * 域名信息查看
+* docker
+  * docker命令工具
+* du -sh \.
+  * 返回当前目录使用空间
+
+* expect
+  * 很多时候要输入密码，可以借助于该工具，比如mysql，ssh登录等
+    * mysql示例
+    ./expect.sh
+
+  ``` shell
+      #!/usr/bin/expect
+
+      # 首先安装好expect
+      # yum install -y expect tcl tclx tcl-devel
+
+      spawn mysql -h 127.0.0.1 -uroot -p
+      set timeout 100
+      expect "Enter password:"
+      send "123456\r"
+      interact
+  ```
+
+* ffmepg
+  * 视频相关命令
+* find
+  * 查找文件
+  * find . -type d -name target -exec rm -fr "{}" \;
+    * 批量强制删除文件夹
+    * 一般删除java项目使用
+  * find . -type d -name node_modules -exec rm -fr "{}" \;
+    * 批量强制删除文件夹
+    * 一般删除前端项目使用
+  * find . -type d -empty -delete
+    * 批量删除空文件夹
+  * find . -name *.log -type f -delete
+    * 批量删除文件
+* firewall
+  * 防火墙配置
+* free
+  * free -m
+  * echo 1 > /proc/sys/vm/drop_caches
+    * free pagecache
+  * echo 2 > /proc/sys/vm/drop_caches
+    * free dentries and inodes
+  * echo 3 > /proc/sys/vm/drop_caches
+    * free pagecache, dentries and inodes
+
+* git
+  * git工具命令
+* grep
+  * 正则查找文件（global search regular expression(RE) and print out the line）
+  * grep "text" . -r -n
+    * 在当前目录下搜索text，并递归查找子目录，输出字符串所在文件行数
+    * grep "redis-server" . -rn
+  * grep "text" test.sh
+    * 在文件test.sh中搜索text
+    * grep "text" test.sh -n
+      * 在文件test.sh中搜索text，输出字符串所在文件行数
+* groupadd
+  * 用户组管理
+* groupdel
+  * 删除用户组
+* groupmod
+  * 修改用户组
+* gunzip
+  * 解压缩文件
+* gzip
+  * 压缩文件
+
+* gradle
+  * gradle命令
+
+* history
+  * 查看历史记录
+
+* iostat
+  * 查看IO情况
+
+* java
+  * 执行java程序
+* javac
+  * 编译java代码，基本使用IDE了，一般不用
+* jps
+  * 查看java进程
+* jstack
+  * 检查java程序问题，类似的命令很多，参考官方说明
+
+* kill
+  * 删除进程
+  * kill = kill -15
+  * kill -2 = CTRL + C
+  * kill -9 pid
+  * kill -6
+    * 产生dump文件
+  * kill -l
+
+    ``` text
+    [root@apple ~]# kill -l
+    1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+    2) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+    3)  SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+    4)  SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+    5)  SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+    6)  SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+    7)  SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+    8)  SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+    9)  SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+    10) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+    11) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+    12) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+    13) SIGRTMAX-1	64) SIGRTMAX
+    [root@apple ~]#
+    ```
+
+* killall
+  * 杀死所有同名进程
+  * killall java
+    * 所有java启动进程都会被kill
+* kubectl
+  * k8s命令工具
+
+* locate
+  * 查找文件
+* ls
+  * 列出当前目录内容
+  * 常用ls -lrt
+
+* mkdir
+  * 创建目录
+* mv
+  * 移动命令
+* mvn
+  * mvn命令
+* mongo
+  * mongodb命令工具
+* mount
+  * 挂载
+* mysql
+  * mysql命令工具
+
+* netstat
+  * 查看网络情况
+* nginx
+  * nginx命令工具
+* nohup
+  * 非挂起运行程序
+* npm
+  * 前端包管理工具
 * nslookup
   * 查看DNS记录
-* wget
-  * 下载工具
-* supervisor
-  * 监控工具
-* crontab
-  * 定时执行任务
+
+* open
+
+* passwd
+  * 修改密码
+* ping
+  * 测试网络是否可通
+* pkill
+  * pkill nginx
+* ps
+  * 查看进程
+* pstree
+  * 查看进程树
+* pwd
+  * 返回当前目录路径
+
+* quit
+
+* reboot
+  * 重启
+* redis
+  * redis-cli
+  * redis-server
+* rm
+  * 删除文件
+* rmdir
+  * 删除目录
+* rpm
+  * rpm -qa | grep java
+
+* scp
+  * 传输文件
+    * scp local_file
+      * scp local_file remote_username@remote_ip:remote_folder
+    * scp remote file
+      * scp -P 4588 remote@remote_ip:/usr/local/sin.sh /home/administrator
+    * [Linux scp命令](https://www.runoob.com/linux/linux-comm-scp.html)
+* screen
+  * 多重视窗管理程序
+* service
+  * 系统服务管理
+* shutdown
+  * 关闭
+* sleep
+  * 休息
+* source
+  * 读取并执行文件
 * ssh
   * 远程登录工具
     * ssh -i  ~/certification/101_id_rsa root@192.168.1.101
@@ -117,206 +288,61 @@
     done!
   ```
 
-* nohup
-  * 非挂起运行程序
+* su
+  * 切换用户
+* sudo
+  * 以系统管理者的身份执行指令
+* supervisor
+  * 监控工具
+* sync
 * systemctl
   * 为系统的启动和管理提供一套完整的解决方案
   * systemd
     * [精华][Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
-* firewall
-  * 防火墙配置
-* screen
-  * 多重视窗管理程序
-* service
-  * 系统服务管理
-* reboot
-  * 重启
-* shutdown
-  * 关闭
-* passwd
-  * 修改密码
+
+* tar
+  * 文件压缩和解压缩
+* tcpdump
+  * 抓包解包
+* telnet
+  * 远程登录工具
+* top
+  * 查看当前机器情况
+* touch
+  * 创建文件
+* tree
+  * 查看目录
+
 * useradd
   * 添加用户
 * userdel
   * 删除用户
 * usermod
   * 修改账号
-* groupadd
-  * 用户组管理
-* groupdel
-  * 删除用户组
-* groupmod
-  * 修改用户组
-* mount
-  * 挂载
 * unmount
   * 卸载
-* yum
-  * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
-  * yum search java | grep jdk
-* apt
-  * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
-* find
-  * 查找文件
-  * find . -type d -name target -exec rm -fr "{}" \;
-    * 批量强制删除文件夹
-    * 一般删除java项目使用
-  * find . -type d -name node_modules -exec rm -fr "{}" \;
-    * 批量强制删除文件夹
-    * 一般删除前端项目使用
-  * find . -type d -empty -delete
-    * 批量删除空文件夹
-  * find . -name *.log -type f -delete
-    * 批量删除文件
-* locate
-  * 查找文件
-* grep
-  * 正则查找文件（global search regular expression(RE) and print out the line）
-  * grep "text" . -r -n
-    * 在当前目录下搜索text，并递归查找子目录，输出字符串所在文件行数
-    * grep "redis-server" . -rn
-  * grep "text" test.sh
-    * 在文件test.sh中搜索text
-    * grep "text" test.sh -n
-      * 在文件test.sh中搜索text，输出字符串所在文件行数
-* scp
-  * 传输文件
-    * scp local_file
-      * scp local_file remote_username@remote_ip:remote_folder
-    * scp remote file
-      * scp -P 4588 remote@remote_ip:/usr/local/sin.sh /home/administrator
-    * [Linux scp命令](https://www.runoob.com/linux/linux-comm-scp.html)
-* tree
-  * 查看目录
-* sleep
-  * 休息
-* ps
-  * 查看进程
-* kill
-  * 删除进程
-  * kill = kill -15
-  * kill -2 = CTRL + C
-  * kill -9 pid
-  * kill -6
-    * 产生dump文件
-  * kill -l
+* unzip
+  * 解压缩文件
 
-    ``` text
-    [root@apple ~]# kill -l
-    1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
-    2) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
-    3)  SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
-    4)  SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
-    5)  SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
-    6)  SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
-    7)  SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
-    8)  SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
-    9)  SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
-    10) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
-    11) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
-    12) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
-    13) SIGRTMAX-1	64) SIGRTMAX
-    [root@apple ~]#
-    ```
+* vi
+  * 编辑文件
 
-* killall
-  * 杀死所有同名进程
-  * killall java
-    * 所有java启动进程都会被kill
-* pkill
-  * pkill nginx
-* pstree
-  * 查看进程树
 * who
   * 查看用户
   * w
 * whoami
   * 查看当前用户
-* su
-  * 切换用户
-* sudo
-  * 以系统管理者的身份执行指令
-* clock
-  * 调整 RTC 时间
-* tar
-  * 文件压缩和解压缩
-* zip
-  * 压缩文件
-* unzip
-  * 解压缩文件
-* gzip
-  * 压缩文件
-* gunzip
-  * 解压缩文件
-* source
-  * 读取并执行文件
-* java
-  * 执行java程序
-* javac
-  * 编译java代码，基本使用IDE了，一般不用
-* jps
-  * 查看java进程
-* jstack
-  * 检查java程序问题，类似的命令很多，参考官方说明
-* mvn
-  * mvn命令
-* ant
-  * ant命令
-* gradle
-  * gradle命令
-* git
-  * git工具命令
-* docker
-  * docker命令工具
-* kubectl
-  * k8s命令工具
-* nginx
-  * nginx命令工具
-* mysql
-  * mysql命令工具
-* redis
-  * redis-cli
-  * redis-server
-* mongo
-  * mongodb命令工具
-* ffmepg
-  * 视频相关命令
-* convert
-  * GraphicsMagick的工具命令
-    * convert -font Hiragino  -fill grey -pointsize 50 -draw "text 1768,90 'AI记单词'" /Users/rollin/1-the.jpg
-* npm
-  * 前端包管理工具
+* wget
+  * 下载工具
+
 * yarn
   * 又一个前端包管理工具
-* expect
-  * 很多时候要输入密码，可以借助于该工具，比如mysql，ssh登录等
-    * mysql示例
-    ./expect.sh
+* yum
+  * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
+  * yum search java | grep jdk
 
-  ``` shell
-      #!/usr/bin/expect
-
-      # 首先安装好expect
-      # yum install -y expect tcl tclx tcl-devel
-
-      spawn mysql -h 127.0.0.1 -uroot -p
-      set timeout 100
-      expect "Enter password:"
-      send "123456\r"
-      interact
-  ```
-
-  * rpm
-    * rpm -qa | grep java
-  * sync
-  * free
-    * free -m
-  * echo 1 > /proc/sys/vm/drop_caches
-    * free pagecache
-  * echo 2 > /proc/sys/vm/drop_caches
-    * free dentries and inodes
-  * echo 3 > /proc/sys/vm/drop_caches
-    * free pagecache, dentries and inodes
+* zip
+  * 压缩文件
 
 ### 常见问题
 
