@@ -314,12 +314,6 @@
     - [ImageMagick](#imagemagick)
 - [音视频](#音视频)
   - [FFmpeg](#ffmpeg)
-- [第三方](#第三方)
-  - [推送](#推送)
-    - [极光](#极光)
-    - [MQTT](#mqtt)
-  - [埋点](#埋点)
-    - [神策](#神策)
 - [云原生](#云原生)
   - [Docker](#docker)
     - [Harbor](#harbor)
@@ -357,11 +351,6 @@
 - [面试](#面试)
   - [面试资料](#面试资料)
   - [题库](#题库)
-- [会议](#会议-1)
-  - [QCon](#qcon)
-  - [阿里云栖](#阿里云栖)
-  - [iTechPlus](#itechplus)
-  - [大数据峰会](#大数据峰会)
 - [杂项](#杂项)
   - [开发工具](#开发工具)
     - [ChatGPT](#chatgpt)
@@ -397,6 +386,17 @@
       - [OCJP](#ocjp)
     - [Linux认证](#linux认证)
     - [数据库认证](#数据库认证)
+  - [会议](#会议-1)
+    - [QCon](#qcon)
+    - [阿里云栖](#阿里云栖)
+    - [iTechPlus](#itechplus)
+    - [大数据峰会](#大数据峰会)
+  - [第三方](#第三方)
+    - [推送](#推送)
+      - [极光](#极光)
+      - [MQTT](#mqtt)
+    - [埋点](#埋点)
+      - [神策](#神策)
   - [英语](#英语)
     - [翻译工具](#翻译工具)
 - [我的](#我的)
@@ -1258,22 +1258,6 @@ An open platform to connect, manage, and secure microservices.
 
 [FFmpeg](https://ffmpeg.org)
 
-# [第三方](第三方/README.md)
-
-## [推送](第三方/推送/README.md)
-
-### [极光](第三方/推送/极光/README.md)
-
-### [MQTT](第三方/推送/MQTT/README.md)
-
-[Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
-
-Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备。
-
-## [埋点](第三方/埋点/README.md)
-
-### [神策](第三方/埋点/神策/README.md)
-
 # [云原生](云原生/README.md)
 
 * 四要素
@@ -1388,16 +1372,6 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 
 ## [题库](面试/题库/README.md)
 
-# [会议](会议/README.md)
-
-## [QCon](会议/QCon/README.md)
-
-## [阿里云栖](会议/阿里云栖/README.md)
-
-## [iTechPlus](会议/iTechPlus/README.md)
-
-## [大数据峰会](会议/大数据峰会/README.md)
-
 # [杂项](杂项/README.md)
 
 ## [开发工具](杂项/开发工具/README.md)
@@ -1489,6 +1463,32 @@ OCJP（Oracle Certified Java Programmer），Oracle公司的Java工程师认证�
 ### [Linux认证](杂项/认证/Linux认证/LPI/README.md)
 
 ### [数据库认证](杂项/认证/数据库认证/README.md)
+
+## [会议](杂项/会议/README.md)
+
+### [QCon](杂项/会议/QCon/README.md)
+
+### [阿里云栖](杂项/会议/阿里云栖/README.md)
+
+### [iTechPlus](杂项/会议/iTechPlus/README.md)
+
+### [大数据峰会](杂项/会议/大数据峰会/README.md)
+
+## [第三方](杂项/第三方/README.md)
+
+### [推送](杂项/第三方/推送/README.md)
+
+#### [极光](杂项/第三方/推送/极光/README.md)
+
+#### [MQTT](杂项/第三方/推送/MQTT/README.md)
+
+[Mosquito](https://mosquitto.org) Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 3.1 and 3.1.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
+
+Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了MQTT协议版本3.1和3.1.1。 Mosquitto重量轻，适用于从低功耗单板计算机到完整服务器的所有设备。
+
+### [埋点](杂项/第三方/埋点/README.md)
+
+#### [神策](杂项/第三方/埋点/神策/README.md)
 
 ## [英语](杂项/英语/README.md)
 
