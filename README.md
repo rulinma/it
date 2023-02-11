@@ -162,6 +162,16 @@
     - [Akka](#akka)
     - [响应式编程](#响应式编程)
     - [Storm](#storm)
+  - [图像](#图像)
+    - [图像处理](#图像处理)
+      - [ImageMagick](#imagemagick)
+  - [音视频](#音视频)
+    - [FFmpeg](#ffmpeg)
+  - [云原生](#云原生)
+    - [Docker](#docker)
+      - [Harbor](#harbor)
+    - [Kubernetes](#kubernetes)
+      - [Minicube](#minicube)
 - [中间件](#中间件)
   - [数据库](#数据库-1)
     - [MySQL](#mysql)
@@ -309,16 +319,6 @@
     - [数据库](#数据库-2)
     - [缓存](#缓存-3)
     - [异地多活](#异地多活)
-- [图像](#图像)
-  - [图像处理](#图像处理)
-    - [ImageMagick](#imagemagick)
-- [音视频](#音视频)
-  - [FFmpeg](#ffmpeg)
-- [云原生](#云原生)
-  - [Docker](#docker)
-    - [Harbor](#harbor)
-  - [Kubernetes](#kubernetes)
-    - [Minicube](#minicube)
 - [项目管理](#项目管理)
   - [需求管理](#需求管理)
     - [Redmine](#redmine)
@@ -340,9 +340,6 @@
   - [产品工具](#产品工具)
     - [原型](#原型)
     - [UI](#ui)
-- [面试](#面试)
-  - [面试资料](#面试资料)
-  - [题库](#题库)
 - [杂项](#杂项)
   - [开发工具](#开发工具)
     - [ChatGPT](#chatgpt)
@@ -399,6 +396,9 @@
       - [神策](#神策)
   - [英语](#英语)
     - [翻译工具](#翻译工具)
+  - [面试](#面试)
+    - [面试资料](#面试资料)
+    - [题库](#题库)
   - [我的](#我的)
     - [我的产品](#我的产品)
     - [交流分享](#交流分享)
@@ -775,6 +775,48 @@ MyBatis-Plus（简称 MP）是一个MyBatis(opens new window)的增强工具，�
 [Storm](http://storm.apache.org) Apache Storm is a free and open source distributed realtime computation system.
 
 Apache Storm是一个免费的开源分布式实时计算系统。
+
+## [图像](后端/图像/README.md)
+
+### [图像处理](后端/图像/图像处理/README.md)
+
+#### [ImageMagick](后端/图像/图像处理/ImageMagic/README.md)
+
+[ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.
+
+使用ImageMagick®创建，编辑，撰写或转换位图图像。
+
+## [音视频](后端/音视频/README.md)
+
+### [FFmpeg](后端/音视频/FFmpeg/README.md)
+
+[FFmpeg](https://ffmpeg.org)
+
+## [云原生](后端/云原生/README.md)
+
+* 四要素
+  * 微服务
+  * 容器化
+  * DevOps
+  * 持续交付
+
+### [Docker](后端/云原生/Docker/README.md)
+
+[Docker](https://www.docker.com) Build, Manage and Secure Your Apps Anywhere.
+
+随处构建，管理和保护您的应用程序。
+
+#### [Harbor](后端/云原生/Harbor/README.md)
+
+搭建自己的Docker镜像仓库。
+
+### [Kubernetes](后端/云原生/Kubernetes/README.md)
+
+[Kubernetes](https://kubernetes.io) is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理。
+
+#### [Minicube](后端/云原生/Kubernetes/Minicube/README.md)
 
 # [中间件](中间件/README.md)
 
@@ -1242,48 +1284,6 @@ An open platform to connect, manage, and secure microservices.
 
 ### [异地多活](架构设计/复杂方案/异地多活/README.md)
 
-# [图像](图像/README.md)
-
-## [图像处理](图像/图像处理/README.md)
-
-### [ImageMagick](图像/图像处理/ImageMagic/README.md)
-
-[ImageMagick](https://www.imagemagick.org/script/index.php) Use ImageMagick® to create, edit, compose, or convert bitmap images.
-
-使用ImageMagick®创建，编辑，撰写或转换位图图像。
-
-# [音视频](音视频/README.md)
-
-## [FFmpeg](音视频/FFmpeg/README.md)
-
-[FFmpeg](https://ffmpeg.org)
-
-# [云原生](云原生/README.md)
-
-* 四要素
-  * 微服务
-  * 容器化
-  * DevOps
-  * 持续交付
-
-## [Docker](云原生/Docker/README.md)
-
-[Docker](https://www.docker.com) Build, Manage and Secure Your Apps Anywhere.
-
-随处构建，管理和保护您的应用程序。
-
-### [Harbor](云原生/Harbor/README.md)
-
-搭建自己的Docker镜像仓库。
-
-## [Kubernetes](云原生/Kubernetes/README.md)
-
-[Kubernetes](https://kubernetes.io) is an open-source system for automating deployment, scaling, and management of containerized applications.
-
-Kubernetes是一个开源系统，用于自动化容器化应用程序的部署，扩展和管理。
-
-### [Minicube](云原生/Kubernetes/Minicube/README.md)
-
 # [项目管理](项目管理/README.md)
 
 ## [需求管理](项目管理/需求管理/README.md)
@@ -1347,12 +1347,6 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 ### [原型](产品经理/产品工具/原型/README.md)
 
 ### [UI](产品经理/产品工具/UI/README.md)
-
-# [面试](面试/README.md)
-
-## [面试资料](面试/面试资料/README.md)
-
-## [题库](面试/题库/README.md)
 
 # [杂项](杂项/README.md)
 
@@ -1493,6 +1487,12 @@ Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了
 ## [英语](杂项/英语/README.md)
 
 ### [翻译工具](杂项/英语/翻译工具/README.md)
+
+## [面试](杂项/面试/README.md)
+
+### [面试资料](杂项/面试/面试资料/README.md)
+
+### [题库](杂项/面试/题库/README.md)
 
 ## [我的](杂项/我的/README.md)
 
