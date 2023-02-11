@@ -248,6 +248,8 @@ Linux 命令（Command） 和 Shell 内容。
 
 * history
   * 查看历史记录
+* htop
+  * 增强top工具
 
 #### I
 
