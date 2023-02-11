@@ -29,6 +29,17 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### A
 
+* alias
+  * 显示全部已定义的别名
+
+  ``` shell
+    > alias lrt='ls -lrt'
+    > lrt
+  ```
+
+  * 一般放到bashrc等文件中，shell启动自动加载
+    * 我的是放在~/.zshrc里
+
 * ant
   * ant命令
 * apt
@@ -421,6 +432,8 @@ Linux 命令（Command） 和 Shell 内容。
   * tail -f filename
 * tar
   * 文件压缩和解压缩
+* tcpcopy
+  * 流量复制
 * tcpdump
   * 抓包解包
 * telnet
@@ -449,6 +462,8 @@ Linux 命令（Command） 和 Shell 内容。
 
 * vi
   * 编辑文件
+* vim
+  * Vi IMproved, a programmer's text editor
 
 #### W
 
