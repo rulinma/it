@@ -234,10 +234,6 @@
     - [Harbor](#harbor)
   - [Kubernetes](#kubernetes)
     - [Minicube](#minicube)
-- [人工智能](#人工智能-1)
-  - [推荐系统](#推荐系统)
-    - [机器学习](#机器学习-1)
-    - [深度学习](#深度学习-1)
 - [DevOps](#devops)
   - [运维](#运维)
     - [定时任务](#定时任务)
@@ -274,6 +270,10 @@
     - [Ansible](#ansible)
     - [CMDB](#cmdb)
     - [IP查询](#ip查询)
+- [人工智能](#人工智能-1)
+  - [推荐系统](#推荐系统)
+    - [机器学习](#机器学习-1)
+    - [深度学习](#深度学习-1)
 - [架构设计](#架构设计)
   - [架构](#架构)
     - [单体](#单体)
@@ -1019,14 +1019,6 @@ Kubernetes是一个开源系统，用于自动化容器化应用程序的部署�
 
 ### [Minicube](云原生/Kubernetes/Minicube/README.md)
 
-# [人工智能](人工智能/README.md)
-
-## [推荐系统](人工智能/推荐系统/README.md)
-
-### [机器学习](人工智能/推荐系统/机器学习/README.md)
-
-### [深度学习](人工智能/推荐系统/深度学习/README.md)
-
 # [DevOps](DevOps/README.md)
 
 就是开发（Development）、测试（QA）、运维（Operations）这三个领域的合并。
@@ -1134,6 +1126,15 @@ Nginx [engine x]是一个HTTP和反向代理服务器，一个邮件代理服务
 ### [CMDB](DevOps/运维工具/CMDB/README.md)
 
 ### [IP查询](DevOps/运维工具/IP查询/README.md)
+
+
+# [人工智能](人工智能/README.md)
+
+## [推荐系统](人工智能/推荐系统/README.md)
+
+### [机器学习](人工智能/推荐系统/机器学习/README.md)
+
+### [深度学习](人工智能/推荐系统/深度学习/README.md)
 
 # [架构设计](架构设计/README.md)
 
