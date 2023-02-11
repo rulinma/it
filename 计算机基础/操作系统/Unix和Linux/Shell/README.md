@@ -170,6 +170,17 @@ Linux 命令（Command） 和 Shell 内容。
 * ffmepg
   * 视频相关命令
 * fg
+  * fg %n
+    * 任务放到前端执行
+    * 示例1：
+      * vim test.txt &
+      * jobs
+      * fg 1
+    * 示例2：
+      * vim test.txt
+      * ctrl + z
+      * jobs
+      * fg 1
 * file
 * find
   * 查找文件
