@@ -319,14 +319,6 @@
     - [Harbor](#harbor)
   - [Kubernetes](#kubernetes)
     - [Minicube](#minicube)
-- [规范](#规范)
-  - [开发规范](#开发规范)
-    - [编码规范](#编码规范)
-      - [Java编码规范](#java编码规范)
-      - [JavaScript编码规范](#javascript编码规范)
-    - [版本规范](#版本规范)
-    - [API规范](#api规范)
-      - [Google](#google)
 - [项目管理](#项目管理)
   - [需求管理](#需求管理)
     - [Redmine](#redmine)
@@ -359,6 +351,14 @@
     - [Charles](#charles)
     - [Markdown](#markdown)
     - [GitHub相关](#github相关)
+  - [规范](#规范)
+    - [开发规范](#开发规范)
+      - [编码规范](#编码规范)
+        - [Java编码规范](#java编码规范)
+        - [JavaScript编码规范](#javascript编码规范)
+      - [版本规范](#版本规范)
+      - [API规范](#api规范)
+        - [Google](#google)
   - [内网穿透](#内网穿透)
     - [frp](#frp)
     - [shadowsocks](#shadowsocks)
@@ -399,9 +399,9 @@
       - [神策](#神策)
   - [英语](#英语)
     - [翻译工具](#翻译工具)
-- [我的](#我的)
-  - [我的产品](#我的产品)
-  - [交流分享](#交流分享)
+  - [我的](#我的)
+    - [我的产品](#我的产品)
+    - [交流分享](#交流分享)
 - [感谢](#感谢)
   - [赞助商](#赞助商)
 - [赞赏](#赞赏)
@@ -1284,24 +1284,6 @@ Kubernetes是一个开源系统，用于自动化容器化应用程序的部署�
 
 ### [Minicube](云原生/Kubernetes/Minicube/README.md)
 
-# [规范](规范/README.md)
-
-## [开发规范](规范/开发规范/README.md)
-
-### [编码规范](规范/开发规范/编码规范/README.md)
-
-#### [Java编码规范](规范/开发规范/编码规范/Java编码规范/README.md)
-
-#### [JavaScript编码规范](规范/开发规范/编码规范/JavaScript编码规范/README.md)
-
-### [版本规范](规范/开发规范/版本规范/README.md)
-
-### [API规范](规范/开发规范/API规范/README.md)
-
-#### [Google](规范/开发规范/API规范/Google/README.md)
-
-[Google API Design Guide](https://cloud.google.com/apis/design)
-
 # [项目管理](项目管理/README.md)
 
 ## [需求管理](项目管理/需求管理/README.md)
@@ -1393,6 +1375,24 @@ API测试、Mock Servers功能和自动化测试。
 ### [Markdown](杂项/开发工具/Markdown/README.md)
 
 ### [GitHub相关](杂项/开发工具/GitHub相关/README.md)
+
+## [规范](杂项/规范/README.md)
+
+### [开发规范](杂项/规范/开发规范/README.md)
+
+#### [编码规范](杂项/规范/开发规范/编码规范/README.md)
+
+##### [Java编码规范](杂项/规范/开发规范/编码规范/Java编码规范/README.md)
+
+##### [JavaScript编码规范](杂项/规范/开发规范/编码规范/JavaScript编码规范/README.md)
+
+#### [版本规范](杂项/规范/开发规范/版本规范/README.md)
+
+#### [API规范](杂项/规范/开发规范/API规范/README.md)
+
+##### [Google](杂项/规范/开发规范/API规范/Google/README.md)
+
+[Google API Design Guide](https://cloud.google.com/apis/design)
 
 ## [内网穿透](杂项/开发工具/内网穿透/README.md)
 
@@ -1494,11 +1494,11 @@ Eclipse Mosquitto是一个开源（EPL / EDL许可）消息代理，它实现了
 
 ### [翻译工具](杂项/英语/翻译工具/README.md)
 
-# [我的](我的/README.md)
+## [我的](杂项/我的/README.md)
 
-## [我的产品](我的/我的产品/README.md)
+### [我的产品](杂项/我的/我的产品/README.md)
 
-## [交流分享](我的/交流分享/README.md)
+### [交流分享](杂项/我的/交流分享/README.md)
 
 # 感谢
 
