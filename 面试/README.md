@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [GitHub][Interviews](https://github.com/kdn251/interviews) Everything you need to know to get the job.(找工作需要了解的一切)
 

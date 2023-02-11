@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [电脑报](http://www.icpcw.com)
 * [ACM](https://www.acm.org)

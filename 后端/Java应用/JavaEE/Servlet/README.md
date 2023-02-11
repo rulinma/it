@@ -10,7 +10,7 @@ Servlet容器是Web服务器或应用程序服务器的一部分，它提供发�
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][官方]Java™ Servlet Specification
 * [图书][Head First Servlets & Jsp](http://product.dangdang.com/20926088.html)

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][精通iOS开发](http://product.dangdang.com/25113926.html)
 * [图书]iOS高级编程

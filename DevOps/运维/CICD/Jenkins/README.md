@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][Jenkins权威指南](http://product.dangdang.com/24048566.html)
 

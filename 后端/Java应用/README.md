@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [JavaGuide](https://github.com/Snailclimb/JavaGuide)
 

@@ -11,7 +11,7 @@
 
 <img src="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" alt="React学习路线图"/>
 
-### 核心资料
+### 推荐资料
 
 * [网站][Ant Design of React](https://ant.design/docs/react/introduce)
 * [网站][create-react-app](https://github.com/facebook/create-react-app)

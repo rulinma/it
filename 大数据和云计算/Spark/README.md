@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][Spark快速大数据分析](http://product.dangdang.com/23790700.html)
 * [图书]Spark权威指南

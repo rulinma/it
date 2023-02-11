@@ -4,7 +4,7 @@
 
 基于Hadoop的列存储系统。
 
-### 核心资料
+### 推荐资料
 
 * [图书][HBase权威指南](http://product.dangdang.com/23336430.html)
 

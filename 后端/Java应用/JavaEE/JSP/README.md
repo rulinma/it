@@ -8,7 +8,7 @@ JSP是规范，而不是产品。
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [过时][图书]JavaServer Pages Specification V2.1
 

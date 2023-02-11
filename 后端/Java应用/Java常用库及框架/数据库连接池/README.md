@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Druid](https://github.com/alibaba/druid)  为监控而生的数据库连接池！
 * [DBCP](https://commons.apache.org/proper/commons-dbcp/)

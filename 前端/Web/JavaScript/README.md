@@ -8,7 +8,7 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [网站][经典][JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide)
 * [网站][经典][JavaScript Questions](https://github.com/lydiahallie/javascript-questions)

@@ -10,7 +10,7 @@
 * 数据同步和更新方案也要注意是否适合业务需求
 * 数据如何备份和恢复
 
-### 核心资料
+### 推荐资料
 
 * [图书][深入理解ElasticSearch](http://product.dangdang.com/25084053.html)
 * [图书][ElasticSearch服务器开发](http://product.dangdang.com/23659310.html)

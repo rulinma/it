@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Dubbo](https://github.com/xianglesong/learning-javas/blob/master/framework/Dubbo.md)
   Dubbo作为一个分布式RPC框架，对于Java程序员来说，还是有必要学习一下的。(Apache Dubbo™ (incubating) is a high-performance, java based open source RPC framework.)

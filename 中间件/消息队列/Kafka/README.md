@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [工具][Kafka Manager](https://github.com/yahoo/kafka-manager) A tool for managing Apache Kafka.
 * [图书][Kafka权威指南](http://product.dangdang.com/25211884.html)

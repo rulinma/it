@@ -36,7 +36,7 @@ protected-mode no
 
 ### 常用命令
 
-### 核心资料
+### 推荐资料
 
 * [工具][Redis Desktop Manager](https://redisdesktop.com/)  
   * 访问Redis的工具。(Redis Desktop Manager (aka RDM) — is a fast open source Redis database management application for Windows, Linux and MacOS.)

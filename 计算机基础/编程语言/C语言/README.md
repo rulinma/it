@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][经典][C程序设计语言](http://product.dangdang.com/8766529.html)
 * [图书][经典][C程序设计语言(英文版)](http://product.dangdang.com/9196242.html)

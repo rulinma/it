@@ -6,7 +6,7 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [视频]<https://www.bilibili.com/video/BV1TJ41177i1?p=1>
 * [图书][jQuery技术内幕：深入解析jQuery架构设计与实现原理](http://product.dangdang.com/1484452336.html)

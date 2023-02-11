@@ -7,7 +7,7 @@
 * 目前主流就是redis
 * 绝大多数情况redis就可以了，不要搞分布式缓存
 
-### 核心资料
+### 推荐资料
 
 * [文章][缓存那些事](https://tech.meituan.com/cache_about.html)
 

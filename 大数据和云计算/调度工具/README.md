@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Azkaban](https://azkaban.github.io/) Open-source Workflow Manager.
 * [Oozie](http://oozie.apache.org) Hadoop工作流调度工具。(Apache Oozie Workflow Scheduler for Hadoop.)

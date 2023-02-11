@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Nutch](http://nutch.apache.org/)  分布式爬虫。(Highly extensible, highly scalable Web crawler.)
 * [Jsoup](https://jsoup.org/) Jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.(Jsoup是一个用于处理真实HTML的Java库。 它提供了一个非常方便的API，用于提取和操作数据，使用最好的DOM，CSS和类似jquery的方法)

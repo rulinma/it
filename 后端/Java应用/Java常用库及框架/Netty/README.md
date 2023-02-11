@@ -4,6 +4,6 @@ Netty is an asynchronous event-driven network application framework for rapid de
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书]Netty in Action

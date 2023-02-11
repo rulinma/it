@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][白帽子讲Web安全](http://product.dangdang.com/23506094.html)
 

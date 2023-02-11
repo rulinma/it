@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Neo4j](https://neo4j.com/) The graph database platform.(图数据库平台)
 

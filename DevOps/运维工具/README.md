@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [JumpServer](http://www.jumpserver.org/) 是全球首款完全开源的堡垒机,使用GNU GPL v2.0开源协议,是符合 4A 的专业运维安全审计系统。
 

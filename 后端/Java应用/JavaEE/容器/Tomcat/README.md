@@ -4,7 +4,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][Tomcat权威指南](http://product.dangdang.com/20702017.html)
 * [经典][图书][深入剖析Tomcat](http://product.dangdang.com/22585226.html) How Tomcat Works.

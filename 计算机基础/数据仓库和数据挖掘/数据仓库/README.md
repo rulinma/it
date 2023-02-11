@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][数据仓库](http://product.dangdang.com/9200409.html)
 * [工具][Teradata](https://www.teradata.com.cn)

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Java官网](http://java.oracle.com) Java官方地址，Java开发工具、文档、bug等信息权威发布。
 * [Java规范](https://docs.oracle.com/javase/specs) Java Language and Virtual Machine Specifications.(Java语言和虚拟机规范)

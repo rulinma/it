@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][软件工程](http://product.dangdang.com/25231549.html)
 * [图书][经典][代码大全](http://product.dangdang.com/22543344.html)

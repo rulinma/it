@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [工具][Talend](https://www.talend.com/resources/what-is-etl)
 * [工具][DataStage](https://www.ibm.com/us-en/marketplace/datastage) Delivers advanced enterprise ETL.

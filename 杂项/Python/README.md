@@ -53,7 +53,7 @@ id=2,deleted=0
 id=3,deleted=1
 ```
 
-### 核心资料
+### 推荐资料
 
 * [图书][Python基础教程](http://product.dangdang.com/25218035.html)
 * [图书]Python核心编程

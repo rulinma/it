@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][Solr实战](http://product.dangdang.com/25082460.html)
 * [图书][Solr Cookbook](http://product.dangdang.com/1900482179.html)

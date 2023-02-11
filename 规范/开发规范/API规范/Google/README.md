@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [GitHub][HTTP API Design Guide](https://github.com/interagent/http-api-design)
 * [GitHub][HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)

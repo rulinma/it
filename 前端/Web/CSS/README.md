@@ -4,7 +4,7 @@ HTML文档的样式语言（[CSS](https://www.w3.org/TR/CSS) is the language we 
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [视频][经典][黑马程序员pink老师前端入门教程](https://www.bilibili.com/video/BV14J4114768)
 * [视频][经典][Udemy排名第一的 HTML5+CSS3 课程](https://www.bilibili.com/video/BV1A34y1e7w)

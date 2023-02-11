@@ -8,6 +8,6 @@
 * 编写JavaScript脚本，进行自动化数据填充，或自动化测试等工作
 * Mock Servers的使用
 
-### 核心资料
+### 推荐资料
 
 * Mock Servers[https://learning.postman.com/docs/sending-requests/examples/](https://learning.postman.com/docs/sending-requests/examples/)

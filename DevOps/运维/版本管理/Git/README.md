@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][Git权威指南](http://product.dangdang.com/21108669.html)
 * [图书][Git版本控制管理](http://product.dangdang.com/23657840.html)

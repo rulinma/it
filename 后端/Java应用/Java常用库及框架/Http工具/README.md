@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [HttpClient](https://hc.apache.org/httpcomponents-client-ga/)
 * [OkHttp](http://square.github.io/okhttp/) An HTTP+HTTP/2 client for Android and Java applications.

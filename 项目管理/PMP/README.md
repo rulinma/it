@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][项目管理知识体系指南（PMBOK指南：第5版）](http://product.dangdang.com/23256884.html)
 * [图书][西游记PMP备考奇书](http://product.dangdang.com/23639808.html)

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [JPinyin](https://github.com/stuxuhai/jpinyin) JPinyin是一个汉字转拼音的Java开源类库。不过好像被删除了，需要自己找了。
 * [pinyin4j](https://github.com/belerweb/pinyin4j) A copy of <http://sourceforge.net/projects/pinyin4j>, then deploy it to maven central repository.

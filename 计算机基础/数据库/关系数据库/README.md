@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][经典]Transact-SQL权威指南
 * [图书][Architecture of a Database System(数据库系统架构)](http://product.dangdang.com/1058752208.html)

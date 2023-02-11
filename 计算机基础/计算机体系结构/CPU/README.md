@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [文章][CISC模型微处理器设计（VHDL实现）](https://blog.csdn.net/longronglin/article/details/1055388)
 

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Maven仓库](https://mvnrepository.com) 方便查找库应用。
 

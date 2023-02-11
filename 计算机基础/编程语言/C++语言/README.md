@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [经典]The C++ Programming Language
 * [经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。

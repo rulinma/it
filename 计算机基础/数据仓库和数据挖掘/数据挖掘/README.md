@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][数据挖掘：概念与技术](http://product.dangdang.com/22846300.html)
 * [图书][数据挖掘：实用机器学习工具与技术](http://product.dangdang.com/23469858.html)

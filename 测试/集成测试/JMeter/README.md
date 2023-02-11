@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][全栈性能测试修炼宝典 JMeter实战](http://product.dangdang.com/24048538.html)
 * [命令]CMD: bin/jmeter -n -t test.jmx -l test.jtl

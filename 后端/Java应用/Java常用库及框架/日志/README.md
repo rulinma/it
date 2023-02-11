@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [Log4j](https://logging.apache.org/log4j/2.x/)
 * [SLF4j](https://www.slf4j.org)

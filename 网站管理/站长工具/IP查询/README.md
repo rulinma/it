@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [工具][淘宝IP地址库](http://ip.taobao.com)
 * [工具][IPIP](https://www.ipip.net/ip.html)

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [图书][经典][汇编语言](http://product.dangdang.com/25178843.html) 王爽的这版，我觉得入门是最好的。写的浅显易懂，更深入的需要看别的图书。
 * [图书]Intel Architecture Software Developer's Manual Volume1: Basic Architecture

@@ -2,7 +2,7 @@
 
 ## 学习指南
 
-### 核心资料
+### 推荐资料
 
 * [过时][图书][jQuery基础教程](http://product.dangdang.com/23352323.html)
 * [过时][图书][精通jQuery](http://product.dangdang.com/23553774.html)
