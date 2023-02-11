@@ -52,6 +52,7 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### C
 
+* cal
 * cat
   * 查看文件内容
 * cd
@@ -169,6 +170,7 @@ Linux 命令（Command） 和 Shell 内容。
 * ffmepg
   * 视频相关命令
 * fg
+* file
 * find
   * 查找文件
   * find . -type d -name target -exec rm -fr "{}" \;
@@ -283,12 +285,14 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### L
 
+* last
 * less
 * ldd
 * ln
   * 链接
 * locate
   * 查找文件
+* logrotate
 * ls
   * 列出当前目录内容
   * 常用ls -lrt
@@ -365,6 +369,7 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### N
 
+* nc
 * netstat
   * 查看网络情况
 * nginx
@@ -443,8 +448,12 @@ Linux 命令（Command） 和 Shell 内容。
   * 系统服务管理
 * shutdown
   * 关闭
+  * shutdown -h
+  * shutdown -h 0
+    * 立刻关机
 * sleep
   * 休息
+* sort
 * source
   * 读取并执行文件
 * ss
@@ -512,6 +521,7 @@ Linux 命令（Command） 和 Shell 内容。
   * 抓包解包
 * telnet
   * 远程登录工具
+* time
 * top
   * 查看当前机器情况
 * touch
@@ -525,6 +535,7 @@ Linux 命令（Command） 和 Shell 内容。
   * uname -a
 * unmount
   * 卸载
+* uniq
 * useradd
   * 添加用户
 * userdel
@@ -540,9 +551,11 @@ Linux 命令（Command） 和 Shell 内容。
   * 编辑器之神
 * vim
   * Vi IMproved, a programmer's text editor
+* vmstat
 
 #### W
 
+* watch
 * who
   * 查看用户
   * w
