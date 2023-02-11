@@ -1,5 +1,12 @@
 # Shell
 
+Linux 命令（Command） 和 Shell 内容。
+
+* linux command
+* shell
+
+放在一起，主要是2者紧密联系。
+
 ## 学习指南
 
 ### 学习资料
@@ -156,6 +163,10 @@
 
 #### I
 
+* info
+  * Read documentation in Info format
+  * 阅读信息格式的文档
+  * info ls
 * iostat
   * 查看IO情况
 
@@ -214,14 +225,63 @@
 * ls
   * 列出当前目录内容
   * 常用ls -lrt
+* lsof
+  * list open files
 
 #### M
 
 * man
-  * format and display the on-line manual pages
-  * man bash
-  * man man
-  * man 1 man
+  * system's manual pager
+  * 系统参考手册
+    * [Linux manual page](https://man7.org/linux/man-pages/man1/man.1.html)
+      * man ls
+      * man man
+      * man 1 man
+      * man [section] ...
+        * 1 Executable programs or shell commands
+        * 2 System calls (functions provided by the kernel)
+        * 3 Library calls (functions within program libraries)
+        * 4 Special files (usually found in /dev)
+        * 5 File formats and conventions, e.g. /etc/passwd
+        * 6 Games
+        * 7 Miscellaneous (including macro packages and conventions),
+             e.g. man(7), groff(7), man-pages(7)
+        * 8 System administration commands (usually only for root)
+        * 9 Kernel routines [Non standard]
+      * man 1 printf
+
+        ```
+        PRINTF(1)                 BSD General Commands Manual                PRINTF(1)
+
+        NAME
+            printf -- formatted output
+
+        SYNOPSIS
+            printf format [arguments ...]
+
+        DESCRIPTION
+            The printf utility formats and prints its arguments, after the first, under control of the format.  The format is a character string
+            which contains three types of objects: plain characters, which are simply copied to standard output, character escape sequences which
+        ```
+
+      * man 3 printf
+
+        ```
+
+        PRINTF(3)                BSD Library Functions Manual                PRINTF(3)
+
+        NAME
+            printf, fprintf, sprintf, snprintf, asprintf, dprintf, vprintf, vfprintf, vsprintf, vsnprintf, vasprintf, vdprintf -- formatted out-
+            put conversion
+
+        LIBRARY
+            Standard C Library (libc, -lc)
+
+        SYNOPSIS
+            #include <stdio.h>
+
+        ```
+
 * mkdir
   * 创建目录
 * mv
