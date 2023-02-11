@@ -746,3 +746,4 @@
 5. [OpenSSH Manual Pages](http://www.openssh.com/manual.html)
 6. [Shell 传递参数](https://www.runoob.com/linux/linux-shell-passing-arguments.html)
 7. [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing)
+8. [Linux manual page](https://man7.org/index.html)
