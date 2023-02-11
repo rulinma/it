@@ -214,6 +214,7 @@
   - [Hive](#hive)
   - [ETL](#etl-1)
   - [HBase](#hbase)
+  - [Impala](#impala)
   - [Cassandra](#cassandra)
   - [Spark](#spark)
   - [Kudu](#kudu)
@@ -926,6 +927,8 @@ Apache Hive™数据仓库软件有助于使用SQL读取，编写和管理驻留
 [HBase](http://hbase.apache.org) 建立在Hadoop上的分布式数据库。
 
 Apache HBase™ is the Hadoop database, a distributed, scalable, big data store.
+
+## [Impala](大数据和云计算/Impala/README.md)
 
 ## [Cassandra](大数据和云计算/Cassandra/README.md)
 
