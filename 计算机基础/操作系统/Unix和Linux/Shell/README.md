@@ -70,6 +70,8 @@ Linux 命令（Command） 和 Shell 内容。
   * 复制命令
 * crontab
   * 定时执行任务
+  * crontab -e
+  * crontab -l
 * curl
   * 网络访问
   * 该命令可以用来测试网络情况访问情况，监控网页的响应时间等
@@ -139,6 +141,9 @@ Linux 命令（Command） 和 Shell 内容。
 
 #### E
 
+* emacs
+  * 神的编辑器
+  * 我不会用
 * expect
   * 很多时候要输入密码，可以借助于该工具，比如mysql，ssh登录等
     * mysql示例
@@ -518,7 +523,7 @@ Linux 命令（Command） 和 Shell 内容。
 #### V
 
 * vi
-  * 编辑文件
+  * 编辑器之神
 * vim
   * Vi IMproved, a programmer's text editor
 
