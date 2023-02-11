@@ -11,12 +11,20 @@
 
 ### 常用命令
 
+[A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
+
+#### A
+
 * ant
   * ant命令
 * apt
   * 在 Debian 和 Ubuntu 中的 Shell 前端软件包管理器
 
+#### B
+
 * bash
+
+#### C
 
 * cat
   * 查看文件内容
@@ -46,6 +54,8 @@
     * curl -o /dev/test -s -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "https://www.xianglesong.com"
       * 0.005135::0.078192::0.327840::0.327971::10879.000
 
+#### D
+
 * date
   * 查看日期
 * df -h /
@@ -57,6 +67,8 @@
   * docker命令工具
 * du -sh \.
   * 返回当前目录使用空间
+
+#### E
 
 * expect
   * 很多时候要输入密码，可以借助于该工具，比如mysql，ssh登录等
@@ -75,6 +87,8 @@
       send "123456\r"
       interact
   ```
+
+#### F
 
 * ffmepg
   * 视频相关命令
@@ -101,6 +115,8 @@
   * echo 3 > /proc/sys/vm/drop_caches
     * free pagecache, dentries and inodes
 
+#### G
+
 * git
   * git工具命令
 * grep
@@ -126,11 +142,17 @@
 * gradle
   * gradle命令
 
+#### H
+
 * history
   * 查看历史记录
 
+#### I
+
 * iostat
   * 查看IO情况
+
+#### J
 
 * java
   * 执行java程序
@@ -140,6 +162,8 @@
   * 查看java进程
 * jstack
   * 检查java程序问题，类似的命令很多，参考官方说明
+
+#### K
 
 * kill
   * 删除进程
@@ -175,12 +199,16 @@
 * kubectl
   * k8s命令工具
 
+#### L
+
 * less
 * locate
   * 查找文件
 * ls
   * 列出当前目录内容
   * 常用ls -lrt
+
+#### M
 
 * mkdir
   * 创建目录
@@ -196,6 +224,8 @@
 * mysql
   * mysql命令工具
 
+#### N
+
 * netstat
   * 查看网络情况
 * nginx
@@ -207,7 +237,11 @@
 * nslookup
   * 查看DNS记录
 
+#### O
+
 * open
+
+#### P
 
 * passwd
   * 修改密码
@@ -222,7 +256,11 @@
 * pwd
   * 返回当前目录路径
 
+#### Q
+
 * quit
+
+#### R
 
 * reboot
   * 重启
@@ -235,6 +273,8 @@
   * 删除目录
 * rpm
   * rpm -qa | grep java
+
+#### S
 
 * scp
   * 传输文件
@@ -303,6 +343,8 @@
   * systemd
     * [精华][Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
 
+#### T
+
 * tail
   * tail -f filename
 * tar
@@ -318,6 +360,8 @@
 * tree
   * 查看目录
 
+#### U
+
 * useradd
   * 添加用户
 * userdel
@@ -329,8 +373,12 @@
 * unzip
   * 解压缩文件
 
+#### V
+
 * vi
   * 编辑文件
+
+#### W
 
 * who
   * 查看用户
@@ -340,11 +388,17 @@
 * wget
   * 下载工具
 
+#### X
+
+#### Y
+
 * yarn
   * 又一个前端包管理工具
 * yum
   * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
   * yum search java | grep jdk
+
+#### Z
 
 * zip
   * 压缩文件
