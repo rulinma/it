@@ -212,6 +212,10 @@
 
 #### M
 
+* man
+  * format and display the on-line manual pages
+  * man bash
+  * man man
 * mkdir
   * 创建目录
 * mv
