@@ -1,11 +1,6 @@
 # Shell
 
-Linux 命令（Command） 和 Shell 内容。
-
-* linux command
-* shell
-
-放在一起，主要是2者紧密联系。
+Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两者紧密联系。
 
 ## 学习指南
 
