@@ -79,15 +79,13 @@
 * /run：
   * 是一个临时文件系统，存储系统启动以来的信息。当系统重启时，这个目录下的文件应该被删掉或清除。如果你的系统上有 /var/run 目录，应该让它指向 run。
 
-### 核心资料
+### 推荐资料
 
 * [图书][经典][鸟哥的Linux私房菜](http://product.dangdang.com/20866026.html)
 * [图书][深入理解计算机系统](http://product.dangdang.com/24106647.html)
 * [图书][经典][操作系统设计与实现](http://product.dangdang.com/23727594.html) 此书告诉您如何实现一个操作系统，比学校里告诉您的更多，更好理解。当年Linus就是看这本书，编写的Linux。
 * [图书][经典]The Art of Unix Programming
 * [MINIX](http://www.minix3.org)
-
-### 普通资料
 
 * [GeekOS](http://geekos.sourceforge.net) The goal of GeekOS is to be a tool for learning about operating system kernels.  As of version 0.2.0, it comes with a set of projects suitable for use in an undergraduate operating systems course, or for self-directed learning.  GeekOS has been used in courses at a number of colleges and universities.
 * [文章][操作系统学习笔记](https://blog.csdn.net/longronglin/article/category/536556)
