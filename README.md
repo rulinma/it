@@ -2,8 +2,6 @@
 
 ## 千里之行始于足下 老骥伏枥志在千里
 
-**官方地址：[https://it.rulinma.com/](https://it.rulinma.com/)**
-
 **开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。**
 
 ## 愿景
