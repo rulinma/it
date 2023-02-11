@@ -216,6 +216,7 @@
   * format and display the on-line manual pages
   * man bash
   * man man
+  * man 1 man
 * mkdir
   * 创建目录
 * mv
