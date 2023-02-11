@@ -553,6 +553,61 @@
     end
   ```
 
+#### 函数调用
+
+* 函数调用
+
+    ``` shell
+      > cat func.sh
+      
+      #!/bin/bash
+
+      datetime=$(date "+%Y-%m-%d %H:%M:%S")
+
+      func() {
+          echo "func $datetime"
+      }
+
+      func
+
+      function loop_print() {
+          count=0
+          while [ $count -lt "$1" ]; do
+              echo $count
+              ((count++)) || true
+              sleep 1
+          done
+          return 0
+      }
+
+      loop_print 3
+
+      function func_params() {
+          echo "$0"
+          echo "$1"
+          echo "$2"
+          echo "$3"
+          echo "$*"
+          return 0
+      }
+
+      func_params 1 2 3 4 5
+
+    ```
+
+  ``` shell
+    > sh func.sh   
+    func 2023-02-11 08:57:51
+    0
+    1
+    2
+    func.sh
+    1
+    2
+    3
+    1 2 3 4 5
+  ```
+
 ### 运维常用命令
 
 #### 内存管理
