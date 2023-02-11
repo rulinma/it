@@ -67,6 +67,17 @@
       - [MongoDB](#mongodb)
       - [Neo4j](#neo4j)
   - [计算机网络](#计算机网络)
+    - [网络](#网络)
+      - [TcpIp](#tcpip)
+        - [Socket](#socket)
+      - [SSL](#ssl)
+      - [爬虫](#爬虫)
+        - [Nutch](#nutch)
+        - [Jsoup](#jsoup)
+      - [网络工具集](#网络工具集)
+        - [流量复制](#流量复制)
+        - [WireShark](#wireshark)
+        - [TcpDump](#tcpdump)
   - [软件工程](#软件工程)
     - [CMMI](#cmmi)
   - [计算机体系结构](#计算机体系结构)
@@ -204,17 +215,6 @@
   - [自动化测试](#自动化测试)
   - [测试工具](#测试工具)
     - [挡板](#挡板)
-- [网络](#网络)
-  - [TcpIp](#tcpip)
-    - [Socket](#socket)
-  - [SSL](#ssl)
-  - [爬虫](#爬虫)
-    - [Nutch](#nutch)
-    - [Jsoup](#jsoup)
-  - [网络工具集](#网络工具集)
-    - [流量复制](#流量复制)
-    - [WireShark](#wireshark)
-    - [TcpDump](#tcpdump)
 - [安全](#安全)
   - [网络安全](#网络安全)
     - [防火墙](#防火墙)
@@ -501,6 +501,32 @@ Emacs和VIM：神的编辑器和编辑器之神。
 #### [Neo4j](计算机基础/数据库/非关系数据库/Neo4j/README.md)
 
 ## [计算机网络](计算机基础/计算机网络/README.md)
+
+### [网络](计算机基础/计算机网络/网络高级/README.md)
+
+#### [TcpIp](计算机基础/计算机网络/网络高级/TcpIp/README.md)
+
+##### [Socket](计算机基础/计算机网络/网络高级/Socket/README.md)
+
+Socket是为了方便使用TCP或UDP而抽象出来的一层，位于应用层和传输控制层之间的一组接口，提供一套调用TCP/IP协议的API。
+
+#### [SSL](计算机基础/计算机网络/网络高级/SSL/README.md)
+
+#### [爬虫](计算机基础/计算机网络/网络高级/爬虫/README.md)
+
+##### [Nutch](计算机基础/计算机网络/网络高级/爬虫/Nutch/README.md)
+
+##### [Jsoup](计算机基础/计算机网络/网络高级/爬虫/Jsoup/README.md)
+
+#### [网络工具集](计算机基础/计算机网络/网络高级/网络工具集/README.md)
+
+##### [流量复制](计算机基础/计算机网络/网络高级/网络工具集/流量复制/README.md)
+
+##### [WireShark](计算机基础/计算机网络/网络高级/网络工具集/WireShark/README.md)
+
+[Wireshark](https://www.wireshark.org) 网络封包分析软件。
+
+##### [TcpDump](计算机基础/计算机网络/网络高级/网络工具集/TcpDump/README.md)
 
 ## [软件工程](计算机基础/软件工程/README.md)
 
@@ -915,32 +941,6 @@ Apache JMeter™应用程序是开源软件，是一种100％纯Java应用程序
 ## [测试工具](测试/测试工具/README.md)
 
 ### [挡板](测试/测试工具/挡板/README.md)
-
-# [网络](网络/README.md)
-
-## [TcpIp](网络/TcpIp/README.md)
-
-### [Socket](网络/Socket/README.md)
-
-Socket是为了方便使用TCP或UDP而抽象出来的一层，位于应用层和传输控制层之间的一组接口，提供一套调用TCP/IP协议的API。
-
-## [SSL](网络/SSL/README.md)
-
-## [爬虫](网络/爬虫/README.md)
-
-### [Nutch](网络/爬虫/Nutch/README.md)
-
-### [Jsoup](网络/爬虫/Jsoup/README.md)
-
-## [网络工具集](网络/网络工具集/README.md)
-
-### [流量复制](网络/网络工具集/流量复制/README.md)
-
-### [WireShark](网络/网络工具集/WireShark/README.md)
-
-[Wireshark](https://www.wireshark.org) 网络封包分析软件。
-
-### [TcpDump](网络/网络工具集/TcpDump/README.md)
 
 # [安全](安全/README.md)
 
