@@ -1,43 +1,37 @@
 # 程序员知识图谱和实战指南
 
-## 千里之行始于足下 老骥伏枥志在千里
+* 千里之行始于足下 老骥伏枥志在千里
 
-**开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。**
+* 开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。
 
-## 见面有礼
-
-* [[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)]
+* 见面有礼：[[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)]
 
 ## 愿景
 
-* **程序员学习指南**
-* **提升程序员的知识面广度和深度**
-* **通过项目实战做到知行合一，并不断迭代，取得进步**
-* **项目实战的经验积累，进行流程化，模块化，工具化等标准化建设，提高生产力，降低出错概率，提升项目成功率**
-* **其他杂项内容（面试经验、职业发展、创业、招聘、培训等）**
+* 程序员学习指南
+* 提升程序员的知识面广度和深度
+* 通过项目实战做到知行合一，并不断迭代，取得进步
+* 项目实战的经验积累，进行流程化，模块化，工具化等标准化建设，提高生产力，降低出错概率，提升项目成功率
+* 其他杂项内容（面试经验、职业发展、创业、招聘、培训等）
 
 ## 项目
 
-### AI记单词
-
-* [AI记单词项目管理](https://github.com/rulinma/it-word-project-manage)
-* [AI记单词产品管理](https://github.com/rulinma/it-word-product-manage)
-* [AI记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
-* [AI记单词Web之Mobile](https://github.com/rulinma/it-word-web-mobile)
-* AI记单词iOS
-* AI记单词Android
-* [AI记单词后端](https://github.com/rulinma/it-word-backend)
-* [AI记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
-* [AI记单词运维](https://github.com/rulinma/it-word-devops)
+* AI记单词
+  * [AI记单词项目管理](https://github.com/rulinma/it-word-project-manage)
+  * [AI记单词产品管理](https://github.com/rulinma/it-word-product-manage)
+  * [AI记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
+  * [AI记单词Web之Mobile](https://github.com/rulinma/it-word-web-mobile)
+  * AI记单词iOS
+  * AI记单词Android
+  * [AI记单词后端](https://github.com/rulinma/it-word-backend)
+  * [AI记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
+  * [AI记单词运维](https://github.com/rulinma/it-word-devops)
 
 # 目录
 
 - [程序员知识图谱和实战指南](#程序员知识图谱和实战指南)
-  - [千里之行始于足下 老骥伏枥志在千里](#千里之行始于足下-老骥伏枥志在千里)
-  - [见面有礼](#见面有礼)
   - [愿景](#愿景)
   - [项目](#项目)
-    - [AI记单词](#ai记单词)
 - [目录](#目录)
 - [导论](#导论)
   - [概述](#概述)
@@ -1040,7 +1034,6 @@ Kubernetes是一个开源系统，用于自动化容器化应用程序的部署�
 ## [运维](DevOps/运维/README.md)
 
 ### [定时任务](DevOps/运维/定时任务/README.md)
-
 
 ## [版本管理](DevOps/运维/版本管理/README.md)
 
