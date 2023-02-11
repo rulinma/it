@@ -8,8 +8,6 @@
 * [图书][Architecture of a Database System(数据库系统架构)](http://product.dangdang.com/1058752208.html)
 * [图书][Head First SQL](http://product.dangdang.com/21040398.html)
 
-### 普通资料
-
 * [图书][经典][Teach Yourself SQL in 21 Days](http://product.dangdang.com/1244621523.html)
 * [图书][SQL必知必会(第3版)](http://product.dangdang.com/23246707.html)
 * [图书][SQL教程（杨中科）](http://study.163.com/course/introduction/215012.htm#/courseDetail) 使用微软SQL Server讲解的。

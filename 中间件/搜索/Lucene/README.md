@@ -10,8 +10,6 @@
 * [GitHub][Luke](https://github.com/DmitryKey/luke) This is mavenised Luke: Lucene Toolbox Project.
 * [工具][Luyten](https://github.com/deathmarine/Luyten) An Open Source Java Decompiler Gui for Procyon.
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

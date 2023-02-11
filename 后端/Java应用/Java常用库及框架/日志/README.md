@@ -9,8 +9,6 @@
 * [Logback](https://logback.qos.ch)
 * [Common-Logging](http://commons.apache.org/proper/commons-logging)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

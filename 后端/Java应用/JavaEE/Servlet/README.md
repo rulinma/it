@@ -19,8 +19,6 @@ Servlet容器是Web服务器或应用程序服务器的一部分，它提供发�
 * [文章][Servlet 工作原理解析](http://www.ibm.com/developerworks/cn/java/j-lo-servlet)
 * [视频][Servlet Java  Web 编程（郭宏志）](http://study.163.com/course/introduction/648001.htms)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

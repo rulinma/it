@@ -6,8 +6,6 @@
 
 * [图书][Cassandra权威指南](http://product.dangdang.com/25204594.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

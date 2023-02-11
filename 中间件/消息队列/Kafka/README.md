@@ -10,8 +10,6 @@
 * [工具][Kafka Eagle](https://github.com/smartloli/EFAK)
 * [工具][Kafka Tool](https://www.kafkatool.com/)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

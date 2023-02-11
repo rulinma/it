@@ -19,8 +19,6 @@
 * [GitHub][The Definitive Guide to ElasticSearch](https://github.com/elastic/elasticsearch-definitive-guide)
 * [elasticsearch-analysis-ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary.
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

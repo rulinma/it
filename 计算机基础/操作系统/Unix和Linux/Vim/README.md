@@ -8,8 +8,6 @@
 
 * [http://www.linfo.org/vi/index.html](http://www.linfo.org/vi/index.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

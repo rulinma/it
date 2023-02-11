@@ -16,8 +16,6 @@ HTML文档的样式语言（[CSS](https://www.w3.org/TR/CSS) is the language we 
 * [图书][CSS权威指南](http://product.dangdang.com/20050535.html) 
 * [网站][W3C CSS教程]https://www.w3school.com.cn/css/index.asp
 
-### 普通资料
-
 * [视频][麦子学院 HTML5+CSS3快速入门](http://study.163.com/course/courseMain.htm?courseId=999036)
 * [图书][CSS揭秘](http://product.dangdang.com/23953090.html) 书的序是《CSS权威指南》的作者写的。
 * [文章]CSS的核心之一：盒子模型

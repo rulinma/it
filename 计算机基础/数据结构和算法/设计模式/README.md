@@ -6,8 +6,6 @@
 
 * [图书][经典][设计模式 可复用面向对象软件的基础](http://product.dangdang.com/71052.html)
 
-### 普通资料
-
 * [图书]Java与模式
 * [图书][Head First设计模式](http://product.dangdang.com/20021171.html)
 * [图书]面向对象程序分析和设计

@@ -6,8 +6,6 @@
 
 * [JavaGuide](https://github.com/Snailclimb/JavaGuide)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

@@ -11,8 +11,6 @@
 * [Leakcanary](https://github.com/square/leakcanary) A memory leak detection library for Android and Java.(适用于Android和Java的内存泄漏检测库)
 * [gceasy](https://gceasy.io>
 
-### 普通资料
-
 * [图书][经典]Java虚拟机规范
 * [图书]自己动手写Java虚拟机
 

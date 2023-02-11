@@ -8,8 +8,6 @@
 * [经典][http://www.cprogramming.com](https://www.cprogramming.com)里有个c-tutorial不错。
 * [图书]GCC: The Complete Reference
 
-### 普通资料
-
 * [文章]高质量C++/C编程指南 林锐博士。
 * [源码][https://github.com/antirez/redis](https://github.com/antirez/redis)
 * [源码][https://github.com/nginx/nginx](https://github.com/nginx/nginx)

@@ -8,8 +8,6 @@
 * [ACM](https://www.acm.org)
 * [IEEE](https://www.ieee.org)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

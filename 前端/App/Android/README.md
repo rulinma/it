@@ -8,8 +8,6 @@
 * [图书][Android编程权威指南](http://product.dangdang.com/25102877.html)
 * [图书]Android应用开发揭秘
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

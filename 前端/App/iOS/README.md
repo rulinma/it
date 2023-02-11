@@ -9,8 +9,6 @@
 * [图书]IOS开发指南 从零基础到APP STORE 上架
 * [图书]Beginning iOS 7 Development： Exploring the iOS SDK
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

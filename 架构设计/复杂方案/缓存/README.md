@@ -11,8 +11,6 @@
 
 * [文章][缓存那些事](https://tech.meituan.com/cache_about.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

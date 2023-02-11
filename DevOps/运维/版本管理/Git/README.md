@@ -10,8 +10,6 @@
 * [网站][gitignore][A collection of .gitignore templates](https://github.com/github/gitignore)
 * 很多IDE提供gitignore插件，比如VS Code的[gitignore插件](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
-### 普通资料
-
 * [工具][Mercurial](https://www.mercurial-scm.org) 源码控制管理工具。(Mercurial is a free, distributed source control management tool.)
 * [工具][SourceTree](https://www.sourcetreeapp.com/) 版本控制管理工具。(The friendly GUI for Mercurial and Git on your Mac.
 

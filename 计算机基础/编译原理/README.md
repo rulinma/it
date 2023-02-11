@@ -8,8 +8,6 @@
 * [图书][经典][计算机程序的构造和解释](http://product.dangdang.com/8793968.html)
 * [图书][编译原理及实现](http://product.dangdang.com/23781751.html) 这本书个人时强热推荐的，我读研期间重新做编译器，主要参考此书，非常好。
 
-### 普通资料
-
 * [图书]两周自制脚本语言
 * [文章][编译原理学习基本步骤](http://blog.csdn.net/longronglin/article/details/5920957)
 * [文章][编译原理解析](http://blog.csdn.net/longronglin/article/details/1109436) 如果把我上面的内容学好，可以说编译原理掌握的不错了。特别是我的内容是参考上面的清华大学孙悦红老师的课本做的，还得到了其支持，感恩感谢。

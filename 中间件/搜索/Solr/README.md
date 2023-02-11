@@ -10,8 +10,6 @@
 * [图书][Apache Solr 3 Enterprise Search Server](http://product.dangdang.com/1900489427.html)
 * [论坛][Solr](http://lucene.472066.n3.nabble.com)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

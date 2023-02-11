@@ -9,8 +9,6 @@
 * [图书]Intel Architecture Software Developer's Manual Volume2:Instructions Set Reference
 * [图书]Intel Architecture Software Developer's Manual Volume3:System Programming Guide
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

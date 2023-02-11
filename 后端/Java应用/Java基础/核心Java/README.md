@@ -20,8 +20,6 @@
 * [经典][图书][深入理解Java虚拟机：JVM高级特性与最佳实践](http://product.dangdang.com/23259731.html)
 * [图书][Java网络编程](http://product.dangdang.com/23560594.html)
 
-### 普通资料
-
 * [图书][Java并发](https://github.com/xianglesong/learning-javas/blob/master/basic/Java并发.md) Java并发包的使用是中高级程序员必须掌握的技能之一。
 * [图书][Modern Java - A Guide to Java 8(现代Java - Java指南8)](https://github.com/winterbe/java8-tutorial)
 * [图书]Java与模式

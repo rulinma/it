@@ -8,8 +8,6 @@
 * [图书][西游记PMP备考奇书](http://product.dangdang.com/23639808.html)
 * [图书][汪博士解读PMP考试](http://product.dangdang.com/25229379.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

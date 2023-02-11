@@ -6,8 +6,6 @@
 
 * [图书][白帽子讲Web安全](http://product.dangdang.com/23506094.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

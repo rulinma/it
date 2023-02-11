@@ -16,8 +16,6 @@
 * [图书]JUnit Recipes
 * [EasyMock](http://easymock.org) EasyMock, makes mocking easier since 2001.(自2001年以来，EasyMock使得模拟变得更容易)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

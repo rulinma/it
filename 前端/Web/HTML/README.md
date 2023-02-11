@@ -15,8 +15,6 @@
 * [官方][文章][https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 * [网站][W3C HTML教程](https://www.w3school.com.cn/html/index.asp)
 
-### 普通资料
-
 * [视频][翁恺 HTML5入门](http://study.163.com/course/introduction/171001.htm)
 * [视频][8小时学会HTML网页开发](http://study.163.com/course/courseMain.htm?courseId=432008)
 * [视频][妙味 HTML5前端开发实战1](http://study.163.com/course/courseMain.htm?courseId=717031)

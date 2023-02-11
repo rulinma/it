@@ -20,8 +20,6 @@
 * [网站][实现一个 mini 版本的 react](https://blog.ywhoo.cn/docs/framework/react-mini)
 * [网站][build-your-own-react](https://pomb.us/build-your-own-react)
 
-### 普通资料
-
 * [网站][UmiJS](https://umijs.org)
 * [网站][reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions)
 

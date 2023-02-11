@@ -9,8 +9,6 @@
 
 * [文章][数据库秒级平滑扩容架构方案](https://cloud.tencent.com/developer/article/1048650)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

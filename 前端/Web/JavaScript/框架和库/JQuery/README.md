@@ -4,8 +4,6 @@
 
 ### 核心资料
 
-### 普通资料
-
 * [过时][图书][jQuery基础教程](http://product.dangdang.com/23352323.html)
 * [过时][图书][精通jQuery](http://product.dangdang.com/23553774.html)
 * [过时][图书]锋利的jQuery

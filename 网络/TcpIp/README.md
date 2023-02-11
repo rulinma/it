@@ -8,8 +8,6 @@
 * [图书][经典][图解TCP/IP](http://product.dangdang.com/23265967.html)
 * [工具][经典][tcpdump](https://www.tcpdump.org)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

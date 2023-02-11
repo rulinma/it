@@ -8,8 +8,6 @@
 * [图书][经典][C程序设计语言(英文版)](http://product.dangdang.com/9196242.html)
 * [资料][经典][高质量C++/C编程指南](https://github.com/TIM168/technical_books/blob/master/C%E8%AF%AD%E8%A8%80/%E6%9E%97%E9%94%90%C2%B7%E9%AB%98%E8%B4%A8%E9%87%8FC%20%20%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf)
 
-### 普通资料
-
 * [图书][经典][C和指针](http://product.dangdang.com/20165942.html)
 * [图书][经典]C Traps and Pitfalls
 * [图书][经典]C和指针

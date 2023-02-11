@@ -12,8 +12,6 @@
 * [图书][经典][Unix网络编程](http://product.dangdang.com/23734637.html)
 * [文章][Unix Network Programming](http://www.masterraghu.com/subjects/np/introduction/unix_network_programming_v1.3/toc.html)
 
-### 普通资料
-
 * [图书][Linux内核完全注释](http://product.dangdang.com/8914120.html)
 
 ### 学习步骤

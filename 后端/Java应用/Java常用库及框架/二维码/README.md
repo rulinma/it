@@ -8,8 +8,6 @@
 
 * [Tesseract](https://github.com/tesseract-ocr/tesseract) Tesseract Open Source OCR Engine.
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

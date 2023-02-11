@@ -6,8 +6,6 @@
 
 * [认证][LPI Linux认证权威指南](http://product.dangdang.com/23217995.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

@@ -7,8 +7,6 @@
 * [图书][疯狂软件教育标准教材·轻量级Java EE企业应用实战(第4版):Struts 2+Spring 4+Hibernate整合开发(附光盘)](http://product.dangdang.com/23572565.html)
 * [图书]JAVA消息服务
 
-### 普通资料
-
 * [视频][JavaEE视频教程（郭宏志）](http://study.163.com/course/courseMain.htm?courseId=320027)
 * [视频][30天轻松掌握JavaWeb视频（方立勋）](http://study.163.com/course/courseMain.htm?courseId=214022)
 * [图书]J2EE Development without EJB

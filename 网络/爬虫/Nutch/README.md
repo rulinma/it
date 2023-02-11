@@ -10,8 +10,6 @@
 * [图书]自己动手写网络爬虫
 * [图书]Lucene Nutch搜索引擎开发
 
-### 普通资料
-
 * [Heritrix](https://github.com/internetarchive/heritrix3)  一款网络爬虫。(Heritrix is the Internet Archive's open-source, extensible, web-scale, archival-quality web crawler project.)
 
 ### 学习步骤

@@ -6,8 +6,6 @@
 
 * [Neo4j](https://neo4j.com/) The graph database platform.(图数据库平台)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

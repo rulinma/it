@@ -7,8 +7,6 @@
 * [图书][数据挖掘：概念与技术](http://product.dangdang.com/22846300.html)
 * [图书][数据挖掘：实用机器学习工具与技术](http://product.dangdang.com/23469858.html)
 
-### 普通资料
-
 * [工具][经典][Weka](https://www.cs.waikato.ac.nz/ml/weka) Weka is a collection of machine learning algorithms for data mining tasks.(Weka是用于数据挖掘任务的机器学习算法集合的工具)
 * [文章][用 WEKA 进行数据挖掘:简介和回归](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)
 * [文章][用 WEKA 进行数据挖掘:分类和群集](http://www.ibm.com/developerworks/cn/opensource/os-weka1/index.html)

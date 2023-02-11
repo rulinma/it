@@ -8,8 +8,6 @@
 
 * [图书][HBase权威指南](http://product.dangdang.com/23336430.html)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

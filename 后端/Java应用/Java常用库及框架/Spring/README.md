@@ -9,8 +9,6 @@
 * [图书]Spring Recipes
 * 推荐阅读一个[tiny-spring](https://github.com/code4craft/tiny-spring)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

@@ -12,8 +12,6 @@ JSP是规范，而不是产品。
 
 * [过时][图书]JavaServer Pages Specification V2.1
 
-### 普通资料
-
 * [过时][图书]JSP数据库编程指南
 * [过时][图书]JSP设计
 * [过时][图书]JSP高级编程

@@ -10,8 +10,6 @@
 * [工具][GeoIP](https://geoip.com)
 * [工具][纯真IP库](http://www.cz88.net)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点

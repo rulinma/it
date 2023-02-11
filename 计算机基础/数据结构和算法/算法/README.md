@@ -7,8 +7,6 @@
 * [图书][经典][算法导论](http://product.dangdang.com/22927209.html) 算法的最好的图书之一。
 * [视频][经典][麻省理工学院公开课：算法导论](http://open.163.com/special/opencourse/algorithms.html) 老头讲的非常好，年轻的一般。
 
-### 普通资料
-
 * [图书][经典][算法](http://product.dangdang.com/22880871.html) Knuth的学生写的，使用Java语言描述，值得一看。
 * [图书][数据结构与算法分析：Java语言描述](http://product.dangdang.com/23918741.html)
 * [图书][大话数据结构](http://product.dangdang.com/21088369.html)

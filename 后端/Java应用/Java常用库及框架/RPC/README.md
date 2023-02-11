@@ -9,8 +9,6 @@
 * [Thrift](https://github.com/xianglesong/learning-javas/blob/master/lib/Thrift.md)  RPC实现有多种方式，Thrift算是其中不错的框架之一。
    (The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.)
 
-### 普通资料
-
 ### 学习步骤
 
 ## 知识点
