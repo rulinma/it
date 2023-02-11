@@ -325,11 +325,6 @@
     - [Harbor](#harbor)
   - [Kubernetes](#kubernetes)
     - [Minicube](#minicube)
-- [网站管理](#网站管理)
-  - [站长工具](#站长工具)
-    - [站点统计](#站点统计)
-      - [Piwik](#piwik)
-    - [IP查询](#ip查询-1)
 - [规范](#规范)
   - [开发规范](#开发规范)
     - [编码规范](#编码规范)
@@ -388,6 +383,11 @@
     - [WordPress](#wordpress)
   - [DotNet](#dotnet)
   - [Delphi](#delphi)
+  - [网站管理](#网站管理)
+    - [站长工具](#站长工具)
+      - [站点统计](#站点统计)
+        - [Piwik](#piwik)
+      - [IP查询](#ip查询-1)
   - [认证](#认证)
     - [网络认证](#网络认证)
     - [软考](#软考)
@@ -1300,18 +1300,6 @@ Kubernetes是一个开源系统，用于自动化容器化应用程序的部署�
 
 ### [Minicube](云原生/Kubernetes/Minicube/README.md)
 
-# [网站管理](网站管理/README.md)
-
-## [站长工具](网站管理/站长工具/README.md)
-
-### [站点统计](网站管理/站长工具/站点统计/README.md)
-
-#### [Piwik](网站管理/站长工具/站点统计/Piwik/README.md)
-
-[Piwik](https://piwik.org)
-
-### [IP查询](网站管理/站长工具/IP查询/README.md)
-
 # [规范](规范/README.md)
 
 ## [开发规范](规范/开发规范/README.md)
@@ -1467,6 +1455,18 @@ API测试、Mock Servers功能和自动化测试。
 ## [DotNet](杂项/DotNet/README.md)
 
 ## [Delphi](杂项/Delphi/README.md)
+
+## [网站管理](杂项/网站管理/README.md)
+
+### [站长工具](杂项/网站管理/站长工具/README.md)
+
+#### [站点统计](杂项/网站管理/站长工具/站点统计/README.md)
+
+##### [Piwik](杂项/网站管理/站长工具/站点统计/Piwik/README.md)
+
+[Piwik](https://piwik.org)
+
+#### [IP查询](杂项/网站管理/站长工具/IP查询/README.md)
 
 ## [认证](杂项/认证/README.md)
 
