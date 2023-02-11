@@ -6,7 +6,7 @@
 
 ## 见面有礼
 
-[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)
+* [[我的工具](/杂项/工具大全/README.md) | [我的shell](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的感悟](/杂项/我的/交流分享/README.md)]
 
 ## 愿景
 
