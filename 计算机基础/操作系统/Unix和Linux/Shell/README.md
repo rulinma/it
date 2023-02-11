@@ -50,6 +50,7 @@
   * 查看日期
 * df -h /
   * 查看磁盘使用情况
+* diff
 * dig
   * 域名信息查看
 * docker
@@ -174,6 +175,7 @@
 * kubectl
   * k8s命令工具
 
+* less
 * locate
   * 查找文件
 * ls
@@ -188,6 +190,7 @@
   * mvn命令
 * mongo
   * mongodb命令工具
+* more
 * mount
   * 挂载
 * mysql
@@ -300,6 +303,8 @@
   * systemd
     * [精华][Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
 
+* tail
+  * tail -f filename
 * tar
   * 文件压缩和解压缩
 * tcpdump
@@ -674,3 +679,4 @@
 4. [Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
 5. [OpenSSH Manual Pages](http://www.openssh.com/manual.html)
 6. [Shell 传递参数](https://www.runoob.com/linux/linux-shell-passing-arguments.html)
+7. [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing)
