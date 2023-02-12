@@ -69,8 +69,23 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * copy files
   * 复制
     * cp source target
+
+    ```
+    > cp test1.txt /tmp/
+    ```
+
     * cp -R source target
+
+    ```
+    > cp -R . /tmp/
+    ```
+
     * cp source1 source2 target
+
+    ``` shell
+    > cp test1.txt test2.txt /tmp/
+    ```
+
 * crontab
   * 定时执行任务
   * crontab -e
