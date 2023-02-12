@@ -2,21 +2,37 @@
 
 ## 在线工具
 
-* [JSON转换器](https://www.bejson.com)  
-* [时间转换器](https://tool.chinaz.com/Tools/unixtime.aspx)
-* [IP信息查询](https://www.ip138.com)
-* [Cron表达式](https://cron.qqe2.com)
-* [正则表达式](https://tool.chinaz.com/regex)
-* [Mock服务](https://www.mocky.io)
-* [变量命名神器（CODELF）](https://unbug.github.io/codelf)
-* [PDF2Doc](https://pdf2doc.com/zh)
+* 综合工具箱
 
-* [在线工具-你的工具箱](https://tool.lu)
+  * [站长工具](https://tool.chinaz.com)
+  * [你的工具箱](https://tool.lu)
+  * [爱资料工具](https://www.toolnb.com)
+  * [UU在线工具](https://uutool.cn)
+
+* 常用工具
+
+  * [JSON转换器](https://www.bejson.com)  
+  * [Unix时间戳](https://tool.chinaz.com/tools/unixtime.aspx)
+  * [UrlEncode编码/解码](https://tool.chinaz.com/tools/urlencode.aspx)
+  * [Base64转码/解码](https://tool.chinaz.com/tools/base64.aspx)
+  * [MD5加密](https://tool.chinaz.com/tools/md5.aspx)
+  * [IP信息查询](https://www.ip138.com)
+  * [Cron表达式](https://tool.lu/crontab)
+  * [ToYaml](https://www.toyaml.com/index.html)
+  * [正则表达式](https://tool.chinaz.com/regex)
+  * [Mock服务](https://www.mocky.io)
+  * [变量命名神器（CODELF）](https://unbug.github.io/codelf)
+  * [PDF2Doc](https://pdf2doc.com/zh)
+
+* 其他工具
+
+  * [精品MAC应用分享](https://xclient.info)
 
 ## 应用程序
 
-* AirServer
-* [Alfred](https://www.alfredapp.com)
+* [AirServer](https://www.airserver.com)
+  * AirServer transforms your Xbox One into an all-in-one AirPlay + Google Cast + Miracast receiver
+* [推荐][Alfred](https://www.alfredapp.com)
   * Alfred is a productivity application for Mac OS X.
 * [推荐]Android Studio
 * [Dash](https://kapeli.com/dash)
@@ -26,7 +42,7 @@
 * [推荐]Docker
 * [推荐]Draw
 * EasyConnect
-* Eclipse
+* [Eclipse](https://www.eclipse.org)
 * [推荐][EverNote](https://evernote.com/intl/zh-cn)
   * [印象笔记](https://yinxiang.com)
 * [FileZilla](https://filezilla-project.org)
@@ -44,46 +60,44 @@
 * [MacDown](http://macdown.uranusjr.com)
   * MarkDown编写工具
 * [推荐]MySQLWorkbench
-* Navicat
+* [Navicat](https://navicat.com/en)
 * [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client)
   * Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
 * [推荐]Postman
 * ProxyClient
-* PyCharm
+* [PyCharm](https://www.jetbrains.com/pycharm)
 * RAR Extractor
-* [推荐]RDM
-  * Redis Desktop Management
-* Rectangle
+* [推荐][AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
+  * A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys.
+* [Rectangle](https://rectangleapp.com)
 * [推荐]Robo 3T
-* Royal TSX
+* [Royal TSX](https://www.royalapps.com)
 * [推荐]ScreenBrush
 * [推荐]SecureCRT
 * [Sequel Pro](http://www.sequelpro.com)
   * Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
-* Sequel Pro
 * [Shadowsocks](https://github.com/shadowsocks/shadowsocks)
 * Sketches Pro
-* SnailSVNLite
-* StarUML
-* Studio 3T
+* SnailSVN Lite
+* [StarUML](https://staruml.io)
+* [Studio 3T](https://studio3t.com)
+  * the professional GUI for MongoDB
 * [Sublime Text](http://www.sublimetext.com)
   * 免费的文本编辑工具(A sophisticated text editor for code, markup and prose.)
-* [推荐]TeamViewer
-* Tower
+* [推荐][TeamViewer](https://www.teamviewer.com/en-us)
+* [ToDesk](https://www.todesk.com)
 * [推荐]Tunnelblick
-* Typora
+* [Typora](https://typora.io)
 * [推荐]uTools
 * [推荐]Visual Studio Code
 * [推荐][VirtualBox](https://www.virtualbox.org)
 * [VMware](https://www.vmware.com)
-* VNC Viewer
-* Wireshark
+* [VNC Viewer](https://www.realvnc.com/en)
+* [推荐[Wireshark](https://www.wireshark.org)
 * [推荐]Xcode
 * [推荐][XMind](https://www.xmind.net)
   * 思维导图工具
 * [推荐][Zsh](https://ohmyz.sh)
-
-
 
 ## 其他工具
 
