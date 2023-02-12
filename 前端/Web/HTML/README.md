@@ -43,3 +43,7 @@
 ## 经验总结
 
 * [过时]XHTML也可以了解一下。
+
+## 参考文献
+
+1. [HTML Living Standard](https://html.spec.whatwg.org/multipage)

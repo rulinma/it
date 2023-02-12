@@ -11,6 +11,7 @@
 
 * 常用工具
 
+  * [免费在线作图](https://www.processon.com)
   * [JSON转换器](https://www.bejson.com)  
   * [Unix时间戳](https://tool.chinaz.com/tools/unixtime.aspx)
   * [UrlEncode编码/解码](https://tool.chinaz.com/tools/urlencode.aspx)
@@ -24,10 +25,16 @@
   * [变量命名神器（CODELF）](https://unbug.github.io/codelf)
   * [PDF2Doc](https://pdf2doc.com/zh)
 
-* 其他工具
+* 标准
+  * [HTML Living Standard](https://html.spec.whatwg.org/multipage)
+  * [CSS: Cascading Style Sheets](https://www.w3.org/TR/2011/REC-CSS2-20110607)
+  * [ECMAScript 2023 Language Specification](https://tc39.es/ecma262)
 
+* 其他
   * [精品MAC应用分享](https://xclient.info)
   * [阿里巴巴矢量图图标库](https://www.iconfont.cn)
+  * [Free Icons by First-Class Designers](https://iconstore.co)
+  * [Font Awesome](https://fontawesome.com.cn)
 
 ## 应用程序
 
@@ -119,6 +126,7 @@
 * [钉钉](https://www.dingtalk.com)
 * [按键精灵](http://www.anjian.com)
 * [花生壳](https://www.oray.com)
+* [大圣盘](https://www.dashengpan.com)
 
 ## 插件
 
