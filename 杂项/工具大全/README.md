@@ -190,6 +190,42 @@
 
 ### IDEA 插件
 
+* .ignore
+* Alibaba Java Coding Guidelines
+* BashSupport
+* Batch Scripts Support
+* Eclipse Code Formatter
+* Git Commit Template
+* Git Flow Integration
+* GitToolBox
+* GsonFormat
+* IntelliJ Light Theme
+* Lombok
+* Maven Helper
+* PlantUML integration
+* Rainglow Color Schemes
+* Scala
+* Swagger
+* Ant
+* Bytescode Viewer
+* ChangeReminder
+* Copyright
+* Eclipse Interoperability
+* EditorConfig
+* Git
+* Github
+* Gradle
+* Groovy
+* IntelliLang
+* Java Bytecode Decompiler
+* Java Internationalization
+* Java Stream Debugger
+* JavaFX
+* JUnit
+* Markdown
+* Maven
+* Settings Repository
+
 ### Chrome插件
 
 * AdBlock
