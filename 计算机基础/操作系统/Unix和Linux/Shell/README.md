@@ -15,10 +15,10 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * alias
   * 显示全部已定义的别名
 
-  ``` shell
+    ``` shell
     > alias lrt='ls -lrt'
     > lrt
-  ```
+    ```
 
   * 一般放到bashrc等文件中，shell启动自动加载
     * 我的是放在~/.zshrc里
@@ -35,7 +35,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * bg
   * 将一个在后台暂停的命令，变成继续执行
 
-  ``` shell
+    ``` shell
     > sleep 10
     ^Z
     [1]  + 99094 suspended  sleep 10
@@ -45,7 +45,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     [1]  + 99094 continued  sleep 10
     [1]  + 99094 done       sleep 10
     > 
-  ```
+    ```
 
 #### C
 
@@ -149,7 +149,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     * mysql示例
     ./expect.sh
 
-  ``` shell
+      ``` shell
       #!/usr/bin/expect
 
       # 首先安装好expect
@@ -160,7 +160,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
       expect "Enter password:"
       send "123456\r"
       interact
-  ```
+      ```
 
 #### F
 
@@ -592,7 +592,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     * somecommand |xargs -item  command
     * 示例
 
-    ``` shell
+      ``` shell
       > echo "hello world" | xargs
       hello world
       > echo "hello world" | xargs echo
@@ -603,7 +603,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
       drwxr-xr-x  2 rollin  staff    64B  2 11 12:03 world
       # 假如你有一个文件包含了很多你希望下载的 URL，你能够使用 xargs下载所有链接
       > cat url-list.txt | xargs wget -c
-    ```
+      ```
 
     * [Linux xargs 命令](https://www.runoob.com/linux/linux-comm-xargs.html)
     * [xargs 命令教程](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
@@ -626,148 +626,148 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * $0
   * 返回执行shell脚本的名称
 
-  ``` shell
-  > cat test.sh 
-  #!/bin/bash
+    ``` shell
+    > cat test.sh 
+    #!/bin/bash
 
-  echo "$0"
+    echo "$0"
 
-  > sh test.sh
-  test.sh
+    > sh test.sh
+    test.sh
 
-  > ./test.sh
-  ./test.sh
-  ```
+    > ./test.sh
+    ./test.sh
+    ```
 
 * $1
   * 返回对应位置参数
 
-  ``` shell
-  > cat test.sh 
-  #!/bin/bash
+    ``` shell
+    > cat test.sh 
+    #!/bin/bash
 
-  echo "$0"
-  echo "$1"
-  echo "$2"
+    echo "$0"
+    echo "$1"
+    echo "$2"
 
-  > sh test.sh a b c
-  test.sh
-  a
-  b
-  ```
+    > sh test.sh a b c
+    test.sh
+    a
+    b
+    ```
 
 * $?
   * is used to find the return value of the last executed command.
   * 返回上次命令执行的返回值，shell中一般0表示成功。
 
-  ``` shell
-  > cat test.sh 
-  #!/bin/bash
+    ``` shell
+    > cat test.sh 
+    #!/bin/bash
 
-  pwd
-  echo $?
+    pwd
+    echo $?
 
-  ls test.txt
-  echo $?
+    ls test.txt
+    echo $?
 
-  > sh test.sh
-  /Users/rollin/shell
-  0
-  ls: test.txt: No such file or directory
-  1
-  ```
+    > sh test.sh
+    /Users/rollin/shell
+    0
+    ls: test.txt: No such file or directory
+    1
+    ```
 
 * $$(2个$)
   * 指的是脚本运行的当前进行id号。
   
-  ``` shell
-  > cat test.sh
-  #!/bin/bash
+    ``` shell
+    > cat test.sh
+    #!/bin/bash
 
-  echo $$
-  sleep 10
+    echo $$
+    sleep 10
 
-  > sh test.sh
-  85525
+    > sh test.sh
+    85525
 
-  ```
+    ```
 
 * $*
   * 所有参数，当有多个参数的时候，所有参数拼成一个长字符串作为一个参数
 * $@
   * 所有参数，当有多个参数的时候，每个参数占用一个数组元素
 
-  ``` shell
-  > cat test.sh
-  #!/bin/bash
+    ``` shell
+    > cat test.sh
+    #!/bin/bash
 
-  echo '$* ':"$*"
-  echo '$@ ':"$@"
+    echo '$* ':"$*"
+    echo '$@ ':"$@"
 
-  echo "* show 1"
-  for i in $*; do
-      echo "$i"
-  done
+    echo "* show 1"
+    for i in $*; do
+        echo "$i"
+    done
 
-  echo "* show 2"
-  for i in "$*"; do
-      echo "$i"
-  done
+    echo "* show 2"
+    for i in "$*"; do
+        echo "$i"
+    done
 
-  echo "@ show"
-  for i in "$@"; do
-      echo "$i"
-  done
+    echo "@ show"
+    for i in "$@"; do
+        echo "$i"
+    done
 
-  > sh test.sh a b c
-  $* :a b c
-  $@ :a b c
-  * show 1
-  a
-  b
-  c
-  * show 2
-  a b c
-  @ show
-  a
-  b
-  c
-  ```
+    > sh test.sh a b c
+    $* :a b c
+    $@ :a b c
+    * show 1
+    a
+    b
+    c
+    * show 2
+    a b c
+    @ show
+    a
+    b
+    c
+    ```
 
 * $#
   * 参数的个数
 
-  ``` shell
-  > cat test.sh
-  #!/bin/bash
+    ``` shell
+    > cat test.sh
+    #!/bin/bash
 
-  echo '$# ':"$#"
+    echo '$# ':"$#"
 
-  > sh test.sh a b c
-  3
+    > sh test.sh a b c
+    3
 
-  ```
+    ```
 
 * $!
   * 显示shell脚本中上一个后台执行命令的进程id号
 
-  ``` shell
-  > cat test.sh
-  #!/bin/bash
+    ``` shell
+    > cat test.sh
+    #!/bin/bash
 
-  sleep 10 &
-  echo '$!':$!
-  sleep 10
+    sleep 10 &
+    echo '$!':$!
+    sleep 10
 
-  > sh test.sh &
-  [1] 4470
-  $!:4474    
+    > sh test.sh &
+    [1] 4470
+    $!:4474    
 
-  > ps -ef|grep sleep
-  502  4474  4470   0  2:30下午 ttys001    0:00.01 sleep 10
-  502  4476  4470   0  2:30下午 ttys001    0:00.01 sleep 10
-  
-  ```
+    > ps -ef|grep sleep
+    502  4474  4470   0  2:30下午 ttys001    0:00.01 sleep 10
+    502  4476  4470   0  2:30下午 ttys001    0:00.01 sleep 10
+    
+    ```
 
 * &&
   * means “AND”. And in command execution context like this, it means items to the left as well as right of && should be run in sequence in this case.
@@ -794,7 +794,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * shell脚本调试
   * sh -x ./script.sh
 
-  ``` shell
+    ``` shell
     > cat test.sh
     #!/bin/bash
 
@@ -805,11 +805,11 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     + echo 'today is :2023-02-10'
     today is :2023-02-10
 
-  ```
+    ```
 
   * 代码内部设置
   
-  ``` shell
+    ``` shell
     > cat test.sh
     #!/bin/bash
 
@@ -830,7 +830,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   
   * 文件开始标注
 
-  ``` shell
+    ``` shell
     > cat test.sh
     #!/bin/sh -x
 
@@ -845,12 +845,12 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     today is :2023-02-10
     + echo end
     end
-  ```
+    ```
 
 * sh -v test.sh
   * 显示输出打印命令行的原始内容
   
-  ``` shell
+    ``` shell
     > cat test.sh
     #!/bin/sh
 
@@ -864,61 +864,61 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     today is :2023-02-10
     echo "end"
     end
-  ```
+    ```
 
 #### 函数调用
 
 * 函数调用
 
-    ``` shell
-      > cat func.sh
-      
-      #!/bin/bash
+  ``` shell
+  > cat func.sh
+  
+  #!/bin/bash
 
-      datetime=$(date "+%Y-%m-%d %H:%M:%S")
+  datetime=$(date "+%Y-%m-%d %H:%M:%S")
 
-      func() {
-          echo "func $datetime"
-      }
+  func() {
+      echo "func $datetime"
+  }
 
-      func
+  func
 
-      function loop_print() {
-          count=0
-          while [ $count -lt "$1" ]; do
-              echo $count
-              ((count++)) || true
-              sleep 1
-          done
-          return 0
-      }
+  function loop_print() {
+      count=0
+      while [ $count -lt "$1" ]; do
+          echo $count
+          ((count++)) || true
+          sleep 1
+      done
+      return 0
+  }
 
-      loop_print 3
+  loop_print 3
 
-      function func_params() {
-          echo "$0"
-          echo "$1"
-          echo "$2"
-          echo "$3"
-          echo "$*"
-          return 0
-      }
+  function func_params() {
+      echo "$0"
+      echo "$1"
+      echo "$2"
+      echo "$3"
+      echo "$*"
+      return 0
+  }
 
-      func_params 1 2 3 4 5
+  func_params 1 2 3 4 5
 
-    ```
+  ```
 
   ``` shell
-    > sh func.sh   
-    func 2023-02-11 08:57:51
-    0
-    1
-    2
-    func.sh
-    1
-    2
-    3
-    1 2 3 4 5
+  > sh func.sh   
+  func 2023-02-11 08:57:51
+  0
+  1
+  2
+  func.sh
+  1
+  2
+  3
+  1 2 3 4 5
   ```
 
 ### 编程规范
