@@ -66,7 +66,11 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * GraphicsMagick的工具命令
     * convert -font Hiragino  -fill grey -pointsize 50 -draw "text 1768,90 'AI记单词'" /Users/rollin/1-the.jpg
 * cp
-  * 复制命令
+  * copy files
+  * 复制
+    * cp source target
+    * cp -R source target
+    * cp source1 source2 target
 * crontab
   * 定时执行任务
   * crontab -e
@@ -546,7 +550,42 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * touch
   * 创建文件
 * tree
-  * 查看目录
+  * list contents of directories in a tree-like format.
+  * 树格式查看目录
+  
+    ``` shell
+    > tree .
+    .
+    ├── dir1
+    │   ├── test11
+    │   └── test12
+    ├── dir2
+    ├── test1.txt
+    └── test2.txt
+
+    2 directories, 4 files
+
+    > tree /Users/rollin/Desktop/command
+    /Users/rollin/Desktop/command
+    ├── dir1
+    │   ├── test11
+    │   └── test12
+    ├── dir2
+    ├── test1.txt
+    └── test2.txt
+
+    > tree -f /Users/rollin/Desktop/command
+      /Users/rollin/Desktop/command
+    /Users/rollin/Desktop/command
+    ├── /Users/rollin/Desktop/command/dir1
+    │   ├── /Users/rollin/Desktop/command/dir1/test11
+    │   └── /Users/rollin/Desktop/command/dir1/test12
+    ├── /Users/rollin/Desktop/command/dir2
+    ├── /Users/rollin/Desktop/command/test1.txt
+    └── /Users/rollin/Desktop/command/test2.txt
+
+    2 directories, 4 files
+    ```
 
 #### U
 
