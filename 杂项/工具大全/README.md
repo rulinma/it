@@ -24,6 +24,8 @@
   * [Mock服务](https://www.mocky.io)
   * [变量命名神器（CODELF）](https://unbug.github.io/codelf)
   * [PDF2Doc](https://pdf2doc.com/zh)
+  * [confluence](https://www.atlassian.com/software/confluence)
+  * [jira](https://www.atlassian.com/software/jira)
 
 * 标准
   * [HTML Living Standard](https://html.spec.whatwg.org/multipage)
