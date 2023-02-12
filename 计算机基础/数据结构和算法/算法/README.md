@@ -19,6 +19,14 @@
   * [程序媛分享 | LeetCode小白如何上手刷题？](https://www.bilibili.com/video/BV1nJ411n7dV)
   * [新手必看，如何上手刷题？刷完300题的干货攻略LeetCode](https://www.bilibili.com/video/BV1yi4y1M7b6)
   * 大神们刷题太快了，我开始是怀疑的，然后就提问了一下，然后就有人给直播刷题视频了，是真的牛，基本30分钟4道没问题。
+  * 马如林的收藏
+    * [有没有人一起从零开始刷力扣](https://leetcode.cn/circle/article/48kq9d)
+    * [「刷题经验」1000 题留念，附带我的刷题攻略](https://leetcode.cn/circle/discuss/h1JhXf)
+    * [LABULADONG 的算法网站](https://labuladong.gitee.io/algo)
+    * [LeetCode 最经典的 100 道题](https://mp.weixin.qq.com/s/e51CEkEP6Wz850JYbgz8dw)
+    * [CodeTop](https://codetop.cc/home)
+    * [何优雅地使用 LeetCode 刷题备战面试？](https://leetcode.cn/circle/discuss/9WdUly)
+* [代码随想录](https://programmercarl.com/)
 * [lintcode](https://www.lintcode.com/problem/?tag=lintcode-copyright) 中文版leetcode。
 * [ACM-ICPC](https://icpc.baylor.edu)
 * [图书][计算机程序设计艺术 卷1 基本算法](http://product.dangdang.com/23839682.html) 大神的书[Donald E. Knuth:图灵奖得主]
