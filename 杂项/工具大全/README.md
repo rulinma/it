@@ -28,11 +28,13 @@
   * [jira](https://www.atlassian.com/software/jira)
 
 * 标准
+
   * [HTML Living Standard](https://html.spec.whatwg.org/multipage)
   * [CSS: Cascading Style Sheets](https://www.w3.org/TR/2011/REC-CSS2-20110607)
   * [ECMAScript 2023 Language Specification](https://tc39.es/ecma262)
 
 * 其他
+
   * [精品MAC应用分享](https://xclient.info)
   * [阿里巴巴矢量图图标库](https://www.iconfont.cn)
   * [Free Icons by First-Class Designers](https://iconstore.co)
