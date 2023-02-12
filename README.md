@@ -164,6 +164,7 @@
       - [RPC](#rpc)
       - [序列化](#序列化)
       - [Mail](#mail)
+      - [Jesypt](#jesypt)
       - [API文档](#api文档)
     - [JVM](#jvm)
     - [Scala](#scala)
@@ -784,7 +785,7 @@ MyBatis-Plus（简称 MP）是一个MyBatis(opens new window)的增强工具，�
 
 #### [Mail](后端/Java应用/Java常用库及框架/Mail/README.md)
 
-邮件发送。
+#### [Jesypt](后端/Java应用/Java常用库及框架/Jesypt/README.md)
 
 #### [API文档](后端/Java应用/Java常用库及框架/API文档/README.md)
 
