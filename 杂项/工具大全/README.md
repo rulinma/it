@@ -71,7 +71,7 @@
 * [Navicat](https://navicat.com/en)
 * [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client)
   * Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
-* [推荐]Postman
+* [推荐][Postman](https://www.postman.com)
 * ProxyClient
 * [PyCharm](https://www.jetbrains.com/pycharm)
 * RAR Extractor
