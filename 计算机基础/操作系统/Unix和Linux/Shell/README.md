@@ -469,6 +469,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * rpm
   * rpm -qa | grep java
 * rsync
+  * [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
 
 #### S
 
