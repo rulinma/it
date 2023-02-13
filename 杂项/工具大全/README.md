@@ -196,18 +196,33 @@
 * Alibaba Java Coding Guidelines
 * BashSupport
 * Batch Scripts Support
+* CheckStyle-IDEA
+* Chinese(Simplified) Language
+* Code Converage for Java
+* CSV Editor
+* Database Navigator
+* Docker
 * Eclipse Code Formatter
 * Git Commit Template
 * Git Flow Integration
+* GitHub Copilot
 * GitToolBox
+* google-java-format
 * GsonFormat
+* Json Parser
+* IdeaVim
 * IntelliJ Light Theme
 * Lombok
 * Maven Helper
 * PlantUML integration
 * Rainglow Color Schemes
+* Rainbow Brackets
 * Scala
+* SonarLint
 * Swagger
+* Translation
+* YAML/Ansible support
+
 * Ant
 * Bytescode Viewer
 * ChangeReminder
