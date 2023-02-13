@@ -427,6 +427,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * npm cache clean --force
   * sudo cnpm install -g create-react-app
   * npm i jest@26.6.3
+  * npm test
 * nslookup
   * 查看DNS记录
 
@@ -682,6 +683,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * yarn add --dev jest-environment-jsdom@^26.6.1
   * yarn create react-app my-app --template typescript
   * yarn add typescript @types/node @types/react @types/react-dom @types/jest
+  * yarn test
   * tyarn
     * npm install yarn tyarn -g
 * yum
