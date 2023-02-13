@@ -428,6 +428,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * sudo cnpm install -g create-react-app
   * npm i jest@26.6.3
   * npm test
+  * npm init
 * nslookup
   * 查看DNS记录
 
