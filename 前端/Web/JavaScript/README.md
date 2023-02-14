@@ -45,6 +45,7 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 * [视频][JavaScript面试题系列](http://study.163.com/course/introduction/742021.htm)
 * [视频][pink老师JavaScript](https://www.bilibili.com/video/BV1Sy4y1C7ha)
 * [网站][awesome-javascript-cn](https://github.com/jobbole/awesome-javascript-cn)
+* [Modern JavaScript Tutorial](https://javascript.info)
 
 ### 学习步骤
 

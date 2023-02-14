@@ -11,6 +11,7 @@
   * 主要用于不同环境打包，结合webpack使用
 * [lodash](https://github.com/lodash/lodash)
   * A modern JavaScript utility library delivering modularity, performance, & extras.
+  * [Lodash 中文文档](https://www.lodashjs.com)
 * [moment](https://github.com/moment/moment)
   * Parse, validate, manipulate, and display dates in javascript.
 * [axios](https://github.com/axios/axios)

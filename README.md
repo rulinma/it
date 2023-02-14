@@ -142,6 +142,7 @@
       - [容器](#容器)
         - [Tomcat](#tomcat)
         - [Jetty](#jetty)
+    - [JavaGUI](#javagui)
     - [Java常用库及框架](#java常用库及框架)
       - [Spring](#spring)
       - [MyBatis](#mybatis)
@@ -728,6 +729,8 @@ Extensible Markup Language.
 ##### [Tomcat](后端/Java应用/JavaEE/容器/Tomcat/README.md)
 
 ##### [Jetty](后端/Java应用/JavaEE/容器/Jetty/README.md)
+
+### [JavaGUI](后端/Java应用/JavaGUI/README.md)
 
 ### [Java常用库及框架](后端/Java应用/Java常用库及框架/README.md)
 
@@ -1355,7 +1358,7 @@ Confluence是内容协作软件，可以改变现代团队的工作方式。
 
 ### [开发工具](杂项/工具大全/开发工具/README.md)
 
-#### [ChatGPT](https://openai.com/)
+#### [ChatGPT](杂项/工具大全/开发工具/ChatGPT/README.md)
 
 #### [Postman](杂项/工具大全/开发工具/Postman/README.md)
 
