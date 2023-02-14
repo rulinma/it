@@ -429,6 +429,10 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * npm i jest@26.6.3
   * npm test
   * npm init
+  * npm list -g
+  * npm i -g typescript@4.2.2
+  * npm install -g depcheck
+  * npm uninstall -g typescript@4.9.5
 * nslookup
   * 查看DNS记录
 
@@ -614,6 +618,27 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     └── /Users/rollin/Desktop/command/test2.txt
 
     2 directories, 4 files
+
+    > tree static -h
+    static
+    ├── [4.0K]  css
+    │   ├── [562K]  2.f9bd1be2.chunk.css
+    │   ├── [1.5M]  2.f9bd1be2.chunk.css.map
+    │   ├── [ 51K]  main.53dbdb2c.chunk.css
+    │   └── [ 30K]  main.53dbdb2c.chunk.css.map
+    └── [4.0K]  js
+        ├── [1.3M]  2.9bd7b70e.chunk.js
+        ├── [4.1K]  2.9bd7b70e.chunk.js.LICENSE.txt
+        ├── [5.0M]  2.9bd7b70e.chunk.js.map
+        ├── [4.3K]  3.9c88c745.chunk.js
+        ├── [9.7K]  3.9c88c745.chunk.js.map
+        ├── [118K]  main.891b7872.chunk.js
+        ├── [223K]  main.891b7872.chunk.js.map
+        ├── [2.3K]  runtime-main.35471635.js
+        └── [ 12K]  runtime-main.35471635.js.map
+
+    2 directories, 13 files
+
     ```
 
 #### U
@@ -685,6 +710,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * yarn create react-app my-app --template typescript
   * yarn add typescript @types/node @types/react @types/react-dom @types/jest
   * yarn test
+  * yarn global add typescript@4.2.2
   * tyarn
     * npm install yarn tyarn -g
 * yum

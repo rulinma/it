@@ -19,5 +19,15 @@
 * [three.js](https://github.com/mrdoob/three.js)
 * [day.js](https://github.com/iamkun/dayjs)
   * Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
+* [depcheck](https://github.com/depcheck/depcheck)
+  * Check your npm module for unused dependencies
+
+### QA
+
+* npm 全局安装 依赖安装 开发安装 区别
+  * 一般看官方命令就知道
+    * --save-dev 开发依赖就是开发时候使用，产线不用
+    * --save 保存到产线
+    * -g 全局安装，可提供直接执行的命令，一般是工具比如typescript，depcheck等
 
 ## 参考文献
