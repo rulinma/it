@@ -17,5 +17,7 @@
 * [axios](https://github.com/axios/axios)
 * [d3](https://github.com/d3/d3)
 * [three.js](https://github.com/mrdoob/three.js)
+* [day.js](https://github.com/iamkun/dayjs)
+  * Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 
 ## 参考文献

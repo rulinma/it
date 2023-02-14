@@ -88,8 +88,6 @@ Redirecting to /bin/systemctl status nginx.service
 ```
 
 ``` text
-
-
 worker_processes auto;
 error_log /var/log/nginx/error.log;
 pid /run/nginx.pid;
@@ -119,12 +117,39 @@ http {
 
     include /etc/nginx/conf.d/*.conf;
 
+    gzip on;
+    gzip_comp_level 5;
+    gzip_min_length 1k;
+    gzip_buffers 4 16k;
+    gzip_proxied any;
+    gzip_vary on;
+    gzip_types
+    application/javascript
+    application/x-javascript
+    text/javascript
+    text/css
+    text/xml
+    application/xhtml+xml
+    application/xml
+    application/atom+xml
+    application/rdf+xml
+    application/rss+xml
+    application/geo+json
+    application/json
+    application/ld+json
+    application/manifest+json
+    application/x-web-app-manifest+json
+    image/svg+xml
+    text/x-cross-domain-policy;
+    gzip_static on;
+    gzip_disable "MSIE [1-6]\.";
+
     server {
 
       listen 80;
       listen 443 ssl;
       server_name www.rulinma.com;
-     
+
       charset utf-8;
       access_log /var/log/nginx/rulinma.log;
 
@@ -146,7 +171,7 @@ http {
       listen 80;
       listen 443 ssl;
       server_name www.xianglesong.com;
-      
+
       charset utf-8;
       access_log /var/log/nginx/xianglesong.log;
 
@@ -158,13 +183,39 @@ http {
 
       root  /usr/share/nginx/html/xianglesong;
       location / {
-        # 没有下面内容，有时会报404错误
-        index  index.html index.htm index.php;
-        try_files $uri /index.html;
+          index  index.html index.htm index.php;
+          try_files $uri /index.html;
       }
 
     }
+
+
+     server {
+
+      listen 80;
+      listen 443 ssl;
+      server_name api.xianglesong.com;
+
+      charset utf-8;
+      access_log /var/log/nginx/api.log;
+
+
+      ssl_certificate /usr/local/ssl/api/9236128_api.xianglesong.com.pem;
+      ssl_certificate_key /usr/local/ssl/api/9236128_api.xianglesong.com.key;
+      ssl_session_timeout 5m;
+      ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+      ssl_prefer_server_ciphers on;
+
+      location / {
+        proxy_pass http://172.31.87.195:8081;
+      }
+
+    }
+
+
+
 }
+
 ```
 
 ``` shell
@@ -332,3 +383,6 @@ mon_nginx.sh
 3. [SSL证书不会安装配置？手把手教会你，3步搞定](https://zhuanlan.zhihu.com/p/112317355)
 4. [nginx使用ssl模块配置支持HTTPS访问](https://blog.csdn.net/duyusean/article/details/79348613)
 5. [systemd设置nginx开机自启动](https://cloud.tencent.com/developer/article/1677940)
+6. [如何在 Nginx 服务器中配置 GZip 压缩？](https://www.yaohaixiao.com/blog/how-to-configure-gzip-compression-with-nginx)
+7. [网页GZIP压缩检测](https://tool.chinaz.com/Gzips)
+   * curl -I -H"Accept-Encoding: gzip, deflate" "http://www.xianglesong.com"
