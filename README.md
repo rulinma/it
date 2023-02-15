@@ -107,6 +107,7 @@
       - [Vue](#vue)
       - [Angular](#angular)
       - [Webpack](#webpack)
+      - [Babel](#babel)
       - [Bootstrap](#bootstrap)
       - [框架和库](#框架和库)
     - [Cookie](#cookie)
@@ -635,6 +636,8 @@ It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and m
 [Angular](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架)
 
 #### [Webpack](前端/Web/JavaScript/Webpack/README.md)
+
+#### [Babel](前端/Web/JavaScript/Babel/README.md)
 
 #### [Bootstrap](前端/Web/JavaScript/Bootstrap/README.md)
 
