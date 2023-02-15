@@ -21,7 +21,7 @@
 
 * Nginx添加gzip压缩
   * [配置参考](../../DevOps/运维/负载均衡/Nginx/README.md)
-* 使用Lighthouse排查问题
+* 使用Chrome Lighthouse排查问题
   * 优化建议
     * 减少未使用的 JavaScript
     * 缩减 JavaScript
@@ -29,7 +29,8 @@
   * 查看Lighhouse TreeMap
     * Q1
   * depcheck检查是否可以去除不必要的依赖
-* 使用性能排查问题
+* 使用Chrome性能排查问题
+* 使用Chrome Coverage排查问题
 * 服务器端优化
   * 使用缓存替换数据库查询
 

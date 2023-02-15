@@ -88,6 +88,7 @@ Redirecting to /bin/systemctl status nginx.service
 ```
 
 ``` text
+
 worker_processes auto;
 error_log /var/log/nginx/error.log;
 pid /run/nginx.pid;
@@ -183,13 +184,24 @@ http {
 
       root  /usr/share/nginx/html/xianglesong;
       location / {
-          index  index.html index.htm index.php;
-          try_files $uri /index.html;
+        index  index.html index.htm index.php;
+        try_files $uri /index.html;
+        add_header 'Access-Control-Allow-Origin' '*';
+        add_header 'Access-Control-Allow-Credentials' 'true';
+        add_header 'Access-Control-Allow-Methods' 'GET,HEAD,OPTIONS,POST,PUT';
+        add_header 'Access-Control-Allow-Headers' '*';
+      }
+
+      location ~* .(css|js|png|jpg|jpeg|gif|gz|svg|mp4|ogg|ogv|webm|htc|xml|woff)$ {
+        # 同上，通配所有以.css/.js/...结尾的请求
+        access_log off;
+        add_header    Cache-Control  max-age=360000;
       }
 
     }
 
-
+    proxy_cache_path  /data/nginx/cache levels=1:2 keys_zone=nginx-cache:20m max_size=10g inactive=168h;
+  
      server {
 
       listen 80;
@@ -208,13 +220,36 @@ http {
 
       location / {
         proxy_pass http://172.31.87.195:8081;
+
+        add_header  Cache-Control  max-age=no-cache;
+        
+        proxy_cache nginx-cache;
+        proxy_cache_valid 168h;
+
+        proxy_ignore_headers Set-Cookie Cache-Control;
+        proxy_hide_header Cache-Control;
+        proxy_hide_header Set-Cookie;
+      }
+
+      location ~* /word/comment/comments$ {
+        # 同上，通配所有以/word/comment结尾的请求
+        proxy_pass http://172.31.87.195:8081;
+      
+        add_header  Cache-Control  max-age=no-cache;
+        # 开启post缓存
+        # proxy_cache_methods POST;
+        # 考虑是评论，暂时不开启缓存
+        # proxy_cache nginx-cache;
+        # proxy_cache_valid 168h;
+        # proxy_ignore_headers Set-Cookie Cache-Control;
+        # proxy_hide_header Cache-Control;
+        # proxy_hide_header Set-Cookie;
       }
 
     }
 
-
-
 }
+
 
 ```
 
@@ -386,3 +421,9 @@ mon_nginx.sh
 6. [如何在 Nginx 服务器中配置 GZip 压缩？](https://www.yaohaixiao.com/blog/how-to-configure-gzip-compression-with-nginx)
 7. [网页GZIP压缩检测](https://tool.chinaz.com/Gzips)
    * curl -I -H"Accept-Encoding: gzip, deflate" "http://www.xianglesong.com"
+8. [Nginx 缓存机制详解！](https://cloud.tencent.com/developer/article/1890195)
+9. [Nginx配置前端http缓存](https://juejin.cn/post/7079601613135937550)
+10. [【干货】前端Nginx统一配置](https://www.jianshu.com/p/e798adcdea8c)
+11. [nginx缓存配置示例](https://lichi6174.github.io/nginx-cache)
+12. [NGINX config generator on steroids](https://github.com/digitalocean/nginxconfig.io)
+13. [Tengine](https://github.com/alibaba/tengine)
