@@ -21,6 +21,11 @@
   * Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 * [depcheck](https://github.com/depcheck/depcheck)
   * Check your npm module for unused dependencies
+* [EasyUI](前端/Web/JavaScript/EasyUI/README.md)
+
+* EasyUI 为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web。
+
+  * [过时][EasyUI](https://www.jeasyui.com/) for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.
 
 ### QA
 

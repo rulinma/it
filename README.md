@@ -101,14 +101,14 @@
     - [JavaScript](#javascript)
       - [NodeJS](#nodejs)
       - [TypeScript](#typescript)
+      - [Jest](#jest)
+      - [JQuery](#jquery)
+      - [React](#react)
+      - [Vue](#vue)
+      - [Angular](#angular)
+      - [Webpack](#webpack)
+      - [Bootstrap](#bootstrap)
       - [框架和库](#框架和库)
-        - [Jest](#jest)
-        - [JQuery](#jquery)
-        - [React](#react)
-        - [Vue](#vue)
-        - [Angular](#angular)
-        - [Bootstrap](#bootstrap)
-        - [EasyUI](#easyui)
     - [Cookie](#cookie)
       - [Session](#session)
     - [Token](#token)
@@ -612,41 +612,37 @@ JavaScript运行环境。
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-#### [框架和库](前端/Web/JavaScript/框架和库/README.md)
-
-##### [Jest](前端/Web/JavaScript/Jest/README.md)
+#### [Jest](前端/Web/JavaScript/Jest/README.md)
 
 [Jest](https://jestjs.io) is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
 
-##### [JQuery](前端/Web/JavaScript/JQuery/README.md)
+#### [JQuery](前端/Web/JavaScript/JQuery/README.md)
 
 [JQuery](https://jquery.com)  is a fast, small, and feature-rich JavaScript library.
 
-##### [React](前端/Web/JavaScript/React/README.md)
+#### [React](前端/Web/JavaScript/React/README.md)
 
 [React](https://reactjs.org) is a JavaScript library for building user interfaces.
 
-##### [Vue](前端/Web/JavaScript/Vue/README.md)
+#### [Vue](前端/Web/JavaScript/Vue/README.md)
 
 [Vue](https://vuejs.org) The progressive JavaScript framework.
 
-##### [Angular](前端/Web/JavaScript/Angular/README.md)
+#### [Angular](前端/Web/JavaScript/Angular/README.md)
 
 [Angular](https://angularjs.org/) AngularJS is a JavaScript framework.(AngularJS是一个JavaScript框架)
 
-##### [Bootstrap](前端/Web/JavaScript/Bootstrap/README.md)
+#### [Webpack](前端/Web/JavaScript/Webpack/README.md)
+
+#### [Bootstrap](前端/Web/JavaScript/Bootstrap/README.md)
 
 Bootstrap是一个用于使用HTML，CSS和JS进行开发的开源工具包。
 
 [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
 
-##### [EasyUI](前端/Web/JavaScript/EasyUI/README.md)
-
-EasyUI 为Web开发人员提供了易于使用的组件，它基于流行的jQuery核心和HTML5构建。这些使您的应用程序适合当今的Web。
-
-[过时][EasyUI](https://www.jeasyui.com/) for jQuery provides easy to use components for web developers, which is built on the popular jQuery core and HTML5. These make your applications suitable for today's web.
+#### [框架和库](前端/Web/JavaScript/框架和库/README.md)
 
 ### [Cookie](前端/Web/Cookie/README.md)
 
