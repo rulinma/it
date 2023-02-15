@@ -208,6 +208,7 @@
 * GitHub Copilot
 * GitToolBox
 * google-java-format
+* Grep Console
 * GsonFormat
 * Json Parser
 * IdeaVim
