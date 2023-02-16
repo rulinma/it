@@ -237,6 +237,8 @@
     - [Harbor](#harbor)
   - [Kubernetes](#kubernetes)
     - [Minicube](#minicube)
+- [Python](#python)
+  - [pymysql](#pymysql)
 - [DevOps](#devops)
   - [运维](#运维)
     - [定时任务](#定时任务)
@@ -365,7 +367,6 @@
     - [花生壳](#花生壳)
     - [NATAPP](#natapp)
   - [工具](#工具)
-  - [Python](#python)
   - [PHP](#php)
   - [CMS](#cms)
     - [WordPress](#wordpress)
@@ -1023,6 +1024,10 @@ Kubernetes是一个开源系统，用于自动化容器化应用程序的部署�
 
 ### [Minicube](云原生/Kubernetes/Minicube/README.md)
 
+# [Python](Python/README.md)
+
+## [pymysql](Python/pymysql/README.md)
+
 # [DevOps](DevOps/README.md)
 
 就是开发（Development）、测试（QA）、运维（Operations）这三个领域的合并。
@@ -1416,8 +1421,6 @@ API测试、Mock Servers功能和自动化测试。
 ### [NATAPP](https://natapp.cn)
 
 ## [工具](杂项/工具/README.md)
-
-## [Python](杂项/Python/README.md)
 
 ## [PHP](杂项/PHP/README.md)
 
