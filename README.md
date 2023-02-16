@@ -4,9 +4,10 @@
   * 学而不练 纸上谈兵 练而不学 殆而不知
 
 * 千里之行始于足下 老骥伏枥志在千里
-  * 见面有礼：[[工具大全](/杂项/工具大全/README.md) | [Linux命令及Shell大全](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的历程和经验分享](/杂项/我的/交流分享/README.md)]
+  * 见面有礼：[[工具大全](/杂项/工具大全/README.md) | [Linux命令及Shell大全](/计算机基础/操作系统/Unix和Linux/Shell/README.md) | [我的程序员之路](/杂项/我的/交流分享/README.md)]
 
-* 开源地址：[https://github.com/rulinma/it](https://github.com/rulinma/it) 欢迎Star、Fork、Watch和贡献。
+* 创作者
+  * [个人简介](https://github.com/rulinma/resume)
 
 ## 愿景
 
