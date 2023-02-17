@@ -891,6 +891,25 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * is the null file. Anything written to it is discarded.
   * 表示空文件，任何输入会被丢弃。
 
+* dirname
+
+  ``` shell
+  BASEPATH=$(cd `dirname $0`; pwd)
+  ```
+
+  * [dirname(1) - Linux man page](https://linux.die.net/man/1/dirname)
+    * 基本认为获取当前目录路径
+
+* basename
+  
+  ``` shell
+  $(basename "$0")
+  ```
+
+  * [basename(3) — Linux manual page](https://man7.org/linux/man-pages/man3/basename.3.html)
+    * 当向basename传递一个路径名时，它会删除任何前缀，直到最后一个斜线（ '/' ）字符，然后返回结果。
+    * 主要用途获取文件名称。
+
 ### Shell编程
 
 * shell脚本调试
