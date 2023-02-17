@@ -433,6 +433,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * npm i -g typescript@4.2.2
   * npm install -g depcheck
   * npm uninstall -g typescript@4.9.5
+* npx
 * nslookup
   * 查看DNS记录
 

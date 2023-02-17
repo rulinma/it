@@ -43,32 +43,35 @@
 ## 应用程序
 
 * [AirServer](https://www.airserver.com)
-  * AirServer transforms your Xbox One into an all-in-one AirPlay + Google Cast + Miracast receiver
+  * AirServer transforms your Xbox One into an all-in-one AirPlay + Google Cast + Miracast receiver.
 * [推荐][Alfred](https://www.alfredapp.com)
   * Alfred is a productivity application for Mac OS X.
 * [推荐]Android Studio
 * [Dash](https://kapeli.com/dash)
   * 快速访问API (Dash gives your Mac instant offline access to 200+ API documentation sets.)
 * Beyond Compare
-* [推荐]Charles
-* [推荐]Docker
-* [推荐]Draw
-* EasyConnect
+* [推荐][Charles](https://www.charlesproxy.com)
+* [推荐][Docker](https://www.docker.com)
+* [推荐][Draw.io](https://app.diagrams.net)
+  * 推荐应用
+* [EasyConnect](https://github.com/lstratman/EasyConnect)
 * [Eclipse](https://www.eclipse.org)
 * [推荐][EverNote](https://evernote.com/intl/zh-cn)
   * [印象笔记](https://yinxiang.com)
+* [Fiddler](https://www.telerik.com/fiddler)
 * [FileZilla](https://filezilla-project.org)
   * The free FTP solution.
 * [推荐]Gas Mask
   * 主机域名设置
 * [github文档](https://docs.github.com/cn)
-* [推荐]Google Chrome
-* [推荐]GNS3
-* [推荐]IntelliJ
-* [推荐]JD-GUI
+* [推荐][Google Chrome](https://www.google.com/chrome)
+* [推荐][GNS3](https://gns3.com)
+* [推荐][IntelliJ](https://www.jetbrains.com/idea)
+* [推荐][JD-GUI](https://github.com/java-decompiler/jd-gui)
+* [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)
 * [推荐][iTerm2](https://www.iterm2.com)
   * iTerm2 is a replacement for Terminal and the successor to iTerm.
-* Luyten
+* [Luyten](https://github.com/deathmarine/Luyten)
 * [MacDown](http://macdown.uranusjr.com)
   * MarkDown编写工具
 * [推荐]MySQLWorkbench
@@ -113,15 +116,22 @@
 
 ## 其他工具
 
-* [CleanMyMac](https://cleanmymac.com) Your Mac. As good as new. Mac清理管理工具。
-* [Foxmail](https://www.foxmail.com) 邮箱管理。
-* [LaTeX](https://www.latex-project.org) LaTeX is a high-quality typesetting system.
-* [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac) 确是 Office，专为 Mac 打造。
-* [RescueTime](https://www.rescuetime.com) A personal analytics service that shows you how you spend your time and provides tools to help you be more productive. 时间花费跟踪工具。
-* [Skype](https://web.skype.com) 是超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费。
-* [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh) TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项。
+* [CleanMyMac](https://cleanmymac.com)
+  * Mac清理管理工具。
+* [Foxmail](https://www.foxmail.com)
+  * 邮箱管理。
+* [LaTeX](https://www.latex-project.org)
+  * LaTeX is a high-quality typesetting system.
+* [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac)
+* [RescueTime](https://www.rescuetime.com)
+  * A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.
+  * 时间花费跟踪工具
+* [Skype](https://web.skype.com) 
+  * 超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费
+* [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh)
+  * TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项
 * [ZOOM](https://zoom.us)
-* [搜狗输入法](https://pinyin.sogou.com/mac) 输入法。
+* [搜狗输入法](https://pinyin.sogou.com/mac)
 * [百度网盘](https://pan.baidu.com)
 * [腾讯邮箱](https://mail.qq.com)
 * [微信](https://weixin.qq.com)
