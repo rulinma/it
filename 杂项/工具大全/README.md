@@ -24,8 +24,8 @@
   * [Mock服务](https://www.mocky.io)
   * [变量命名神器（CODELF）](https://unbug.github.io/codelf)
   * [PDF2Doc](https://pdf2doc.com/zh)
-  * [confluence](https://www.atlassian.com/software/confluence)
-  * [jira](https://www.atlassian.com/software/jira)
+  * [Confluence](https://www.atlassian.com/software/confluence)
+  * [Jira](https://www.atlassian.com/software/jira)
 
 * 标准
 
@@ -63,7 +63,7 @@
   * The free FTP solution.
 * [推荐]Gas Mask
   * 主机域名设置
-* [github文档](https://docs.github.com/cn)
+* [Github文档](https://docs.github.com/cn)
 * [推荐][Google Chrome](https://www.google.com/chrome)
 * [推荐][GNS3](https://gns3.com)
 * [推荐][IntelliJ](https://www.jetbrains.com/idea)
