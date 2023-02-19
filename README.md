@@ -370,7 +370,8 @@
     - [ngrok](#ngrok)
     - [花生壳](#花生壳)
     - [NATAPP](#natapp)
-  - [工具](#工具)
+  - [素养](#素养)
+    - [素养](#素养-1)
   - [PHP](#php)
   - [CMS](#cms)
     - [WordPress](#wordpress)
@@ -1140,7 +1141,6 @@ Nginx [engine x]是一个HTTP和反向代理服务器，一个邮件代理服务
 
 ### [IP查询](DevOps/运维工具/IP查询/README.md)
 
-
 # [人工智能](人工智能/README.md)
 
 ## [推荐系统](人工智能/推荐系统/README.md)
@@ -1424,7 +1424,9 @@ API测试、Mock Servers功能和自动化测试。
 
 ### [NATAPP](https://natapp.cn)
 
-## [工具](杂项/工具/README.md)
+## [素养](杂项/素养/README.md)
+
+### [素养](杂项/素养/时间管理/README.md)
 
 ## [PHP](杂项/PHP/README.md)
 
