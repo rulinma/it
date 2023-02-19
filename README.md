@@ -20,6 +20,7 @@
 ## 项目
 
 * [AI记单词](https://github.com/rulinma/it-word)
+  * [AI记单词在线演示](https://www.xianglesong.com)
   * [AI记单词项目管理](https://github.com/rulinma/it-word-project-manage)
   * [AI记单词产品管理](https://github.com/rulinma/it-word-product-manage)
   * [AI记单词Web之PC](https://github.com/rulinma/it-word-web-pc)
