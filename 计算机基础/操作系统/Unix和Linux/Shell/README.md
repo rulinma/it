@@ -52,6 +52,14 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * cal
 * cat
   * 查看文件内容
+  * 常用命令
+
+    ``` shell
+    # 查看操作系统版本
+    > cat /etc/redhat-release
+    CentOS Linux release 7.8.2003 (Core)
+    ```
+
 * cd
   * 进入目录
 * chmod
@@ -649,7 +657,12 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 #### U
 
 * uname
-  * uname -a
+
+  ``` shell
+  > uname -a
+    Linux apple 3.10.0-1127.8.2.el7.x86_64 #1 SMP Tue May 12 16:57:42 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+  ```
+
 * unmount
   * 卸载
 * uniq
