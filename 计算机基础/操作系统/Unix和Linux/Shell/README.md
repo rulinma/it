@@ -285,12 +285,25 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 
 * java
   * 执行java程序
+  
+  ``` shell
+  > java -version
+  openjdk version "1.8.0_362"
+  OpenJDK Runtime Environment (build 1.8.0_362-b08)
+  OpenJDK 64-Bit Server VM (build 25.362-b08, mixed mode)
+  ```
+
 * javac
   * 编译java代码，基本使用IDE了，一般不用
+  * centos 安装javac
+    * yum install java-devel -y
+* jhat
+* jmap
 * jps
   * 查看java进程
 * jstack
   * 检查java程序问题，类似的命令很多，参考官方说明
+* jstat
 * jobs
 
 #### K
@@ -734,6 +747,8 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * yum
   * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
   * yum search java | grep jdk
+  * yum update
+  * yum install java
 
 #### Z
 
