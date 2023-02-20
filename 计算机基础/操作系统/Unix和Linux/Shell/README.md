@@ -640,8 +640,10 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 
     2 directories, 13 files
 
-    > tree -Nv . --prune -I '*.md|wx_bonus.jpeg' 
-    > tree -Nv . --prune -P '*.md'
+    # 忽略md和wx_bonus.jpeg -N显示中文，否则可能乱码 
+    > tree -N . --prune -I '*.md|wx_bonus.jpeg' 
+    # 只显示md
+    > tree -N . --prune -P '*.md'
     ```
 
 #### U
