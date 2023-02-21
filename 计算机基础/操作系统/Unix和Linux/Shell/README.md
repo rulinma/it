@@ -746,10 +746,11 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     * npm install yarn tyarn -g
 * yum
   * 在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端软件包管理器
+    * [Linux yum 命令](https://www.runoob.com/linux/linux-yum.html)
   * yum search java | grep jdk
   * yum update
   * yum install java
-
+  
 #### Z
 
 * zip
