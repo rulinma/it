@@ -87,7 +87,7 @@
 
 ### Dockerfile
 
-示例1
+Dockerfile_Word
 
 ``` text
 
@@ -101,47 +101,7 @@ ENTRYPOINT java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /open-wo
 
 ```
 
-[Command]
-docker build -f Dockerfile_Room  -t open-word:0.1 --rm=true .
-docker build -t open-word:latest --rm=true .
-
-简版运行
-docker run --name open-word -p 8082:8082 -d open-word
-docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082 -d open-word
-tag启动
-docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082 -d open-word:0.1
-volumn映射
-docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082  -v /logs:/logs -d open-word:0.1
-
-查看日志
-docker logs -f open-word
-
-进入docker
-docker exec -it open-word /bin/sh
-
-查看docker镜像
-docker inspect open-word
-
-在项目中标记镜像：docker tag SOURCE_IMAGE[:TAG] images.rulinma.com/docker/IMAGE[:TAG]
-docker tag open-word images.rulinma.com/docker/open-word:1.0.0
-
-推送镜像到当前项目：docker push images.rulinma.com/docker/IMAGE[:TAG]
-docker push images.rulinma.com/docker/open-word:1.0.0
-
-docker pull images.rulinma.com/docker/open-word:1.0.0
-
-docker images
-
-docker run --name open-word -p 8081:8081 -d images.rulinma.com/docker/open-word:1.0.0 --restart=always
-
-latest version
-docker run --name open-word -p 8081:8081 -d images.rulinma.com/docker/open-word:lastest
-
-删除镜像
-docker rm open-word
-
--v 宿主机的/test目录挂载到容器的/soft目录 -v /test:/soft
-docker run --name open-word -p 8081:8081 -v logs:/logs --restart=always -d images.rulinma.com/docker/open-word:1.0.0
+* docker build -f Dockerfile_Word -t open-word:0.1 --rm=true .
 
 ## 参考文献
 
