@@ -38,7 +38,7 @@
 
   ``` shell
   > docker run -d \
-  --hostname gitlab.xxx.com \
+  --hostname gitlab.rulinma.com \
   --name gitlab \
   --restart always \
   -p 8082:443 -p 8083:80 -p 8084:22 \
@@ -85,13 +85,73 @@
 * docker rmi -f cb09169b52d4
 * docker-machine status
 
+### Dockerfile
+
+示例1
+
+``` text
+
+FROM openjdk:8-jdk
+VOLUME /tmp
+ARG JAR_FILE=open-word-1.0-SNAPSHOT.jar
+COPY ${JAR_FILE} open-word.jar
+EXPOSE 8082
+ENV JAVA_OPTS=""
+ENTRYPOINT java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /open-word.jar
+
+```
+
+[Command]
+docker build -f Dockerfile_Room  -t open-word:0.1 --rm=true .
+docker build -t open-word:latest --rm=true .
+
+简版运行
+docker run --name open-word -p 8082:8082 -d open-word
+docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082 -d open-word
+tag启动
+docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082 -d open-word:0.1
+volumn映射
+docker run --name open-word -e "SPRING_PROFILES_ACTIVE=dev" -e "JAVA_OPTS=-Xmx128m" -p 8082:8082  -v /logs:/logs -d open-word:0.1
+
+查看日志
+docker logs -f open-word
+
+进入docker
+docker exec -it open-word /bin/sh
+
+查看docker镜像
+docker inspect open-word
+
+在项目中标记镜像：docker tag SOURCE_IMAGE[:TAG] images.rulinma.com/docker/IMAGE[:TAG]
+docker tag open-word images.rulinma.com/docker/open-word:1.0.0
+
+推送镜像到当前项目：docker push images.rulinma.com/docker/IMAGE[:TAG]
+docker push images.rulinma.com/docker/open-word:1.0.0
+
+docker pull images.rulinma.com/docker/open-word:1.0.0
+
+docker images
+
+docker run --name open-word -p 8081:8081 -d images.rulinma.com/docker/open-word:1.0.0 --restart=always
+
+latest version
+docker run --name open-word -p 8081:8081 -d images.rulinma.com/docker/open-word:lastest
+
+删除镜像
+docker rm open-word
+
+-v 宿主机的/test目录挂载到容器的/soft目录 -v /test:/soft
+docker run --name open-word -p 8081:8081 -v logs:/logs --restart=always -d images.rulinma.com/docker/open-word:1.0.0
+
 ## 参考文献
 
 1. [docker](https://www.docker.com)
 2. [docker github](https://github.com/docker)
 3. [docker hub](https://hub.docker.com)
-4. [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
-5. [goharbor](https://goharbor.io)
-6. [harbor](https://github.com/goharbor/harbor)
-7. [commandline](https://docs.docker.com/engine/reference/commandline/docker)
-8. [gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce)
+4. [Dockerfile reference](https://docs.docker.com/engine/reference/builder)
+5. [Dockerfile参考](https://dockerdocs.cn/engine/reference/builder/)
+6. [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
+7. [goharbor](https://goharbor.io)
+8. [harbor](https://github.com/goharbor/harbor)
+9. [commandline](https://docs.docker.com/engine/reference/commandline/docker)
+10. [gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce)
