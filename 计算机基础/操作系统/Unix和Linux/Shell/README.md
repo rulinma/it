@@ -267,6 +267,9 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * history
   * 查看历史记录
 * hive
+* hostname
+  * hostname orange
+    * 设置机器名称为orange
 * htop
   * 增强top工具
 
