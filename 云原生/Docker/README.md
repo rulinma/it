@@ -102,6 +102,7 @@ ENTRYPOINT java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /open-wo
 ```
 
 * docker build -f Dockerfile_Word -t open-word:0.1 --rm=true .
+* [推荐][Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 * [Dockerfile参考](https://dockerdocs.cn/engine/reference/builder/)
 
 ## 参考文献
