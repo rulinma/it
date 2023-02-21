@@ -107,6 +107,8 @@
 * [推荐]Visual Studio Code
 * [推荐][VirtualBox](https://www.virtualbox.org)
   * [VirtualBox安装centos7](https://segmentfault.com/a/1190000037762505)
+  * [VirtualBox网络配置超全详解](https://zhuanlan.zhihu.com/p/554893004)
+  * [视频][【黑客基础】VirtualBox虚拟机学习使用](https://www.bilibili.com/video/BV1i741147yV)
 * [VMware](https://www.vmware.com)
 * [VNC Viewer](https://www.realvnc.com/en)
 * [推荐[Wireshark](https://www.wireshark.org)
