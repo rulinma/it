@@ -270,6 +270,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 * hostname
   * hostname orange
     * 设置机器名称为orange
+    * hostnamectl set-hostname orange
 * htop
   * 增强top工具
 
