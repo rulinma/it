@@ -4,7 +4,7 @@
 
 ### 安装Redis
 
-* yum安装
+#### yum安装
 
   ``` shell
 
@@ -17,7 +17,7 @@
   # > yum remove redis
   ```
 
-* yum安装新版本(7.X)
+#### yum安装新版本(7.X)
 
   ``` shell
   > yum install -y http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
