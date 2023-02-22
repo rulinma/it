@@ -2,14 +2,17 @@
 
 ## 学习指南
 
+### Java安装
+
+#### yum安装Java环境
+
+``` shell
+   > yum install java -y
+   > java -version
+   > yum install java-devel -y
+   > javac -version
+```
+
 ### 推荐资料
 
 * [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
-### 学习步骤
-
-## 知识点
-
-## 项目实战
-
-## 参考文献

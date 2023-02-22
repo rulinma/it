@@ -300,7 +300,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 
 * java
   * 执行java程序
-  
+
   ``` shell
   > java -version
   openjdk version "1.8.0_362"
@@ -310,8 +310,6 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 
 * javac
   * 编译java代码，基本使用IDE了，一般不用
-  * centos 安装javac
-    * yum install java-devel -y
 * jhat
 * jmap
 * jps

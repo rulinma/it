@@ -4,7 +4,7 @@
 
 ### Nginx安装
 
-#### yum安装
+#### yum安装Nginx
 
 ```shell
 # yum 安装
