@@ -1190,7 +1190,7 @@ Zuul是一种网关服务，提供动态路由，监控，弹性，安全性等�
 
 #### [配置中心](架构设计/架构/微服务/配置中心/README.md)
 
-##### [Nacos](架构设计/架构/微服务/SpringCloud/Nacos/README.md)
+##### [Nacos](架构设计/架构/微服务/配置中心/Nacos/README.md)
 
 [Nacos](https://nacos.io/zh-cn/index.html) 一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。
 
