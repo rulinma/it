@@ -4,6 +4,42 @@
 
 ### 安装Redis
 
+* yum安装
+
+  ``` shell
+
+  > yum install epel-release
+  > yum update
+  > yum -y install redis
+  > systemctl start redis
+  > systemctl status redis
+  # 移除命令
+  # > yum remove redis
+  ```
+
+* yum安装新版本(7.X)
+
+  ``` shell
+  > yum install -y http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+  > yum --enablerepo=remi install redis
+  > systemctl start redis
+  > rpm -qa |grep redis
+  > redis-cli --version
+  > systemctl enable redis.service
+  ```
+
+* 修改配置文件
+
+  ``` shell
+
+  > cat /etc/redis.conf
+    bind 0.0.0.0
+    daemonize yes
+    protected-mode no
+    ...
+
+  ```
+
 #### 源码安装
 
 #### 配置文件redis.conf修改
