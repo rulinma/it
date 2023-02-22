@@ -7,12 +7,14 @@
 * 安装前准备
 
   * [官网](https://www.virtualbox.org/)下载虚拟机，并安装
+    * [6.1.42](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
   * [CentOS](https://www.centos.org/)或其他官网下载iso文件，准备安装操作系统
     * 优先使用镜像下载，国内比较快些
+    * [CentOS-7-x86_64-DVD-2009.iso](https://mirrors.aliyun.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
 
 * 安装过程
   * 新建虚拟机
-  * 设置CPU，ISO文件地址，磁盘大小，内存大小，网络配置
+  * 设置CPU，iso文件地址，磁盘大小，内存大小，网络配置
     * CPU个数2个
     * 磁盘40G，不要太小，否则不够扩容麻烦
     * 内存8G
