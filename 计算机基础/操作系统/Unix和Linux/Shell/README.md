@@ -221,6 +221,13 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     * 批量删除文件
 * firewall
   * 防火墙配置
+  * systemctl status firewalld
+  * systemctl stop firewalld
+  * systemctl start firewalld
+  * systemctl disable firewalld
+    * 开机禁用
+  * systemctl enable firewalld
+    * 开机启用
 * ftp
 * free
   * free -m

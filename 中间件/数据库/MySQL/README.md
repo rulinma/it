@@ -6,9 +6,7 @@
 
 ### MySQL 安装
 
-#### CentOS安装
-
-##### 环境准备
+#### CentoOS下的MySQL默认安装
 
 ```shell
 > wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
@@ -17,17 +15,24 @@
 > yum -y install mysql-community-server
 > systemctl start mysqld
 > systemctl status mysqld
+# 停止命令
+# systemctl stop mysqld
+# 下面查看初始密码
+> grep 'temporary password' /var/log/mysqld.log
+# 
+# 如果忘记，参考忘记MySQL数据库的root密码时如何重置密码，亲测有效
+# https://help.aliyun.com/document_detail/42520.html
 ```
 
-##### 修改配置文件（仅供参考）
+#### CentoOS下的自定义安装
 
-/etc/my.cnf
+##### 修改配置文件（想要自定义的，可以修改/etc/my.cnf文件，下面的仅供参考）
 
 ```text
 
 [client]
-port = 3306
-socket = /data/mysql/mysql.sock
+port=3306
+socket=/data/mysql/mysql.sock
 
 [mysqld]
 port=3306
@@ -54,11 +59,13 @@ slow_query_log=1
 #long_query_time=1
 slow_query_log_file=/data/mysql/log/mysql-slow.log
 
+# 忘记密码处理
+# https://help.aliyun.com/document_detail/42520.html
+# skip-grant-tables
+
 ```
 
-##### MySQL初始化
-
-创建用户组，用户和目录，并授权。
+* 创建用户组，用户和目录，并授权。
 
 ```shell
 > groupadd mysql
@@ -76,6 +83,7 @@ slow_query_log_file=/data/mysql/log/mysql-slow.log
 > mysqld --initialize --user=mysql
 > systemctl start mysqld
 > systemctl status mysqld
+> systemctl restart mysqld
 ```
 
 查看默认密码。
@@ -86,11 +94,21 @@ slow_query_log_file=/data/mysql/log/mysql-slow.log
 > 
 ```
 
+### MySQL常用命令
+
+#### 验证命令
+
 本地使用默认密码登录。
 
 ```shell
 > mysql -p
 > 
+```
+
+```sql
+mysql> select version()
+mysql> select now()
+mysql> select * from mysql.user
 ```
 
 修改root密码并授权哪些机器能够访问。
@@ -99,16 +117,6 @@ slow_query_log_file=/data/mysql/log/mysql-slow.log
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'paws12#s';
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'183.191.113.214' IDENTIFIED BY 'paws12#s' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES;
-```
-
-### MySQL常用命令
-
-#### 验证命令
-
-```sql
-mysql> select version()
-mysql> select now()
-mysql> select * from mysql.user
 ```
 
 #### 管理命令
@@ -167,6 +175,15 @@ The MySQL process list indicates the operations currently being performed by the
 > mysql -u root -p 
 mysql> use your_db_name;
 mysql> source /opt/file.sql;
+```
+
+##### 相关命令
+
+``` shell
+
+# 查看所有配置信息
+> show global variables;
+
 ```
 
 ### 学习资料
