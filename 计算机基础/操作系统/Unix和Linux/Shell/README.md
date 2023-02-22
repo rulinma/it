@@ -485,6 +485,11 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     Name:	www.a.shifen.com
     Address: 36.152.44.96
     ```
+  
+  * ntpdate
+    * yum -y install ntpdate
+    * ntpdate -u  pool.ntp.org
+    * date
 
 #### O
 

@@ -188,6 +188,49 @@ mysql> source /opt/file.sql;
 
 ```
 
+### 忘记密码处理
+
+``` shell
+> cat /etc/my.conf
+[mysqld]
+
+skip-grant-tables
+
+```
+
+``` shell
+> systemctl restart mysqld
+
+```
+
+``` sql
+use mysql;
+UPDATE user SET authentication_string = password ('123456') WHERE User = 'root';
+flush privileges;
+```
+
+``` shell
+> cat /etc/my.conf
+[mysqld]
+
+#skip-grant-tables
+
+```
+
+``` shell
+> systemctl restart mysqld
+```
+
+``` shell
+
+> mysql -uroot -p
+
+mysql> show databases
+    ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
+mysql> set password='adminDev123$'
+
+```
+
 ### 学习资料
 
 * [图书][MySQL DBA修炼之道](http://product.dangdang.com/24194120.html)
