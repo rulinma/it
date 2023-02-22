@@ -9,9 +9,10 @@
 #### CentoOS下的MySQL默认安装
 
 * 安装MySQL
-  * yum update
-
+  * [Installing MySQL on Linux Using the MySQL Yum Repository](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/linux-installation-yum-repo.html)
+  
   ```shell
+  > yum update
   > wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
   > yum -y install mysql57-community-release-el7-10.noarch.rpm
   > rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
