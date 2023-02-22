@@ -15,6 +15,7 @@
 > yum -y install mysql57-community-release-el7-10.noarch.rpm
 > rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 > yum -y install mysql-community-server
+> systemctl start mysqld
 > systemctl status mysqld
 ```
 
