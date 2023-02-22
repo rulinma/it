@@ -7,6 +7,7 @@
 ``` shell
 
 > wget https://github.com/alibaba/nacos/releases/download/1.3.2/nacos-server-1.3.2.zip
+> wget -c https://github.com/alibaba/nacos/releases/download/1.3.2/nacos-server-1.3.2.zip
 
 > unzip nacos-server-1.3.2.zip
 > cd nacos
