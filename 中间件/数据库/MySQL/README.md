@@ -8,91 +8,92 @@
 
 #### CentoOS下的MySQL默认安装
 
-```shell
-> wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
-> yum -y install mysql57-community-release-el7-10.noarch.rpm
-> rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
-> yum -y install mysql-community-server
-> systemctl start mysqld
-> systemctl status mysqld
-# 停止命令
-# systemctl stop mysqld
-# 下面查看初始密码
-> grep 'temporary password' /var/log/mysqld.log
-# 
-# 如果忘记，参考忘记MySQL数据库的root密码时如何重置密码，亲测有效
-# https://help.aliyun.com/document_detail/42520.html
-```
+* 安装MySQL
+  * yum update
+
+  ```shell
+  > wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
+  > yum -y install mysql57-community-release-el7-10.noarch.rpm
+  > rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+  > yum -y install mysql-community-server
+  > systemctl start mysqld
+  > systemctl status mysqld
+  # 停止命令
+  # systemctl stop mysqld
+  # 下面查看初始密码
+  > grep 'temporary password' /var/log/mysqld.log
+  # 
+  # 如果忘记，参考忘记MySQL数据库的root密码时如何重置密码，亲测有效
+  # https://help.aliyun.com/document_detail/42520.html
+  ```
 
 #### CentoOS下的自定义安装
 
-##### 修改配置文件（想要自定义的，可以修改/etc/my.cnf文件，下面的仅供参考）
+* 修改配置文件（想要自定义的，可以修改/etc/my.cnf文件，下面的仅供参考）
 
-```text
+  ```text
 
-[client]
-port=3306
-socket=/data/mysql/mysql.sock
+  [client]
+  port=3306
+  socket=/data/mysql/mysql.sock
 
-[mysqld]
-port=3306
-socket=/data/mysql/mysql.sock
-character-set-server=utf8
-collation-server=utf8_general_ci
+  [mysqld]
+  port=3306
+  socket=/data/mysql/mysql.sock
+  character-set-server=utf8
+  collation-server=utf8_general_ci
 
-#数据目录
-datadir=/data/mysql/data/
-#pid文件
-pid-file=/data/mysql/mysql.pid
-user=mysql
-server_id=1
+  #数据目录
+  datadir=/data/mysql/data/
+  #pid文件
+  pid-file=/data/mysql/mysql.pid
+  user=mysql
+  server_id=1
 
-#二进制日志
-log_bin_index=/data/mysql/log/mysql-bin.index
-log_bin=/data/mysql/log/mysql-bin
-binlog_format=row
-#错误日志
-log_error=/data/mysql/log/mysql-error.log
+  #二进制日志
+  log_bin_index=/data/mysql/log/mysql-bin.index
+  log_bin=/data/mysql/log/mysql-bin
+  binlog_format=row
+  #错误日志
+  log_error=/data/mysql/log/mysql-error.log
 
-#慢查询日志
-slow_query_log=1
-#long_query_time=1
-slow_query_log_file=/data/mysql/log/mysql-slow.log
+  #慢查询日志
+  slow_query_log=1
+  #long_query_time=1
+  slow_query_log_file=/data/mysql/log/mysql-slow.log
 
-# 忘记密码处理
-# https://help.aliyun.com/document_detail/42520.html
-# skip-grant-tables
+  # skip-grant-tables
 
-```
+  ```
 
 * 创建用户组，用户和目录，并授权。
 
-```shell
-> groupadd mysql
-> useradd -r -g mysql -s /bin/false mysql
-> mkdir /data/mysql/data -p
-> mkdir /data/mysql/log -p
-> chown -R mysql:mysql /data/mysql/
-> chmod -R go-rwx /data/mysql/data/
-> chmod +t /data/mysql/
-```
+  ```shell
+  > groupadd mysql
+  > useradd -r -g mysql -s /bin/false mysql
+  > mkdir /data/mysql/data -p
+  > mkdir /data/mysql/log -p
+  > chown -R mysql:mysql /data/mysql/
+  > chmod -R go-rwx /data/mysql/data/
+  > chmod +t /data/mysql/
+  ```
 
-初始化mysql，并查看状态。
+* 初始化mysql，并查看状态。
 
-```shell
-> mysqld --initialize --user=mysql
-> systemctl start mysqld
-> systemctl status mysqld
-> systemctl restart mysqld
-```
+  ```shell
+  > mysqld --initialize --user=mysql
+  > systemctl start mysqld
+  > systemctl status mysqld
+  > systemctl restart mysqld
+  ```
 
-查看默认密码。
+* 查看默认密码。
 
-```shell
-> cat /data/mysql/log/mysql-error.log | grep pass
-2023-02-03T09:42:02.136334Z 1 [Note] A temporary password is generated for root@localhost: ne/W#r51ed6f
-> 
-```
+  ```shell
+  > cat /data/mysql/log/mysql-error.log | grep pass
+  2023-02-03T09:42:02.136334Z 1 [Note] A temporary password is generated for root@localhost: ne/W#r51ed6f
+  > 
+  ```
 
 ### MySQL常用命令
 
