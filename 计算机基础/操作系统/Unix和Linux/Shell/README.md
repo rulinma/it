@@ -604,6 +604,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
   * 为系统的启动和管理提供一套完整的解决方案
   * systemd
     * [精华][Systemd 入门教程：命令篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html)
+    * [可能是史上最全面易懂的 Systemd 服务管理教程！](https://cloud.tencent.com/developer/article/1516125)
 
 #### T
 
