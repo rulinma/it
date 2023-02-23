@@ -118,6 +118,8 @@ mysql> select * from mysql.user
 ```sql
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'paws12#s';
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'183.191.113.214' IDENTIFIED BY 'paws12#s' WITH GRANT OPTION;
+# 全打开
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'adminDev123$' WITH GRANT OPTION;
 mysql> FLUSH PRIVILEGES;
 ```
 
@@ -126,10 +128,10 @@ mysql> FLUSH PRIVILEGES;
 ##### 创建管理员用户并授权
 
 ```sql
-mysql> create user demo identified by 'pwdS22Lv';
-mysql> grant all privileges on *.*  to demo@'183.191.113.214' identified by 'pwdS22Lv';
+mysql> create user demo identified by 'pwdS22L@v12X3';
+mysql> grant all privileges on *.*  to demo@'%' identified by 'pwdS22L@v12X3';
 mysql> flush privileges;
-mysql> grant all privileges on *.*  to demo@'localhost' identified by 'pwdS22Lv';
+mysql> grant all privileges on *.*  to demo@'localhost' identified by 'pwdS22L@v12X3';
 mysql> flush privileges;
 ```
 

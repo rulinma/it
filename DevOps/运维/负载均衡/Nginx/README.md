@@ -262,6 +262,9 @@ http {
 [root@apple nginx]# service nginx restart
 Redirecting to /bin/systemctl restart nginx.service
 
+# 查看状态
+[root@apple nginx]# systemctl status nginx
+
 # 查看日志
 [root@apple ~]# tail -f /var/log/nginx/error.log
 

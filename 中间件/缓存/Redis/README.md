@@ -68,6 +68,27 @@ protected-mode no
 
 #### 开机重启
 
+``` shell
+> cat /lib/systemd/system/redis.service
+[Unit]
+Description=Redis persistent key-value database
+After=network.target
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/redis-server /etc/redis/redis.conf --daemonize no --supervised systemd
+ExecStop=/usr/libexec/redis-shutdown
+Type=notify
+User=redis
+Group=redis
+RuntimeDirectory=redis
+RuntimeDirectoryMode=0755
+
+[Install]
+WantedBy=multi-user.target
+```
+
 #### 自动重启
 
 ### 常用命令
