@@ -39,13 +39,16 @@
   * [阿里巴巴矢量图图标库](https://www.iconfont.cn)
   * [Free Icons by First-Class Designers](https://iconstore.co)
   * [Font Awesome](https://fontawesome.com.cn)
+  * [Github文档](https://docs.github.com/cn)
 
 ## 应用程序
 
 * [AirServer](https://www.airserver.com)
   * AirServer transforms your Xbox One into an all-in-one AirPlay + Google Cast + Miracast receiver.
+  * AirServer是一个非常简单的Mac和PC应用，它的作用是把你的iPhone 或者iPad的屏幕搬到电脑上。
 * [推荐][Alfred](https://www.alfredapp.com)
-  * Alfred is a productivity application for Mac OS X.
+  * Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
+  * Alfred 是一款屡获殊荣的 macOS 应用程序，可通过热键、关键字、文本扩展等提高您的效率。 搜索您的 Mac 和网络，并通过自定义操作来更高效地控制您的 Mac。
 * [推荐]Android Studio
 * [Dash](https://kapeli.com/dash)
   * 快速访问API (Dash gives your Mac instant offline access to 200+ API documentation sets.)
@@ -63,7 +66,6 @@
   * The free FTP solution.
 * [推荐]Gas Mask
   * 主机域名设置
-* [Github文档](https://docs.github.com/cn)
 * [推荐][Google Chrome](https://www.google.com/chrome)
 * [推荐][GNS3](https://gns3.com)
 * [推荐][IntelliJ](https://www.jetbrains.com/idea)
@@ -71,6 +73,7 @@
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)
 * [推荐][iTerm2](https://www.iterm2.com)
   * iTerm2 is a replacement for Terminal and the successor to iTerm.
+  * 推荐配置zsh和插件
 * [Luyten](https://github.com/deathmarine/Luyten)
 * [MacDown](http://macdown.uranusjr.com)
   * MarkDown编写工具
@@ -79,7 +82,6 @@
 * [Parall Client](https://www.parallels.com/cn/products/ras/features/parallels-client)
   * Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
 * [推荐][Postman](https://www.postman.com)
-* ProxyClient
 * [PyCharm](https://www.jetbrains.com/pycharm)
 * RAR Extractor
 * [推荐][AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
@@ -103,8 +105,9 @@
 * [ToDesk](https://www.todesk.com)
 * [推荐]Tunnelblick
 * [Typora](https://typora.io)
-* [推荐]uTools
-* [推荐]Visual Studio Code
+* [推荐][uTools](https://www.u.tools)
+  * 新一代效率工具平台
+* [推荐][Visual Studio Code](https://code.visualstudio.com)
 * [推荐][VirtualBox](https://www.virtualbox.org)
   * [VirtualBox安装centos7](https://segmentfault.com/a/1190000037762505)
   * [VirtualBox网络配置超全详解](https://zhuanlan.zhihu.com/p/554893004)
@@ -112,7 +115,7 @@
 * [VMware](https://www.vmware.com)
 * [VNC Viewer](https://www.realvnc.com/en)
 * [推荐[Wireshark](https://www.wireshark.org)
-* [推荐]Xcode
+* [推荐][Xcode](https://developer.apple.com/xcode)
 * [推荐][XMind](https://www.xmind.net)
   * 思维导图工具
 * [推荐][Zsh](https://ohmyz.sh)
