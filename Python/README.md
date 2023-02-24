@@ -2,9 +2,9 @@
 
 * 脚本语言
 
-## 学习指南
+TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，读写数据库和缓存简单操作，做过selenium自动化测试，很久不弄也忘了。
 
-* python2 和 python3有区别
+## 学习指南
 
 * 主要应用领域
   * 运维
@@ -12,12 +12,23 @@
   * 人工智能
   * 自动化测试
 
-* 基础学习后根据实际情况选择学习路线，不要都学
+* 基础学习后根据实际情况选择学习路线，不要都学，特别是做web
+
+* 包管理
+  * [pypi](https://pypi.org/)
+  * pip3
+    * pip3 list
 
 ### 推荐资料
 
+* [图书][Python编程从入门到实践](http://product.dangdang.com/29301947.html)
+* [图书][Python快速上手](http://product.dangdang.com/29301947.html)
+* [图书][Python极客项目编程](http://product.dangdang.com/29301947.html)
+* [图书][Python Cookbook](http://product.dangdang.com/23690527.html)
+* [图书][流畅的Python](http://product.dangdang.com/25071121.html)
 * [图书][Python基础教程](http://product.dangdang.com/25218035.html)
-* [图书]Python核心编程
+* [图书][Python核心编程](http://product.dangdang.com/23961748.html)
+* [网站][GithubPython图书](https://github.com/weaiken/ebook/tree/master/01_programming/python)
 
 ## 参考资料
 
