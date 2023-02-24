@@ -30,6 +30,7 @@
   * AI记单词Android
   * [AI记单词后端](https://github.com/rulinma/it-word-backend)
   * [AI记单词管理后台](https://github.com/rulinma/it-word-manage-backend)
+  * [AI记单词管理前台](https://github.com/rulinma/it-word-manage-frontend)
   * [AI记单词运维](https://github.com/rulinma/it-word-devops)
 
 # 目录
