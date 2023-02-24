@@ -83,6 +83,8 @@
   * Parallels Client is an easy-to-install client software that provides access to your Parallels RAS installations.
 * [推荐][Postman](https://www.postman.com)
 * [PyCharm](https://www.jetbrains.com/pycharm)
+* QuickTime Player
+  * 录屏和视频处理
 * RAR Extractor
 * [推荐][AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
   * A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys.
