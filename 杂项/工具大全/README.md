@@ -132,6 +132,8 @@
   * 邮箱管理。
 * [LaTeX](https://www.latex-project.org)
   * LaTeX is a high-quality typesetting system.
+* [OBS](https://obsproject.com)
+  * 开源录屏推流软件
 * [Office](https://products.office.com/zh-cn/mac/microsoft-office-for-mac)
 * [RescueTime](https://www.rescuetime.com)
   * A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.
