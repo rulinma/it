@@ -166,16 +166,21 @@
   * Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 * IntelliCode
   * The Visual Studio IntelliCode extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning.
+* Indenticator
 * IntelliCode API Usage Examples
 * Chinese (Simplified) (简体中文)
   * 此中文（简体）语言包为 VS Code 提供本地化界面。
+* Color Highlight
+* Community Material Theme
 * ESLint
   * Integrates ESLint JavaScript into VS Code.
 * JavaScript and TypeScript Nightly
 * Jest
 * Babel JavaScript
+* Better Comments
 * JavaScript (ES6) code snippets
 * ES7+ React/Redux/React-Native snippets
+* Highlight Matching Tag
 * HTML Boilerplate
 * HTML CSS Support
 * Tailwind CSS IntelliSense
@@ -183,10 +188,12 @@
 * CSS Peek
 * Beautify css/sass/scss/less
 * indent-rainbow
+* Image preview
 * React Native Tools
 * React-Native/React/Redux snippets for es6/es7
 * npm Intellisense
 * json
+* peacock
 * Prettify JSON
 * Markdown All in One
 * Markdown Emoji
@@ -196,6 +203,7 @@
 * Remote Repositories
 * Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more
 * TODO Highlight
+* Trailing Spaces
 * YAML
 * Bookmarks
 * Docker
@@ -211,6 +219,9 @@
 * shellcheck
   * [ShellCheck, a static analysis tool for shell scripts](https://github.com/koalaman/shellcheck)
   * 写shell超级助手
+* VSCode Great Icons
+* Color Info
+* Quokka.js
 
 ### IDEA 插件
 

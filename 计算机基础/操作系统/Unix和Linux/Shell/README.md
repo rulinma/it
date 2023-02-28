@@ -458,6 +458,7 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
     * <https://registry.npm.taobao.org>
   * npm install --save-dev ts-jest
   * npm install axios --save
+    * yarn add axios -D
   * npm cache clean --force
   * sudo cnpm install -g create-react-app
   * npm i jest@26.6.3
@@ -755,6 +756,8 @@ Linux 命令（Command） 和 Shell 内容，放在一起，主要是因为两�
 
 * yarn
   * 又一个前端包管理工具
+  * yarn add cross-env -D
+    * npm install --save-dev webpack-merge
   * yarn add --dev jest-circus@26.6.2
   * yarn add --dev jest-environment-jsdom@^26.6.1
   * yarn create react-app my-app --template typescript
