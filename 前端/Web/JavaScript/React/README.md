@@ -76,3 +76,5 @@
   * [Authentication with React.js](https://dev.to/ksushiva/authentication-with-react-js-9e4)
 
 ## 参考文献
+
+1. [redux全局状态管理学习路线之一 : redux&react-redux](https://www.bilibili.com/video/BV1oE411V7RW)
