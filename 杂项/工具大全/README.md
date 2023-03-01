@@ -160,122 +160,114 @@
 
 #### 前端插件
 
-* Live Server
-  * Launch a local development server with live reload feature for static & dynamic pages.
-* Prettier Formatter for Visual Studio Code
-  * Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
-* IntelliCode
-  * The Visual Studio IntelliCode extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning.
-* Indenticator
-* IntelliCode API Usage Examples
-* Chinese (Simplified) (简体中文)
-  * 此中文（简体）语言包为 VS Code 提供本地化界面。
-* Color Highlight
-* Community Material Theme
-* ESLint
-  * Integrates ESLint JavaScript into VS Code.
-* JavaScript and TypeScript Nightly
-* Jest
 * Babel JavaScript
+* Beautify css/sass/scss/less
 * Better Comments
-* JavaScript (ES6) code snippets
-* ES7+ React/Redux/React-Native snippets
-* Highlight Matching Tag
-* HTML Boilerplate
-* HTML CSS Support
-* Tailwind CSS IntelliSense
+* Bookmarks
 * CSS Formatter
 * CSS Peek
-* Beautify css/sass/scss/less
-* indent-rainbow
+* Chinese (Simplified) (简体中文)
+* Color Highlight
+* Color Info
+* Community Material Theme
+* Conventional Commits
+* Docker
+* ES7+ React/Redux/React-Native snippets
+* ESLint
+* Git Blame
+* Git Graph
+* Git History
+* Git-commit-plugin
+* GitHub Pull Requests and Issues
+* GitHub Repositories
+* Gitignore
+* HTML Boilerplate
+* HTML CSS Support
+* Highlight Matching Tag
 * Image preview
-* React Native Tools
-* React-Native/React/Redux snippets for es6/es7
-* npm Intellisense
-* json
-* peacock
-* Prettify JSON
+* Indent-rainbow
+* Indenticator
+* IntelliCode
+* IntelliCode API Usage Examples
+* JavaScript (ES6) code snippets
+* JavaScript and TypeScript Nightly
+* Jest
+* Json
+* Kubernetes
+* Live Server
 * Markdown All in One
 * Markdown Emoji
 * Markdown PDF
 * Markdown Preview Enhanced
-* markdownlint
-* Remote Repositories
-* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more
-* TODO Highlight
-* Trailing Spaces
-* YAML
-* Bookmarks
-* Docker
-* Kubernetes
-* Git Blame
-* Git Graph
-* Git History
-* git-commit-plugin
-* GitHub Pull Requests and Issues
-* GitHub Repositories
-* gitignore
-* Conventional Commits
-* shellcheck
-  * [ShellCheck, a static analysis tool for shell scripts](https://github.com/koalaman/shellcheck)
-  * 写shell超级助手
-* VSCode Great Icons
-* Color Info
+* Markdownlint
+* Npm Intellisense
+* Peacock
+* Prettier Formatter for Visual Studio Code
+* Prettify JSON
 * Quokka.js
+* React Native Tools
+* React-Native/React/Redux snippets for es6/es7
+* Remote Repositories
+* Shellcheck
+* TODO Highlight
+* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more
+* Tailwind CSS IntelliSense
+* Trailing Spaces
+* VSCode Great Icons
+* YAML
 
 ### IDEA 插件
 
-* .ignore
 * Alibaba Java Coding Guidelines
+* Ant
 * BashSupport
 * Batch Scripts Support
+* Bytescode Viewer
+* CSV Editor
+* ChangeReminder
 * CheckStyle-IDEA
 * Chinese(Simplified) Language
 * Code Converage for Java
-* CSV Editor
+* Copyright
 * Database Navigator
 * Docker
 * Eclipse Code Formatter
+* Eclipse Interoperability
+* EditorConfig
+* Git
 * Git Commit Template
 * Git Flow Integration
 * GitHub Copilot
 * GitToolBox
-* google-java-format
-* Grep Console
-* GsonFormat
-* Json Parser
-* IdeaVim
-* IntelliJ Light Theme
-* Lombok
-* Maven Helper
-* PlantUML integration
-* Rainglow Color Schemes
-* Rainbow Brackets
-* Scala
-* SonarLint
-* Swagger
-* Translation
-* YAML/Ansible support
-
-* Ant
-* Bytescode Viewer
-* ChangeReminder
-* Copyright
-* Eclipse Interoperability
-* EditorConfig
-* Git
 * Github
+* Google-java-format
 * Gradle
+* Grep Console
 * Groovy
+* GsonFormat
+* IdeaVim
+* Ignore
+* IntelliJ Light Theme
 * IntelliLang
+* JUnit
 * Java Bytecode Decompiler
 * Java Internationalization
 * Java Stream Debugger
 * JavaFX
-* JUnit
+* Json Parser
+* Lombok
 * Markdown
 * Maven
+* Maven Helper
+* PlantUML integration
+* Rainbow Brackets
+* Rainglow Color Schemes
+* Scala
 * Settings Repository
+* SonarLint
+* Swagger
+* Translation
+* YAML/Ansible support
 
 ### Chrome插件
 
