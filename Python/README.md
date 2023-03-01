@@ -29,6 +29,7 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
 * [图书][Python基础教程](http://product.dangdang.com/25218035.html)
 * [图书][Python核心编程](http://product.dangdang.com/23961748.html)
 * [网站][GithubPython图书](https://github.com/weaiken/ebook/tree/master/01_programming/python)
+* [视频][黑马程序员Python教程_600集Python从入门到精通教程](https://www.bilibili.com/video/BV1ex411x7Em)
 
 ## 参考资料
 
