@@ -78,3 +78,13 @@
 ## 参考文献
 
 1. [redux全局状态管理学习路线之一 : redux&react-redux](https://www.bilibili.com/video/BV1oE411V7RW)
+2. [webpack-dev-server简单参数配置](https://juejin.cn/post/6844903913301213191)
+3. [webpack](https://webpack.docschina.org)
+4. [解决react router路由不生效，首页正常，其他路由均报错：'Cannot GET / ' 问题](https://juejin.cn/post/7129774279427620900)
+5. [AntD 组件总览](https://ant.design/components/overview-cn/)
+6. [react-router-dom使用指南（最新V6.0.1）](https://zhuanlan.zhihu.com/p/431389907)
+7. [how could I fix this mistake of routes in react](https://stackoverflow.com/questions/70267490/how-could-i-fix-this-mistake-of-routes-in-react)
+8. [react+antd从头搭建管理后台](https://www.bilibili.com/video/BV197411K737)
+9. [react-redux-with-hooks-demo](https://codesandbox.io/s/react-redux-with-hooks-demo-8ixl0h)
+10. [redux-thunk](https://github.com/reduxjs/redux-thunk)
+11. [如何从零开始创建React项目（三种方式）](https://juejin.cn/post/6844903953524588552)
