@@ -53,9 +53,11 @@
   * Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
   * Alfred 是一款屡获殊荣的 macOS 应用程序，可通过热键、关键字、文本扩展等提高您的效率。 搜索您的 Mac 和网络，并通过自定义操作来更高效地控制您的 Mac。
 * [推荐]Android Studio
+* [推荐][autojump](https://github.com/wting/autojump)
 * [Dash](https://kapeli.com/dash)
   * 快速访问API (Dash gives your Mac instant offline access to 200+ API documentation sets.)
 * Beyond Compare
+* [推荐][Brew](homebrew)
 * [推荐][Charles](https://www.charlesproxy.com)
 * [推荐][Docker](https://www.docker.com)
 * [推荐][Draw.io](https://app.diagrams.net)
