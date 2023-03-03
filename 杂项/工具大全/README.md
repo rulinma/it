@@ -194,6 +194,7 @@
 * JavaScript and TypeScript Nightly
 * Jest
 * Json
+* KoroFileHeader
 * Kubernetes
 * Live Server
 * Markdown All in One

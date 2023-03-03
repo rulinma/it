@@ -1,3 +1,11 @@
+<!--
+ * @Author: rulinma rulinma@gmail.com
+ * @Date: 2023-02-17 10:52:49
+ * @LastEditors: rulinma rulinma@gmail.com
+ * @LastEditTime: 2023-03-02 10:35:15
+ * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
+ * @copyright: 马如林保留所有版权
+-->
 # React
 
 [React](https://reactjs.org) is a JavaScript library for building user interfaces.
@@ -88,3 +96,5 @@
 9. [react-redux-with-hooks-demo](https://codesandbox.io/s/react-redux-with-hooks-demo-8ixl0h)
 10. [redux-thunk](https://github.com/reduxjs/redux-thunk)
 11. [如何从零开始创建React项目（三种方式）](https://juejin.cn/post/6844903953524588552)
+12. [CSS 架构之 BEM](https://www.jianshu.com/p/b3472742ec92)
+13. [BEM](https://getbem.com/)
