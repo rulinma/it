@@ -1,3 +1,11 @@
+<!--
+ * @Author: rulinma rulinma@gmail.com
+ * @Date: 2023-02-17 10:52:49
+ * @LastEditors: rulinma rulinma@gmail.com
+ * @LastEditTime: 2023-03-04 10:08:04
+ * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
+ * @copyright: 马如林保留所有版权
+-->
 # Nacos
 
 ## 学习指南
@@ -20,7 +28,7 @@
   * JAVA_OPT="${JAVA_OPT} -Xms64m -Xmx256m"
 
 * 前端访问
-  * http://localhost:8848/nacos/
+  * <http://localhost:8848/nacos/>
   * 用户密码: nacos/nacos
 
 ### 开机自动重启
@@ -32,7 +40,7 @@
     [Unit]
     Description=nacos
     After=network.target
-      
+
     [Service]
     Type=forking
     ExecStart=/tools/nacos/bin/startup.sh -m standalone

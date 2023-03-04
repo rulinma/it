@@ -2,6 +2,8 @@
 
 ## 开机启动
 
+### Java程序开机自动重启和失败重启
+
 ``` shell
 
 > cat /etc/systemd/system/word-world.service
@@ -24,3 +26,18 @@ PrivateTmp=true
 WantedBy=multi-user.target
 
 ```
+
+* systemctl daemon-reload
+  * 重载所有服务
+* systemctl enable word-world
+  * 设置开机自启动
+* systemctl is-enabled word-world
+  * 查看开机启动状态
+* systemctl status word-world
+  * 查看服务状态
+* systemctl start word-world
+  * 启动 word-world
+* systemctl stop word-world
+  * 停止 word-world
+* systemctl restart word-world
+  * 重启 word-world
