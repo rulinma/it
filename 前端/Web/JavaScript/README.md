@@ -1,3 +1,11 @@
+<!--
+ * @Author: rulinma rulinma@gmail.com
+ * @Date: 2023-02-17 10:52:49
+ * @LastEditors: rulinma rulinma@gmail.com
+ * @LastEditTime: 2023-03-07 11:31:06
+ * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
+ * @copyright: 马如林保留所有版权
+-->
 # JavaScript
 
 JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言（JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions）。
@@ -46,6 +54,14 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 * [视频][pink老师JavaScript](https://www.bilibili.com/video/BV1Sy4y1C7ha)
 * [网站][awesome-javascript-cn](https://github.com/jobbole/awesome-javascript-cn)
 * [Modern JavaScript Tutorial](https://javascript.info)
+
+### React和VUE对比
+
+* [2022年前端框架趋势：React与Vue深度对比](https://juejin.cn/post/7137146536529494052)
+* [vue和react区别](https://worktile.com/kb/ask/19606.html)
+* [前端框架用vue还是react？清晰对比两者差异](https://juejin.cn/post/6844903974437388295)
+* [2021 年 Angular vs. React vs. Vue 前端框架对比](https://zhuanlan.zhihu.com/p/359540593)
+* [为什么我们放弃了 Vue？Vue 和 React 深度对比](http://blog.itpub.net/69981092/viewspace-2710742/)
 
 ### 学习步骤
 
