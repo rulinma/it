@@ -1,3 +1,11 @@
+<!--
+ * @Author: rulinma rulinma@gmail.com
+ * @Date: 2023-02-17 10:52:49
+ * @LastEditors: rulinma rulinma@gmail.com
+ * @LastEditTime: 2023-03-07 17:43:02
+ * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
+ * @copyright: 马如林保留所有版权
+-->
 # VUE
 
 [VUE](https://vuejs.org) 渐进式JavaScript 框架。
@@ -9,6 +17,8 @@ An approachable, performant and versatile framework for building web user interf
 * [尚硅谷Vue2.0+Vue3.0全套教程丨vuejs从入门到精通](https://www.bilibili.com/video/BV1Zy4y1K7SH)
 * [尚硅谷VUE项目实战，前端项目-尚品汇(大型\重磅)](https://www.bilibili.com/video/BV1Vf4y1T7bw)
 * [【黑马程序员】前端开发之Vue项目实战_Element-UI【配套源码+笔记】](https://antdv.com/components/overview-cn)
+
+## [React和VUE对比](../README.md#react和vue对比)
 
 ## 参考文献
 

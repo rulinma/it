@@ -2,7 +2,7 @@
  * @Author: rulinma rulinma@gmail.com
  * @Date: 2023-02-17 10:52:49
  * @LastEditors: rulinma rulinma@gmail.com
- * @LastEditTime: 2023-03-02 10:35:15
+ * @LastEditTime: 2023-03-07 17:42:30
  * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
  * @copyright: 马如林保留所有版权
 -->
@@ -83,6 +83,8 @@
 * [五星]使用context hooks实现用户认证和访问控制
   * [Authentication with React.js](https://dev.to/ksushiva/authentication-with-react-js-9e4)
 
+## [React和VUE对比](../README.md#react和vue对比)
+
 ## 参考文献
 
 1. [redux全局状态管理学习路线之一 : redux&react-redux](https://www.bilibili.com/video/BV1oE411V7RW)
@@ -95,6 +97,6 @@
 8. [react+antd从头搭建管理后台](https://www.bilibili.com/video/BV197411K737)
 9. [react-redux-with-hooks-demo](https://codesandbox.io/s/react-redux-with-hooks-demo-8ixl0h)
 10. [redux-thunk](https://github.com/reduxjs/redux-thunk)
-11. [如何从零开始创建React项目（三种方式）](https://juejin.cn/post/6844903953524588552)
+11. [推荐][如何从零开始创建React项目（三种方式）](https://juejin.cn/post/6844903953524588552)
 12. [CSS 架构之 BEM](https://www.jianshu.com/p/b3472742ec92)
 13. [BEM](https://getbem.com/)
