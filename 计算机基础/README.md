@@ -94,3 +94,6 @@
 * [免费的计算机编程类中文书籍，欢迎投稿](https://github.com/justjavac/free-programming-books-zh_CN)
 * [computer-science](https://github.com/ossu/computer-science)
 * [编程导航知识星球](https://yupi.icu)
+* [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
+* [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+* [北京大学课程资料民间整理](https://lib-pku.github.io/)
