@@ -175,6 +175,7 @@
 * Community Material Theme
 * Conventional Commits
 * Docker
+* Emoji
 * ES7+ React/Redux/React-Native snippets
 * ESLint
 * Git Blame
