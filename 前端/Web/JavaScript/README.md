@@ -2,7 +2,7 @@
  * @Author: rulinma rulinma@gmail.com
  * @Date: 2023-02-17 10:52:49
  * @LastEditors: rulinma rulinma@gmail.com
- * @LastEditTime: 2023-03-07 11:31:06
+ * @LastEditTime: 2023-03-08 12:11:56
  * @Description: 程序员学习和实战指南 https://github.com/rulinma/it 获取更多内容
  * @copyright: 马如林保留所有版权
 -->
@@ -56,6 +56,9 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 * [Modern JavaScript Tutorial](https://javascript.info)
 
 ### React和VUE对比
+
+* A simple difference between these three is that React is a UI library, and Vue is a progressive framework. However, Angular is a full-fledged front-end framework. As per StackOverflow Survey 2022, React is the favorite framework of 40.14% of developers, Angular with 22.96%, and Vue with 18.97% of developers.
+  * React、VUE和Angular这三者之间的一个简单区别是 React 是一个 UI 库，而 Vue 是一个渐进式框架。 然而，Angular 是一个成熟的前端框架。 根据 2022 年 StackOverflow 调查，React 是 40.14% 的开发人员最喜欢的框架，Angular 是 22.96%，Vue 是 18.97% 的开发人员。
 
 * [2022年前端框架趋势：React与Vue深度对比](https://juejin.cn/post/7137146536529494052)
 * [vue和react区别](https://worktile.com/kb/ask/19606.html)
