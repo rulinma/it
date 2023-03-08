@@ -218,6 +218,7 @@
 * Tailwind CSS IntelliSense
 * Trailing Spaces
 * VSCode Great Icons
+* VSCode-icons
 * YAML
 
 ### IDEA 插件
