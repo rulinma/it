@@ -141,7 +141,7 @@
 * [RescueTime](https://www.rescuetime.com)
   * A personal analytics service that shows you how you spend your time and provides tools to help you be more productive.
   * 时间花费跟踪工具
-* [Skype](https://web.skype.com) 
+* [Skype](https://web.skype.com)
   * 超清晰网络电话工具，电脑间通话永远免费，打国内国际固定/移动电话只需市话费
 * [Wunderlist: To-Do List & Tasks](https://www.wunderlist.com/zh)
   * TODO工具。奇妙清单是完成工作的最简单方法。无论你是在安排度假、与伙伴分享购物清单，或是管理多个工作项目，奇妙清单会帮助你完成所有个人和职业待办事项
