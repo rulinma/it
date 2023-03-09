@@ -1,5 +1,7 @@
 # 负载均衡
 
+## Nginx配置
+
 * location匹配
   * location [ = | ~ | ~* | ^~ ] uri { ... }
 
@@ -9,6 +11,11 @@
     ~*  大小写不敏感匹配
     ^~ 使用前缀匹配
     ```
+
+## 插件
+
+* Nginx-formatter
+* NGINX Configuration
 
 ## 参考文献
 

@@ -206,6 +206,8 @@
 * Markdown PDF
 * Markdown Preview Enhanced
 * Markdownlint
+* NGINX Configuration
+* Nginx-formatter
 * Npm Intellisense
 * Peacock
 * Prettier Formatter for Visual Studio Code
@@ -221,6 +223,9 @@
 * Trailing Spaces
 * VSCode Great Icons
 * VSCode-icons
+* Vue Language Features(Colar)
+* Vue 3 Sanippets
+* Vue VSCode Snippets
 * YAML
 
 ### IDEA 插件
@@ -297,5 +302,6 @@
 * React Developer Tools
 * Redux DevTools
 * Sourcegraph
+* Vue.js devtools
 * 取色器
 * 有道词典Chrome划词插件
