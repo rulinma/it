@@ -9,6 +9,7 @@
 * [图书][精通Git](http://product.dangdang.com/25166975.html) GitHub联合创始人倾心之作，没有版本控制概念的读者也可轻松入门，涵盖Git常见工作场景，有效帮助程序员提升软技能。
 * [网站][gitignore][A collection of .gitignore templates](https://github.com/github/gitignore)
 * 很多IDE提供gitignore插件，比如VS Code的[gitignore插件](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+* [推荐][网站][Git入门图文教程(1.5W字40图)🔥🔥--深入浅出、图文并茂](https://www.cnblogs.com/anding/p/16987769.html)
 
 * [工具][Mercurial](https://www.mercurial-scm.org) 源码控制管理工具。(Mercurial is a free, distributed source control management tool.)
 * [工具][SourceTree](https://www.sourcetreeapp.com/) 版本控制管理工具。(The friendly GUI for Mercurial and Git on your Mac.
