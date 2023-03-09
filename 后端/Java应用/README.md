@@ -15,4 +15,4 @@
 
 ### 推荐资料
 
-* [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+* [推荐][JavaGuide](https://github.com/Snailclimb/JavaGuide)

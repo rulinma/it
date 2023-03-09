@@ -13,4 +13,4 @@
 * [https://github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)  Design patterns implemented in Java [http://java-design-patterns.com](http://java-design-patterns.com).
 * [spring-boot](https://github.com/spring-projects/spring-boot)
 * [dubbo](https://github.com/apache/incubator-dubbo)  Apache Dubbo (incubating) is a high-performance, java based, open source RPC framework.
-* [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+* [推荐][JavaGuide](https://github.com/Snailclimb/JavaGuide)
