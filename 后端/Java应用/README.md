@@ -13,6 +13,4 @@
    > javac -version
 ```
 
-### 推荐资料
 
-* [推荐][JavaGuide](https://github.com/Snailclimb/JavaGuide)

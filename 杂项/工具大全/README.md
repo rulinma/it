@@ -6,6 +6,7 @@
 
 * 综合工具箱
 
+  * [腾讯万能工具箱](https://tool.browser.qq.com)
   * [站长工具](https://tool.chinaz.com)
   * [你的工具箱](https://tool.lu)
   * [爱资料工具](https://www.toolnb.com)
