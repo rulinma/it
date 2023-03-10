@@ -20,7 +20,7 @@
 
 ## 项目
 
-* [AI记单词](https://github.com/rulinma/it-word)
+* [AI记单词](https://github.com/rulinma/it-word)（该项目所有内容仅供学习不得商用，商用需要我的授权，这个可是我的商业项目）
   * [AI记单词在线](https://www.xianglesong.com)
   * [AI记单词项目管理](https://github.com/rulinma/it-word-project-manage)
   * [AI记单词产品管理](https://github.com/rulinma/it-word-product-manage)
