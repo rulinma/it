@@ -8,7 +8,7 @@
   * <https://tool.chinaz.com/Tools/Base64.aspx>
 
 * Javascript一般自带该基础功能，在Chrome下打开控制台可以测试
-  
+
     ```javascript
     > btoa("123456")
     'MTIzNDU2'
@@ -67,10 +67,10 @@
 
 ```javascript
 Signature = urlencode(base64(hmac-sha1(AccessKeySecret,
-          VERB + "\n" 
-          + CONTENT-MD5 + "\n" 
-          + CONTENT-TYPE + "\n" 
-          + EXPIRES + "\n" 
+          VERB + "\n"
+          + CONTENT-MD5 + "\n"
+          + CONTENT-TYPE + "\n"
+          + EXPIRES + "\n"
           + CanonicalizedOSSHeaders
           + CanonicalizedResource)))
 ```
@@ -81,3 +81,6 @@ Signature = urlencode(base64(hmac-sha1(AccessKeySecret,
 * [URL原理、URL编码、URL特殊字符](https://developer.aliyun.com/article/75516)
 
 ## 参考文献
+
+1. [前端安全系列（一）：如何防止XSS攻击？](https://tech.meituan.com/2018/09/27/fe-security.html)
+2. [https://juejin.cn/post/6912030758404259854](https://juejin.cn/post/6912030758404259854)

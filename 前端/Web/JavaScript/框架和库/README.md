@@ -19,6 +19,8 @@
 * [three.js](https://github.com/mrdoob/three.js)
 * [day.js](https://github.com/iamkun/dayjs)
   * Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
+* [vis-network](https://visjs.org/)
+  * [vis-network中文文档](https://ame.cool/pages/a7d858/#network-%E5%85%B3%E7%B3%BB%E5%9B%BE)
 * [depcheck](https://github.com/depcheck/depcheck)
   * Check your npm module for unused dependencies
 * [EasyUI](前端/Web/JavaScript/EasyUI/README.md)
