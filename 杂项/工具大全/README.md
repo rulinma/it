@@ -11,6 +11,7 @@
   * [你的工具箱](https://tool.lu)
   * [爱资料工具](https://www.toolnb.com)
   * [UU在线工具](https://uutool.cn)
+  * [颜色工具](https://color.adobe.com/zh/create/color-wheel)
 
 * 常用工具
 
