@@ -20,6 +20,7 @@
 * [day.js](https://github.com/iamkun/dayjs)
   * Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 * [vis-network](https://visjs.org/)
+  * [https://visjs.github.io/vis-network/](https://visjs.github.io/vis-network/docs/network/)
   * [vis-network中文文档](https://ame.cool/pages/a7d858/#network-%E5%85%B3%E7%B3%BB%E5%9B%BE)
 * [depcheck](https://github.com/depcheck/depcheck)
   * Check your npm module for unused dependencies
