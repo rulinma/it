@@ -107,6 +107,7 @@
     - [HTML](#html)
     - [CSS](#css)
     - [JavaScript](#javascript)
+      - [JS](#js)
       - [NodeJS](#nodejs)
       - [TypeScript](#typescript)
       - [Jest](#jest)
@@ -618,6 +619,8 @@ HTML文档的样式语言。
 JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程语言。
 
 JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+
+#### [JS](前端/Web/JavaScript/JS/README.md)
 
 #### [NodeJS](前端/Web/JavaScript/NodeJS/README.md)
 
