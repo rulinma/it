@@ -73,3 +73,9 @@ JavaScript (JS) 是一种轻量级、解释性或即时编译的函数式编程�
 3. 学习JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour
 4. 简单阅读官方文档，《JavaScript权威指南》是值得好好学习的，《JavaScript高级程序设计》有些人也强推，《你不知道的JavaScript》是提高必看，《JavaScript语言精粹》也不错
 5. 其他的参考学习
+
+### 知识点
+
+* [JS事件，你真的懂吗（捕获，冒泡）？](https://cloud.tencent.com/developer/article/1665048)
+
+## 参考文献
