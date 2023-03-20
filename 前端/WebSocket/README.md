@@ -17,3 +17,4 @@
   * [Nginx配置之WebSocket配置](https://www.jianshu.com/p/6205c8769e3c)
 * 前端
   * [react-use-websocket](https://github.com/robtaussig/react-use-websocket)
+  * [websocket的token设置](https://github.com/robtaussig/react-use-websocket/issues/94)
