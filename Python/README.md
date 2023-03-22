@@ -1,5 +1,8 @@
 # Python
 
+* Life is short, you need Python
+  * 人生苦短，我用Python
+
 * 脚本语言
 
 TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，读写数据库和缓存简单操作，做过selenium自动化测试，很久不弄也忘了。
