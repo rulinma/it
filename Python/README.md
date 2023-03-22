@@ -8,15 +8,22 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
 
 * 主要应用领域
   * 运维
+    * [ansible](https://github.com/ansible/ansible)
+  * 网站
+    * [flask](https://github.com/pallets/flask)
+    * [django](https://github.com/django/django)
   * 爬虫
+    * [scrapy](https://github.com/scrapy/scrapy)
   * 数据分析
-    * Pandas
-    * NumPy
-    * Matplotlib
+    * [Pandas](https://github.com/pandas-dev/pandas)
+    * [NumPy](https://github.com/numpy/numpy)
+    * [Matplotlib](https://github.com/matplotlib/matplotlib)
   * 人工智能
     * sklearn
+      * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+    * [TensorFlow](https://github.com/tensorflow/tensorflow)
   * 自动化测试
-  * Anaconda
+    * [selenium](https://github.com/SeleniumHQ/selenium)
 
 * 基础学习后根据实际情况选择学习路线，不要都学，特别是做web
 
@@ -36,6 +43,7 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
 * [图书][Python核心编程](http://product.dangdang.com/23961748.html)
 * [网站][GithubPython图书](https://github.com/weaiken/ebook/tree/master/01_programming/python)
 * [视频][黑马程序员Python教程_600集Python从入门到精通教程](https://www.bilibili.com/video/BV1ex411x7Em)
+* [视频][Python入门+Python爬虫](https://www.bilibili.com/video/BV12E411A7ZQ)
 
 ## 参考资料
 
