@@ -7,6 +7,37 @@
 
 TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，读写数据库和缓存简单操作，做过selenium自动化测试，很久不弄也忘了。
 
+* Beautiful is better than ugly.
+  * 优美优于丑陋
+* Explicit is better than implicit.
+  * 明了优于隐晦
+* Simple is better than complex.
+  * 简单优于复杂
+* Complex is better than complicated.
+  * 复杂优于繁杂
+* Flat is better than nested.
+  * 扁平优于嵌套
+* Sparse is better than dense.
+  * 稀疏优于稠密
+* Readability counts.
+  * 可读性很重要
+* Special cases aren't special enough to break the rules. Although practicality beats purity.
+  * 特例亦不可违背原则，尽管实用比纯粹更优
+* Errors should never pass silently. Unless explicitly silenced.
+  * 错误绝不能悄悄忽略，除非它明确需要如此
+* In the face of ambiguity, refuse the temptation to guess.
+  * 面对不确定性，拒绝妄加猜测
+* There should be one and preferably only one obvious way to do it. Although that way may not be obvious at first unless you're Dutch.
+  * 任何问题应有一种，且最好只有一种，显而易见的解决方法，尽管这方法一开始并非如此直观，除非你是荷兰人。
+* Now is better than never. Although never is often better than right now.
+  * 做优于不做，不假思索还不如不做
+* If the implementation is hard to explain, it's a bad idea.
+  * 很难解释的，必然是坏方法
+* If the implementation is easy to explain, it may be a good idea.
+  * 很好解释的，可能是好方法
+* Namespaces are one honking great idea -- let's do more of those!
+  * 命名空间是个绝妙的主意，我们应好好利用它
+
 ## 学习指南
 
 * 主要应用领域
