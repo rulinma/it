@@ -5,7 +5,7 @@
 
 * 脚本语言
 
-TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，读写数据库和缓存简单操作，做过selenium自动化测试，很久不弄也忘了。
+## Python之禅
 
 * Beautiful is better than ugly.
   * 优美优于丑陋
@@ -49,22 +49,30 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
   * 爬虫
     * [scrapy](https://github.com/scrapy/scrapy)
   * 数据分析
-    * [Pandas](https://github.com/pandas-dev/pandas)
     * [NumPy](https://github.com/numpy/numpy)
+    * [Pandas](https://github.com/pandas-dev/pandas)
+      * [Pandas中文网](https://www.pypandas.cn/intro/)
     * [Matplotlib](https://github.com/matplotlib/matplotlib)
   * 人工智能
     * sklearn
       * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
     * [TensorFlow](https://github.com/tensorflow/tensorflow)
+    * [pytorch](https://github.com/pytorch/pytorch)
   * 自动化测试
     * [selenium](https://github.com/SeleniumHQ/selenium)
 
-* 基础学习后根据实际情况选择学习路线，不要都学，特别是做web
+* 基础学习后根据实际情况选择学习路线，不要都学，特别是做web其实不太合适。
 
 * 包管理
   * [pypi](https://pypi.org/)
   * pip3
     * pip3 list
+
+* IDE
+  * [Python Charm](https://www.jetbrains.com/pycharm/)
+  * [jupyter](https://github.com/jupyter/notebook)
+    * Jupyter Interactive Notebook
+  * [conda](https://github.com/conda/conda)
 
 ### 推荐资料
 
@@ -76,8 +84,17 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
 * [图书][Python基础教程](http://product.dangdang.com/25218035.html)
 * [图书][Python核心编程](http://product.dangdang.com/23961748.html)
 * [网站][GithubPython图书](https://github.com/weaiken/ebook/tree/master/01_programming/python)
+* [图书][利用Python进行数据分析](http://product.dangdang.com/25312917.html)
+* [图书][Python自动化运维快速入门](http://product.dangdang.com/29235467.html)
+* [图书][Python编程快速上手-让繁琐工作自动化](http://product.dangdang.com/29206214.html)
+* [图书][Python自动化运维：技术与最佳实践](http://search.dangdang.com/?key=Python%D7%D4%B6%AF%BB%AF%D4%CB%CE%AC%A3%BA%BC%BC%CA%F5%D3%EB%D7%EE%BC%D1%CA%B5%BC%F9&act=input)
+* [五星][视频][【官方随书视频】最热门编程入门书《Python编程：从入门到实践（第2版）》](https://www.bilibili.com/video/BV1Sd4y1a7Us)
+* [五星][视频][Python入门+Python爬虫](https://www.bilibili.com/video/BV12E411A7ZQ)
+* [视频][【莫烦Python】Numpy & Pandas (数据处理教程)](https://www.bilibili.com/video/BV1Ex411L7oT/)
+* [视频][Python Pandas 数据分析，编程练习100例](https://www.bilibili.com/video/BV1Nq4y1Z7Q8/)
+* [视频][2020年Python自动化运维系统性20讲](https://www.bilibili.com/video/BV1J7411j7JN)
 * [视频][黑马程序员Python教程_600集Python从入门到精通教程](https://www.bilibili.com/video/BV1ex411x7Em)
-* [视频][Python入门+Python爬虫](https://www.bilibili.com/video/BV12E411A7ZQ)
+* [五星][python数据分析神器Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ/)
 
 ## 参考资料
 
@@ -86,3 +103,4 @@ TODO: AI必备，后期补，也在学习中，目前只是用来操作文本，
 3. [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
 4. [官方Python 教程](https://docs.python.org/zh-cn/3/tutorial/index.html)
 5. [W3School Python 教程](https://www.w3school.com.cn/python/index.asp)
+6. [最全数据分析资料汇总（含python、爬虫、数据库、大数据、tableau、统计学等）](https://zhuanlan.zhihu.com/p/69869004)
