@@ -74,6 +74,11 @@
     * Jupyter Interactive Notebook
   * [conda](https://github.com/conda/conda)
 
+### Python学习路线图
+
+* [鱼皮的Python 学习路线](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Python%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
+* [Python 学习路线（2022）](https://juejin.cn/post/7072729287161282574)
+
 ### 推荐资料
 
 * [图书][Python编程从入门到实践](http://product.dangdang.com/29301947.html)
