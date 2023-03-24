@@ -78,6 +78,7 @@
 
 * [鱼皮的Python 学习路线](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Python%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
 * [Python 学习路线（2022）](https://juejin.cn/post/7072729287161282574)
+* [Python Developer](https://roadmap.sh/python)
 
 ### 推荐资料
 
