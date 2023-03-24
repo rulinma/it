@@ -6,6 +6,7 @@
 
 * 综合工具箱
 
+  * [ChatGPT](https://openai.com/blog/chatgpt)
   * [腾讯万能工具箱](https://tool.browser.qq.com)
   * [站长工具](https://tool.chinaz.com)
   * [你的工具箱](https://tool.lu)
@@ -32,6 +33,7 @@
   * [Jira](https://www.atlassian.com/software/jira)
   * [在线javascript](https://jsrun.net/)
   * [接码平台](https://sms-activate.org)
+  * [Quick Reference](https://quickref.me)
 
 * 标准
 
