@@ -74,6 +74,10 @@
     * Jupyter Interactive Notebook
   * [conda](https://github.com/conda/conda)
 
+* 常用命令
+  * python -m pip freeze > requirements.txt
+  * python -m pip install -r requirements.txt
+
 ### Python学习路线图
 
 * [鱼皮的Python 学习路线](https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Python%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
@@ -97,10 +101,12 @@
 * [五星][视频][【官方随书视频】最热门编程入门书《Python编程：从入门到实践（第2版）》](https://www.bilibili.com/video/BV1Sd4y1a7Us)
 * [五星][视频][Python入门+Python爬虫](https://www.bilibili.com/video/BV12E411A7ZQ)
 * [视频][【莫烦Python】Numpy & Pandas (数据处理教程)](https://www.bilibili.com/video/BV1Ex411L7oT/)
+* [视频][一个10分钟的numpy入门教程](https://www.bilibili.com/video/BV1rY4y1G7QK/)
 * [视频][Python Pandas 数据分析，编程练习100例](https://www.bilibili.com/video/BV1Nq4y1Z7Q8/)
 * [视频][2020年Python自动化运维系统性20讲](https://www.bilibili.com/video/BV1J7411j7JN)
 * [视频][黑马程序员Python教程_600集Python从入门到精通教程](https://www.bilibili.com/video/BV1ex411x7Em)
 * [五星][python数据分析神器Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ/)
+* [网站][实战教程：如何将自己的Python包发布到PyPI上](https://developer.aliyun.com/article/936284)
 
 ## 参考资料
 
@@ -110,3 +116,5 @@
 4. [官方Python 教程](https://docs.python.org/zh-cn/3/tutorial/index.html)
 5. [W3School Python 教程](https://www.w3school.com.cn/python/index.asp)
 6. [最全数据分析资料汇总（含python、爬虫、数据库、大数据、tableau、统计学等）](https://zhuanlan.zhihu.com/p/69869004)
+7. [Python Packaging User Guide](https://packaging.python.org/en/latest/)
+8. [The Python package installer](https://github.com/pypa/pip)
