@@ -4,3 +4,7 @@
 
 * requests
 * BeautifulSoup
+
+## 参考文献
+
+1. [learn_python3_spider](https://github.com/wistbean/learn_python3_spider)
