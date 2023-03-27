@@ -2,8 +2,8 @@
 
 ## 主要工具
 
-* requests
-* BeautifulSoup
+* [requests](https://github.com/psf/requests)
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 
 ## 参考文献
 
