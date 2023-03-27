@@ -107,6 +107,7 @@
 * [视频][黑马程序员Python教程_600集Python从入门到精通教程](https://www.bilibili.com/video/BV1ex411x7Em)
 * [五星][python数据分析神器Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ/)
 * [网站][实战教程：如何将自己的Python包发布到PyPI上](https://developer.aliyun.com/article/936284)
+* [Python风格规范](https://github.com/zh-google-styleguide/zh-google-styleguide/blob/master/google-python-styleguide/python_style_rules.rst)
 
 ## 参考资料
 
