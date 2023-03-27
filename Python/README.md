@@ -3,6 +3,8 @@
 * Life is short, you need Python
   * 人生苦短，我用Python
 
+* [https://www.python.org](https://www.python.org)
+
 * 脚本语言
 
 ## Python之禅
