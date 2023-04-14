@@ -33,9 +33,3 @@
     def sse(uuid):
         logging.info(uuid)
     ```
-
-* Java 代码
-
-    ```java
-    
-    ```
