@@ -7,6 +7,7 @@
 * 综合工具箱
 
   * [ChatGPT](https://openai.com/blog/chatgpt)
+  * [Claude](https://www.anthropic.com/index/introducing-claude)
   * [腾讯万能工具箱](https://tool.browser.qq.com)
   * [站长工具](https://tool.chinaz.com)
   * [你的工具箱](https://tool.lu)
@@ -190,6 +191,7 @@
 * Git Graph
 * Git History
 * Git-commit-plugin
+* GitHub Copilot
 * GitHub Pull Requests and Issues
 * GitHub Repositories
 * Gitignore
@@ -259,6 +261,7 @@
 * GitHub Copilot
 * GitToolBox
 * Github
+* GitHub Copilot
 * Google-java-format
 * Gradle
 * Grep Console
@@ -287,6 +290,18 @@
 * Swagger
 * Translation
 * YAML/Ansible support
+
+### Python Charm 插件
+
+* .ignore
+* BlackConnect
+* Chinse(Simplified Language)
+* ChinsePinyin-CodeCompletionHelper
+* CSV Editor
+* GitHub Copilot
+* IdeaVim
+* Requirements
+* YouTrack Integration
 
 ### Chrome插件
 
