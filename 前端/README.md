@@ -380,6 +380,22 @@ Cookies let you store user information in web pages.
     * [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
     * [免费favicon生成网站](https://favicon.io/favicon-generator)
 
+## 感悟
+
+1. 前端首先掌握三件套（Html、Css和JavaScript），Html主要有块和非空块形式，position，box模型等，Css需要了解最新的less等，JavaScript同时需要了解BOM，DOM，Cookie，LocalStorage等特定内容。
+2. 掌握Node，npm，npx，包的发布和使用
+3. 打包webpack，babel，env等
+4. 常用库比如lodash，moment，axios等
+5. 可以学习jQuery，了解以前JavaScript的开发模式
+6. React和Vue，Angular等框架选择一个学习，或多个学习
+7. React的组件，路由，状态管理，Hooks，Redux等
+8. 服务器通信，Postman，Shell等工具使用
+9. Linux，Docker，K8S，CICD等环境
+10. Github流行趋势
+
+总的而言，就是html和css做好布局，设计组件，js进行交互（包括和服务器端通信）显示数据或切换路由，路由有路由控制，可以使用全局状态管理（比如redux），前端就这几个功能，所以现在可以说基本@前端已死。
+
+
 ## 参考文献
 
 1. [HTML & CSS Standards](https://www.w3.org/standards/webdesign/htmlcss)
