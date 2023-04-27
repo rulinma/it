@@ -382,7 +382,7 @@ Cookies let you store user information in web pages.
 
 ## 感悟
 
-1. 前端首先掌握三件套（Html、Css和JavaScript），Html主要有块和非空块形式，position，box模型等，Css需要了解最新的less等，JavaScript同时需要了解BOM，DOM，Cookie，LocalStorage等特定内容。
+1. 前端首先掌握三件套（Html、Css和JavaScript），Html主要有块和非空块形式，position，box模型，float等，Css需要了解最新的less等，JavaScript同时需要了解BOM，DOM，Cookie，LocalStorage等特定内容。
 2. 掌握Node，npm，npx，包的发布和使用
 3. 打包webpack，babel，env等
 4. 常用库比如lodash，moment，axios等
