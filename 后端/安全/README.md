@@ -4,6 +4,8 @@
 
 ### 推荐资料
 
+[kali](https://www.kali.org)
+
 ### 学习步骤
 
 ## 知识点
