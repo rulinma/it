@@ -1,6 +1,6 @@
 # 英语
 
-既然学了，就学会他，最好能够流利的听说读写。
+既然学了，就学会他，最好能够流利的听说读写。我把内容整理到了<https://github.com/rulinma/english>里。
 
 ## 综合
 
@@ -50,3 +50,7 @@
 ## 写作
 
 * [写作][图书]美国大学英语写作(College Writing Skills with Readings)
+
+## 参考文献
+
+1. [英语大全](https://github.com/rulinma/english)
