@@ -1,6 +1,8 @@
 # 英语
 
-既然学了，就学会他，最好能够流利的听说读写。我把内容整理到了<https://github.com/rulinma/english>里。
+既然学了，就学会他，最好能够流利的听说读写。
+
+[英语学习和实战指南](https://github.com/rulinma/english)获取更多信息。
 
 ## 综合
 
