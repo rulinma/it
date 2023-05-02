@@ -34,9 +34,9 @@
 
 ## 听力
 
-* [听力][图书]Listen To This 1
-* [听力][图书]Listen To This 2
-* [听力][图书]Listen To This 3
+* [听力][图书]Listen to This 1
+* [听力][图书]Listen to This 2
+* [听力][图书]Listen to This 3
 * [听力][网站][每日英语听写 Daily English Dictation 1-400](https://www.bilibili.com/video/BV1U7411a7xG)
 
 ## 口语
