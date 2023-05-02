@@ -13,8 +13,8 @@
 
 ## 词汇
 
-* [词汇][图书]Essential English Words 1000
-* [词汇][图书]Essential English Words 2000
+* [词汇][图书]Basic English Words 1000
+* [词汇][图书]Core English Words 2000
 * [词汇][图书]Essential English Words 4000
 * [词汇][图书]English vocabulary in use elementary
 * [词汇][图书]English Vocabulary in Use Pre-Intermediate Intermediate
