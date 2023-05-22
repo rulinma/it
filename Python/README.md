@@ -110,6 +110,7 @@
 * [五星][python数据分析神器Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ/)
 * [网站][实战教程：如何将自己的Python包发布到PyPI上](https://developer.aliyun.com/article/936284)
 * [Python风格规范](https://github.com/zh-google-styleguide/zh-google-styleguide/blob/master/google-python-styleguide/python_style_rules.rst)
+* [视频][【Python】零基础入门——面向对象编程（强烈推荐）](https://www.bilibili.com/video/BV1A4411v7b2/)
 
 ## 参考资料
 
