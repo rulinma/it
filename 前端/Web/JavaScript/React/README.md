@@ -31,6 +31,8 @@
 * [网站][UmiJS](https://umijs.org)
 * [网站][reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions)
 
+* [视频][React入门应该是这样的！！！](https://www.bilibili.com/video/BV1be411w7iF)
+
 ### 学习步骤
 
 ## 知识点
