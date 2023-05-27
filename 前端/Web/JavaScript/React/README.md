@@ -12,6 +12,7 @@
 
 ## 学习指南
 
+* [网站][官方](https://react.dev/learn)
 * [网站][Build your own React](https://pomb.us/build-your-own-react)
 * [网站][A DIY guide to build your own React](https://github.com/pomber/didact)
 
