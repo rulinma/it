@@ -17,6 +17,19 @@
 
 ## 知识点
 
+* SOLID是面向对象设计的五个基本原则
+
+  * S - 单一职责原则(Single Responsibility Principle)
+    * 一个类应该只有一个单一的职责(责任)。
+  * O - 开放封闭原则(Open Closed Principle)
+    * 软件实体(类、模块、函数等)应该是可以扩展的,但是不可修改的。
+  * L - 里氏替换原则(Liskov Substitution Principle)
+    * 子类对象应该替换其超类对象而程序仍然可以继续正确运行。
+  * I - 接口隔离原则(Interface Segregation Principle)
+    * 使用多个具体的接口,而不使用单一的总接口。
+  * D - 依赖倒置原则(Dependency Inversion Principle)
+    * 模块之间的依赖关系应该建立在抽象而非具体的类之上。
+
 ## 项目实战
 
 ## 参考文献
