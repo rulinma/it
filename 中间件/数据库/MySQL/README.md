@@ -93,7 +93,7 @@
   ```shell
   > cat /data/mysql/log/mysql-error.log | grep pass
   2023-02-03T09:42:02.136334Z 1 [Note] A temporary password is generated for root@localhost: ne/W#r51ed6f
-  > 
+  >
   ```
 
 ### MySQL常用命令
@@ -104,7 +104,7 @@
 
 ```shell
 > mysql -p
-> 
+>
 ```
 
 ```sql
@@ -188,6 +188,24 @@ mysql> source /opt/file.sql;
 # 查看所有配置信息
 > show global variables;
 
+```
+
+#### 查询区分大小写
+
+mysql查询默认是不区分大小写的 如:
+
+  select * from some_table where str=‘abc';
+
+  select * from some_table where str='ABC';
+
+得到的结果是一样的，如果我们需要进行区分的话可以按照如下方法来做：
+
+在建表时时候加以标识
+
+``` sql
+create table some_table(
+  str char(20) binary
+)
 ```
 
 ### 忘记密码处理
