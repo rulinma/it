@@ -20,6 +20,13 @@
 
 <img src="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" alt="React学习路线图"/>
 
+### 相关库
+
+* Redux
+  * <https://redux-toolkit.js.org/>
+* Route
+  * <https://reactrouter.com/en/main>
+
 ### 推荐资料
 
 * [网站][Ant Design of React](https://ant.design/docs/react/introduce)
