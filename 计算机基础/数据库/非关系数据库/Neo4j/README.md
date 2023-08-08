@@ -52,7 +52,7 @@ to neo4j://localhost:7687
 	MATCH (a:Person)-[r:KNOWS]->(b:Person)
 	RETURN a, r, b
 
-### 
+### 常用功能
 
 两节点之间的所有路径
 两节点之间直接连接
