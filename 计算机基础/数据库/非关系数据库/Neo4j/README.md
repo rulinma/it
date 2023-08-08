@@ -279,6 +279,34 @@ Labels: A label is a named graph construct that is used to group nodes into sets
 	CALL dbms.components()
 		["5.10.0"]
 
+9. 查询某个节点的最近节点关系
+
+    MATCH (start:Word {word:'the'})
+    MATCH path = (start)-[*2]-(end)
+    RETURN end.word
+
+
+    MATCH (start:Word {word:'the'})
+    MATCH path = (start)-[*2]-(end)
+    RETURN DISTINCT end.word
+
+
+    MATCH (start:Word {word:'mathematical'})
+    MATCH path = (start)-[*2]-(end)
+    RETURN DISTINCT end.word
+
+    MATCH (start:Word {word:'the'})
+    MATCH path = (start)-[*2..7]-(end)
+    RETURN DISTINCT end.word
+
+    MATCH (start:Word {word:'the'})
+    MATCH path = (start)-[*5..7]-(end)
+    RETURN DISTINCT end.word
+
+    MATCH (start:Word {word:'the'})
+    MATCH path = (start)-[*2..7]-(end)
+    RETURN end.word, length(path) AS distance
+
 ### 自己建立关系和CRUD等操作
 
 - 创建、更新、删除节点和关系 - 通过模式匹配来查询和修改节点和关系 - 管理索引和约束等
