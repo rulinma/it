@@ -342,6 +342,12 @@ Labels: A label is a named graph construct that is used to group nodes into sets
     WITH end.word AS word, MIN(length(path)) AS distance
     RETURN DISTINCT word, distance
 
+    MATCH (start:Word {word:'theme'})
+    MATCH path = (start)-[*2..7]-(end)
+    WHERE NOT (start)-[*0..1]-(end)
+    WITH end.word AS word, MIN(length(path)) AS distance, COLLECT(path) AS paths
+    RETURN DISTINCT word, distance, paths
+
 ### 自己建立关系和CRUD等操作
 
 - 创建、更新、删除节点和关系 - 通过模式匹配来查询和修改节点和关系 - 管理索引和约束等
