@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 requirements.txt
 
-``` 
+```
 peewee==3.16.0
 PyMySQL==1.1.0
 ```
@@ -108,4 +108,3 @@ class WordBasic(BaseModel):
 
 
 ```
-
