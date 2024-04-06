@@ -1,12 +1,15 @@
 # 打包发布
 
-pipreqs ./ --encoding=utf-8
+
 
 pip install virtualenv
 virtualenv venv
 cd venv
 source ./bin/activate
 deactive
+
+python3 freeze > requirements.txt
+pipreqs ./ --encoding=utf-8
 
 python3 install -r requirements.txt
 
