@@ -8,6 +8,7 @@ cd venv
 source ./bin/activate
 deactive
 
+python3 install -r requirements.txt
 
 ```
 # 这是一个示例 Python 脚本。
