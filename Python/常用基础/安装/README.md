@@ -7,3 +7,4 @@
   * make
   * sudo make install
   * python3
+  * python3 --version
