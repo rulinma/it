@@ -66,6 +66,7 @@
   * 快速访问API (Dash gives your Mac instant offline access to 200+ API documentation sets.)
 * Beyond Compare
 * [推荐][Brew](homebrew)
+  * 安装brew /bin/bash -c "$(curl -fsSL https://b.idayer.com/brew.sh)"
 * [推荐][Charles](https://www.charlesproxy.com)
 * [推荐][Docker](https://www.docker.com)
 * [推荐][Draw.io](https://app.diagrams.net)
