@@ -1,15 +1,20 @@
 # Maven
 
-## 学习指南
+## 安装
 
-### 推荐资料
+* SDK安装
+
+```shell
+    curl -s "https://get.sdkman.io" | bash
+    sdk install maven
+    mvn -version
+```
+
+* Mac的brew安装
+
+* 官方下载安装
+  * https://maven.apache.org
+
+## 推荐资料
 
 * [Maven仓库](https://mvnrepository.com) 方便查找库应用。
-
-### 学习步骤
-
-## 知识点
-
-## 项目实战
-
-## 参考文献

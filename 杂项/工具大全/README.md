@@ -136,6 +136,7 @@
 * [推荐][XMind](https://www.xmind.net)
   * 思维导图工具
 * [推荐][Zsh](https://ohmyz.sh)
+* [推荐][SDKMAN](https://sdkman.io)
 
 ## 其他工具
 
