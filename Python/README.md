@@ -79,6 +79,8 @@
 * 常用命令
   * python -m pip freeze > requirements.txt
   * python -m pip install -r requirements.txt
+  * pip uninstall -y django
+  * pip uninstall requirements.txt
 
 ### Python学习路线图
 
