@@ -17,6 +17,20 @@
 * 搭建自己的docker harbor环境
 * 从自由docker harbor推送和获取镜像
 
+## 安装使用
+
+``` shell
+docker
+docker info
+docker pull hello-world
+docker urn hello-world
+docker run -it ubuntu bash
+docker images
+``` 
+
+注意事项：docker目前对大陆不是太友好，需要开全局代理访问，否则报错可能性比较大。
+
+
 ### 常用命令
 
 **下面命令也是从项目笔记和shell历史记录中获取，待重新整理。**
