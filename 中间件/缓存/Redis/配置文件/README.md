@@ -2,6 +2,8 @@
 
 ## 修改配置文件
 
+mac目录地址 open /opt/homebrew/etc/redis.conf
+
 * bind 0.0.0.0 -::1
 * protected-mode no
 
