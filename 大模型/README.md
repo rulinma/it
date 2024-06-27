@@ -8,11 +8,11 @@
 
 ## 模型
 
-### llama
+### Llama
 
-### gemma
+### Gemma
 
-### mistral
+### Mistral
 
 ### 通义千问
 
