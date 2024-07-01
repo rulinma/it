@@ -75,6 +75,8 @@
   * [jupyter](https://github.com/jupyter/notebook)
     * Jupyter Interactive Notebook
   * [conda](https://github.com/conda/conda)
+    * Conda is a cross-platform, language-agnostic binary package manager.
+    * A system-level, binary package and environment manager running on all major operating systems and platforms.
 
 * 常用命令
   * python -m pip freeze > requirements.txt

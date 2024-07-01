@@ -1,5 +1,13 @@
 # 大模型
 
+Large Model
+
+大语言模型（Large Language Model）
+
+GPT（Generative Pre-trained Transformer）
+
+ChatGPT
+
 ## 模型架构
 
 ### RNN
@@ -33,3 +41,4 @@
 ## 参考资料
 
 1. [大模型训练入门实战](https://techdiylife.github.io/big-model-training)
+2. [什么是大模型？一文读懂大模型的基本概念](https://xie.infoq.cn/article/c73d7cd6c89fa88279e6e0afe)
