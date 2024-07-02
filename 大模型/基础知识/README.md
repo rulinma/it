@@ -27,3 +27,4 @@ Stage
 ## 参考文献
 
 1. [State of GPT](https://karpathy.ai/stateofgpt.pdf)
+2. [GPT现状](https://mp.weixin.qq.com/s/zmEGzm1cdXupNoqZ65h7yg)
