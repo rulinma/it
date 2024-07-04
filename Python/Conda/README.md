@@ -22,6 +22,10 @@
     * conda search $SEARCH_TERM
     * conda install --channel $URL $PACKAGE_NAME
 
+## 其它
+
+conda-forge
+
 ## 参考文献
 
 https://conda.io/projects/conda/en/latest/commands/index.html
