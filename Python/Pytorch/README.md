@@ -10,3 +10,18 @@ You can reuse your favorite Python packages such as NumPy, SciPy, and Cython to 
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration.
 
+
+## 安装
+
+* Anaconda
+  * conda install pytorch torchvision -c pytorch
+* pip
+  * pip3 install torch torchvision
+
+验证
+
+``` python
+import torch
+x = torch.rand(5, 3)
+print(x)
+```
