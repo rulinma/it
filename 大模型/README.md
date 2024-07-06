@@ -38,6 +38,17 @@ ChatGPT
 
 * https://github.com/huggingface
 
+## 学习指南
+
+* Transformer, BERT, GPT算
+* PyTorch
+* huggingface左右下游任务
+* Peft包
+* lamma、chatglm、Mistral基座
+* Agent打造：AutoGPT、MetaGpt、AutoGen
+* neo4j
+* Ollama/langchaind等工具
+
 ## 参考资料
 
 1. [大模型训练入门实战](https://techdiylife.github.io/big-model-training)

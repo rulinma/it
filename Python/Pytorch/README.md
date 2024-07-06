@@ -25,3 +25,8 @@ import torch
 x = torch.rand(5, 3)
 print(x)
 ```
+
+## 学习指南
+
+* https://www.bilibili.com/video/BV1GC4y15736
+  
