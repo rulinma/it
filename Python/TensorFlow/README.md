@@ -2,6 +2,11 @@
 
 ## 基础使用
 
+
+### TensorBoard
+
+TensorFlow's Visualization Toolkit. TensorBoard is a suite of web applications for inspecting and understanding your TensorFlow runs and graphs.
+
 * tensorboard --logdir=base/logs --port=6006 
 
 ``` python
