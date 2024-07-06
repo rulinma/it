@@ -1,5 +1,11 @@
 # 基础知识
 
+
+Scaler
+Vector
+Matrix
+Tensor: multi-dimensional arrays
+
 ## 步骤流程
 
 Stage
