@@ -40,7 +40,7 @@ ChatGPT
 
 ## 学习指南
 
-* Transformer, BERT, GPT算
+* Transformer, BERT, GPT
 * PyTorch
 * huggingface左右下游任务
 * Peft包
