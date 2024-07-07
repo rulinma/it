@@ -47,7 +47,7 @@ ChatGPT
 * lamma、chatglm、Mistral基座
 * Agent打造：AutoGPT、MetaGpt、AutoGen
 * neo4j
-* Ollama/langchaind等工具
+* Ollama/LangChain等工具
 
 ## 参考资料
 

@@ -29,4 +29,4 @@ print(x)
 ## 学习指南
 
 * https://www.bilibili.com/video/BV1GC4y15736
-  
+* [PyTorch for Deep Learning & Machine Learning – Full Course](https://www.youtube.com/watch?v=V_xro1bcAuA)
