@@ -4,6 +4,10 @@ https://github.com/opencv/opencv
 
 ## 使用
 
+推荐
+$ conda install conda-forge::opencv -y
+
+或者
 $ pip install opencv-python
 
 ``` python
