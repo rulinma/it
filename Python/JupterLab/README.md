@@ -30,3 +30,6 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 plt.show()
 ``` 
+
+%load test.py
+%run test.py

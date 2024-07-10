@@ -78,6 +78,9 @@
     * Conda is a cross-platform, language-agnostic binary package manager.
     * A system-level, binary package and environment manager running on all major operating systems and platforms.
 
+* 编码规范
+  * https://peps.python.org/pep-0008/
+
 * 常用命令
   * python -m pip freeze > requirements.txt
   * python -m pip install -r requirements.txt
