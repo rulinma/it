@@ -51,4 +51,5 @@ plt.show()
 
 ## 参考文献
 
-1. [Python 教程之如何用 OpenCV 处理图像](https://www.freecodecamp.org/chinese/news/image-processing-with-opencv)
+1. <https://opencv.org/>
+2. [Python 教程之如何用 OpenCV 处理图像](https://www.freecodecamp.org/chinese/news/image-processing-with-opencv)
