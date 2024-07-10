@@ -2,6 +2,9 @@
 
 ## 基础使用
 
+$ conda install tensorflow
+
+https://www.tensorflow.org/install?hl=zh-cn
 
 ### TensorBoard
 
