@@ -8,6 +8,8 @@
 
 ### 推荐资料
 
+* [黑马程序员人工智能学习路线图（2024官方完整版）](https://yun.itheima.com/subject/aimap/index.html)
+
 ### 学习步骤
 
 ## 知识点
@@ -17,4 +19,3 @@
 ## 参考文献
 
 1. [鸢尾花书](https://github.com/Visualize-ML)
-
