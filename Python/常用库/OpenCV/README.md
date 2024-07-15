@@ -1,4 +1,4 @@
-# opencv
+# OpenCV
 
 https://github.com/opencv/opencv
 
