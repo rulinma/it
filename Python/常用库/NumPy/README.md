@@ -4,3 +4,4 @@ NumPy (Numerical Python) is an open source Python library that’s widely used i
 
 https://numpy.org/
 https://www.w3schools.com/python/numpy/default.asp
+https://www.labri.fr/perso/nrougier/from-python-to-numpy

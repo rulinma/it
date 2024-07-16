@@ -1,5 +1,7 @@
 # Matplotlib
 
+Matlib Plot Lib缩写。
+
 $conda install matplotlib
 $conda install matplotlib
 
