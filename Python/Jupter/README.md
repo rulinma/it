@@ -1,13 +1,21 @@
-# JupterLab
+# Jupter
 
 https://github.com/jupyterlab/jupyterlab
+
+pip install jupyterlab
+jupyter lab
+
+pip install notebook
+jupyter notebook
+
+pip install voila
+voila
 
 $ conda install -c conda-forge jupyterlab
 
 $jupyter-lab
 
 http://localhost:8889/lab
-
 
 ## Jupter notebook
 
@@ -33,3 +41,5 @@ plt.show()
 
 %load test.py
 %run test.py
+
+https://jupyter.org
