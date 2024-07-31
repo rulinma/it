@@ -8,6 +8,16 @@
 
 反向传播算法（backpropagation algorithm）
 
+## 推荐阅读
+
+《Python神经网络编程》
+《深度学习入门》
+《Python深度学习》
+《动手学深度学习》
+《机器学习实战》
+《神经网络与胜读学习》
+《PyTorch生成对抗网络编程》
+
 ## 参考文献
 
 http://neuralnetworksanddeeplearning.com
