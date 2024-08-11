@@ -14,6 +14,8 @@ An approachable, performant and versatile framework for building web user interf
 
 ## 学习指南
 
+* [图书]Vue.js从入门到精通
+* [图书]Vue.js设计与实现
 * [尚硅谷Vue2.0+Vue3.0全套教程丨vuejs从入门到精通](https://www.bilibili.com/video/BV1Zy4y1K7SH)
 * [尚硅谷VUE项目实战，前端项目-尚品汇(大型\重磅)](https://www.bilibili.com/video/BV1Vf4y1T7bw)
 * [【黑马程序员】前端开发之Vue项目实战_Element-UI【配套源码+笔记】](https://antdv.com/components/overview-cn)
