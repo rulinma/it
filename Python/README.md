@@ -87,6 +87,7 @@
   * pip uninstall -y django
   * pip uninstall requirements.txt
   * python -m ipykernel install --user --name math --display-name "math"
+  * pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
 ### Python学习路线图
 
