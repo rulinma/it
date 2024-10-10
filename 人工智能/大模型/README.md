@@ -38,6 +38,10 @@ ChatGPT
 
 * https://github.com/huggingface
 
+### LangChain
+
+* https://github.com/langchain-ai/langchain
+
 ## 学习指南
 
 * Transformer, BERT, GPT
