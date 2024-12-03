@@ -95,6 +95,12 @@
 * [Python 学习路线（2022）](https://juejin.cn/post/7072729287161282574)
 * [Python Developer](https://roadmap.sh/python)
 
+
+## 工具
+
+* pyPDF2
+* ReportLab
+
 ### 推荐资料
 
 * [图书][Python编程从入门到实践](http://product.dangdang.com/29301947.html)
