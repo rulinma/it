@@ -186,8 +186,9 @@
   - [图像](#图像)
     - [图像处理](#图像处理)
       - [ImageMagick](#imagemagick)
-  - [音视频](#音视频)
+  - [\[视频\]](#视频)
     - [FFmpeg](#ffmpeg)
+  - [\[音频\]](#音频)
   - [安全](#安全)
     - [网络安全](#网络安全)
       - [防火墙](#防火墙)
@@ -842,11 +843,13 @@ Apache Storm是一个免费的开源分布式实时计算系统。
 
 使用ImageMagick®创建，编辑，撰写或转换位图图像。
 
-## [音视频](后端/音视频/README.md)
+## [视频]
 
 ### [FFmpeg](后端/音视频/FFmpeg/README.md)
 
 [FFmpeg](https://ffmpeg.org)
+
+## [音频]
 
 ## [安全](后端/安全/README.md)
 
